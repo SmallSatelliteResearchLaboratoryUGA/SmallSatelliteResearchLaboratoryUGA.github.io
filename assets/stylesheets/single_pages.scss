@@ -1,0 +1,324 @@
+
+// Place all the styles related to the single_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#team {
+
+  .team-linkto {
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-justify: center;
+  } /*team-linkto*/
+
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  } /*team*/
+
+  // for mobile phones
+  @media only screen and (max-width: 768px) {
+    .no-banana {
+      display: none;
+    }
+
+    .no-banana-container {
+      position: relative;
+      width: 100%;
+    }
+
+    .no-banana-text {
+      position: relative;;
+      text-align: center;
+    }
+  }
+
+  // for computers
+  @media only screen and (min-width: 768px) {
+    .no-banana {
+      position: relative;
+      width: 100%;
+      border-radius: 10px;
+      top: 0;
+      left: 0;
+      opacity: 0.65;
+    }
+
+    .no-banana-container {
+      position: relative;
+      width: 100%;
+    }
+
+    .no-banana-text {
+      position: absolute;
+      text-align: center;
+      bottom: 10%;
+      left: 0px;
+    }
+  }
+
+  .team-member {
+    overflow: hidden;
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #f6f6f6;
+    border-radius: 6px;
+    background: #10141e;
+
+    .member-img {
+      display: block;
+      width: 160px;
+      height: 160px;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 20;
+      .overlay {
+        width: 100%;
+        height: 100%;
+        color: #15abbf;
+        opacity: 0;
+        } /*img*/
+    } /*team-member*/
+
+    .role {
+      color: #a2a1a2;
+    } /*role*/
+
+    .img-circle {
+      border-radius: 50%;
+    }
+
+  } /*member-img*/
+} /*team*/
+
+.overlay:hover {
+  //opacity: 0.75;
+  text-align: justify;
+} /*overlay:hover*/
+
+#contact {
+  margin-top: 20px;
+  background: #10141E;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  form {
+    color: white;
+    margin-left: -30px;
+  }
+}
+
+//css for orbiting satellite on home page
+
+#earthImg {
+  position: relative;
+  bottom: -120px;
+}
+
+#satOrbit {
+  top: 15%; //higher the number, the lower the satellite starts
+  opacity: 1;
+  left: -10%;
+  height: inherit;
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  background: image-url("cubesat/websitecubesatwhole.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  z-index: -500;
+}
+
+/* media only tag specifically targets mobile devices */
+@media only screen and (max-device-width: 480px) {
+  /* globe button in navbar */
+  #navGlobe {
+    /* use margin: auto to fix positioning */
+    margin: auto auto auto auto;
+  }
+}
+
+
+//DOCS PAGE CSS BELOW
+
+.research-icon-lbl {
+  color: white;
+  font-size: 0.85em;
+}
+
+.sidebar {
+   min-width: 10%;
+   height: 100%;
+   position: fixed;
+   left: 0px;
+   //top: 5%;
+   border-right: 1px solid white;
+   background-color: gray;
+   display: block;
+   margin-right: 15px;
+}
+
+.sidebar-container {
+  margin-top: 50%;
+  margin-left: 5%;
+  //background-color: blue;
+}
+
+.doc-filter-mobile {
+  color: white;
+  text-align: center;
+}
+
+//TODO: implement for all docs
+.portfolio-item{
+  margin-bottom: 30px;
+}
+.portfolio-item .hover-bg{
+  //TODO: fix height
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hover-bg .hover-text {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.66);
+  padding: 25% 0;
+  //TODO: fix height bugs
+  //height: 100%; 
+  height: 60%; //TEMPORARY FIX
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  h4 {
+    font-size: 1em;
+  }
+}
+.hover-bg .hover-text>h4{
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+            transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>h4{
+  opacity: 1;
+    -webkit-backface-visibility:hidden;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+.hover-bg .hover-text>i{
+  opacity: 0;
+  -webkit-transform: translateY(0);
+            transform: translateY(0);
+            transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>i{
+  opacity: 1;
+    -webkit-backface-visibility:hidden;
+   -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+}
+.hover-bg:hover .hover-text{
+  opacity: 1;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+// NEWS PAGE CSS
+
+.posts {
+  height: 500px;
+  overflow-y: auto;
+}
+
+/* responsive twitter widgets css */
+@media only screen and (max-width: 500px) {
+  .news-twitter-widget {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.news-section-header {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.post {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5% 5% 2.5% 2.5%;
+    color: white;
+  
+    width: 65%;
+    margin-bottom: 20px;
+
+    border: solid white 1px;
+    border-radius: 8px;
+
+    .col-md-12 {
+    color: white;
+  }
+}
+
+.post-special {
+  width: 90%;
+}
+
+.socials-news-feed {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+  //TODO: find out why css isn't working here
+.logos_container {
+  margin-top: 5%;
+}
+
+.nasa_logo{
+  height: 150px;
+  width: 170px;
+}
+
+.agi_logo {
+  height: 150px;
+  width: 300px;
+}
+
+.unp_logo {
+  max-height: 150px;
+  max-width: 300px;
+}
+
+.air_force_logo {
+  height: 150px;
+  width: 150px;
+}

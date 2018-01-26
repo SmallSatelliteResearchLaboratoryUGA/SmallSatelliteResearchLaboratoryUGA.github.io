@@ -1,0 +1,28 @@
+#container-documents{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px;
+}
+.document{
+  width: 260px;
+  margin: 8px;
+}
+.document h4{
+  font-size: 12px;
+}
+.document img{
+  display: block;
+  max-width: 100%;
+}
+.document .img-container{
+  display: block;
+  max-width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 10px
+}
+.document-hidden{
+  display: none;
+}

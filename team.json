@@ -1,0 +1,437 @@
+{
+  "team":
+  {
+    "leadership":[
+      {
+        "name":"Caleb Adams",
+        "bio":"Caleb Adams, along with Hollis Neel and Ryan Babaie, began UGA's Small Satellite Research Laboritory after starting a small satellite project that would soon involve UGA faculty. Caleb lead the first team from UGA to win an MLH, nationally recognized, Hackathon by building a low cost remote-operated telescope. He has worked for NASA as a Core Flight Software developer on the Orion project and was a beta tester of Google Glass. He spoke at the TEDx UGA student idea showcase about the future of small satellites and citizen science. Caleb currently runs one of the most popular computer science blogs and one of the most popular astronomy blogs on the tumblr blogging platform, with an outreach of 200,000.",
+        "major":"Computer Science / Astronomy and Physics",
+        "img":"caleb.jpg",
+        "id":"caleb",
+        "role":"Project Manager & Co-Founder"
+      },
+      {
+        "name":"Nicholas Neel",
+        "bio":"Nicholas (Hollis) Neel, a co-founder of UGA’s Small Satellite research lab, is a mathematics major at the University of Georgia. He has developed and printed one of the largest 3D printed telescopes. Alongside these projects, he is also a researcher in mathematics. In this area, Hollis focuses on Knot Theory which is the study of mathematical knots.",
+        "major":"Mathematics",
+        "img":"hollis.jpg",
+        "id":"hollis",
+        "role":"Science Officer"
+      },
+      {
+        "name":"Graham Grable",
+        "bio":"Graham Grable is an undergraduate Mechanical Engineering Student at the University of Georgia’s College of Engineering. Graham earned the Eagle Scout rank at the age of 13, finishing his project at a nationally recognized Audubon Sanctuary. In his senior year of high school, Graham obtained an internship focused on nanotechnology and won the fall intern symposium. Graham’s passion is space, and is excited about this project and the future of the Small Sat Research Lab.",
+        "major":"Mechanical Engineering",
+        "img":"graham.jpg",
+        "id":"graham",
+        "role":"Chief Engineer"
+      },
+      {
+        "name":"Adam King",
+        "bio":"Adam is currently pursuing a dual Bachelor's/Master's degree in Computer Science through the Honors Program and plans to specialize in robotics, namely AI-assisted feedback controls. After this, he plans to pursue a dual Bachelor's/Master's degree in Electrical Engineering through the Honors Program at Georgia Tech, and then pursue a Ph.D. in Electrical Engineering, hopefully at the Massachusetts Institute of Technology, Stanford University, or the University of California - Berkeley. This will enable career-based research at NASA, SpaceX, or Boeing with electrical feedback controls.",
+        "major":"Computer Science",
+        "img":"adam.jpg",
+        "id":"adam",
+        "role":"Electronics Advisor"
+      },
+      {
+        "name":"James Roach",
+        "bio":"James is a computer science student working towards an emphasis in software engineering. He loves to code and has worked as a developer for several enterprise companies. He hopes to obtain a masters in software engineering after graduation and then work with really cool things.",
+        "major":"Computer Science",
+        "img":"james.jpg",
+        "id":"james",
+        "role":"SPOC Electronics Lead"
+      },
+      {
+        "name":"Kayla Gilbert",
+        "bio":"Kayla is currently working on developing a way to minimize the effects of radiation on image data while in space by integrating multiple error correcting codes. She also finished a whole season of game of thrones in one sitting.",
+        "major":"Computer Science",
+        "img":"kayla.jpg",
+        "id":"kayla",
+        "role":"MOCI Electronics Lead"
+      },
+      {
+        "name":"Matthew Hevert",
+        "bio":"Matthew came to the University of Georgia from Denver, Colorado to pursue his goal of designing and developing advanced satellite optic systems and now co-leads the mechanical team. In 2015 Matthew led a small team in creating a successful Rocksat-C scientific payload that launched on an Improved Terrier Orion rocket. The SPOC and MOCI payloads will be Matthew's 3rd and 4th launched scientific payloads.",
+        "major":"Mechanical Engineering",
+        "img":"matthew.jpg",
+        "id":"matthew",
+        "role":"Co-Mechanical Lead"
+      },
+      {
+        "name":"Casper Versteeg",
+        "bio":"Casper has made unprecedented and incredibly valuable contributions to the lab, and thus has quickly worked himself up to a very prestigious position. He is an international student with a 4.0, and plans to go into mechanical research and development in Aerospace engineering.",
+        "major":"Mechanical Engineering",
+        "img":"casper.jpg",
+        "id":"casper",
+        "role":"Co-Mechanical Lead"
+      },
+      {
+        "name":"Paige Copenhaver",
+        "bio":"Paige is an undergraduate at UGA majoring in Physics and Astronomy. In addition to working on the flight team, she also conducts astronomical research in spectroscopy. She hopes to someday combine her knowledge of astrophysics and her passion for the environment to benefit the world and humanity. In her free time, she enjoys reading books, drawing, and playing ukulele.",
+        "major":"Astronomy and Physics",
+        "img":"paige.jpg",
+        "id":"paige",
+        "role":"Mission Operations Lead"
+      },
+      {
+        "name":"S. Godfrey Hendrix",
+        "bio":"Godfrey is a freshman Computer Systems Engineering and German Dual Major at the University of Georgia. He has competed at the national level in robotics and cyber security through his school. Godfrey’s goal is to gain a Masters in Biological Engineering to pursue future human/computer interfacing advancements. He enjoys learning about and experimenting with new open source projects in his personal network during his free time.",
+        "major":"Computer Systems Engineering /   German",
+        "img":"godfrey.jpg",
+        "id":"godfrey",
+        "role":"Lab Operations Lead"
+      }
+    ],
+    "electronics":[
+      {
+        "name":"AJ Banerjee",
+        "img":"aj.jpg",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"AJ is an undergraduate Computer Science student from UGA. He's one of the founders and organizers of UGA Hacks, our official student-run hackathon, and former president of ACM, the largest computer science organization on campus. He is excited about software engineering, product design, and leading teams to do cool things. For hobbies, he likes learning languages (5 so far, learning Chinese now), hiking, cooking, and listening to podcasts. Currently, he's leading the software effort for the SPOC mission. He also likes meeting people who are passionate about what they do, so if that sounds like you, get in touch!",
+        "id":"aj"
+      },
+      {
+        "name":"Grant Simpson",
+        "img":"grant.jpg",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"Grant is a Software Engineer for SPOC.",
+        "id":"grant"
+      },
+      {
+        "name":"Rick Ray",
+        "img":"rick.jpg",
+        "major":"Computer Systems Engineering",
+        "role":"",
+        "bio":"Rick is the Payload Integration Specialist for SPOC. Outside of small sat, Rick is researching on autonomous vehicles and on 3D computer vision. In his spare time, he loves to play sitar and violin.",
+        "id":"rick"
+      },
+      {
+        "name":"Ethan Barnes",
+        "img":"ethan.jpg",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"Ethan is a Software Engineer for MOCI. In his free time, Ethan likes to play the guitar, piano, and drums.  He hopes to one day work for the team that puts the first person on the surface of Mars.",
+        "id":"ethan"
+      },
+      {
+        "name":"Tyler Bugbee",
+        "img":"tyler.jpg",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"Tyler (an avid pianist) was a finalist in the unlock the box competition, a contest where students and engineers came up with ways to overcome obstacles people encounter when trying to vote in Georgia. He hopes to apply his passion for logical design and software engineering to modern problems in industry, society, and art.",
+        "id":"tyler"
+      },
+      {
+        "name":"Erick Gavinales",
+        "img":"eric.jpg",
+        "major":"Electrical Engineering",
+        "role":"",
+        "bio":"Erick is a senior Electrical and Electronics Engineering student with an interest in electronics, microcontrollers, custom PCB design, and 3D Printing/Modeling. He hopes to work for a company that will utilize all of his skills and creativity.",
+        "id":"eric"
+      },
+      {
+        "name":"Trey Miller",
+        "img":"tre.jpg",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"Trey is the Embedded Systems Specialists for MOCI.",
+        "id":"tre"
+      },
+      {
+        "name":"Kaitlyn Summeyss",
+        "img":"",
+        "major":"Computer Systems Engineering",
+        "role":"",
+        "bio":"Kaitlyn is an Electronics Team Member for SPOC and MOCI.",
+        "id":"kaitlyn"
+      }
+    ],
+    "mechanical":[
+      {
+        "name":"Megan Le Corre",
+        "img":"megan.jpg",
+        "major":"Mechanical Engineering / Astronomy and Physics",
+        "role":"",
+        "bio":"Megan Le Corre is a MOCI mechanical team member. She will graduate in December 2017 with a Bachelor of Science in Mechanical Engineering and a minor in Physics and Astronomy. When she graduates she hopes to work as an additive manufacturing engineer in the aerospace industry.",
+        "id":"megan"
+      },
+      {
+        "name":"Paul Bjorklund",
+        "img":"paul.jpg",
+        "major":"Agricultural Engineering - Mechanical Systems",
+        "role":"",
+        "bio":"Paul is a Mechanical Team Member for MOCI.",
+        "id":"paul2"
+      },
+      {
+        "name":"Justin Heimerl",
+        "img":"justin.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
+        "id":"justin"
+      },
+      {
+        "name":"Parker Ensing",
+        "img":"parker.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"As a side project, Parker once developed a moonwalking game for google cardboard, which was his first foray into the world of game design and virtual reality. He is proud lab member, and wants to gain enough experience with his degree to take steps towards becoming an astronaut.",
+        "id":"parker"
+      },
+      {
+        "name":"Alex Mailloux",
+        "img":"alex.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"Alex is a Mechanical Team Member for SPOC and MOCI.",
+        "id":"alex"
+      },
+      {
+        "name":"Christine Yang",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"Christine is the Mechanical Simulations Specialist for SPOC and MOCI.",
+        "id":"christine"
+      },
+      {
+        "name":"Byron Williams",
+        "img":"",
+        "major":"Applied Mathematic",
+        "role":"",
+        "bio":"Byron is a Mechanical Team Member for SPOC and MOCI.",
+        "id":"byron"
+      }
+    ],
+    "missionops":[
+      {
+        "name":"Clark Veazey",
+        "img":"clark.jpg",
+        "major":"Physics and Astronomy /  Philosophy",
+        "role":"",
+        "bio":"Clark recently gave a presentation at the 230th meeting of the American Astronomical Society. He has also been admitted to the Dean William Tate Honor Society. He intends on studying cosmology at grad school and working with NASA, studying the primordial universe.",
+        "id":"clark"
+      },
+      {
+        "name":"Natalie Davis",
+        "img":"natalie.jpg",
+        "major":"Computer Systems Engineering",
+        "role":"",
+        "bio":"Natalie designed the labs very first antenna, which is vital in developing the ground station. She has a strong interest in Artificial intelligence, and would like to contribute to the advancement of machine learning and neural networks with NASA or Space X when she graduates.",
+        "id":"natalie"
+      },
+      {
+        "name":"Megan Arogeti",
+        "img":"megan2.jpg",
+        "major":"Astronomy and Physics",
+        "role":"",
+        "bio":"Megan is an honors student and part of the most recent member onboarding. She plans on going to graduate school to get a PhD in astrophysics, and hopefully end up doing research for NASA.",
+        "id":"megan2"
+      },
+      {
+        "name":"Bjorn Leicher",
+        "img":"bjorn.jpg",
+        "major":"Astronomy and Physics /  Mathematics",
+        "role":"",
+        "bio":"Bjorn Leicher is a rising sophomore, and part of the most recent group of new SSRL members. He is from South Africa and wants to be a rocket scientist!",
+        "id":"bjorn"
+      },
+      {
+        "name":"Sydney Whilden",
+        "img":"sydney.jpg",
+        "major":"Astronomy and Physics /  Comparative Literature",
+        "role":"",
+        "bio":"Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
+        "id":"sydney"
+      },
+      {
+        "name":"Jacob Conley",
+        "img":"jake.jpg",
+        "major":"Computer Systems Engineering /  Mathematics",
+        "role":"",
+        "bio":"Jake is a Computer Systems Engineering student and software developer, aspiring to go into either research technology-related business. He is on the research team for MOCI, develooping and testing algorithms for data analysis.",
+        "id":"jake"
+      },
+      {
+        "name":"Nirav Ilango",
+        "img":"",
+        "major":"Geography / Computer Science",
+        "role":"",
+        "bio":"Hey! My name is Nirav Ilango and I’m from Johns Creek, GA. I’m a member of the class of 2019 at the University of Georgia, majoring in computer science and geography, and the leader of the Data Team on the UGA CubeSat project. As someone who is passionate about our local environment, I’m particularly interested in the applications of our data for oceanographic and geographical research on the Georgia coast! In my free time, I enjoy spending time with friends, reading, watching Netflix, and hiking. Feel free to reach out!",
+        "id":"nirav"
+      }
+    ],
+    "labops":[
+      {
+        "name":"Niklas Endler",
+        "img":"nick.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"Niklas is a Testing Operations specialist for SPOC and MOCI.",
+        "id":"nick"
+      },
+      {
+        "name":"Thoai Pham",
+        "img":"thoai.jpg",
+        "major":"Electrical Engineering",
+        "role":"",
+        "bio":"In 2016, Thoai was a recipient of the american red cross youth heroes award -an award for outstanding community service - for his extensive volunteering efforts at a local hospital. He is passionate about climate change, and wants a career exploring alternative and renewable energies.",
+        "id":"thoai"
+      },
+      {
+        "name":"Paul Hwang",
+        "img":"paulh.jpg",
+        "major":"Art / Graphic Design",
+        "role":"",
+        "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
+        "id":"paulh"
+      },
+      {
+        "name":"Khoa Ngo",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"Khoa Ngo is a Mechanical Engineering student at the University of Georgia. Having experience in working with control systems, simulations, and autonomous unmanned air systems, his main focus for this project is on System Engineering. In his free time, he likes to play guitar and watch anime.",
+        "id":"khoa"
+      },
+      {
+        "name":"Nicholas Heavner",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"Nicholas is a Testing Operations Specialist for SPOC and MOCI.",
+        "id":"nicholas"
+      },
+      {
+        "name":"Ashley Huynh",
+        "img":"",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"Ashley is a sophomore pursuing a degree in Computer Science with certificates in Entreprenuership and Music Business. She currently works as the System Administrator on the Lab Operations team with involvement in the Research team as well. Outside of the lab, Ashley enjoys music production and is the founder and President of UGA's student-run record label, Rock Lobster Records, as well as the creator of the ElevateCS outreach program focused on enriching CS education in Athens.",
+        "id":"ashley"
+      },
+      {
+        "name":"Cindy Lieu",
+        "img":"",
+        "major":"Management Information System",
+        "role":"",
+        "bio":"Cindy is a Lab Operations Team Member for SPOC and MOCI.",
+        "id":"cindy"
+      },
+      {
+        "name":"Michael Akintonwa",
+        "img":"",
+        "major":"Advertising",
+        "role":"",
+        "bio":"Michael is the lab's advertising director.",
+        "id":"michael"
+      }
+    ],
+    "faculty":[
+      {
+        "name":"Dr. Deepak Mishra",
+        "img":"deepak_mishra.jpg",
+        "major":"",
+        "role":"Principal Investigator <br>&amp; Remote Sensing Expert",
+        "bio":"Dr. Mishra is an Associate Professor in the Center for Geospatial Research in the Geography Department. He specializes in the application of geospatial science including remote sensing, GIS, and GPS to coastal environments. Dr. Mishra’s broad research interests are: Remote Sensing of Wetlands, Estuaries, Coastal and Open Ocean Waters Remote Sensing in Monitoring Global Climate Change Ocean Optics and Satellite Oceanography. He envisions a permanent Small Sat Research Lab at the University of Georgia.",
+        "id":"mishra"
+      },
+      {
+        "name":"Dr. David Cotten",
+        "img":"david_cotten.jpg",
+        "major":"",
+        "role":"Co-Principal Investigator <br>&amp; Lab Supervisor",
+        "bio":"Dr. David Cotten is a Research Scientist in the Center for Geospatial Research (CGR). He graduated from UGA in 2011 with his doctorate in Physics and Astronomy. His research as a Post Doctoral Associate focused on surface-atmosphere exchange, and he is currently using remote sensing and micrometeorology techniques to quantify carbon storage in wetland regions at both the local and regional scales. Dr. Cotten is also using unmanned aerial vehicles, air photos, and satellite imagery to build 3D models of terrestrial objects using photogrammetric Structure from Motion. He enjoys mentoring students and is excited about helping the Small Sat Research Lab become a permanent fixture at UGA.",
+        "id":"cotten"
+      },
+      {
+        "name":"Dr. Malcolm R Adams",
+        "img":"malcolm_adams.jpg",
+        "major":"",
+        "role":"Mission Operations Team Mentor",
+        "bio":"Dr. Malcolm Adams is the Head of the Mathematics Department and Josiah Meigs Distinguished Teaching Professor. HIs research uses analytic and geometric techniques to study problems in mathematical physics and mathematical biology.",
+        "id":"adams"
+      },
+      {
+        "name":"Dr. Sergio Bernardes",
+        "img":"sergio_bernardes.png",
+        "major":"",
+        "role":"Mission Operations Team Mentor",
+        "bio":"Dr. Sergio Bernardes is the Associate Director of the Center for Geospatial Research (CGR) in the Department of Geography at the University of Georgia (UGA). He received his MSc in Remote Sensing from the Brazilian National Institute for Space Research and a Ph.D in Geography from the University of Georgia. His expertise include software development, the design and implementation of large geospatial databases and time series analysis of remotely sensed images, ground-based climate data and derived metrics to assess vegetation responses to natural and anthropogenic-related environmental changes. He has over 25 years of experience working on geospatial projects involving government, industry and academia. Dr. Bernardes has been the Co-Chair for the Climage Change Committee of the American Society for Photogrammetry and Remote Sensing (ASPRS) and is currently the Associate Editor of the Image Processing and Analysis Methods chapter of the 2016 ASPRS Manual of Remote Sensing. He is a former NASA Fellow, stationed at NASA’s Goddard Space Flight Center and his work has been recognized multiple times by NASA, the United States Geospatial Intelligence Foundation (USGIF) and ASPRS.",
+        "id":"bernardes"
+      },
+      {
+        "name":"Dr. Adrian Burd",
+        "img":"adrian_burd.jpg",
+        "major":"",
+        "role":"Marine Science Expert &amp; Mission Operations Team Mentor",
+        "bio":"Dr. Adrian Burd is an Associate Professor in the Marine Science Department. His research involves the use of mathematical and computer modeling to understand how different marine systems function and how they might change under changing environmental and climate conditions. For me, a marine system can mean many things; a the biological and chemical transformations of a single particle of detrital material settling through the water column; the productivity of a seagrass bed along the coast; the cycling of carbon in the global ocean.",
+        "id":"burd"
+      },
+      {
+        "name":"Dr. Ben Davis",
+        "img":"ben_davis.jpg",
+        "major":"",
+        "role":"Mechanical Team Mentor",
+        "bio":"Dr. Ben Davis is an Assistant Professor in the College of Engineering. He leads the Dynamic Devices and Solutions Lab where they create innovative analytical and experimental solutions to today's most challenging multiphysics structural dynamics problems. The Dynamic Devices and Solutions Lab is developing new approaches to predict the flow induced vibration of bellows joints to be used in the propulsion systems of NASA's new Space Launch System (SLS).",
+        "id":"davis"
+      },
+      {
+        "name":"Dr. Bill Dennis",
+        "img":"bill_dennis.jpg",
+        "major":"",
+        "role":"Physics Expert",
+        "bio":"Dr. Bill Dennis is the Department Head of Physics and Astronomy and a Professor of Physics. His research group uses both linear and nonlinear optical spectroscopic techniques to investigate many of the fundamental dynamical processes that occur in condensed matter systems such as laser crystals, phosphors and glasses. He is currently using a combination of experimental techniques and computer simulations to investigate the effects of high intensity ultrashort pulses on optical materials, components, and systems.",
+        "id":"dennis"
+      },
+      {
+        "name":"Dr. Marguerite Madden",
+        "img":"marguerite_madden.jpg",
+        "major":"",
+        "role":"Mission Operations Team Mentor",
+        "bio":"Dr. Marguerite Madden is the Director of the Center for Geospatial Research (CGR) and Professor in the Department of Geography at the University of Georgia (UGA). Dr. Madden is a Past President (2007) and Fellow (2010) of the American Society for Photogrammetry and Remote Sensing (ASPRS), Editor of the 2009 ASPRS Manual of GIS, and former International Society for Photogrammetry and Remote Sensing (ISPRS) Technical Commission President of Commission IV “Geodatabases and Digital Mapping” (2008-2012). Currently she is the current Second Vice President of ISPRS (2012-2016).",
+        "id":"madden"
+      },
+      {
+        "name":"Dr. Thomas L Mote",
+        "img":"thomas_mote.jpg",
+        "major":"",
+        "role":"Mission Operations Team Mentor",
+        "bio":"Dr. Thomas Mote is the Department Head of Geography and a Professor in the Geography Department. His research involves hydroclimatology, climate change, synoptic climatology/meteorology, and satellite climatology/meteorology.",
+        "id":"mote"
+      },
+      {
+        "name":"Dr. Marshall Shepherd",
+        "img":"marshall_shepherd.jpg",
+        "major":"",
+        "role":"Mission Operations Team Mentor",
+        "bio":"Dr. Marshall Shepherd is the Director for Program in Atmospheric Sciences and a Georgia Athletic Association Professor. His research interests include urban weather-climate, mesoscale weather processes, precipitation, tropical weather hazards, and satellite remote sensing. Dr. Shepherd worked at NASA's Goddard Space Flight Center (GSFC) as a research meteorologist for twelve years.",
+        "id":"shepherd"
+      },
+      {
+        "name":"Dr. Susanne Ullrich",
+        "img":"susanne_ullrich.jpg",
+        "major":"",
+        "role":"Lab Operations Team Mentor &amp; Optics Expert",
+        "bio":"Dr. Susanne Ullrich is an Associate Professor of Physics. Her research involves exploring dynamics and functionality of biophotonic molecules via time-resolved spectroscopy. Her lab uses modern femtosecond and picosecond time-resolved pump-probe spectroscopies − both transient absorption and photoelectron photoion coincidence spectroscopy − to investigate dynamic biophotonic processes in the gas-phase, in molecular clusters, where the complexity of the environment can be varied, and in solution. She will use her background to mentor the students through the design process of different testing apparatuses, from vacuum chambers to ADCS testing.",
+        "id":"ullrich"
+      },
+      {
+        "name":"Dr. Ben Wagner",
+        "img":"ben_wagner.jpg",
+        "major":"",
+        "role":"Mechanical Team Mentor",
+        "bio":"Dr. Ben Wagner is an engineering professor at the UGA College of Engineering. Dr. Wagner recieved his Ph.D. in Mehcanical Engineering at the Georgia Insitute of Technology in 2007 and specializes in dynamics and vibrations, rotating machinery, and industrial utilities and energy conservation.",
+        "id":"wagner"
+      }
+    ],
+    "alumni":[
+
+    ]
+  }
+
+}

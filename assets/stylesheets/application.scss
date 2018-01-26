@@ -1,0 +1,741 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require font-awesome
+ *= require bootstrap.min
+ *= require hover
+ *= require_self
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Armata);
+
+.navbar-smallsat {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.navbar-world-icon{
+  color: #6dcbd8;
+}
+
+.navbar-world-icon-padding{
+  color: #6dcbd8;
+}
+
+.navbar-links{
+  margin-top: 10px;
+}
+
+body {
+  background-color: #10141E;
+  z-index: 10;
+  height: 100%;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #F6F6F6;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F6F6F6;
+}
+
+h2 {
+  font-size: 36px;
+  color: #F6F6F6;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Armata', sans-serif;
+  font-size: 12px;
+  color: #F6F6F6;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.control-label {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  font-family: 'Armata', sans-serif;
+  font-size: 12px;
+  color: #F3E22F;
+}
+
+a:hover {
+  color: #C7AD42;
+}
+
+.blue-link {
+  color: #15ABBF;
+}
+
+.blue-link:hover {
+  color: #6DCBD8;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  padding: 1em;
+  z-index: 2;
+}
+
+.social {
+  color: #dae9f4;
+}
+
+.social i {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.social:hover {
+  padding: 0px;
+  color: #80d4f6;
+}
+
+.socials {
+  text-align: center;
+  padding: 0px;
+  padding-left: 0px;
+}
+
+.socials ul {
+  padding: 0px;
+  padding-left: 0px;
+}
+
+.departments ul {
+  text-align: center;
+  z-index: 20;
+  list-style-type: inline;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.departments li {
+  display: inline;
+  width: 10%;
+  padding: 3px;
+  float: left;
+}
+
+.departments li a {
+  opacity: 0.5;
+  text-decoration: none;
+  font-family: 'Armata', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #dae9f4;
+  display: block;
+}
+
+.departments li a:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #80d4f6;
+}
+
+.special-depts li a {
+  //TODO: make more visible
+  opacity: 1;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-v {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+// DOWN ARROW AND ANIMATIONS
+
+.down-arrow{
+  text-align: center;
+  position: fixed;
+  bottom: 15px;
+  z-index: 800;
+}
+
+.down-arrow i {
+  opacity: 0.50;
+}
+
+.down-arrow i:hover {
+  opacity: 0.75;
+}
+
+@-webkit-keyframes wobble {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes wobble {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+//adjusts p pad and the margins of the title and p tags in each section
+.p-pad {
+  padding-left: 10%;
+  padding-right: 10%;
+  @media (max-width: 600px) {
+    margin-top: 5%;
+  }//media
+}//.p-pad -- all
+
+#frame {
+  .p-pad {
+    @media (max-width: 600px) {
+      margin-top: 8%;
+    }//media
+  }//p-pad
+}//computer
+
+//adusts margin of paragraph/title collision in home
+#computer {
+  .p-pad {
+    @media (max-width: 600px) {
+      margin-top: 10%;
+    }//media
+  }//p-pad
+}//computer
+
+.ani-section-120 {
+  height: 100vh;
+}
+
+.ani-section-110 {
+  height: 100vh;
+}
+
+.ani-section-100 {
+  height: 100vh;
+}
+
+.ani-section-90 {
+  height: 90vh;
+}
+
+.ani-section-85 {
+  height: 90vh;
+}
+
+.ani-section-80 {
+  height: 90vh;
+}
+
+.ani-section-70 {
+  height: 70vh;
+}
+
+.ani-section-60 {
+  height: 60vh;
+}
+
+.ani-section-50 {
+  height: 50vh;
+  z-index: 100;
+  opacity: 1.0;
+}
+
+.ani-section-40 {
+  height: 40vh;
+}
+
+.ani-section-30 {
+  height: 30vh;
+}
+
+.ani-section-20 {
+  height: 20vh;
+}
+
+.ani-section-10 {
+  height: 10vh;
+}
+
+/* skrollr custom id's and earth style */
+/* ================================================================= */
+
+.bg-earth {
+  position:relative;
+  width: 100vw;
+  // bottom: -140px;
+  left: 0;
+  padding: 0px !important;
+  z-index: -900;
+}
+
+#sk-stars-1 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  background: image-url("stars/test.png");
+  z-index: -1000;
+}
+
+#sk-stars-2 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  background: image-url("stars/Starsbot.png");
+  z-index: -1000;
+}
+
+#sk-stars-3 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  background: image-url("stars/test2.png");
+  z-index: -1000;
+}
+
+#sk-cube-1, #sk-cube-2 {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+}
+
+#sk-cube-1 {
+  background: image-url("cubesat/Cube.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -5;
+}
+
+// NOTE SOLAR PANELS
+#sk-cube-panel-r {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Right_Side_Solar_Panel.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -10;
+}
+
+#sk-cube-panel-f {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Front_Solar_Panel.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -10;
+}
+
+#sk-cube-panel-t {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Top_Solar_Panel.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -10;
+}
+
+#sk-cube-panel-l {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Left_Side_Solar_Panel.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -510;
+}
+
+#sk-cube-panel-b {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Back_Solar_Panel.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -500;
+}
+
+#cubesatImg {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  height: 120%;
+  position: fixed;
+  background: image-url("cubesat/websitecubesatwhole.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  z-index: -500;
+}
+
+#sk-cube-panel-bo {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Bottom_Solar_Panel.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -500;
+}
+
+// NOTE FRAME
+#sk-cube-frame-front {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Frame_Front.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -20;
+}
+
+#sk-cube-frame-back {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Frame_Back.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -500;
+}
+
+#sk-cube-frame-ext {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Frame_Extention.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -380;
+}
+
+#sk-cube-frame-end {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Back_Frame_End_Plate.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -500;
+}
+
+// NOTE ADCS
+
+#sk-cube-ADCS {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/MAI100.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -400;
+}
+
+#sk-cube-ADCS-m {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Interface_Module.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -390;
+}
+
+// NOTE PAYLOAD
+
+#sk-cube-payload {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Nanocam.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -130;
+}
+
+// NOTE COMPUTER
+
+#sk-cube-computer-mb {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/Motherboard.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -140;
+}
+
+#sk-cube-computer-ppm {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/PPM.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -150;
+}
+
+#sk-cube-computer-eps {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/EPS_Module.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -160;
+}
+
+#sk-cube-computer-gps {
+  top: 40%;
+  left: 27%;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background: image-url("cubesat/parts/GPS_Module.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -170;
+}
+
+/* Hover customizations */
+/* ================================================================= */
+
+.hvr-btn {
+  padding: 5px;
+  text-align: center;
+}
+
+a.hvr-btn {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.hvr-btn:before {
+  border-color: #6DCBD8;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+/* custom buttons */
+
+.btn-box {
+  position:relative;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  transition: 0.5s;
+  padding: 5px;
+  cursor: pointer;
+  -webkit-transition:0.5s;
+}
+
+.btn-box::before, .btn-box::after {
+  width: 100%;
+  height:100%;
+  z-index: 3;
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: 0.5s;
+}
+
+.btn-ani::before {
+  border-bottom: 1px solid #6DCBD8;
+  border-left: 1px solid #6DCBD8;
+  -webkit-transform-origin: 0 100%;
+}
+
+.btn-ani::after {
+  border-top: 1px solid #6DCBD8;
+  border-right: 1px solid #6DCBD8;
+  -webkit-transform-origin: 100% 0%;
+}
+
+.btn-box:hover::after, .btn-box:hover::before {
+  -webkit-transform: scale(1);
+}
+
+#footer {
+  background: transparent;
+  text-align: center;
+  padding: 20px;
+  i {
+    font-size: 36px !important;
+    margin: 20px;
+  }
+}
+
+.button-bottom {
+  padding-top: 50vh;
+}
+
+.center-donate {
+  position: fixed !important;
+  text-align: center;
+  bottom: 10vh;
+  left: 45vw;
+  font-size: 32px !important;
+  font-weight: bold !important;
+}
+
+// for the maps
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+#map-id {
+  width: 100%;
+  height: 400px;
+  max-height: 50vh;
+}
+
+#main, #team, #research, #contact {
+  padding-top: 90px;
+}
+
+
+.home-footer-deps {
+  position: relative;
+  bottom: 20px;
+  //border: solid green 1px;
+}
