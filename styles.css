@@ -43,8 +43,14 @@ p{
 section{
   display: block;
 }
+nav{
+  z-index: 10;
+}
+.navbar-nav > li > a {
+  padding-top:2px !important;
+  padding-bottom:2px !important;
 
-.navbar-nav > li > a {padding-top:2px !important; padding-bottom:2px !important;}
+}
 .navbar {
   padding: 0px 5vw;
 
@@ -53,7 +59,7 @@ section{
   right: 0px;
 }
 .nav-item{
-  padding: 0px 8px;
+  padding: 4px 8px;
 }
 .nav-link{
   //font-size: 14px;

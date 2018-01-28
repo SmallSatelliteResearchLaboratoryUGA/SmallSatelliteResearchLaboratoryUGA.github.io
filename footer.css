@@ -28,7 +28,7 @@ footer {
 }
 .departments li {
   display: inline-block;
-  width: 5%;
+  width: 6vw;
   text-decoration: none;
   vertical-align: top;
   padding: 3px;

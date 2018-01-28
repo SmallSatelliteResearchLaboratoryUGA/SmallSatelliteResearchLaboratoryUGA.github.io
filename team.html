@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"></script>
     <script>
@@ -19,27 +20,42 @@
     <link  rel="stylesheet" type="text/css" href="team.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script async src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/flif.js"></script>
     <script type="text/javascript" src="team.js"></script>
     <title></title>
   </head>
   <body>
-    <nav id="navbar">
-      <div class="navbar-container">
-        <div class="navbar-logo">
-          <!--logo to go here-->
-        </div>
-        <div class="">
-          <ul class="navbar-links">
-            <li><a href="http://www.smallsat.uga.edu/team">Team</a></li>
-            <li><a href="http://www.smallsat.uga.edu/research">Research</a></li>
-            <li><a href="http://www.smallsat.uga.edu/contact">Contact</a></li>
-            <li><a href="http://www.smallsat.uga.edu/news">News</a></li>
-            <li><a href="http://www.smallsat.uga.edu/apply">Apply to Join</a></li>
-            <li><a href="https://dar.uga.edu/funder/campaigns/uga-small-satellite-research-laboratory-help-us-go-to-space/">Donate</a></li>
-          </ul>
-        </div>
+
+    <nav class="navbar navbar-expand-lg bg-light navbar-light" style="min-height:50px; position:sticky; top:0px;">
+      <a class="navbar-brand" href="index.html"><div class=" fa-globe fa-2x">
+        <!--logo to go here-->
+      </div></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent" style="">
+        <ul class="navbar-nav mr-auto navbar-links justify-content-center" style="color:white;">
+          <li class="nav-item">
+            <a class="nav-link external" href="team.html">Team <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item external">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://piepieninja.typeform.com/to/Qp0m51">Apply</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://dar.uga.edu/funder/campaigns/uga-small-satellite-research-laboratory-help-us-go-to-space/">Donate</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
@@ -52,8 +68,8 @@
 
     </div>
 
-    <div class="video-container">
-      <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fugassrl%2Fvideos%2F425123087844807%2F&amp;show_text=0&amp;width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+    <div class="video-container" style="width:100%">
+      <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fugassrl%2Fvideos%2F425123087844807%2F&amp;show_text=0&amp;width=100%" width="100%" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
     </div>
 
 
@@ -118,5 +134,14 @@
           <!-- if statement for if NOT home page -->
     </div>
   </footer>
+  <script type="text/javascript">
+    if (screen.width <= 699) {
+      document.getElementById("departments").style.display = "none"
+      document.getElementById("footer").setAttribute("margin-top","100%");
+    }else{
+
+    }
+    console.log(screen.width);
+  </script>
   </body>
 </html>

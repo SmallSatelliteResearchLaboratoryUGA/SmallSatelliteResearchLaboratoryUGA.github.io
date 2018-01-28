@@ -2,8 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+    <script async src="js/bootstrap.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -12,34 +16,46 @@
       gtag('config', 'UA-109138593-1');
     </script>
 
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="header.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <link  rel="stylesheet" type="text/css" href="news.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="news.css">
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/flif.js"></script>
-    <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
     <title></title>
   </head>
   <body>
-    <nav id="navbar">
-      <div class="navbar-container">
-        <div class="navbar-logo">
-          <!--logo to go here-->
-        </div>
-        <div class="">
-          <ul class="navbar-links">
-            <li><a href="http://www.smallsat.uga.edu/team">Team</a></li>
-            <li><a href="http://www.smallsat.uga.edu/research">Research</a></li>
-            <li><a href="http://www.smallsat.uga.edu/contact">Contact</a></li>
-            <li><a href="http://www.smallsat.uga.edu/news">News</a></li>
-            <li><a href="http://www.smallsat.uga.edu/apply">Apply to Join</a></li>
-            <li><a href="https://dar.uga.edu/funder/campaigns/uga-small-satellite-research-laboratory-help-us-go-to-space/">Donate</a></li>
-          </ul>
-        </div>
+
+    <nav class="navbar navbar-expand-lg bg-light navbar-light" style="min-height:50px; position:sticky; top:0px;">
+      <a class="navbar-brand" href="index.html"><div class=" fa-globe fa-2x">
+        <!--logo to go here-->
+      </div></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent" style="">
+        <ul class="navbar-nav mr-auto navbar-links justify-content-center" style="color:white;">
+          <li class="nav-item">
+            <a class="nav-link external" href="team.html">Team <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item external">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://piepieninja.typeform.com/to/Qp0m51">Apply</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://dar.uga.edu/funder/campaigns/uga-small-satellite-research-laboratory-help-us-go-to-space/">Donate</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
@@ -301,7 +317,7 @@
         </ul>
       </div>
           <!-- if statement for if NOT home page -->
-      <div class="departments-container">
+      <div id="departments" class="departments-container">
         <ul class="departments">
           <li><a target="_blank" href="http://www.uga.edu">The University of Georgia</a></li>
           <li><a target="_blank" href="http://www.crms.uga.edu">Center For GeoSpatial Research</a></li>
@@ -318,5 +334,13 @@
           <!-- if statement for if NOT home page -->
     </div>
   </footer>
+  <script type="text/javascript">
+    if (screen.width <= 699) {
+      document.getElementById("departments").style.display = "none"
+    }else{
+
+    }
+    console.log(screen.width);
+  </script>
   </body>
 </html>

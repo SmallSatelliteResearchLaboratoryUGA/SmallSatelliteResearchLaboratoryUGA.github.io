@@ -38,7 +38,7 @@ $(document).ready(function(){
     this.doc.appendChild(doca);
     doca.appendChild(docInnerContainer);
     docImgContainer.appendChild(docImg);
-    docInnerContainer.appendChild(docImgContainer);
+    if(!(screen.width <= 699))docInnerContainer.appendChild(docImgContainer);
     docInnerContainer.appendChild(docTitle);
 
   }
