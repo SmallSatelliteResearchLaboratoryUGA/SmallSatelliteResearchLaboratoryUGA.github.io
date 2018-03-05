@@ -23,6 +23,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
+app.use('/index', index);
 app.use('/users', users);
 
 //routes
@@ -40,6 +41,9 @@ app.get('/about', function (req, res) {
 })
 app.get('/news', function (req, res) {
   res.render('news');
+})
+app.get('/missions', function (req, res) {
+  res.render('missions');
 })
 
 // catch 404 and forward to error handler

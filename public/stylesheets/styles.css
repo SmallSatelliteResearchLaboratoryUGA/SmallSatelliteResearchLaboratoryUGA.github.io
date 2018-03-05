@@ -7,14 +7,16 @@ html{
 
 body {
   background-color: #10141E;
-  background-image: url("Starsmid.png");
-  background-repeat: repeat;
   background-size: 960px 540px;
   z-index: 10;
   height: 100%;
   padding: 0px;
   margin: 0px;
   width: 100%;
+}
+.stars{
+  background-image: url("/images/stars/Starsmid.png");
+  background-repeat: repeat;
 }
 html body{
   font-family: 'Montserrat', sans-serif;
@@ -43,6 +45,26 @@ p{
 section{
   display: block;
 }
+.landing-inner{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.landing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50%;
+}
+.landing-img{
+  width: auto;
+  height: 250px;
+}
+.landing-img-sm{
+  height: 100px;
+  width: auto;
+}
 nav{
   z-index: 10;
 }
@@ -52,7 +74,7 @@ nav{
 
 }
 .navbar {
-  padding: 0px 5vw;
+  padding: 0px 2vw;
 
 }
 .bg-dark{
@@ -83,7 +105,7 @@ nav{
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 250px;
+  //margin-bottom: 250px;
 }
 
 #main{
@@ -165,12 +187,14 @@ nav{
 .ani-section-end{
   height: 400px;
 }
+.sat-part{
+  position: fixed;
+}
 #sk-cube-panel-r {
     top: 40%;
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Right_Side_Solar_Panel.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -181,7 +205,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Left_Side_Solar_Panel.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -192,7 +215,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Back_Solar_Panel.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -203,7 +225,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Front_Solar_Panel.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -214,7 +235,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Top_Solar_Panel.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -225,7 +245,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Bottom_Solar_Panel.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -236,7 +255,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Frame_Front.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -247,7 +265,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Frame_Back.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -258,7 +275,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Frame_Extention.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -269,7 +285,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Back_Frame_End_Plate.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -280,7 +295,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/MAI100.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -291,7 +305,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Interface_Module.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -302,7 +315,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Nanocam.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -313,7 +325,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/Motherboard.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -324,7 +335,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/PPM.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -335,7 +345,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/EPS_Module.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -346,7 +355,6 @@ nav{
     left: 27%;
     height: inherit;
     width: 100%;
-    position: fixed;
     background: url(/images/cubesat/parts/GPS_Module.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -359,7 +367,6 @@ nav{
     height: inherit;
     width: 100%;
     height: 120%;
-    position: fixed;
     background: url(/images/cubesat/websitecubesatwhole.png);
     background-repeat: no-repeat;
     background-size: 40%;
