@@ -29,7 +29,7 @@ $(document).ready(function(){
 function createMember(member, sectionid){
   var d = member;
   var profileHeader = document.createElement("div");
-  profileHeader.setAttribute("class", "profile leader");
+  profileHeader.setAttribute("class", "profile");
   var profileHeaderImage = document.createElement("img");
   //get image, if none then use default
   if (d.img === "") {
@@ -40,12 +40,12 @@ function createMember(member, sectionid){
   var profileHeaderName = document.createElement("span");
   profileHeaderName.setAttribute("class", "name");
   profileHeaderName.innerHTML = d.name;
-  var profileHeaderButton = document.createElement("button");
-  profileHeaderButton.setAttribute("type","button");
-  profileHeaderButton.setAttribute("class","btn btn_leader btn-lg");
-  profileHeaderButton.setAttribute("data-toggle","modal");
-  profileHeaderButton.setAttribute("data-target", "#" + d.id + "Modal");
-  profileHeaderButton.innerHTML = "See Bio";
+  // var profileHeaderButton = document.createElement("button");
+  // profileHeaderButton.setAttribute("type","button");
+  // profileHeaderButton.setAttribute("class","btn btn_leader btn-lg");
+  // profileHeaderButton.setAttribute("data-toggle","modal");
+  // profileHeaderButton.setAttribute("data-target", "#" + d.id + "Modal");
+  // profileHeaderButton.innerHTML = "See Bio";
   //append elements
   profileHeader.appendChild(profileHeaderImage);
   profileHeader.appendChild(profileHeaderName);
@@ -55,48 +55,48 @@ function createMember(member, sectionid){
     profileHeaderTitle.innerHTML = d.role + '<br>';
     profileHeader.appendChild(profileHeaderTitle);
   }
-  profileHeader.appendChild(profileHeaderButton);
+  // profileHeader.appendChild(profileHeaderButton);
   $(sectionid).append(profileHeader);
-
-  //body
-  var profileModal = document.createElement("div");
-  profileModal.setAttribute("class","modal fade");
-  profileModal.setAttribute("id", d.id + "Modal");
-  profileModal.setAttribute("role","dialog");
-  var profileModalDialog = document.createElement("div");
-  profileModalDialog.setAttribute("class","modal-dialog");
-  var profileModalContent = document.createElement("div");
-  profileModalContent.setAttribute("class","modal-content");
-  var profileModalHeader = document.createElement("div");
-  profileModalHeader.setAttribute("class","modal-header");
-  var profileModalHeaderButton = document.createElement("button");
-  profileModalHeaderButton.setAttribute("type", "button");
-  profileModalHeaderButton.setAttribute("class", "close");
-  profileModalHeaderButton.setAttribute("data-dismiss", "modal");
-  profileModalHeaderButton.innerHTML = "x";
-  var profileModalBody = document.createElement("div");
-  profileModalBody.setAttribute("class", "modal-body");
-  var profileModalBodyh1 = document.createElement("h1");
-  profileModalBodyh1.setAttribute("class", "align_center");
-  profileModalBodyh1.innerHTML = d.name;
-
-  var profileModalBodyp = document.createElement("p");
-  profileModalBodyp.innerHTML = d.bio;
-
-  profileModal.appendChild(profileModalDialog);
-  profileModalDialog.appendChild(profileModalContent);
-  profileModalContent.appendChild(profileModalHeader);
-  profileModalContent.appendChild(profileModalBody);
-  profileModalHeader.appendChild(profileModalHeaderButton);
-  profileModalBody.appendChild(profileModalBodyh1);
-  if (!(d.major === "")) {
-    let profileModalBodyh3 = document.createElement("h3");
-    profileModalBodyh3.setAttribute("class", "align_center");
-    profileModalBodyh3.innerHTML = d.major;
-    profileModalBody.appendChild(profileModalBodyh3);
-  }
-  profileModalBody.appendChild(profileModalBodyp);
-  $(sectionid).append(profileModal);
+  //
+  // //body
+  // var profileModal = document.createElement("div");
+  // profileModal.setAttribute("class","modal fade");
+  // profileModal.setAttribute("id", d.id + "Modal");
+  // profileModal.setAttribute("role","dialog");
+  // var profileModalDialog = document.createElement("div");
+  // profileModalDialog.setAttribute("class","modal-dialog");
+  // var profileModalContent = document.createElement("div");
+  // profileModalContent.setAttribute("class","modal-content");
+  // var profileModalHeader = document.createElement("div");
+  // profileModalHeader.setAttribute("class","modal-header");
+  // var profileModalHeaderButton = document.createElement("button");
+  // profileModalHeaderButton.setAttribute("type", "button");
+  // profileModalHeaderButton.setAttribute("class", "close");
+  // profileModalHeaderButton.setAttribute("data-dismiss", "modal");
+  // profileModalHeaderButton.innerHTML = "x";
+  // var profileModalBody = document.createElement("div");
+  // profileModalBody.setAttribute("class", "modal-body");
+  // var profileModalBodyh1 = document.createElement("h1");
+  // profileModalBodyh1.setAttribute("class", "align_center");
+  // profileModalBodyh1.innerHTML = d.name;
+  //
+  // var profileModalBodyp = document.createElement("p");
+  // profileModalBodyp.innerHTML = d.bio;
+  //
+  // profileModal.appendChild(profileModalDialog);
+  // profileModalDialog.appendChild(profileModalContent);
+  // profileModalContent.appendChild(profileModalHeader);
+  // profileModalContent.appendChild(profileModalBody);
+  // profileModalHeader.appendChild(profileModalHeaderButton);
+  // profileModalBody.appendChild(profileModalBodyh1);
+  // if (!(d.major === "")) {
+  //   let profileModalBodyh3 = document.createElement("h3");
+  //   profileModalBodyh3.setAttribute("class", "align_center");
+  //   profileModalBodyh3.innerHTML = d.major;
+  //   profileModalBody.appendChild(profileModalBodyh3);
+  // }
+  // profileModalBody.appendChild(profileModalBodyp);
+  // $(sectionid).append(profileModal);
 }
 //'<div class="profile leader">
   //<img src="assets/SSRLProfiles/' + ___IMG___ + '.jpg" class="picture">'

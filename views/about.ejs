@@ -7,7 +7,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
-    <script async src="/javacripts/bootstrap.js"></script>
+    
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -15,11 +15,13 @@
 
       gtag('config', 'UA-109138593-1');
     </script>
+    <% include partials/head %>
 
     <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/lab.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/master.css">
     <script type="text/javascript" src="/javascripts/flif.js"></script>
     <title></title>
   </head>
@@ -34,30 +36,19 @@
       </div>
       <br>
       <br>
-    <div class="col-xs-12">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h2 class="text-center" style="font-size:20px;color:black;">Small Satellite Research Lab</h2>
-        </div>
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-xs-12" style="padding: 10px;">
-              <h2 class="text-center" style="color:black;">Overview</h2>
 
-              <p style="color: black;">
-                The lab is an undergraduate led research lab, mentored by faculty, with the goals of launching small, inexpensive satellites into space for gathering scientific data and providing experiential learning opportunities for University of Georgia students. Currently 54 undergraduates from all over campus (geography, physics, engineering, mathematics, computer science, marine science, design, and management) lead and operate the lab. The students strive to enhance science education within and around the UGA community through their scientific endeavors. The lab also is leading the way in developing a Small Satellite Course that will form the foundation of an aerospace-based curriculum at UGA.
-              </p>
-              <p style="color: black;">
-                The lab is currently equipped with a 140sq ft clean room rated ISO 7, a 200 ltr vacuum chamber capable of reaching 10-6 torr, and multiple Electrostatic Discharge workstations all of which are suitable for the integrations and testing of flight ready equipment.
-              </p>
-              <canvas class="img-responsive" data-polyflif-src="/images/lab/lab.flif" alt="Lab a598eb1466ef28692c69de2c1cd040abacfff2247d5f015ebfc1724f2194ad98"></canvas>
-            </div>
-          </div>
-        </div>
-      </div>
+      <h2 class="" align="center" style="margin-bottom:42px;">Overview</h2>
+      <p style="color: white;">
+        The lab is an undergraduate led research lab, mentored by faculty, with the goals of launching small, inexpensive satellites into space for gathering scientific data and providing experiential learning opportunities for University of Georgia students. Currently 54 undergraduates from all over campus (geography, physics, engineering, mathematics, computer science, marine science, design, and management) lead and operate the lab. The students strive to enhance science education within and around the UGA community through their scientific endeavors. The lab also is leading the way in developing a Small Satellite Course that will form the foundation of an aerospace-based curriculum at UGA.
+      </p>
+      <br>
+      <canvas class="img-responsive" data-polyflif-src="/images/lab/lab.flif" alt="Lab a598eb1466ef28692c69de2c1cd040abacfff2247d5f015ebfc1724f2194ad98"></canvas>
+      <br>
+      <p style="color: white;">
+        The lab is currently equipped with a 140sq ft clean room rated ISO 7, a 200 ltr vacuum chamber capable of reaching 10-6 torr, and multiple Electrostatic Discharge workstations all of which are suitable for the integrations and testing of flight ready equipment.
+      </p>
+
     </div>
-
-        </div>
 
     <% include partials/footer %>
 

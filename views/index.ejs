@@ -14,7 +14,7 @@
   gtag('config', 'UA-109138593-1');
   </script>
   <script async src="js/bootstrap.js"></script>
-
+  <% include partials/head %>
   <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="/stylesheets/header.css">
   <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
@@ -62,19 +62,9 @@
 -->
   <!-- NOTE SPACECRAFT -->
 
-    <div class="container">
-      <div class="landing" style=" width:100%; height:calc(100vh - 76px)">
-        <img class="landing-img" src="/images/logos/uga_ssrl.png" alt="">
-        <div class="landing-inner">
-          <img class="landing-img-sm" src="/images/logos/unp_logo.jpg" alt="">
-          <img class="landing-img-sm" src="/images/logos/nasa_logo.png" alt="">
-          <img class="landing-img-sm" src="/images/logos/air_force_logo.jpg" alt="">
-        </div>
-      </div>
-    </div>
+
 
     <section id="main" class="home-main-container" style="display:block;">
-
 
       <!-- FOR MOBILE -->
           <section id="mobile-intro" style="display:none; width:100%">
@@ -191,37 +181,12 @@
           <p class="center center-v p-pad">The spacecraft that we deisgn, build, and test in the Small Satellite Research Laboratory (as well as most CubeSats in general) are all similar to this design. If you are a student with an interest in spacecraft, why don't you join us?</p>
         </div>
       </section>
-    </section>
 
-    <footer id="footer">
-    <div class="footer-container">
-      <div class="col-md-12">
-        <ul class="socials">
-          <a class="social" href="https://twitter.com/ugassrl" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
-          <a class="social" href="https://www.facebook.com/ugassrl/" target="_blank"><i class="fa fa-facebook-square fa-3x" target="_blank"></i></a>
-          <a class="social" href="https://www.youtube.com/channel/UCuT01f5_oQ95WRkoziZUF0Q" target="_blank"><i class="fa fa-youtube-play fa-3x" target="_blank"></i></a>
-          <a class="social" href="https://soundcloud.com/uga-small-sat-lab" target="_blank"><i class="fa fa-soundcloud fa-3x" target="_blank"></i></a>
-          <a class="social" href="https://github.com/spaceysciences" target="_blank"><i class="fa fa-github fa-3x"></i></a>
-        </ul>
-      </div>
-          <!-- if statement for if NOT home page -->
-      <div id="departments" class="departments-container">
-        <ul class="departments">
-          <li><a target="_blank" href="http://www.uga.edu">The University of Georgia</a></li>
-          <li><a target="_blank" href="http://www.crms.uga.edu">Center For GeoSpatial Research</a></li>
-          <li><a target="_blank" href="http://geography.uga.edu">Department of Geography</a></li>
-          <li><a target="_blank" href="http://www.math.uga.edu/">Department of Mathmatics</a></li>
-          <li><a target="_blank" href="https://www.physast.uga.edu/">Department of Physics and Astronomy</a></li>
-          <li><a target="_blank" href="http://www.engineering.uga.edu/">College of Engineering</a></li>
-          <li><a target="_blank" href="http://www.marsci.uga.edu/">Department of Marine Sciences</a></li>
-          <li><a target="_blank" href="http://research.uga.edu/">UGA Office of VP of Research</a></li>
-          <li><a target="_blank" href="https://curo.uga.edu/">Center for Undergraduate Research</a></li>
-          <li><a target="_blank" href="http://prs.afrl.kirtland.af.mil/UNP/">University Nanosat Program</a></li>
-        </ul>
-      </div>
-          <!-- if statement for if NOT home page -->
-    </div>
-  </footer>
+    </section>
+  </section>
+    <img id="earth-img" src="/images/space/earth.png" alt="" style="width:100%; hieght:auto; margin-bottom:-120px;">
+
+    <% include partials/footer %>
 
   <script src="/javascripts/skrollr.min.js"></script>
   <script type="text/javascript">
