@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109138593-1');
+    </script>
+    <% include partials/head %>
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/lab.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/master.css">
+    <script type="text/javascript" src="/javascripts/flif.js"></script>
+    <title></title>
+  </head>
+  <body>
+
+    <% include partials/nav %>
+
+    <div class="container">
+      <br>
+      <div class="video-container embed-responsive embed-responsive-16by9" style="text-align:center">
+        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fugassrl%2Fvideos%2F425123087844807%2F&amp;show_text=0&amp;"style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+      </div>
+      <br>
+      <br>
+
+      <h2 class="" align="center" style="margin-bottom:42px;">Overview</h2>
+      <p style="color: white;">
+        The lab is an undergraduate led research lab, mentored by faculty, with the goals of launching small, inexpensive satellites into space for gathering scientific data and providing experiential learning opportunities for University of Georgia students. Currently 54 undergraduates from all over campus (geography, physics, engineering, mathematics, computer science, marine science, design, and management) lead and operate the lab. The students strive to enhance science education within and around the UGA community through their scientific endeavors. The lab also is leading the way in developing a Small Satellite Course that will form the foundation of an aerospace-based curriculum at UGA.
+      </p>
+      <br>
+      <canvas class="img-responsive" data-polyflif-src="/images/lab/lab.flif" alt="Lab a598eb1466ef28692c69de2c1cd040abacfff2247d5f015ebfc1724f2194ad98"></canvas>
+      <br>
+      <p style="color: white;">
+        The lab is currently equipped with a 140sq ft clean room rated ISO 7, a 200 ltr vacuum chamber capable of reaching 10-6 torr, and multiple Electrostatic Discharge workstations all of which are suitable for the integrations and testing of flight ready equipment.
+      </p>
+
+    </div>
+
+    <% include partials/footer %>
+
+  <script type="text/javascript">
+    if (screen.width <= 699) {
+      document.getElementById("departments").style.display = "none"
+    }else{
+
+    }
+    console.log(screen.width);
+  </script>
+  </body>
+</html>

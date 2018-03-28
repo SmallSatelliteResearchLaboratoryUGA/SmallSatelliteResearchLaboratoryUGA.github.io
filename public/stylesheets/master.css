@@ -1,0 +1,46 @@
+.show{
+  background-color: black;
+}
+.collapsing{
+  background-color: black;
+}
+.icon{
+  align-self: center;
+}
+.icon-box{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  margin-bottom: 42px;
+}
+.mission-header{
+  justify-content: center;
+  width: 100%;
+  font-size: 32px;
+  margin-bottom: 64px;
+}
+.mission-box{
+  margin: 42px 0 64px;
+  //margin-top: 32px;
+  //margin-bottom: 64px;
+}
+hr{
+  border-color: white;
+}
+#contact{
+  display: flex;
+  flex-flow: wrap;
+  max-width: 100%;
+}
+#map{
+  margin-right: 50px;
+  min-width: 300px;
+  flex: 2;
+}
+.contact-form{
+  flex-grow: 1;
+  min-width: 300px;
+  justify-content: space-between;
+  height: 100%;
+}

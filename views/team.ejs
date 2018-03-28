@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109138593-1');
+    </script>
+    <% include partials/head %>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css">
+    <link  rel="stylesheet" type="text/css" href="/stylesheets/team.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <script async src="/javascripts/bootstrap.js"></script>
+    <script type="text/javascript" src="/javascripts/flif.js"></script>
+    <script type="text/javascript" src="/javascripts/team.js"></script>
+    <title></title>
+  </head>
+  <body style="background-image:;">
+
+    <% include partials/nav %>
+
+    <div class="container">
+      <div id="header">
+        <canvas data-polyflif-src="/images/SSRLProfiles/team.flif" id="team_pic"></canvas>
+        <p id="header_p">The Small Satellite Research Laboratory was founded in 2016 by 3 students at the University of Georgia. The students orgininally intended to build a modest and small spacecraft funded by a Kickstarter; However, shortly after the students reached out to faculty, the project began to increase in complexity. Now the Small Satellite Research Laboritory team includes over 30 members - and is still growing. The lab is now partnered with both NASA and the Air Force, and is building two 3U cubesats for Low Earth Orbit. The Small Satellite Research Laboratory will have it's first satellite deployed from the International Space Station in 2018.</p>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <h1 class="section">Leadership</h1>
+      <div id="section-leadership" class="profile-section">
+
+        
+
+      </div>
+      <h1 class="section">Electronics Team</h1>
+      <div id="section-electronics" class="profile-section">
+
+      </div>
+      <h1 class="section">Mechanical Team</h1>
+      <div id="section-mechanical" class="profile-section">
+
+      </div>
+      <h1 class="section">Mission Operations Team</h1>
+      <div id="section-missionops" class="profile-section">
+
+      </div>
+      <h1 class="section">Lab Operations Team</h1>
+      <div id="section-labops" class="profile-section">
+
+      </div>
+      <h1 class="section">Faculty</h1>
+      <div id="section-faculty" class="profile-section">
+
+      </div>
+    </div>
+
+
+    <h1 class="section">Alumni</h1>
+    <p class="p-text">Juweek Adolphe • Ryan Babaie • Helena Bales • Chrissie Brady • Kenny Chochran • Warren Eshpeter • Jaicob Stewart • Nicholas Szakal • Nicholas Gravina • Josh O'Shields • Todd Emmenegger • Alexander Winkles • Esa Serog • Dustin Mizelle • Paul Keith • Benson Chau • Logan Skidmore • Kyle Hamilton • Kyle Millar • John Courtney • Tiffany Hsieh</p>
+
+          <% include partials/footer %>
+
+  <script type="text/javascript">
+    if (screen.width <= 699) {
+      document.getElementById("departments").style.display = "none"
+      document.getElementById("footer").setAttribute("margin-top","100%");
+    }else{
+
+    }
+    console.log(screen.width);
+  </script>
+  </body>
+</html>
