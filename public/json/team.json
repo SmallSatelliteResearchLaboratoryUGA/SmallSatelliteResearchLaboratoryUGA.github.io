@@ -8,7 +8,7 @@
         "major":"Computer Science / Astronomy and Physics",
         "img":"caleb.jpg",
         "id":"caleb",
-        "role":"Project Manager & Co-Founder"
+        "role":"Program Manager & Co-Founder"
       },
       {
         "name":"Nicholas Neel",
@@ -16,15 +16,7 @@
         "major":"Mathematics",
         "img":"hollis.jpg",
         "id":"hollis",
-        "role":"Science Officer"
-      },
-      {
-        "name":"Graham Grable",
-        "bio":"Graham Grable is an undergraduate Mechanical Engineering Student at the University of Georgia’s College of Engineering. Graham earned the Eagle Scout rank at the age of 13, finishing his project at a nationally recognized Audubon Sanctuary. In his senior year of high school, Graham obtained an internship focused on nanotechnology and won the fall intern symposium. Graham’s passion is space, and is excited about this project and the future of the Small Sat Research Lab.",
-        "major":"Mechanical Engineering",
-        "img":"graham.jpg",
-        "id":"graham",
-        "role":"Chief Engineer"
+        "role":"SPOC Systems Engineer & Co-Founder"
       },
       {
         "name":"Adam King",
@@ -32,7 +24,15 @@
         "major":"Computer Science",
         "img":"adam.jpg",
         "id":"adam",
-        "role":"Electronics Advisor"
+        "role":"SPOC Graduate Advisor"
+      },
+      {
+        "name":"Nicholas Heavner",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"MOCI Mechanical Lead",
+        "bio":"Nicholas is a Testing Operations Specialist for SPOC and MOCI.",
+        "id":"nicholas"
       },
       {
         "name":"James Roach",
@@ -40,23 +40,7 @@
         "major":"Computer Science",
         "img":"james.jpg",
         "id":"james",
-        "role":"SPOC Electronics Lead"
-      },
-      {
-        "name":"Kayla Gilbert",
-        "bio":"Kayla is currently working on developing a way to minimize the effects of radiation on image data while in space by integrating multiple error correcting codes. She also finished a whole season of game of thrones in one sitting.",
-        "major":"Computer Science",
-        "img":"kayla.jpg",
-        "id":"kayla",
         "role":"MOCI Electronics Lead"
-      },
-      {
-        "name":"Matthew Hevert",
-        "bio":"Matthew came to the University of Georgia from Denver, Colorado to pursue his goal of designing and developing advanced satellite optic systems and now co-leads the mechanical team. In 2015 Matthew led a small team in creating a successful Rocksat-C scientific payload that launched on an Improved Terrier Orion rocket. The SPOC and MOCI payloads will be Matthew's 3rd and 4th launched scientific payloads.",
-        "major":"Mechanical Engineering",
-        "img":"matthew.jpg",
-        "id":"matthew",
-        "role":"Co-Mechanical Lead"
       },
       {
         "name":"Casper Versteeg",
@@ -64,7 +48,7 @@
         "major":"Mechanical Engineering",
         "img":"casper.jpg",
         "id":"casper",
-        "role":"Co-Mechanical Lead"
+        "role":"SPOC Mechanical Lead"
       },
       {
         "name":"Paige Copenhaver",
@@ -72,7 +56,7 @@
         "major":"Astronomy and Physics",
         "img":"paige.jpg",
         "id":"paige",
-        "role":"Mission Operations Lead"
+        "role":"SPOC & MOCI Mission Operations Lead"
       },
       {
         "name":"S. Godfrey Hendrix",
@@ -80,50 +64,18 @@
         "major":"Computer Systems Engineering /   German",
         "img":"godfrey.jpg",
         "id":"godfrey",
-        "role":"Lab Operations Lead"
-      }
-    ],
-    "electronics":[
-      {
-        "name":"AJ Banerjee",
-        "img":"aj.jpg",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"AJ is an undergraduate Computer Science student from UGA. He's one of the founders and organizers of UGA Hacks, our official student-run hackathon, and former president of ACM, the largest computer science organization on campus. He is excited about software engineering, product design, and leading teams to do cool things. For hobbies, he likes learning languages (5 so far, learning Chinese now), hiking, cooking, and listening to podcasts. Currently, he's leading the software effort for the SPOC mission. He also likes meeting people who are passionate about what they do, so if that sounds like you, get in touch!",
-        "id":"aj"
-      },
-      {
-        "name":"Grant Simpson",
-        "img":"grant.jpg",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"Grant is a Software Engineer for SPOC.",
-        "id":"grant"
-      },
-      {
-        "name":"Rick Ray",
-        "img":"rick.jpg",
-        "major":"Computer Systems Engineering",
-        "role":"",
-        "bio":"Rick is the Payload Integration Specialist for SPOC. Outside of small sat, Rick is researching on autonomous vehicles and on 3D computer vision. In his spare time, he loves to play sitar and violin.",
-        "id":"rick"
+        "role":"MOCI Systems Engineer & Lab Operations Lead"
       },
       {
         "name":"Ethan Barnes",
         "img":"ethan.jpg",
         "major":"Computer Science",
-        "role":"",
+        "role":"SPOC Electronics Lead",
         "bio":"Ethan is a Software Engineer for MOCI. In his free time, Ethan likes to play the guitar, piano, and drums.  He hopes to one day work for the team that puts the first person on the surface of Mars.",
         "id":"ethan"
-      },
-      {
-        "name":"Tyler Bugbee",
-        "img":"tyler.jpg",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"Tyler (an avid pianist) was a finalist in the unlock the box competition, a contest where students and engineers came up with ways to overcome obstacles people encounter when trying to vote in Georgia. He hopes to apply his passion for logical design and software engineering to modern problems in industry, society, and art.",
-        "id":"tyler"
-      },
+      }
+    ],
+    "electronics":[
       {
         "name":"Erick Gavinales",
         "img":"eric.jpg",
@@ -141,22 +93,126 @@
         "id":"tre"
       },
       {
-        "name":"Kaitlyn Summeyss",
+        "name":"Kaitlyn Summey",
         "img":"",
         "major":"Computer Systems Engineering",
         "role":"",
         "bio":"Kaitlyn is an Electronics Team Member for SPOC and MOCI.",
         "id":"kaitlyn"
+      },
+      {
+        "name":"Byron Williams",
+        "img":"",
+        "major":"Applied Mathematic",
+        "role":"",
+        "bio":"",
+        "id":"byron"
+      },
+      {
+        "name":"Jacob Conley",
+        "img":"jake.jpg",
+        "major":"Computer Systems Engineering /  Mathematics",
+        "role":"",
+        "bio":"Jake is a Computer Systems Engineering student and software developer, aspiring to go into either research technology-related business. He is on the research team for MOCI, develooping and testing algorithms for data analysis.",
+        "id":"jake"
+      },
+      {
+        "name":"Aaron Martinez",
+        "img":"",
+        "major":"Computer Science & Mathematics",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Jackson Parker",
+        "img":"",
+        "major":"Biological Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Alex Lin",
+        "img":"",
+        "major":"Computer Systems Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Allen Spain",
+        "img":"",
+        "major":"Electrical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Austin Kinkade",
+        "img":"",
+        "major":"Electrical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Josh Anickat",
+        "img":"",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Meredith Van De Velde",
+        "img":"",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Sakthi Alapakkam",
+        "img":"",
+        "major":"Electrical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Stephen Whit",
+        "img":"",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Tyler Murray",
+        "img":"",
+        "major":"Computer Systems Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
       }
     ],
     "mechanical":[
       {
-        "name":"Megan Le Corre",
-        "img":"megan.jpg",
-        "major":"Mechanical Engineering / Astronomy and Physics",
+        "name":"John Courtney",
+        "img":"",
+        "major":"",
         "role":"",
-        "bio":"Megan Le Corre is a MOCI mechanical team member. She will graduate in December 2017 with a Bachelor of Science in Mechanical Engineering and a minor in Physics and Astronomy. When she graduates she hopes to work as an additive manufacturing engineer in the aerospace industry.",
-        "id":"megan"
+        "bio":"-",
+        "id":"john"
+      },
+      {
+        "name":"Matthew Hevert",
+        "bio":"Matthew came to the University of Georgia from Denver, Colorado to pursue his goal of designing and developing advanced satellite optic systems and now co-leads the mechanical team. In 2015 Matthew led a small team in creating a successful Rocksat-C scientific payload that launched on an Improved Terrier Orion rocket. The SPOC and MOCI payloads will be Matthew's 3rd and 4th launched scientific payloads.",
+        "major":"Mechanical Engineering",
+        "img":"matthew.jpg",
+        "id":"matthew",
+        "role":"SPOC Payload Designer"
       },
       {
         "name":"Paul Bjorklund",
@@ -175,36 +231,60 @@
         "id":"justin"
       },
       {
-        "name":"Parker Ensing",
-        "img":"parker.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"As a side project, Parker once developed a moonwalking game for google cardboard, which was his first foray into the world of game design and virtual reality. He is proud lab member, and wants to gain enough experience with his degree to take steps towards becoming an astronaut.",
-        "id":"parker"
-      },
-      {
-        "name":"Alex Mailloux",
-        "img":"alex.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"Alex is a Mechanical Team Member for SPOC and MOCI.",
-        "id":"alex"
-      },
-      {
-        "name":"Christine Yang",
+        "name":"Michael Buzzy",
         "img":"",
         "major":"Mechanical Engineering",
         "role":"",
-        "bio":"Christine is the Mechanical Simulations Specialist for SPOC and MOCI.",
-        "id":"christine"
+        "bio":"",
+        "id":""
       },
       {
-        "name":"Byron Williams",
-        "img":"",
-        "major":"Applied Mathematic",
+        "name":"Niklas Endler",
+        "img":"nick.jpg",
+        "major":"Mechanical Engineering",
         "role":"",
-        "bio":"Byron is a Mechanical Team Member for SPOC and MOCI.",
-        "id":"byron"
+        "bio":"Niklas is a Testing Operations specialist for SPOC and MOCI.",
+        "id":"nick"
+      },
+      {
+        "name":"Khoa Ngo",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"Khoa Ngo is a Mechanical Engineering student at the University of Georgia. Having experience in working with control systems, simulations, and autonomous unmanned air systems, his main focus for this project is on System Engineering. In his free time, he likes to play guitar and watch anime.",
+        "id":"khoa"
+      },
+      {
+        "name":"Kaelyn Deal",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Luke Wells",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Michael Ely",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Nir Patel",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
       }
     ],
     "missionops":[
@@ -215,14 +295,6 @@
         "role":"",
         "bio":"Clark recently gave a presentation at the 230th meeting of the American Astronomical Society. He has also been admitted to the Dean William Tate Honor Society. He intends on studying cosmology at grad school and working with NASA, studying the primordial universe.",
         "id":"clark"
-      },
-      {
-        "name":"Natalie Davis",
-        "img":"natalie.jpg",
-        "major":"Computer Systems Engineering",
-        "role":"",
-        "bio":"Natalie designed the labs very first antenna, which is vital in developing the ground station. She has a strong interest in Artificial intelligence, and would like to contribute to the advancement of machine learning and neural networks with NASA or Space X when she graduates.",
-        "id":"natalie"
       },
       {
         "name":"Megan Arogeti",
@@ -249,39 +321,39 @@
         "id":"sydney"
       },
       {
-        "name":"Jacob Conley",
-        "img":"jake.jpg",
-        "major":"Computer Systems Engineering /  Mathematics",
-        "role":"",
-        "bio":"Jake is a Computer Systems Engineering student and software developer, aspiring to go into either research technology-related business. He is on the research team for MOCI, develooping and testing algorithms for data analysis.",
-        "id":"jake"
-      },
-      {
         "name":"Nirav Ilango",
         "img":"",
         "major":"Geography / Computer Science",
         "role":"",
         "bio":"Hey! My name is Nirav Ilango and I’m from Johns Creek, GA. I’m a member of the class of 2019 at the University of Georgia, majoring in computer science and geography, and the leader of the Data Team on the UGA CubeSat project. As someone who is passionate about our local environment, I’m particularly interested in the applications of our data for oceanographic and geographical research on the Georgia coast! In my free time, I enjoy spending time with friends, reading, watching Netflix, and hiking. Feel free to reach out!",
         "id":"nirav"
+      },
+      {
+        "name":"Harli Bott",
+        "img":"",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Preston Shepherd",
+        "img":"",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Richard Red",
+        "img":"",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":""
       }
     ],
     "labops":[
-      {
-        "name":"Niklas Endler",
-        "img":"nick.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"Niklas is a Testing Operations specialist for SPOC and MOCI.",
-        "id":"nick"
-      },
-      {
-        "name":"Thoai Pham",
-        "img":"thoai.jpg",
-        "major":"Electrical Engineering",
-        "role":"",
-        "bio":"In 2016, Thoai was a recipient of the american red cross youth heroes award -an award for outstanding community service - for his extensive volunteering efforts at a local hospital. He is passionate about climate change, and wants a career exploring alternative and renewable energies.",
-        "id":"thoai"
-      },
       {
         "name":"Paul Hwang",
         "img":"paulh.jpg",
@@ -291,44 +363,20 @@
         "id":"paulh"
       },
       {
-        "name":"Khoa Ngo",
-        "img":"",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"Khoa Ngo is a Mechanical Engineering student at the University of Georgia. Having experience in working with control systems, simulations, and autonomous unmanned air systems, his main focus for this project is on System Engineering. In his free time, he likes to play guitar and watch anime.",
-        "id":"khoa"
-      },
-      {
-        "name":"Nicholas Heavner",
-        "img":"",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"Nicholas is a Testing Operations Specialist for SPOC and MOCI.",
-        "id":"nicholas"
-      },
-      {
-        "name":"Ashley Huynh",
-        "img":"",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"Ashley is a sophomore pursuing a degree in Computer Science with certificates in Entreprenuership and Music Business. She currently works as the System Administrator on the Lab Operations team with involvement in the Research team as well. Outside of the lab, Ashley enjoys music production and is the founder and President of UGA's student-run record label, Rock Lobster Records, as well as the creator of the ElevateCS outreach program focused on enriching CS education in Athens.",
-        "id":"ashley"
-      },
-      {
-        "name":"Cindy Lieu",
-        "img":"",
-        "major":"Management Information System",
-        "role":"",
-        "bio":"Cindy is a Lab Operations Team Member for SPOC and MOCI.",
-        "id":"cindy"
-      },
-      {
         "name":"Michael Akintonwa",
         "img":"",
         "major":"Advertising",
         "role":"",
         "bio":"Michael is the lab's advertising director.",
         "id":"michael"
+      },
+      {
+        "name":"Sabrina Norris",
+        "img":"",
+        "major":"",
+        "role":"",
+        "bio":"",
+        "id":""
       }
     ],
     "faculty":[
