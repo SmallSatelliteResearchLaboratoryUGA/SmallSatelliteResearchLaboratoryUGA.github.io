@@ -1,0 +1,53 @@
+[33mcommit 84e6a1d593c356cbb1f66ac0f3a2563924df20e8[m
+Author: derek <derekhuynh64@gmail.com>
+Date:   Thu Mar 22 17:03:38 2018 -0400
+
+    reworked most pages, added optional dependancies to pack to fix missing fsevents
+
+[33mcommit 65b620f2cc08efe7d17eb40a5bca240f47dc57d0[m
+Author: derek <derekhuynh64@gmail.com>
+Date:   Sun Mar 18 11:51:56 2018 -0400
+
+    changed how profile pictures are displayed, made contact page more responsive, fixed footer icons not showing up, redid missions page, redid about page
+
+[33mcommit d24276a95f5b5e6e53d4a5565dd4cff9e169cde2[m
+Author: derek <derekhuynh64@gmail.com>
+Date:   Mon Mar 5 14:02:28 2018 -0500
+
+    made missions page, reaarangeds things, fixed some stuff
+
+[33mcommit 74a2862bf41d1202a300075f64872583f26ebf17[m
+Author: derek <derekhuynh64@gmail.com>
+Date:   Fri Feb 23 21:50:06 2018 -0500
+
+    right alighned links on navbar
+
+[33mcommit cc5ff6aa4e7977c75aa1d5c4f3afcc0bcbc80252[m
+Author: derek <derekhuynh64@gmail.com>
+Date:   Fri Feb 23 21:11:02 2018 -0500
+
+    removed news page added a blank about page
+
+[33mcommit f4a32dd2806a313cc8d9d639d735a381876a830b[m
+Author: derek <derekhuynh64@gmail.com>
+Date:   Wed Feb 21 19:46:20 2018 -0500
+
+    migrates to node.js
+
+[33mcommit d14122835afc72187670f7b62060b9e5d5c36158[m
+Author: derek <derekhuynh64@gmail.com>
+Date:   Tue Jan 30 13:15:57 2018 -0500
+
+    Fixed Header icon. Fixed video on team page.
+
+[33mcommit 932a9b097227d61f445e00c0188ddcef7fa912b1[m
+Author: derek <derekhuynh64@gmail.com>
+Date:   Sat Jan 27 20:10:27 2018 -0500
+
+    fixed contact page
+
+[33mcommit 323a02182b42bad32ce7ee58174830efc66bc333[m
+Author: derek <derekhuynh64@gmail.com>
+Date:   Fri Jan 26 10:25:24 2018 -0500
+
+    initial commit
