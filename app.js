@@ -46,6 +46,9 @@ app.get('/news', function (req, res) {
 app.get('/missions', function (req, res) {
   res.render('missions');
 })
+app.get('/apply', function (req, res) {
+  res.redirect('https://piepieninja.typeform.com/to/Qp0m51');
+})
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
