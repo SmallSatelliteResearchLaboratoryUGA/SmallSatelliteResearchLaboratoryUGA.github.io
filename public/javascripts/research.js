@@ -29,9 +29,9 @@ $(document).ready(function(){
     let docImgContainer = document.createElement("div");
 
     this.doc.setAttribute("class", "document");
-    doca.setAttribute("href","/images/documents/"+d.img);
+    doca.setAttribute("href", d.src);
     doca.setAttribute("target","_blank");
-    docImg.setAttribute("src","/images/documents/"+d.img);
+    docImg.setAttribute("src","/images/documents/thumbnails/"+d.img);
     docTitle.innerHTML = d.title;
     docSubTitle.innerHTML = d.subTitle;
     docImgContainer.setAttribute("class", "img-container");

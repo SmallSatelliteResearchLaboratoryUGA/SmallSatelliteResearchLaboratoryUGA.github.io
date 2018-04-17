@@ -3,224 +3,217 @@
     {
       "title":"Design of a CubeSat Ready Hyperspectral Camera",
       "img":"ATL_Symposium_Presentation.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/presentations/ATL_Symposium_Presentation.pdf",
+      "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
       "tags":"presentation",
       "subTitle":"location-date"
     },
     {
       "title":"CubeSats and Radiation Damage",
       "img":"Sydney_Whilden_Cubesats_and_radiation_damage.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/Sydney_Whilden_Cubesats_and_radiation_damage.pdf",
+      "src":"/images/documents/posters/Sydney_Whilden_Cubesats_and_radiation_damage.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Self-Improving Structure-from-Motion in Orbit",
       "img":"Self-Improving_Structure-from-Motion.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/Self-Improving_Structure-from-Motion.pdf",
+      "src":"/images/documents/posters/Self-Improving_Structure-from-Motion.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Feature Matching from Orbiting Vehicles",
       "img":"Feature_Matching_from_Orbiting_Vehicles.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/Feature_Matching_from_Orbiting_Vehicles.pdf",
+      "src":"/images/documents/posters/Feature_Matching_from_Orbiting_Vehicles.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"System to Cool Satellite Sensors",
       "img":"Graham_Symposium_on_Space_Innovations.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/Graham_Symposium_on_Space_Innovations.pdf",
-      "tags":"poster",
-      "subTitle":"location-date"
-    },
-    {
-      "title":"System to Cool Satellite Sensors",
-      "img":"Graham_Symposium_on_Space_Innovations.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/Graham_Symposium_on_Space_Innovations.pdf",
+      "src":"/images/documents/posters/Graham_Symposium_on_Space_Innovations.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Thermal and Structural Simulations of Small Satellite Systems",
       "img":"Casper_Versteeg_Poster.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/Casper_Versteeg_Poster.pdf",
+      "src":"/images/documents/posters/Casper_Versteeg_Poster.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Batch Analytical Comparisons",
       "img":"Adams,Caleb_Presentation.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/presentations/Adams,Caleb_Presentation.pdf",
+      "src":"/images/documents/presentations/Adams,Caleb_Presentation.pdf",
       "tags":"presentation",
       "subTitle":"location-date"
     },
     {
       "title":"Concept of Operations in Small Satellite Functionality",
       "img":"Symposium_for_Space_Innovations_Poster.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/Symposium_for_Space_Innovations_Poster.pdf",
+      "src":"/images/documents/posters/Symposium_for_Space_Innovations_Poster.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Implementation of Structure from Motion from a Cube Satellite in Low Earth Orbit",
       "img":"hollis_curo_poster.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/hollis_curo_poster.pdf",
+      "src":"/images/documents/posters/hollis_curo_poster.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Accuracy of Dense Point Clouds Given Varying Image Quality",
       "img":"nirav_curo_poster.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/nirav_curo_poster.pdf",
+      "src":"/images/documents/posters/nirav_curo_poster.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Laboratory Operations Support for Small Satellite Research Laboratory",
       "img":"lab_ops_curo_poster.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/lab_ops_curo_poster.pdf",
+      "src":"/images/documents/posters/lab_ops_curo_poster.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"AGU Spoc Poster",
       "img":"AGU2016-SPOC-final2.jpg",
-      "src":"",
+      "src":"/images/documents/posters/AGU2016-SPOC-final2.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"AGU SSRL Poster",
       "img":"AGU2016-SSRL-final3.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/AGU2016-SPOC-final2.pdf",
+      "src":"/images/documents/posters/AGU2016-SSRL-final3.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Georgia Scientific Computing Symposium Poster",
       "img":"SymposiumPoster.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/SymposiumPoster.pdf",
+      "src":"/images/documents/SymposiumPoster.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"STEM Opportunities for Undergraduates Building Nanosatellites: the NASA CubeSat Program Georgia",
       "img":"2017-ASPRS-IGTF-1-STEMopprotunities-1.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/2017-ASPRS-IGTF-1-STEMopprotunities.pdf",
+      "src":"/images/documents/posters/2017-ASPRS-IGTF-1-STEMopprotunities.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Building a Small Satellite Research Program at the University of Georgia: UGA Payload Development for CubeSats",
       "img":"2017-ASPRS-IGTF-2-PayloadDevelopment-1.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/2017-ASPRS-IGTF-2-PayloadDevelopment.pdf",
+      "src":"/images/documents/posters/2017-ASPRS-IGTF-2-PayloadDevelopment.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Simulation of Small Satellite Photovoltaic Power Generation Systems",
       "img":"KhoaNgoCURO2017-2.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/presentations/KhoaNgoCURO2017-2.pdf",
+      "src":"/images/documents/presentations/KhoaNgoCURO2017-2.pdf",
       "tags":"presentation",
       "subTitle":"location-date"
     },
     {
       "title":"The Feasibility of Structure from Motion over Planetary Bodies with Small Satellite Systems",
       "img":"Space_SFM-2017_CURO_Syposium.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/presentations/Space_SFM-2017_CURO_Syposium.pdf",
+      "src":"/images/documents/presentations/Space_SFM-2017_CURO_Syposium.pdf",
       "tags":"presentation",
       "subTitle":"location-date"
     },
     {
       "title":"Structural Design and Optimization of SPOC Satellite",
       "img":"StructuralAnalysisSPOC_r2.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/presentations/StructuralAnalysisSPOC_r2.pdf",
+      "src":"/images/documents/presentations/StructuralAnalysisSPOC_r2.pdf",
       "tags":"presentation",
       "subTitle":"location-date"
     },
     {
       "title":"Spectral Ocean Color Satellite 2017 Cubesat Developers Conference Presentation",
       "img":"UGAWorkshop2017CubeSatDeveloper.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/presentations/UGAWorkshop2017CubeSatDeveloper.pdf",
+      "src":"/images/documents/presentations/UGAWorkshop2017CubeSatDeveloper.pdf",
       "tags":"presentation",
       "subTitle":"location-date"
     },
     {
       "title":"Preliminary Design of a Solid-State Thermoelectric Cooling System for Small Satellite Sensors",
       "img":"Solid-State_Thermoelectric_Cooling_System.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/papers/Final_Draft_Three_Preliminary_Design_of_A_Solid_State_Thermoelectric_Cooling_System_for_Small_Satellites.pdf",
+      "src":"/images/documents/papers/Final_Draft_Three_Preliminary_Design_of_A_Solid_State_Thermoelectric_Cooling_System_for_Small_Satellites.pdf",
       "tags":"abstract",
       "subTitle":"location-date"
     },
     {
       "title":"Structure from Motion from a Constrained Orbiting Platform",
       "img":"Structure_from_Motion_from_a_Constrained_Orbit.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/Structure_from_Motion_from_a_Constrained_Orbit.pdf",
+      "src":"/images/documents/posters/Structure_from_Motion_from_a_Constrained_Orbit.pdf",
       "tags":"presentation",
       "subTitle":"location-date"
     },
     {
       "title":"Feasability of Structure from motion over planetary bodies",
       "img":"Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/presentations/Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.pdf",
+      "src":"/images/documents/presentations/Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.pdf",
       "tags":"presentation",
       "subTitle":"location-date"
     },
     {
       "title":"SPOC Payload",
       "img":"SPOC_RIGHT.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/SPOC_RIGHT.pdf",
+      "src":"/images/documents/posters/SPOC_RIGHT.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"SPOC Mission Overview",
       "img":"SPOC_MIDDLE.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/SPOC_MIDDLE.pdf",
+      "src":"/images/documents/posters/SPOC_MIDDLE.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"SPOC Science",
       "img":"SPOC_LEFT.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/SPOC_LEFT.pdf",
+      "src":"/images/documents/posters/SPOC_LEFT.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"MOCI Payload",
       "img":"MOCI_RIGHT.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/MOCI_RIGHT.pdf",
+      "src":"/images/documents/posters/MOCI_RIGHT.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"MOCI Mission Overview",
       "img":"MOCI_MIDDLE.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/MOCI_MIDDLE.pdf",
+      "src":"/images/documents/posters/MOCI_MIDDLE.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"MOCI Science",
       "img":"MOCI_LEFT.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/MOCI_LEFT.pdf",
+      "src":"/images/documents/posters/MOCI_LEFT.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Lab Story",
       "img":"LAB_STORY.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/LAB_STORY.pdf",
+      "src":"/images/documents/posters/LAB_STORY.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     },
     {
       "title":"Final Results of a Solid-State Cooling Mechanism",
       "img":"Graham-Poster.jpg",
-      "src":"http://www.smallsat.uga.edu/assets/docs/posters/Graham-Poster.pdf",
+      "src":"/images/documents/posters/Graham-Poster.pdf",
       "tags":"poster",
       "subTitle":"location-date"
     }
