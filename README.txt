@@ -21,4 +21,10 @@ if it says forever is not installed then install it using npm
 
 $sudo npm install -g forever
 
-still figuring how to run on boot(probably crontab)
+TO RUN
+
+check if server is already running
+$sudo forever list
+
+to start server go to project root
+$sudo forever start app.js
