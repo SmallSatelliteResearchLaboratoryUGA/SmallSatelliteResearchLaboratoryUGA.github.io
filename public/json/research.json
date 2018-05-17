@@ -144,7 +144,7 @@
       "title":"Preliminary Design of a Solid-State Thermoelectric Cooling System for Small Satellite Sensors",
       "img":"Solid-State_Thermoelectric_Cooling_System.jpg",
       "src":"/images/documents/papers/Final_Draft_Three_Preliminary_Design_of_A_Solid_State_Thermoelectric_Cooling_System_for_Small_Satellites.pdf",
-      "tags":"abstract",
+      "tags":"paper",
       "subTitle":"location-date"
     },
     {
@@ -216,6 +216,20 @@
       "src":"/images/documents/posters/Graham-Poster.pdf",
       "tags":"poster",
       "subTitle":"location-date"
+    },
+    {
+      "title":"Preliminary Thermal Analysis of Small Satellites",
+      "img":"Preliminary_Thermal_Analysis_of_Small_Satellites.jpg",
+      "src":"/images/documents/papers/Preliminary_Thermal_Analysis_of_Small_Satellites.pdf",
+      "tags":"paper",
+      "subTitle":"Casper Versteeg and David L. Cotten, PhD"
+    },
+    {
+      "title":"Thermal Management of High Heat Small Satellite Payloads",
+      "img":"Thermal_Management_of_High_Heat_Small_Satellite_Payloads.jpg",
+      "src":"/images/documents/papers/Thermal_Management_of_High_Heat_Small_Satellite_Payloads.pdf",
+      "tags":"paper",
+      "subTitle":"Casper Versteeg"
     }
   ]
 }
