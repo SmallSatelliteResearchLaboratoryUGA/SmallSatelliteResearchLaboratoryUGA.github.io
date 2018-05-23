@@ -14,6 +14,7 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.use(express.static(__dirname + '/public/'));
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
@@ -46,6 +47,9 @@ app.get('/news', function (req, res) {
 app.get('/missions', function (req, res) {
   res.render('missions');
 })
+app.get('/apply', function (req, res) {
+  res.redirect('https://piepieninja.typeform.com/to/Qp0m51');
+})
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -64,7 +68,9 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
-app.listen(80);
-
+var server = app.listen(80, function () {
+    var host = server.address().address;
+    var port = server.address().port;
+    console.log('running at http://' + host + ':' + port)
+});
 module.exports = app;
