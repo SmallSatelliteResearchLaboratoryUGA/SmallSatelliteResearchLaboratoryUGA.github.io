@@ -10,11 +10,18 @@ Before you add content make sure that you are on the development branch. After t
 **MAKE SURE YOU READ THE SECTION ABOVE**
 
 # dev.smallsat.uga.edu
-This machine continuously deploys the development branch every few minutes
+Should automatically update every minute. This machine continuously deploys the development branch every minute.
 
 **USER:** `ssrl`
 
 **PASS:** `tacobell;;`
+
+the default user for git is: `sitebot` with the same password as above. this is the account that constantly pulls changes
+
+# smallsat.uga.edu
+When the dev branch is merged into master this site will update every minute.
+
+request access
 
 # Local Deploying, Programming, and Testing
 if node and npm is not installed do that. the best way, i've found do this is first installing npm, then from that install n, then from that install node
