@@ -1,7 +1,11 @@
 # Adding/Updating Content
 Content can be added directly on gitlab, but it should **ALWAYS** be added in the development branch. **NEVER** add new content to the master branch.
 
-Before you add content make sure that you are on the development branch. After that you are safe to test the following:
+Before you add content make sure that you are on the development branch. This section should say development:
+![alt text](public/images/etc/readme_branches2.png)
+
+you change change branches with a drop down menu:
+![alt text](public/images/etc/readme_branches1.png)
 
 ## Updating Research Page
 **MAKE SURE YOU READ THE SECTION ABOVE**
@@ -29,6 +33,26 @@ The research page is managed by a `.json` fine located in `/public/json`. When y
 
 ## Updating the Team Page
 **MAKE SURE YOU READ THE SECTION ABOVE**
+
+**MAKE SURE YOU ARE ON DEVELOPMENT**
+
+The research page is managed by a `.json` fine located in `/public/json`. There are separate sections in the `.json` for **Leadership**,**Electronics**,**Mechanical**,**Missionops**,**Labops**, and **Faculty**. We still need to develop an alumni filter.
+
+nested within each of those categories are entries for team memebers. An element looks like:
+
+```
+{
+  "name":"Caleb Adams",
+  "bio":"Caleb Adams, along with Hollis Neel and Ryan Babaie, began UGA's Small Satellite Research Laboritory after starting a small satellite project that would soon involve UGA faculty. Caleb lead the first team from UGA to win an MLH, nationally recognized, Hackathon by building a low cost remote-operated telescope. He has worked for NASA as a Core Flight Software developer on the Orion project and was a beta tester of Google Glass. He spoke at the TEDx UGA student idea showcase about the future of small satellites and citizen science. Caleb currently runs one of the most popular computer science blogs and one of the most popular astronomy blogs on the tumblr blogging platform, with an outreach of 200,000.",
+  "major":"Computer Science",
+  "img":"caleb.jpg",
+  "id":"caleb",
+  "role":"Program Manager & Co-Founder"
+},
+```
+
+* the img is an image file located in `public/images/team`, you should add this when changing this page
+* the id tag **must be unique** for each member, so we cannot have two members with the same name share the same id. Keep this in mind when updating this section
 
 # dev.smallsat.uga.edu
 Should automatically update every minute. This machine continuously deploys the development branch every minute.
