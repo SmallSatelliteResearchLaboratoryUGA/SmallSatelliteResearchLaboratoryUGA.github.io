@@ -1,6 +1,13 @@
 {
   "research":[
     {
+      "title":"A Near Real Time Space Based Computer Vision System for Accurate Terrain Mapping",
+      "img":"ATL_Symposium_Presentation.jpg",
+      "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
+      "tags":"conference proceedings",
+      "subTitle":"32nd Annual AIAA/USU Conference on Small Satellites, August 2018"
+    },
+    {
       "title":"Design of a CubeSat Ready Hyperspectral Camera",
       "img":"ATL_Symposium_Presentation.jpg",
       "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
