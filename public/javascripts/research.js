@@ -1,6 +1,7 @@
 var documents = [];
 
 $(document).ready(function(){
+
   //TODO: get rid of this and do it with ejs and express same for team
   $.getJSON("/json/research.json",function(data){
     for (var i = 0; i < data.research.length; i++) {
@@ -59,4 +60,21 @@ $(document).ready(function(){
       });
     }
   }
+
+  document.getElementById("filter-search").addEventListener("input",function(){
+    let val = document.getElementById("filter-select");
+    val = val.options[val.selectedIndex].value;
+    let filter = document.getElementById("filter-search").value.toUpperCase();
+    documents.forEach(function(d){
+      if (d.doc.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        d.doc.setAttribute("class", "document");
+        console.log("doc contains");
+      }else{
+        d.doc.setAttribute("class", "document-hidden");
+      }
+    });
+
+    //filterDocuments(val);
+  });
+
 });
