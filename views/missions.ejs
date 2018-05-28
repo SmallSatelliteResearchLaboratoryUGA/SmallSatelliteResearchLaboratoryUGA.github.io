@@ -17,6 +17,20 @@
       gtag('config', 'UA-109138593-1');
     </script>
 
+    <style media="screen">
+      #Short-img{
+        display: none;
+      }
+      @media only screen and (max-width: 699px) {
+        #Short-img{
+          display: block;
+        }
+        #Long-img{
+          display: none;
+        }
+      }
+    </style>
+
     <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css">
@@ -31,7 +45,8 @@
     <% include partials/nav %>
 
     <div class="container">
-      <img src="/images/logos/ssrl_logo_long.png" class="img-fluid" alt="Responsive image" style="margin-top:100px">
+      <img id="Long-img" src="/images/logos/ssrl_logo_long.png" class="img-fluid" alt="Responsive image" style="margin-top:100px">
+      <img id="Short-img" src="/images/logos/ssrl_logo_short.png" class="img-fluid" alt="Responsive image" style="margin-top:100px">
       <p style="margin-top:50px;margin-bottom:64px;">
         For the first time in history, the University of Georgia is going to space – and it’s the students who are taking us there! These students will make history for the university by providing it with its first ever spacecrafts, ground station, and space systems research lab. Our goal is to place UGA among the top space faring Universities in the world and to give UGA a permanent presence in outer space. We want to teach students how to build satellites and space ready payloads. UGA, and its students, are part of the modern space race that uses small satellites called CubeSats to perform ground breaking science and push the limits of our technological capabilities in outer space.  The project itself is student-built and student led. In conjunction with university professors and resources, students are building the first cube satellites to perform a adjustable multi spectral analysis and high performance computing in low earth orbit.
       </p>

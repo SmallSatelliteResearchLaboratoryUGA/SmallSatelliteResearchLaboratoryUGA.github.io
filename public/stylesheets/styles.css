@@ -84,6 +84,7 @@ nav{
 }
 .navbar-nav{
   right: 0px;
+  background: rgba(0, 0, 0, 0.9) !important;
 }
 .nav-item{
   padding: 4px 8px;
