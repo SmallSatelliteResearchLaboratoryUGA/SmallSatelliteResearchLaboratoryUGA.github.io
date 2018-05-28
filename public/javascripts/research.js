@@ -24,6 +24,7 @@ $(document).ready(function(){
     this.doc = document.createElement("div");
     let doca = document.createElement("a");
     let docInnerContainer = document.createElement("div");
+    let docAuthors = document.createElement("h5");
     let docTitle = document.createElement("h4");
     let docSubTitle = document.createElement("h5");
     let docImg = document.createElement("img");
@@ -33,6 +34,8 @@ $(document).ready(function(){
     doca.setAttribute("href", d.src);
     doca.setAttribute("target","_blank");
     docImg.setAttribute("src","/images/documents/thumbnails/"+d.img);
+    docAuthors.innerHTML = d.authors;
+    docAuthors.setAttribute("class","document-author");
     docTitle.innerHTML = d.title;
     docSubTitle.innerHTML = d.subTitle;
     docImgContainer.setAttribute("class", "img-container");
@@ -41,6 +44,7 @@ $(document).ready(function(){
     doca.appendChild(docInnerContainer);
     docImgContainer.appendChild(docImg);
     if(!(screen.width <= 699))docInnerContainer.appendChild(docImgContainer);
+    docInnerContainer.appendChild(docAuthors);
     docInnerContainer.appendChild(docTitle);
     docInnerContainer.appendChild(docSubTitle);
 

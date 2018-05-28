@@ -4,6 +4,7 @@
       "title":"A Near Real Time Space Based Computer Vision System for Accurate Terrain Mapping",
       "img":"ATL_Symposium_Presentation.jpg",
       "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
+      "authors":"Authors",
       "tags":"conference proceedings",
       "subTitle":"32nd Annual AIAA/USU Conference on Small Satellites, August 2018"
     },
@@ -12,6 +13,7 @@
       "img":"ATL_Symposium_Presentation.jpg",
       "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
       "tags":"presentation",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -19,6 +21,7 @@
       "img":"Sydney_Whilden_Cubesats_and_radiation_damage.jpg",
       "src":"/images/documents/posters/Sydney_Whilden_Cubesats_and_radiation_damage.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -26,6 +29,7 @@
       "img":"Self-Improving_Structure-from-Motion.jpg",
       "src":"/images/documents/posters/Self-Improving_Structure-from-Motion.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -33,6 +37,7 @@
       "img":"Feature_Matching_from_Orbiting_Vehicles.jpg",
       "src":"/images/documents/posters/Feature_Matching_from_Orbiting_Vehicles.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -40,6 +45,7 @@
       "img":"Graham_Symposium_on_Space_Innovations.jpg",
       "src":"/images/documents/posters/Graham_Symposium_on_Space_Innovations.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -47,6 +53,7 @@
       "img":"Casper_Versteeg_Poster.jpg",
       "src":"/images/documents/posters/Casper_Versteeg_Poster.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -54,6 +61,7 @@
       "img":"Adams,Caleb_Presentation.jpg",
       "src":"/images/documents/presentations/Adams,Caleb_Presentation.pdf",
       "tags":"presentation",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -61,6 +69,7 @@
       "img":"Symposium_for_Space_Innovations_Poster.jpg",
       "src":"/images/documents/posters/Symposium_for_Space_Innovations_Poster.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -68,6 +77,7 @@
       "img":"hollis_curo_poster.jpg",
       "src":"/images/documents/posters/hollis_curo_poster.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -75,6 +85,7 @@
       "img":"nirav_curo_poster.jpg",
       "src":"/images/documents/posters/nirav_curo_poster.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -82,6 +93,7 @@
       "img":"lab_ops_curo_poster.jpg",
       "src":"/images/documents/posters/lab_ops_curo_poster.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -89,6 +101,7 @@
       "img":"AGU2016-SPOC-final2.jpg",
       "src":"/images/documents/posters/AGU2016-SPOC-final2.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -96,6 +109,7 @@
       "img":"AGU2016-SSRL-final3.jpg",
       "src":"/images/documents/posters/AGU2016-SSRL-final3.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -103,6 +117,7 @@
       "img":"SymposiumPoster.jpg",
       "src":"/images/documents/SymposiumPoster.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -110,6 +125,7 @@
       "img":"2017-ASPRS-IGTF-1-STEMopprotunities-1.jpg",
       "src":"/images/documents/posters/2017-ASPRS-IGTF-1-STEMopprotunities.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -117,6 +133,7 @@
       "img":"2017-ASPRS-IGTF-2-PayloadDevelopment-1.jpg",
       "src":"/images/documents/posters/2017-ASPRS-IGTF-2-PayloadDevelopment.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -124,6 +141,7 @@
       "img":"KhoaNgoCURO2017-2.jpg",
       "src":"/images/documents/presentations/KhoaNgoCURO2017-2.pdf",
       "tags":"presentation",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -131,6 +149,7 @@
       "img":"Space_SFM-2017_CURO_Syposium.jpg",
       "src":"/images/documents/presentations/Space_SFM-2017_CURO_Syposium.pdf",
       "tags":"presentation",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -138,6 +157,7 @@
       "img":"StructuralAnalysisSPOC_r2.jpg",
       "src":"/images/documents/presentations/StructuralAnalysisSPOC_r2.pdf",
       "tags":"presentation",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -145,6 +165,7 @@
       "img":"UGAWorkshop2017CubeSatDeveloper.jpg",
       "src":"/images/documents/presentations/UGAWorkshop2017CubeSatDeveloper.pdf",
       "tags":"presentation",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -152,6 +173,7 @@
       "img":"Solid-State_Thermoelectric_Cooling_System.jpg",
       "src":"/images/documents/papers/Final_Draft_Three_Preliminary_Design_of_A_Solid_State_Thermoelectric_Cooling_System_for_Small_Satellites.pdf",
       "tags":"paper",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -159,6 +181,7 @@
       "img":"Structure_from_Motion_from_a_Constrained_Orbit.jpg",
       "src":"/images/documents/posters/Structure_from_Motion_from_a_Constrained_Orbit.pdf",
       "tags":"presentation",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -166,6 +189,7 @@
       "img":"Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.jpg",
       "src":"/images/documents/presentations/Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.pdf",
       "tags":"presentation",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -173,6 +197,7 @@
       "img":"SPOC_RIGHT.jpg",
       "src":"/images/documents/posters/SPOC_RIGHT.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -180,6 +205,7 @@
       "img":"SPOC_MIDDLE.jpg",
       "src":"/images/documents/posters/SPOC_MIDDLE.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -187,6 +213,7 @@
       "img":"SPOC_LEFT.jpg",
       "src":"/images/documents/posters/SPOC_LEFT.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -194,6 +221,7 @@
       "img":"MOCI_RIGHT.jpg",
       "src":"/images/documents/posters/MOCI_RIGHT.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -201,6 +229,7 @@
       "img":"MOCI_MIDDLE.jpg",
       "src":"/images/documents/posters/MOCI_MIDDLE.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -208,6 +237,7 @@
       "img":"MOCI_LEFT.jpg",
       "src":"/images/documents/posters/MOCI_LEFT.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -215,6 +245,7 @@
       "img":"LAB_STORY.jpg",
       "src":"/images/documents/posters/LAB_STORY.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -222,6 +253,7 @@
       "img":"Graham-Poster.jpg",
       "src":"/images/documents/posters/Graham-Poster.pdf",
       "tags":"poster",
+      "authors":"Authors",
       "subTitle":"location-date"
     },
     {
@@ -229,6 +261,7 @@
       "img":"Preliminary_Thermal_Analysis_of_Small_Satellites.jpg",
       "src":"/images/documents/papers/Preliminary_Thermal_Analysis_of_Small_Satellites.pdf",
       "tags":"paper",
+      "authors":"Authors",
       "subTitle":"Casper Versteeg and David L. Cotten, PhD"
     },
     {
@@ -236,6 +269,7 @@
       "img":"Thermal_Management_of_High_Heat_Small_Satellite_Payloads.jpg",
       "src":"/images/documents/papers/Thermal_Management_of_High_Heat_Small_Satellite_Payloads.pdf",
       "tags":"paper",
+      "authors":"Authors",
       "subTitle":"Casper Versteeg"
     }
   ]
