@@ -36,3 +36,10 @@
 .document-author{
   margin-bottom: 4px;
 }
+select{
+  background-color: white;
+  color: black;
+}
+select:after{
+  color: black;
+}
