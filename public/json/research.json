@@ -4,9 +4,25 @@
       "title":"A Near Real Time Space Based Computer Vision System for Accurate Terrain Mapping",
       "img":"ATL_Symposium_Presentation.jpg",
       "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
-      "authors":"Authors",
+      "authors":"Caleb Adams and David L. Cotten PhD",
       "tags":"conference proceedings",
       "subTitle":"32nd Annual AIAA/USU Conference on Small Satellites, August 2018"
+    },
+    {
+      "title":"Thermal Management and Design of High Heat Small Satellite Payloads",
+      "img":"ATL_Symposium_Presentation.jpg",
+      "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
+      "authors":"Casper Versteeg and David L. Cotten PhD",
+      "tags":"conference proceedings",
+      "subTitle":"32nd Annual AIAA/USU Conference on Small Satellites, August 2018"
+    },
+    {
+      "title":"Preliminary Thermal Analysis of Small Satellites",
+      "img":"ATL_Symposium_Presentation.jpg",
+      "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
+      "authors":"Casper Versteeg and David L. Cotten PhD",
+      "tags":"paper",
+      "subTitle":"IEEE Southeastcon '19, April 2018"
     },
     {
       "title":"Design of a CubeSat Ready Hyperspectral Camera",
