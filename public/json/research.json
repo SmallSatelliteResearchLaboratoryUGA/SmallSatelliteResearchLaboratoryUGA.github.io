@@ -10,19 +10,131 @@
     },
     {
       "title":"Thermal Management and Design of High Heat Small Satellite Payloads",
-      "img":"ATL_Symposium_Presentation.jpg",
-      "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
+      "img":"HighHeatTest.JPG",
+      "src":"/images/documents/papers/Versteeg_Thermal Management of High Heat Small Satellite Payloads.pdf",
       "authors":"Casper Versteeg and David L. Cotten PhD",
       "tags":"conference proceedings",
       "subTitle":"32nd Annual AIAA/USU Conference on Small Satellites, August 2018"
     },
     {
       "title":"Preliminary Thermal Analysis of Small Satellites",
-      "img":"ATL_Symposium_Presentation.jpg",
-      "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
+      "img":"Preliminary_Thermal_Analysis_of_Small_Satellites.jpg",
+      "src":"/images/documents/papers/Preliminary_Thermal_Analysis_of_Small_Satellites.pdf",
       "authors":"Casper Versteeg and David L. Cotten PhD",
       "tags":"paper",
       "subTitle":"IEEE Southeastcon '19, April 2018"
+    },
+    {
+      "title":"UGA Small Satellite Research Lab – Astrophysical Applications",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Nicholas Heavner and David L. Cotten PhD",
+      "subTitle":"2018 NASA Laboratory for Astrophysics Workshop, April 9th, 2018"
+    },
+    {
+      "title":"Cost Effective Thermal Vacuum Testing System",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Samuel Hendrix and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"Concept of Operations in Small Satellite Functionality",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Bjorn Leicher and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"Enhancement of Space-Borne Sensors through Adaptive Temperature Control and Thermoelectric Modules",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Graham Grable and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"Compression and Encryption Methods for Small Satellite Communications",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Ethan Barnes and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"How Beta Angle Determines CubeSat Mission Development",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Sydeny Whilden and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"Structural Analysis of Small Satellites",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Parker Ensing and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+   {
+      "title":"Antenna Theory and the University of Georgia's First Ground Station",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Paige Copenhaver and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"Pseudo Invariant and Coastal Target Feasibility",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Megan Arogeti and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"Structural-Thermal Optical Performance Analysis of Small Satellite Payloads",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Casper Versteeg and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+     {
+      "title":"Joule Heating Analysis of Spacecraft PCB's",
+      "img":"",
+      "src":"",
+      "tags":"presentation",
+      "authors":"Michael Buzzy and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+     {
+      "title":"UGA’s Leap to Space: Small Satellite Research Lab Testing",
+      "img":"",
+      "src":"",
+      "tags":"presentation",
+      "authors":"Nichlas Endler and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"Modeling the Attitude Determination and Control Subsystem (ADCS) on 3U CubeSat",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"Alexandria Lin and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"2017",
+      "img":"",
+      "src":"",
+      "tags":"poster",
+      "authors":"",
+      "subTitle":""
     },
     {
       "title":"Design of a CubeSat Ready Hyperspectral Camera",
@@ -271,22 +383,6 @@
       "tags":"poster",
       "authors":"Authors",
       "subTitle":"location-date"
-    },
-    {
-      "title":"Preliminary Thermal Analysis of Small Satellites",
-      "img":"Preliminary_Thermal_Analysis_of_Small_Satellites.jpg",
-      "src":"/images/documents/papers/Preliminary_Thermal_Analysis_of_Small_Satellites.pdf",
-      "tags":"paper",
-      "authors":"Authors",
-      "subTitle":"Casper Versteeg and David L. Cotten, PhD"
-    },
-    {
-      "title":"Thermal Management of High Heat Small Satellite Payloads",
-      "img":"Thermal_Management_of_High_Heat_Small_Satellite_Payloads.jpg",
-      "src":"/images/documents/papers/Thermal_Management_of_High_Heat_Small_Satellite_Payloads.pdf",
-      "tags":"paper",
-      "authors":"Authors",
-      "subTitle":"Casper Versteeg"
     }
   ]
 }
