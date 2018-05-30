@@ -22,20 +22,60 @@
       "src":"/images/documents/papers/Preliminary_Thermal_Analysis_of_Small_Satellites.pdf",
       "authors":"Casper Versteeg and David L. Cotten PhD",
       "tags":"paper",
-      "subTitle":"IEEE Southeastcon '19, April 2018"
+      "subTitle":"AIAA Region II Student Conference, April 5th 2018"
     },
     {
-      "title":"UGA Small Satellite Research Lab – Astrophysical Applications",
-      "img":"",
-      "src":"",
+      "title":"The Multi-view Onboard Computational Imager (MOCI) Mission: A 3U Sized Supercomputer Floating in Space",
+      "img":"Heavner-2018NASALAW-MOCI.JPG",
+      "src":"/images/documents/posters/NASALAW_Poster_Heavner.pdf",
       "tags":"poster",
       "authors":"Nicholas Heavner and David L. Cotten PhD",
       "subTitle":"2018 NASA Laboratory for Astrophysics Workshop, April 9th, 2018"
     },
     {
+      "title":"Pseudo Invariant and Coastal Target Feasibility",
+      "img":"Arogeti - 2018 CURO targets.JPG",
+      "src":"/images/documents/posters/Arogeti - 2018 CURO Poster.pdf",
+      "tags":"poster",
+      "authors":"Megan Arogeti and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"Compression and Encryption Methods for Small Satellite Communications",
+      "img":"Barnes-2018CURO-compression,JPG",
+      "src":"/images/documents/posters/Barnes - 2018 CURO_Poster.pdf",
+      "tags":"poster",
+      "authors":"Ethan Barnes and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"UGA’s Leap to Space: Small Satellite Research Lab Testing",
+      "img":"Endler-2018CURO-Tvac.JPG",
+      "src":"/images/documents/presentations/Endler - 2018 CURO Presentation.pdf",
+      "tags":"presentation",
+      "authors":"Nichlas Endler and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"Structural Analysis of Small Satellites SPectral Ocean Color (SPOC)",
+      "img":"Ensing-2018CURO-structure.JPG",
+      "src":"/images/documents/posters/Ensing- 2018 CURO Poster.pdf",
+      "tags":"poster",
+      "authors":"Parker Ensing and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
+      "title":"Enhancement of Space-Borne Sensors through Adaptive Temperature Control and Thermoelectric Modules",
+      "img":"Grable-2018 CURO-PID.JPG",
+      "src":"/images/documents/posters/Grable-2018 CURO Poster.pdf",
+      "tags":"poster",
+      "authors":"Graham Grable and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
+    },
+    {
       "title":"Cost Effective Thermal Vacuum Testing System",
-      "img":"",
-      "src":"",
+      "img":"Hendrix-2018CURO-Tvac.JPG",
+      "src":"/images/documents/posters/Hendrix - 2018 CURO Poster.pdf",
       "tags":"poster",
       "authors":"Samuel Hendrix and David L. Cotten PhD",
       "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
@@ -49,22 +89,6 @@
       "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
     },
     {
-      "title":"Enhancement of Space-Borne Sensors through Adaptive Temperature Control and Thermoelectric Modules",
-      "img":"",
-      "src":"",
-      "tags":"poster",
-      "authors":"Graham Grable and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
-    },
-    {
-      "title":"Compression and Encryption Methods for Small Satellite Communications",
-      "img":"",
-      "src":"",
-      "tags":"poster",
-      "authors":"Ethan Barnes and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
-    },
-    {
       "title":"How Beta Angle Determines CubeSat Mission Development",
       "img":"",
       "src":"",
@@ -73,27 +97,11 @@
       "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
     },
     {
-      "title":"Structural Analysis of Small Satellites",
-      "img":"",
-      "src":"",
-      "tags":"poster",
-      "authors":"Parker Ensing and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
-    },
-   {
       "title":"Antenna Theory and the University of Georgia's First Ground Station",
       "img":"",
       "src":"",
       "tags":"poster",
       "authors":"Paige Copenhaver and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
-    },
-    {
-      "title":"Pseudo Invariant and Coastal Target Feasibility",
-      "img":"",
-      "src":"",
-      "tags":"poster",
-      "authors":"Megan Arogeti and David L. Cotten PhD",
       "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
     },
     {
@@ -110,14 +118,6 @@
       "src":"",
       "tags":"presentation",
       "authors":"Michael Buzzy and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
-    },
-     {
-      "title":"UGA’s Leap to Space: Small Satellite Research Lab Testing",
-      "img":"",
-      "src":"",
-      "tags":"presentation",
-      "authors":"Nichlas Endler and David L. Cotten PhD",
       "subTitle":"UGA Center for Undergraduate Research Symposium, April 9th, 2018"
     },
     {
