@@ -49,6 +49,7 @@ $(document).ready(function(){
     docInnerContainer.appendChild(docSubTitle);
 
   }
+
   function filterDocuments(type){
     if(type == "all"){
       documents.forEach(function(d){
