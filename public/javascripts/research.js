@@ -37,7 +37,7 @@ $(document).ready(function(){
     docAuthors.innerHTML = d.authors;
     docAuthors.setAttribute("class","document-author");
     docTitle.innerHTML = d.title;
-    docSubTitle.innerHTML = d.subTitle;
+    docSubTitle.innerHTML = d.subTitle + ", " + d.date;
     docImgContainer.setAttribute("class", "img-container");
 
     this.doc.appendChild(doca);
