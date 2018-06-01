@@ -173,7 +173,7 @@
     },
     {
       "title":"Design of a CubeSat Ready Hyperspectral Camera",
-      "img":"Hevert-2017SPOC.JPG",
+      "img":"2017Hevert.JPG",
       "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
       "tags":"presentation",
       "authors":"Matthew Hevert",
@@ -202,7 +202,7 @@
       "title":"Thermal and Structural Simulations of Small Satellite Systems",
       "img":"Casper_Versteeg_Poster.jpg",
       "src":"/images/documents/posters/Casper_Versteeg_Poster.pdf",
-      "tags":"conference proceedings",
+      "tags":"poster",
       "authors":"Casper Versteeg, David L. Cotten PdD., and Deepak Mishra PhD",
       "subTitle":" Symposium on Space Innovation, Atlanta, GA",
       "date":"18 October 2017"
@@ -214,7 +214,7 @@
       "tags":"poster",
       "authors":"Sydney Whilden, David L. Cotten PhD., and Deepak Mishra PhD",
       "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"19 October 2017"
+      "date":"18 October 2017"
     },
     {
       "title":"Final Results of a Solid-State Cooling Mechanism",
@@ -226,58 +226,76 @@
       "date":"August 2017"
     },
     {
-      "title":"Implementation of Structure from Motion from a Cube Satellite in Low Earth Orbit",
-      "img":"hollis_curo_poster.jpg",
-      "src":"/images/documents/posters/hollis_curo_poster.pdf",
-      "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
+      "title":"Feasability of Structure from motion over planetary bodies",
+      "img":"Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.jpg",
+      "src":"/images/documents/presentations/Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.pdf",
+      "tags":"presentation",
+      "authors":"Caleb Adams, David L. Cotten PhD, Deepak Mishra PhD, and Nicholas (Hollis) Neel",
+      "subTitle":"31st Annual AIAA/USU Conference on Small Satellites",
+      "date":"August 2017"
     },
     {
-      "title":"Accuracy of Dense Point Clouds Given Varying Image Quality",
-      "img":"nirav_curo_poster.jpg",
-      "src":"/images/documents/posters/nirav_curo_poster.pdf",
-      "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
+      "title":"Structure from Motion from a Constrained Orbiting Platform",
+      "img":"Structure_from_Motion_from_a_Constrained_Orbit.jpg",
+      "src":"/images/documents/posters/Structure_from_Motion_from_a_Constrained_Orbit.pdf",
+      "tags":"presentation",
+      "authors":"Caleb Adams, David L. Cotten PhD, Deepak Mishra PhD, and Nicholas (Hollis) Neel",
+      "subTitle":"International Space Station R&D Conference, Washington D.C.",
+      "date":"July 2017"
+    },
+    {
+      "title":"The Feasibility of Structure from Motion over Planetary Bodies with Small Satellite Systems",
+      "img":"Space_SFM-2017_CURO_Syposium.jpg",
+      "src":"/images/documents/presentations/Space_SFM-2017_CURO_Syposium.pdf",
+      "tags":"presentation",
+      "authors":"Caleb Adams, David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium",
+      "date":"April 3, 2017"
+    },
+    {
+      "title":"Structural Design and Optimization of SPOC Satellite",
+      "img":"StructuralAnalysisSPOC_r2.jpg",
+      "src":"/images/documents/presentations/StructuralAnalysisSPOC_r2.pdf",
+      "tags":"presentation",
+      "authors":"Graham Grable, Megan LeCorre, and David L Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium",
+      "date":"April 3, 2017"
     },
     {
       "title":"Laboratory Operations Support for Small Satellite Research Laboratory",
       "img":"lab_ops_curo_poster.jpg",
       "src":"/images/documents/posters/lab_ops_curo_poster.pdf",
       "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
+      "authors":"Paul Hwang, James Roachand Marguerite Madden PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium",
+      "date":"April 3, 2017"
     },
     {
-      "title":"AGU Spoc Poster",
-      "img":"AGU2016-SPOC-final2.jpg",
-      "src":"/images/documents/posters/AGU2016-SPOC-final2.pdf",
+      "title":"Accuracy of Dense Point Clouds Given Varying Image Quality",
+      "img":"nirav_curo_poster.jpg",
+      "src":"/images/documents/posters/nirav_curo_poster.pdf",
       "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
+      "authors":"Nirav Ilango, David L. Cotten PhD, Caleb Adams, Nicholas (Hollis) Neel, Marguerite Madden PhD, Deepak Mishra PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium",
+      "date":"April 3, 2017"
     },
     {
-      "title":"AGU SSRL Poster",
-      "img":"AGU2016-SSRL-final3.jpg",
-      "src":"/images/documents/posters/AGU2016-SSRL-final3.pdf",
+      "title":"Implementation of Structure from Motion from a Cube Satellite in Low Earth Orbit",
+      "img":"hollis_curo_poster.jpg",
+      "src":"/images/documents/posters/hollis_curo_poster.pdf",
       "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
+      "authors":"Nicholas (Hollis) Neel and Marguerite Madden PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium",
+      "date":"April 3, 2017"
     },
     {
-      "title":"Feasibility of Structure from Motion over Planetary Bodies using Small Satellites",
-      "img":"SymposiumPoster.jpg",
-      "src":"/images/documents/SymposiumPoster.pdf",
-      "tags":"poster",
-      "authors":"Caleb Adams, David L. Cotten PhD., Nicholas (Hollis) Neel, Nirav Illango, Graham Grable, and Deepak Mishra PhD",
-      "subTitle":"Georgia Scientific Computing Symposium, Athens,GA",
-      "date":"2017"
+      "title":"Simulation of Small Satellite Photovoltaic Power Generation Systems",
+      "img":"KhoaNgoCURO2017-2.jpg",
+      "src":"/images/documents/presentations/KhoaNgoCURO2017-2.pdf",
+      "tags":"presentation",
+      "authors":"Khoa Ngo and David L Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium",
+      "date":"April 3, 2017"
     },
     {
       "title":"STEM Opportunities for Undergraduates Building Nanosatellites: the NASA CubeSat Program Georgia",
@@ -298,31 +316,31 @@
       "date":"14 March 2017"
     },
     {
-      "title":"Simulation of Small Satellite Photovoltaic Power Generation Systems",
-      "img":"KhoaNgoCURO2017-2.jpg",
-      "src":"/images/documents/presentations/KhoaNgoCURO2017-2.pdf",
-      "tags":"presentation",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
+      "title":"Feasibility of Structure from Motion over Planetary Bodies using Small Satellites",
+      "img":"SymposiumPoster.jpg",
+      "src":"/images/documents/posters/2017-GeorgiaScientificComputingSymposium final.pdf",
+      "tags":"poster",
+      "authors":"Caleb Adams, David L. Cotten PhD., Nicholas (Hollis) Neel, Nirav Illango, Graham Grable, and Deepak Mishra PhD",
+      "subTitle":"Georgia Scientific Computing Symposium, Athens, GA",
+      "date":"February 25, 2017"
     },
     {
-      "title":"The Feasibility of Structure from Motion over Planetary Bodies with Small Satellite Systems",
-      "img":"Space_SFM-2017_CURO_Syposium.jpg",
-      "src":"/images/documents/presentations/Space_SFM-2017_CURO_Syposium.pdf",
-      "tags":"presentation",
-      "authors":"Caleb Adams, David L. Cotten PhD., Nicholas (Hollis) Neel, Nirav Illango, Graham Grable, and Mishra PhD Deepak",
-      "subTitle":"Georgia Scientific Computing Symposium, Athens, GA, 2017",
-      "date":" "
+      "title":"The SPectral Ocean Color (SPOC) Small Satellite Mission: From Payload to Ground Station Development and Everything in Between",
+      "img":"AGU2016-SPOC-final2.jpg",
+      "src":"/images/documents/posters/AGU2016-SPOC-final2.pdf",
+      "tags":"poster",
+      "authors":"David L. Cotten, Sergio Bernardes, Deepak Mishra, Caleb Adams, Hollis Neel, Khoa Ngo, Megan LeCorre, Paige Copenhaver, Nirav Ilango, Adam King, Graham Grable, Paul Hwang",
+      "subTitle":"AGU Meeting Fall Meeting, San Francisco, CA",
+      "date":"December 12-16, 2016"
     },
     {
-      "title":"Structural Design and Optimization of SPOC Satellite",
-      "img":"StructuralAnalysisSPOC_r2.jpg",
-      "src":"/images/documents/presentations/StructuralAnalysisSPOC_r2.pdf",
-      "tags":"presentation",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
+      "title":"Enhancing STEM Education through CubeSats:Using Satellite Integration as a Teaching Tool at a Non-Tech School",
+      "img":"AGU2016-SSRL-final3.jpg",
+      "src":"/images/documents/posters/AGU2016-SSRL-final3.pdf",
+      "tags":"poster",
+      "authors":"David L. Cotten, Sergio Bernardes, Deepak Mishra, Caleb Adams, Hollis Neel, Khoa Ngo, Megan LeCorre, Paige Copenhaver, Nirav Ilango, Adam King, Graham Grable, Paul Hwang",
+      "subTitle":"AGU Meeting Fall Meeting, San Francisco, CA",
+      "date":"December 12-16, 2016"
     },
     {
       "title":"Spectral Ocean Color Satellite 2017 Cubesat Developers Conference Presentation",
@@ -338,24 +356,6 @@
       "img":"Solid-State_Thermoelectric_Cooling_System.jpg",
       "src":"/images/documents/papers/Final_Draft_Three_Preliminary_Design_of_A_Solid_State_Thermoelectric_Cooling_System_for_Small_Satellites.pdf",
       "tags":"paper",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
-    },
-    {
-      "title":"Structure from Motion from a Constrained Orbiting Platform",
-      "img":"Structure_from_Motion_from_a_Constrained_Orbit.jpg",
-      "src":"/images/documents/posters/Structure_from_Motion_from_a_Constrained_Orbit.pdf",
-      "tags":"presentation",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
-    },
-    {
-      "title":"Feasability of Structure from motion over planetary bodies",
-      "img":"Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.jpg",
-      "src":"/images/documents/presentations/Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.pdf",
-      "tags":"presentation",
       "authors":"Authors",
       "subTitle":"location-date",
       "date":" "
