@@ -145,21 +145,12 @@
       "date":"April 9th, 2018"
     },
     {
-      "title":"Design of a CubeSat Ready Hyperspectral Camera",
-      "img":"ATL_Symposium_Presentation.jpg",
-      "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
+      "title":"Batch Analytical Comparisons",
+      "img":"Adams,Caleb_Presentation.jpg",
+      "src":"/images/documents/presentations/Adams,Caleb_Presentation.pdf",
       "tags":"presentation",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
-    },
-    {
-      "title":"CubeSats and Radiation Damage",
-      "img":"Sydney_Whilden_Cubesats_and_radiation_damage.jpg",
-      "src":"/images/documents/posters/Sydney_Whilden_Cubesats_and_radiation_damage.pdf",
-      "tags":"poster",
-      "authors":"Sydney Whilden, David L. Cotten PhD., and Deepak Mishra PhD",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "authors":"Caleb Adams, Nicholas (Hollis) Neel, and David L. Cotten PhD",
+      "subTitle":" Symposium on Space Innovation, Atlanta, GA",
       "date":"19 October 2017"
     },
     {
@@ -168,15 +159,6 @@
       "src":"/images/documents/posters/Self-Improving_Structure-from-Motion.pdf",
       "tags":"poster",
       "authors":"Jacob Conley and David L. Cotten PhD",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"18 October 2017"
-    },
-    {
-      "title":"Feature Matching from Orbiting Vehicles",
-      "img":"Feature_Matching_from_Orbiting_Vehicles.jpg",
-      "src":"/images/documents/posters/Feature_Matching_from_Orbiting_Vehicles.pdf",
-      "tags":"poster",
-      "authors":"Nicholas (Hollis) Neel, Caleb Adams, and David L. Cotten PhD",
       "subTitle":"Symposium on Space Innovation, Atlanta, GA",
       "date":"18 October 2017"
     },
@@ -190,21 +172,12 @@
       "date":"18 October 2017"
     },
     {
-      "title":"Thermal and Structural Simulations of Small Satellite Systems",
-      "img":"Casper_Versteeg_Poster.jpg",
-      "src":"/images/documents/posters/Casper_Versteeg_Poster.pdf",
-      "tags":"conference proceedings",
-      "authors":"Casper Versteeg, David L. Cotten PdD., and Deepak Mishra PhD",
-      "subTitle": "32nd Annual AIAA/USU Conference on Small Satellites",
-      "date":"18 October 2017"
-    },
-    {
-      "title":"Batch Analytical Comparisons",
-      "img":"Adams,Caleb_Presentation.jpg",
-      "src":"/images/documents/presentations/Adams,Caleb_Presentation.pdf",
+      "title":"Design of a CubeSat Ready Hyperspectral Camera",
+      "img":"Hevert-2017SPOC.JPG",
+      "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
       "tags":"presentation",
-      "authors":"Caleb Adams, Nicholas (Hollis) Neel, and David L. Cotten PhD",
-      "subTitle":" Symposium on Space Innovation, Atlanta, GA",
+      "authors":"Matthew Hevert",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
       "date":"19 October 2017"
     },
     {
@@ -217,12 +190,39 @@
       "date":"18 October 2017"
     },
     {
+      "title":"Feature Matching from Orbiting Vehicles",
+      "img":"Feature_Matching_from_Orbiting_Vehicles.jpg",
+      "src":"/images/documents/posters/Feature_Matching_from_Orbiting_Vehicles.pdf",
+      "tags":"poster",
+      "authors":"Nicholas (Hollis) Neel, Caleb Adams, and David L. Cotten PhD",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"18 October 2017"
+    },
+    {
+      "title":"Thermal and Structural Simulations of Small Satellite Systems",
+      "img":"Casper_Versteeg_Poster.jpg",
+      "src":"/images/documents/posters/Casper_Versteeg_Poster.pdf",
+      "tags":"conference proceedings",
+      "authors":"Casper Versteeg, David L. Cotten PdD., and Deepak Mishra PhD",
+      "subTitle":" Symposium on Space Innovation, Atlanta, GA",
+      "date":"18 October 2017"
+    },
+    {
+      "title":"CubeSats and Radiation Damage",
+      "img":"Sydney_Whilden_Cubesats_and_radiation_damage.jpg",
+      "src":"/images/documents/posters/Sydney_Whilden_Cubesats_and_radiation_damage.pdf",
+      "tags":"poster",
+      "authors":"Sydney Whilden, David L. Cotten PhD., and Deepak Mishra PhD",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"19 October 2017"
+    },
+    {
       "title":"Final Results of a Solid-State Cooling Mechanism",
       "img":"Graham-Poster.jpg",
       "src":"/images/documents/posters/Graham-Poster.pdf",
       "tags":"poster",
-      "authors":"Graham Grable and David L. Cotten",
-      "subTitle":"Small Satellite Conference, Logan Utah",
+      "authors":"Graham Grable and David L. Cotten PhD",
+      "subTitle":"31st Annual AIAA/USU Conference on Small Satellites",
       "date":"August 2017"
     },
     {
