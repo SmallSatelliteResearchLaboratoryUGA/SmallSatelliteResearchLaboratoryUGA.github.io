@@ -54,6 +54,15 @@
       "subTitle":"UGA Center for Undergraduate Research Symposium",
       "date":"April 9th, 2018"
     },
+     {
+      "title":"Joule Heating Analysis of Spacecraft PCB's",
+      "img":"Buzzy2018-CORGI.JPG",
+      "src":"",
+      "tags":"presentation",
+      "authors":"Michael Buzzy and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium",
+      "date":"April 9th, 2018"
+    },
     {
       "title":"UGA’s Leap to Space: Small Satellite Research Lab Testing",
       "img":"Endler-2018CURO-Tvac.jpg",
@@ -91,6 +100,15 @@
       "date":"April 9th, 2018"
     },
     {
+      "title":"Modeling the Attitude Determination and Control Subsystem (ADCS) on 3U CubeSat",
+      "img":"Lin-2018CURO-ADCS.JPG",
+      "src":"/images/documents/posters/Lin-2018CURO.pdf",
+      "tags":"poster",
+      "authors":"Casper Versteeg, Alexandria Lin, and David L. Cotten PhD",
+      "subTitle":"UGA Center for Undergraduate Research Symposium",
+      "date":"April 9th, 2018"
+    },
+    {
       "title":"Concept of Operations in Small Satellite Functionality",
       "img":"Leicher-conops.JPG",
       "src":"/images/documents/posters/Leicher-2018_CURO_Poster.pdf",
@@ -123,33 +141,6 @@
       "src":"/images/documents/posters/Versteeg-2018_CURO_Poster.pdf",
       "tags":"poster",
       "authors":"Casper Versteeg and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018"
-    },
-     {
-      "title":"Joule Heating Analysis of Spacecraft PCB's",
-      "img":"",
-      "src":"",
-      "tags":"presentation",
-      "authors":"Michael Buzzy and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018"
-    },
-    {
-      "title":"UGA’s Leap to Space: Small Satellite Research Lab Testing",
-      "img":"",
-      "src":"",
-      "tags":"presentation",
-      "authors":"Nichlas Endler and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018"
-    },
-    {
-      "title":"Modeling the Attitude Determination and Control Subsystem (ADCS) on 3U CubeSat",
-      "img":"",
-      "src":"",
-      "tags":"poster",
-      "authors":"Alexandria Lin and David L. Cotten PhD",
       "subTitle":"UGA Center for Undergraduate Research Symposium",
       "date":"April 9th, 2018"
     },
