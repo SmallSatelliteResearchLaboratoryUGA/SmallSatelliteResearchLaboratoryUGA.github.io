@@ -244,6 +244,24 @@
       "date":"July 2017"
     },
     {
+      "title":"Spectral Ocean Color Satellite ",
+      "img":"UGAWorkshop2017CubeSatDeveloper.jpg",
+      "src":"/images/documents/presentations/UGAWorkshop2017CubeSatDeveloper.pdf",
+      "tags":"presentation",
+      "authors":"David L. Cotten PhD, Caleb Adams, Deepak Mishra PhD, Nicholas (Hollis) Neel, Graham Grable, and Khoa Ngo",
+      "subTitle":"CubeSat Developers Workshop, San Luis Obispo, CA",
+      "date":"April 26, 2017 "
+    },
+    {
+      "title":"Preliminary Design of a Solid-State Thermoelectric Cooling System for Small Satellite Sensors",
+      "img":"Solid-State_Thermoelectric_Cooling_System.jpg",
+      "src":"/images/documents/papers/Final_Draft_Three_Preliminary_Design_of_A_Solid_State_Thermoelectric_Cooling_System_for_Small_Satellites.pdf",
+      "tags":"paper",
+      "authors":"Graham Grable, Khoa Ngo, Megan LeCorre, Paul Keith, Ramana Pidaparti",
+       "subTitle":"AIAA Region II Student Conference",
+      "date":"April 2017"
+    },
+    {
       "title":"The Feasibility of Structure from Motion over Planetary Bodies with Small Satellite Systems",
       "img":"Space_SFM-2017_CURO_Syposium.jpg",
       "src":"/images/documents/presentations/Space_SFM-2017_CURO_Syposium.pdf",
@@ -341,24 +359,6 @@
       "authors":"David L. Cotten, Sergio Bernardes, Deepak Mishra, Caleb Adams, Hollis Neel, Khoa Ngo, Megan LeCorre, Paige Copenhaver, Nirav Ilango, Adam King, Graham Grable, Paul Hwang",
       "subTitle":"AGU Meeting Fall Meeting, San Francisco, CA",
       "date":"December 12-16, 2016"
-    },
-    {
-      "title":"Spectral Ocean Color Satellite 2017 Cubesat Developers Conference Presentation",
-      "img":"UGAWorkshop2017CubeSatDeveloper.jpg",
-      "src":"/images/documents/presentations/UGAWorkshop2017CubeSatDeveloper.pdf",
-      "tags":"presentation",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
-    },
-    {
-      "title":"Preliminary Design of a Solid-State Thermoelectric Cooling System for Small Satellite Sensors",
-      "img":"Solid-State_Thermoelectric_Cooling_System.jpg",
-      "src":"/images/documents/papers/Final_Draft_Three_Preliminary_Design_of_A_Solid_State_Thermoelectric_Cooling_System_for_Small_Satellites.pdf",
-      "tags":"paper",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" "
     },
     {
       "title":"SPOC Payload",
