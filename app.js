@@ -54,7 +54,9 @@ app.get('/missions', function (req, res) {
 app.get('/apply', function (req, res) {
   res.redirect('https://piepieninja.typeform.com/to/Qp0m51');
 })
-
+app.get('/partners', function (req, res) {
+  res.render('partners');
+})
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
