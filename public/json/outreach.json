@@ -1,11 +1,11 @@
 {
   "events":[
     {
-      "title":"title",
-      "date":"soon",
-      "location":"near",
+      "title":"Space Electronics",
+      "date":"MAy 6th 2018",
+      "location":"Cheatham Hill Elemetary school",
       "img":"/images/SSRLProfiles/default.png",
-      "description":"this is an event description"
+      "description":"30 students: Used NASA edu resources to make simple rockets. And built DIY hexbugs from cell phone motors. "
     },
     {
       "title":"Title",
