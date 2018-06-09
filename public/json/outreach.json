@@ -1,0 +1,18 @@
+{
+  "events":[
+    {
+      "title":"title",
+      "date":"soon",
+      "location":"near",
+      "img":"/images/SSRLProfiles/default.png",
+      "description":"this is an event description"
+    },
+    {
+      "title":"Title",
+      "date":"3/1/2018",
+      "location":"Cedar Shoals High Schoo",
+      "img":"/images/SSRLProfiles/default.png",
+      "description":"The Satellite Lab participated in the \"Experience UGA Science Learning Fair \", which had approx. 200 9th grade attendees. We setup a booth with a grade level appropriate booth about various space-related topics and developments in the lab."
+    }
+  ]
+}
