@@ -2,17 +2,31 @@
   "events":[
     {
       "title":"Space Electronics",
-      "date":"MAy 6th 2018",
+      "date":"May 6th 2018",
       "location":"Cheatham Hill Elemetary school",
       "img":"/images/SSRLProfiles/default.png",
-      "description":"30 students: Used NASA edu resources to make simple rockets. And built DIY hexbugs from cell phone motors. "
+      "description":"30 5th grade students: Used NASA edu resources to make simple rockets. And built DIY hexbugs from cell phone motors. "
     },
     {
-      "title":"Title",
-      "date":"3/1/2018",
-      "location":"Cedar Shoals High Schoo",
+      "title":"Experience UGA Science Learning Fair",
+      "date":"March 1st 2018",
+      "location":"UGA",
       "img":"/images/SSRLProfiles/default.png",
-      "description":"The Satellite Lab participated in the \"Experience UGA Science Learning Fair \", which had approx. 200 9th grade attendees. We setup a booth with a grade level appropriate booth about various space-related topics and developments in the lab."
+      "description":"200 9th grade students: The SSRL participated in the \"Experience UGA Science Learning Fair \", which had attendees from Cedar Shoals High School. We setup a booth with a grade level appropriate booth about various space-related topics and developments in the lab."
+    },
+    {
+      "title":"CubeSats",
+      "date":"Janary 31st 2018",
+      "location":"SSRL",
+      "img":"/images/SSRLProfiles/default.png",
+      "description":"14 Students from Athens Montesorri came to the to get a tour and participate in technical demos of the satellite hardware."
+    },
+    {
+      "title":"CubeSats and Keplers Laws",
+      "date":"November 7th, 2017",
+      "location":"Cedar Shoals High School",
+      "img":"/images/SSRLProfiles/default.png",
+      "description":"28 11th grade students. SSRL team members Paige Copenhaver, Godfrey Hendrix, and Byron Williams taught Kepler's Laws and Orbital Mechanics for the Advanced Physics Class at Cedar Shoals High School."
     }
   ]
 }
