@@ -10,13 +10,13 @@ $(document).ready(function(){
       documents.push(r);
       //createResearch(data.research[i]);
       $("#container-documents").append(documents[i].doc);
-      console.log("appended");
+      //console.log("appended");
     }
   });
   document.getElementById("filter-select").onchange = function(){
     var val = document.getElementById("filter-select");
     val = val.options[val.selectedIndex].value;
-    filterDocuments(val);
+    filterDocuments();
   };
 
   function createResearch(d){
@@ -48,38 +48,85 @@ $(document).ready(function(){
     docInnerContainer.appendChild(docTitle);
     docInnerContainer.appendChild(docSubTitle);
 
+    this.hidden = false;
+
+    //functions
+    this.show = function(b){
+      if(b){
+        this.doc.setAttribute("class","document");
+        this.hidden = false;
+      }else{
+        this.doc.setAttribute("class","document-hidden");
+        this.hidden = true;
+      }
+    };
+
   }
 
-  function filterDocuments(type){
+  // TODO: re filter with keyword after changin tags
+  //filter by tag
+  function filterDocuments(){
+
+    //filter tags
+    let tagged = [];
+
+    var type = document.getElementById("filter-select");
+    type = type.options[type.selectedIndex].value;
+
     if(type == "all"){
       documents.forEach(function(d){
-        d.doc.setAttribute("class", "document");
+        //d.show(true);
+        tagged.push(d);
       });
     }else {
       documents.forEach(function(d){
         if (d.tags.includes(type)) {
-          d.doc.setAttribute("class", "document");
+          //d.show(true);
+          tagged.push(d);
         }else{
-          d.doc.setAttribute("class", "document-hidden");
+          d.show(false);
         }
       });
     }
+
+    //filter key
+    let val = document.getElementById("filter-select");
+    val = val.options[val.selectedIndex].value;
+    let filter = document.getElementById("filter-search").value.toUpperCase();
+    tagged.forEach(function(d){
+      if (d.doc.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        d.show(true);
+        console.log("doc contains");
+      }else{
+        d.show(false);
+      }
+    });
+
   }
 
-  document.getElementById("filter-search").addEventListener("input",function(){
+  function updateKey(){
     let val = document.getElementById("filter-select");
     val = val.options[val.selectedIndex].value;
     let filter = document.getElementById("filter-search").value.toUpperCase();
     documents.forEach(function(d){
       if (d.doc.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        d.doc.setAttribute("class", "document");
+        d.show(true);
         console.log("doc contains");
       }else{
-        d.doc.setAttribute("class", "document-hidden");
+        d.show(false);
       }
     });
+    console.log("update");
+  }
 
-    //filterDocuments(val);
+  document.getElementById("filter-search").addEventListener("input",function(){
+    filterDocuments();
   });
 
-});
+  function showAll(){
+    documents.forEach(function(d){
+      d.show(true);
+    });
+  }
+    //filterDocuments(val);
+  });
