@@ -27,7 +27,8 @@ function createEvent(eventObject){
   img.setAttribute("src",e.img);
   title.innerHTML = e.title;
   description.innerHTML = e.description;
-  subTitle.innerHTML = '<p class="sub-title">Date: </p> <p class="sub">' + e.date + '</p> <p class="sub-title">location: </p> <p class="sub">' + e.location + '</p>';
+  subTitle.innerHTML = '<p class="sub-title">Date: </p> <p class="sub">' + e.date + '</p> <p class="sub-title">location: </p> <p class="sub">' + e.location +
+    '</p> <p class="sub-title">age: </p> <p class="sub">' + e.age + '</p> <p class="sub-title">number of students: </p> <p class="sub">' + e.studentAmount + '</p>';
   //put things together
   container.appendChild(rule);
   container.appendChild(title);

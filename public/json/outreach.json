@@ -4,6 +4,8 @@
       "title":"Space Electronics",
       "date":"May 6th 2018",
       "location":"Cheatham Hill Elemetary school",
+      "age":"",
+      "studentAmount":"",
       "img":"images/documents/thumbnails/Cheatham20181.JPG",
       "description":"30 5th grade students: Caleb Adams and Nicholas Heavner designed and interactive lab to teach students how to make motors, electronics, and simple rockets. They built DIY hexbugs from cell phone motors and baic rockets using NASA.edu materials. "
     },
@@ -11,6 +13,8 @@
       "title":"Experience UGA Science Learning Fair",
       "date":"March 1st 2018",
       "location":"UGA",
+      "age":"",
+      "studentAmount":"",
       "img":"/images/SSRLProfiles/default.png",
       "description":"200 9th grade students: The SSRL participated in the \"Experience UGA Science Learning Fair \", which had attendees from Cedar Shoals High School. We setup a booth with a grade level appropriate booth about various space-related topics and developments in the lab."
     },
@@ -18,6 +22,8 @@
       "title":"CubeSats and Keplers Laws",
       "date":"November 7th, 2017",
       "location":"Cedar Shoals High School",
+      "age":"",
+      "studentAmount":"",
       "img":"images/documents/thumbnails/CedarShoals-2017.JPG",
       "description":"28 11th grade students. SSRL team members Paige Copenhaver, Godfrey Hendrix, and Byron Williams taught Kepler's Laws and Orbital Mechanics for the Advanced Physics Class at Cedar Shoals High School."
     },
@@ -25,6 +31,8 @@
       "title":"Women in Technology Workshop",
       "date":"May 25th, 2017",
       "location":"SSRL",
+      "age":"",
+      "studentAmount":"",
       "img":"images/documents/thumbnails/Women-in-tech-20174.jpg",
       "description":"15 8th grade students: The Small Satellite Research Laboratory hosted 16 eighth grade females from Madison County Middle School where they learned about CubeSats, soft circuits, 3D printing, and how to program micro controllers. Participants built their own 1U cardboard CubeSat’s using materials acquired from NASA and they learned about other small satellites, the two missions at UGA, and the capabilities of the lab. During their tour of the lab the students were able to see our 3D printers in action, learn how they work, and got to take home one of the 3D printed objects. Students also learned about basic circuits and the emerging world of soft circuits. They designed and created bracelets that illuminated when attached to their wrists, allowing them to create their own personal designs while having to correctly sew/connect the different components of the circuit. The other project utilized LilyPad Arduino development boards, where they learned how to write code for the Arduino microprocessor. They programed the boards to play music, vibrate, make different LEDs flash, and even detect temperature. The students learned how to alter the programming of the Arduino so they could create their own projects after the workshop was completed.."
     },
@@ -32,6 +40,8 @@
       "title":"Morgan County Tour",
       "date":"Feburary 17th, 2017",
       "location":"SSRL",
+      "age":"",
+      "studentAmount":"",
       "img":"images/documents/thumbnails/Morgan-County-2017.jpg",
       "description":"45 11th and 12th grade students: The UGA Small Sat Lab hosted 3 groups of 15 students in the lab showing them the satellte design and integration process. They were given brief overviews of 3d printing, satellite stack design, proper electrostatic dischage procedures, software designed radio, and vacuum chambers.The high schoolers interacted with the lab students by asking questions and looking at models.."
     },
@@ -39,6 +49,8 @@
       "title":"NSF LISELL-B Family Day",
       "date":"October 8th 2016",
       "location":"The Univeristy of Georgia",
+      "age":"",
+      "studentAmount":"",
       "img":"images/documents/thumbnails/NSF-Family.JPG",
       "description":"200 kids and adults: The UGA Small Satellite Research Laboratory hosted 3, 50 mintute workshops for the NSF Lisell-B family science day reaching iver 100 students. Megan Le Corre, Graham Grable, Adam king, and Godfrey Hendricks discussed space based science with parents and kids of all ages. The discused electronics involved in building satellities, capabilities of science that can be done from space and had demos the familys could interact with: 3-D printer, Arduino, Kerbal Space Program, and a model 3U CubeSat. For the 3-D printing demonstration, the students were shown in the lab how our 3-D printer operates. The Arduino station showed them how to code a sensor to put out a pitch that varies with distance and vary and LED's output. The Kerbal Space Program station taught the students the basics of rocket design and orbital mechanics."
     },
@@ -46,6 +58,8 @@
       "title":"CubeSats and Keplers Laws",
       "date":"September 23rd, 2016",
       "location":"Cedar Shoals High School",
+      "age":"",
+      "studentAmount":"",
       "img":"images/documents/thumbnails/CedarShoals-2016.jpeg",
       "description":"27 11th grade students. SSSRL team members Megan Le Corre, Paige Copenhaver, and Graham Grable taught Kepler's Laws and Orbital Mechanics for the Advanced Physics Class at Cedar Shoals High School. 'Thank you so much for doing a presentation in my class on Keplers Laws and Orbital Mechanics. I dont know if you will ever know the deep impact you had on my students. You dispelled a lot of false beliefs about becoming a physics major and increased the possiblities of entertaining a major or a minor in physics; and also, career opportunities in the field. All my kids loved the lab that you brought and I learned a lot as well. I hope we can keep doing this every year. This is the best thing I could have ever doing for my kids. I thank you very much!!!!' Jackie Elder, science, Cedar Shoals High School."
     },
@@ -53,6 +67,8 @@
       "title":"NSF LISELL-B Family Day",
       "date":"June 26th - 29th, 2016",
       "location":"SSRL",
+      "age":"",
+      "studentAmount":"",
       "img":"images/documents/thumbnails/NSF-2016.JPG",
       "description":"90 5th to 12th graders: The UGA Small Satellite Research Laboratory hosted a total of 90 middle and high school age students in 3 one hour long sessions from June 26 through June 29. Four stations were present in which the students were able to interact with; 3-D printing, Arduino, Kerbal Space Program, and a drone demostration. For the 3-D printing demonstration, the students were shown in the lab how our 3-D printer operates. The Arduino station showed them how to code a sensor to put out a pitch that varies with distance. The Kerbal Space Program station taught the students the basics of rocket design and orbital mechanics. Finally the drone demonstation showed how an UAV worked without any operator input."
     }
