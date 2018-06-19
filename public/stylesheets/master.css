@@ -1,3 +1,9 @@
+h3 {
+  font-size: 18px;
+  color: #F6F6F6;
+  font-weight: 500;
+  line-height: 1.1;
+}
 .show{
   //background-color: black;
 }
@@ -27,16 +33,6 @@
 }
 hr{
   border-color: white;
-}
-#contact{
-  display: flex;
-  flex-flow: wrap;
-  max-width: 100%;
-}
-#map{
-  margin-right: 50px;
-  min-width: 300px;
-  flex: 2;
 }
 .contact-form{
   flex-grow: 1;
