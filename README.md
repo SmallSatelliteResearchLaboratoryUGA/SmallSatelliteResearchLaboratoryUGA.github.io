@@ -54,6 +54,9 @@ nested within each of those categories are entries for team memebers. An element
 * the img is an image file located in `public/images/team`, you should add this when changing this page
 * the id tag **must be unique** for each member, so we cannot have two members with the same name share the same id. Keep this in mind when updating this section
 
+## Editing HTML
+the raw html of each page can also be edited. You will find this in the `/views` folder. 
+
 # dev.smallsat.uga.edu
 Should automatically update every minute. This machine continuously deploys the development branch every minute.
 

@@ -1,5 +1,11 @@
+h3 {
+  font-size: 18px;
+  color: #F6F6F6;
+  font-weight: 500;
+  line-height: 1.1;
+}
 .show{
-  background-color: black;
+  //background-color: black;
 }
 .collapsing{
   background-color: black;
@@ -28,19 +34,68 @@
 hr{
   border-color: white;
 }
-#contact{
-  display: flex;
-  flex-flow: wrap;
-  max-width: 100%;
-}
-#map{
-  margin-right: 50px;
-  min-width: 300px;
-  flex: 2;
-}
 .contact-form{
   flex-grow: 1;
   min-width: 300px;
   justify-content: space-between;
   height: 100%;
+}
+.partner-grid{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.partner-container{
+  max-width: 320px;
+  margin-bottom: 40px;
+}
+.partner-logo{
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.partner-logo img{
+  max-width: 90%;
+  margin-bottom: 16px;
+}
+.partner-title{
+  text-align: center;
+  font-weight: bold;
+}
+
+.outreach{
+  width: 100%
+}
+.outreach .sub-title{
+  display: inline;
+  font-weight: bolder;
+}
+.outreach .sub{
+  display: inline;
+  margin-right: 40px;
+}
+.outreach .outreach-img{
+  min-width: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.outreach-img img{
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.outreach .description{
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+.outreach .description p {
+  display: inline;
+}
+.description p{
+  overflow-x: auto;
 }

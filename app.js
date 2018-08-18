@@ -29,12 +29,16 @@ app.use('/index', index);
 app.use('/users', users);
 
 //routes
-app.get('/team', function (req, res) {
-  res.render('team');
+app.get('/partners', function (req, res) {
+  res.render('partners');
 })
+
+var fs = require('fs');
+var obj = JSON.parse(fs.readFileSync('public/json/research.json', 'utf8'));
 app.get('/research', function (req, res) {
-  res.render('research');
+  res.render('research',{data:obj});
 })
+
 app.get('/contact', function (req, res) {
   res.render('contact');
 })
@@ -50,7 +54,12 @@ app.get('/missions', function (req, res) {
 app.get('/apply', function (req, res) {
   res.redirect('https://piepieninja.typeform.com/to/Qp0m51');
 })
-
+app.get('/partners', function (req, res) {
+  res.render('partners');
+})
+app.get('/outreach', function (req, res) {
+  res.render('outreach');
+})
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

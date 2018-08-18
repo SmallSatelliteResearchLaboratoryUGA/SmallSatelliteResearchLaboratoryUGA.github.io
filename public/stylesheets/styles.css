@@ -41,7 +41,8 @@ h2 {
   line-height: 1.1;
 }
 p{
-  color: #80d4f6;
+  //color: #80d4f6;
+  color: #F6F6F6;
   font-size: 13px;
 }
 section{
@@ -80,7 +81,7 @@ nav{
 
 }
 .bg-dark{
-  background: rgba(0, 0, 0, 0.5) !important;
+  background: rgba(0, 0, 0, 0.7) !important;
 }
 .navbar-nav{
   right: 0px;
@@ -381,5 +382,12 @@ nav{
   }
   #earth-img{
     display: none;
+  }
+  .navbar-nav{
+    background: rgba(0, 0, 0, 1) !important;
+    background-blend-mode: color;
+  }
+  .bg-dark{
+    background: rgba(0, 0, 0, 1) !important;
   }
 }

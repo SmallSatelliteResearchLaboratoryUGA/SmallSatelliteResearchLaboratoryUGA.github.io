@@ -6,7 +6,7 @@
   padding: 0px;
 }
 .document{
-  width: 260px;
+  width: 504px;
   margin: 8px;
 }
 .document h4{
@@ -31,4 +31,14 @@
 }
 .document-hidden{
   display: none;
+}
+.document-author{
+  margin-bottom: 4px;
+}
+select{
+  background-color: white;
+  color: black;
+}
+select:after{
+  color: black;
 }
