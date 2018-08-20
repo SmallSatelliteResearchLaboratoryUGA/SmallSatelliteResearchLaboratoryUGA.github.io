@@ -52,7 +52,7 @@ app.get('/missions', function (req, res) {
   res.render('missions');
 })
 app.get('/apply', function (req, res) {
-  res.redirect('https://piepieninja.typeform.com/to/Qp0m51');
+  res.redirect('https://piepieninja.typeform.com/to/MAnpLo');
 })
 app.get('/partners', function (req, res) {
   res.render('partners');
