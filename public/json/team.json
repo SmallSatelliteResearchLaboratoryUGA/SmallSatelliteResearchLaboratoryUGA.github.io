@@ -337,8 +337,8 @@
         "id":""
       },
       {
-        "name":"Preston Shepherd",
-        "img":"",
+        "name":"Preston Sheppard",
+        "img":"preston.png",
         "major":"Computer Science",
         "role":"",
         "bio":"",
@@ -374,6 +374,14 @@
         "name":"Sabrina Norris",
         "img":"",
         "major":"",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Derek Huynh",
+        "img":"derek.png",
+        "major":"Computing & Design",
         "role":"",
         "bio":"",
         "id":""
