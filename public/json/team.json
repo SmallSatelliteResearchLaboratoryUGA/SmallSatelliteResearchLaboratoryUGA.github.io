@@ -118,7 +118,7 @@
       },
       {
         "name":"Aaron Martinez",
-        "img":"",
+        "img":"aaronm.jpg",
         "major":"Computer Science & Mathematics",
         "role":"",
         "bio":"",
@@ -126,7 +126,7 @@
       },
       {
         "name":"Jackson Parker",
-        "img":"",
+        "img":"jacksonp.jpg",
         "major":"Biological Engineering",
         "role":"",
         "bio":"",
@@ -149,23 +149,7 @@
         "id":""
       },
       {
-        "name":"Austin Kinkade",
-        "img":"austin_kinkade.jpg",
-        "major":"Electrical Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
         "name":"Josh Anickat",
-        "img":"",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Meredith Van De Velde",
         "img":"",
         "major":"Computer Science",
         "role":"",
@@ -181,17 +165,33 @@
         "id":""
       },
       {
-        "name":"Stephen Whit",
-        "img":"",
-        "major":"Computer Science",
+        "name":"Tyler Murray",
+        "img":"tyler_murray.jpg",
+        "major":"Computer Systems Engineering",
         "role":"",
         "bio":"",
         "id":""
       },
       {
-        "name":"Tyler Murray",
+        "name":"Rutu Gandhi",
         "img":"",
+        "major":"Artificial Intelligence",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Kolbe Nix",
+        "img":"kolbe_nix.jpg",
         "major":"Computer Systems Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Austin Kinkade",
+        "img":"austink.jpg",
+        "major":"Electrical Engineering",
         "role":"",
         "bio":"",
         "id":""
@@ -216,7 +216,7 @@
       },
       {
         "name":"Paul Bjorklund",
-        "img":"paul.jpg",
+        "img":"bjorp.jpg",
         "major":"Agricultural Engineering - Mechanical Systems",
         "role":"",
         "bio":"Paul is a Mechanical Team Member for MOCI.",
@@ -256,7 +256,7 @@
       },
       {
         "name":"Kaelyn Deal",
-        "img":"",
+        "img":"kdeal.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
@@ -280,7 +280,63 @@
       },
       {
         "name":"Nir Patel",
+        "img":"nirpatel.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Joshua Barton",
+        "img":"joshuab.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":"Joshua"
+      },
+      {
+        "name":"Grayson Bellamy",
         "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Clay Busbey",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Mary Clark",
+        "img":"MaryClark.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Tyler Hanson",
+        "img":"tylerh.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Jack McDaniels",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Ryan O'Hara",
+        "img":"ryanoh.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
@@ -330,7 +386,7 @@
       },
       {
         "name":"Harli Bott",
-        "img":"",
+        "img":"harli.jpg",
         "major":"Computer Science",
         "role":"",
         "bio":"",
@@ -347,6 +403,30 @@
       {
         "name":"Richard Red",
         "img":"",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Claire Venenga",
+        "img":"claire1.jpg",
+        "major":"Computer Systems Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Mateen Saki",
+        "img":"Mateen.png",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Stephen Whitcomb",
+        "img":"stephenwhitcome.jpg",
         "major":"Computer Science",
         "role":"",
         "bio":"",
@@ -372,7 +452,7 @@
       },
       {
         "name":"Sabrina Norris",
-        "img":"",
+        "img":"sabrina1.jpg",
         "major":"",
         "role":"",
         "bio":"",
@@ -486,7 +566,7 @@
       }
     ],
     "alumni":[
-
+      
     ]
   }
 

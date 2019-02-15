@@ -1,6 +1,123 @@
 {
   "research":[
     {
+      "title":"Towards an Integrated GPU Accelerated SoC as a Flight Computer for Small Satellites",
+      "img":"",
+      "src":"",
+      "authors":"C. Adams, A. Spain, J. Parker, M. Hevert, D. Cotten, and J. Roach",
+      "tags":"conference proceedings",
+      "subTitle":"IEEE Aerospace",
+      "date":"Mar 2 - Mar 9, 2019"
+    },
+    {
+      "title":"The Spectral Ocean Color (SPOC) Small Satellite Mission: Developing an Adjustable Multispectral Imager",
+      "img":"",
+      "src":"",
+      "authors":"N. Neel, D.L. Cotten, D. Mishra, S. Ullrich, M. Adams, A. Burd, M. Madden, and T. Mote",
+      "tags":"conference proceedings",
+      "subTitle":"Poster Presentation at American Geophysical Union (AGU) Meeting, Washington, D.C.",
+      "date":"December 2018"
+    },
+    {
+      "title":"Multi View Tech Demonstration",
+      "img":"",
+      "src":"",
+      "authors":"C. Adams, D.L. Cotten, J. Parker",
+      "tags":"software Demonstration",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 14th, 2018"
+    },
+    {
+      "title":"How UGA is Helping Develop the Next Generation of Systems Engineers for the State of Georgia",
+      "img":"Uga_cotten.JPG",
+      "src":"/images/documents/presentations/Cotten-SSI.pdf",
+      "authors":"D.L. Cotten",
+      "tags":"presentation",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 14th, 2018"
+    },
+    {
+      "title":"GPU Accelerated SoCs as Flight Computers for Small Satellites",
+      "img":"gpus.jpg",
+      "src":"/images/documents/posters/GPU_SmallSatposter.pdf",
+      "authors":"C. Adams, D.L. Cotten, J. Parker, A. Spain",
+      "tags":"poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 13th, 2018"
+    },
+    {
+      "title":"Steady State Thermal Analysis of the Avionics Stack for the 3U Cube Satellite SPOC",
+      "img":"steadystate.jpg",
+      "src":"/images/documents/posters/Deal-Patel-Cotten- A Steady State Thermal Analysis of the Avionics Stack  for the 3U Cube Satellite SPOC- Poster.pdf",
+      "authors":"K. Deal, N. Patel, and D.L. Cotten",
+      "tags":"poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 13th, 2018"
+    },
+    {
+      "title":"Feasibility of CubeSat Frames for Heat Dissipation Multi-view Onboard Computational Imager (MOCI)",
+      "img":"feasibility.jpg",
+      "src":"/images/documents/posters/Heavner-Ely-cotten-mishra-SSI.pdf",
+      "authors":"N. Heavner, M. Ely, D. Mishra and D.L. Cotten",
+      "tags":"poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 13th, 2018"
+    },
+    {
+      "title":"Design and Implementation of a Novel Software Interface for an Adjustable Multispectral Payload",
+      "img":"design_poster.JPG",
+      "src":"/images/documents/posters/King-cotten,mishra-SSI-SPOC.pdf",
+      "authors":"A. King and David L. Cotten PhD",
+      "tags":"poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 13th, 2018"
+    },
+    {
+      "title":"Implementing Fault Tolerance and Radiation Hardening on a Commercial Off the Shelf Accelerated Computing Processor in Space",
+      "img":"fault_tolerance_poster.png",
+      "src":"/images/documents/posters/Lin-Roach-Cotten-Implementing Fault Tolerance and Radiation Hardening on a Commercial Off The Shelf Accelerated Computing Processor in Space v2.0.pdf",
+      "authors":"A. Lin, J. Roach, and David L. Cotten PhD",
+      "tags":"poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 13th, 2018"
+    },
+    {
+      "title":"Software Architecture of the UGA COSMO Ground Station",
+      "img":"software_architecure.png",
+      "src":"/images/documents/posters/Red-Saki-cotten-mishra-SSI Poster.pdf",
+      "authors":"R. Red, M. Saki, D. Mishra, and David L. Cotten PhD",
+      "tags":"poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 13th, 2018"
+    },
+    {
+      "title":"Post-Launch Optical Aberration Detection for Small Satellites",
+      "img":"post_launch.png",
+      "src":"/images/documents/posters/Summey-Cotten-Mishra-wavefront analysis.pdf",
+      "authors":"K. Summey, D. Mishra, and David L. Cotten PhD",
+      "tags":"poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 13th, 2018"
+    },
+    {
+      "title":"Implementing a Software-Defined Radio Scheme for a CubeSat Ground Station",
+      "img":"implementing_software.png",
+      "src":"/images/documents/posters/Whilden-neel-cotten-mishra-Software-Defined Radio Scheme for a CubeSat Ground Station (1).pdf",
+      "authors":"S. Whilden, N. Neel, D. Mishra, and David L. Cotten PhD",
+      "tags":"poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 13th, 2018"
+    },
+    {
+      "title":"The Spectral Ocean Color Satellite: A Pre-Integration, Post Critical Design Review Overview",
+      "img":"spoc.jpg",
+      "src":"/images/documents/presentations/SPOC_Design_Review.pdf",
+      "authors":"Hollis Neel, David L. Cotten Phd",
+      "tags":"presentation",
+      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
+      "date":"November 13th, 2018"
+    },
+    {
       "title":"A Near Real Time Space Based Computer Vision System for Accurate Terrain Mapping",
       "img":"Everest-test.JPG",
       "src":"/images/documents/papers/Adams_32nd_SmallSatConference.pdf",
