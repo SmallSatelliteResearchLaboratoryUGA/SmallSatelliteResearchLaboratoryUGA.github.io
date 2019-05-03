@@ -2,6 +2,14 @@ $(document).ready(function(){
   //TODO: get rid of this and do it with ejs and express same for team
   $.getJSON("/json/team.json",function(data){
     console.log("test2");
+    //populate principleinvestigators
+    for (let i = 0; i < data.team.principleinvestigators.length; i++) {
+      createMember(data.team.principleinvestigators[i], "#section-principleinvestigators");
+    }
+    //populate graduatestudents
+    for (let i = 0; i < data.team.graduatestudents.length; i++) {
+      createMember(data.team.graduatestudents[i], "#section-graduatestudents");
+    }
     //populate leadership
     for (let i = 0; i < data.team.leadership.length; i++) {
       createMember(data.team.leadership[i], "#section-leadership");
@@ -20,8 +28,15 @@ $(document).ready(function(){
     for (let i = 0; i < data.team.missionops.length; i++) {
       createMember(data.team.missionops[i], "#section-missionops");
     }
-    for (let i = 0; i < data.team.faculty.length; i++) {
-      createMember(data.team.faculty[i], "#section-faculty");
+    for (let i = 0; i < data.team.associatedfaculty.length; i++) {
+      createMember(data.team.associatedfaculty[i], "#section-associatedfaculty");
+    }
+    for (let i = 0; i < data.team.intern.length; i++) {
+    createMember(data.team.intern[i], "#section-intern");
+    }
+    // populate alumni
+    for (let i = 0; i < data.team.alumni.length; i++) {
+    createMember(data.team.alumni[i], "#section-alumni");
     }
   });
 });

@@ -1,14 +1,32 @@
 {
   "team":
   {
-    "leadership":[
+    "principleinvestigators":[
+      {
+        "name":"Dr. Deepak Mishra",
+        "img":"deepak_mishra.jpg",
+        "major":"sdf",
+        "role":"Principal Investigator <br>&amp; Remote Sensing Expert",
+        "bio":"Dr. Mishra is an Associate Professor in the Center for Geospatial Research in the Geography Department. He specializes in the application of geospatial science including remote sensing, GIS, and GPS to coastal environments. Dr. Mishra’s broad research interests are: Remote Sensing of Wetlands, Estuaries, Coastal and Open Ocean Waters Remote Sensing in Monitoring Global Climate Change Ocean Optics and Satellite Oceanography. He envisions a permanent Small Sat Research Lab at the University of Georgia.",
+        "id":"mishra"
+      },
+      {
+        "name":"Dr. David L. Cotten",
+        "bio":"",
+        "major":"",
+        "img":"david_cotten.jpg",
+        "id":"cb",
+        "role":"Principle Investigator & Lab Supervisor"
+      }
+    ],
+    "graduatestudents":[
       {
         "name":"Caleb Adams",
         "bio":"Caleb Adams, along with Hollis Neel and Ryan Babaie, began UGA's Small Satellite Research Laboritory after starting a small satellite project that would soon involve UGA faculty. Caleb lead the first team from UGA to win an MLH, nationally recognized, Hackathon by building a low cost remote-operated telescope. He has worked for NASA as a Core Flight Software developer on the Orion project and was a beta tester of Google Glass. He spoke at the TEDx UGA student idea showcase about the future of small satellites and citizen science. Caleb currently runs one of the most popular computer science blogs and one of the most popular astronomy blogs on the tumblr blogging platform, with an outreach of 200,000.",
         "major":"Computer Science",
-        "img":"caleb.jpg",
+        "img":"caleb12.jpg",
         "id":"caleb",
-        "role":"Program Manager & Co-Founder"
+        "role":"MOCI Project Manager & Lab Co-Founder"
       },
       {
         "name":"Nicholas Neel",
@@ -16,47 +34,89 @@
         "major":"Mathematics",
         "img":"hollis.jpg",
         "id":"hollis",
-        "role":"SPOC Systems Engineer & Co-Founder"
+        "role":"SPOC Systems Engineer & Lab Co-Founder"
       },
       {
-        "name":"Adam King",
-        "bio":"Adam is currently pursuing a dual Bachelor's/Master's degree in Computer Science through the Honors Program and plans to specialize in robotics, namely AI-assisted feedback controls. After this, he plans to pursue a dual Bachelor's/Master's degree in Electrical Engineering through the Honors Program at Georgia Tech, and then pursue a Ph.D. in Electrical Engineering, hopefully at the Massachusetts Institute of Technology, Stanford University, or the University of California - Berkeley. This will enable career-based research at NASA, SpaceX, or Boeing with electrical feedback controls.",
+        "name":"Jackson Parker",
+        "img":"",
+        "major":"Electrical and Computer Engineering",
+        "role":"MOCI Systems Engineer",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Allen Spain",
+        "img":"",
+        "major":"Electrical and Computer Engineering",
+        "role":"Electrical Engineering Lead",
+        "bio":"",
+        "id":""
+      }
+    ],
+    "leadership":[
+      {
+        "name":"Caleb Adams",
+        "bio":"Caleb Adams, along with Hollis Neel and Ryan Babaie, began UGA's Small Satellite Research Laboritory after starting a small satellite project that would soon involve UGA faculty. Caleb lead the first team from UGA to win an MLH, nationally recognized, Hackathon by building a low cost remote-operated telescope. He has worked for NASA as a Core Flight Software developer on the Orion project and was a beta tester of Google Glass. He spoke at the TEDx UGA student idea showcase about the future of small satellites and citizen science. Caleb currently runs one of the most popular computer science blogs and one of the most popular astronomy blogs on the tumblr blogging platform, with an outreach of 200,000.",
         "major":"Computer Science",
-        "img":"adam.jpg",
-        "id":"adam",
-        "role":"SPOC Graduate Advisor"
+        "img":"caleb12.jpg",
+        "id":"caleb",
+        "role":"MOCI Project Manager & Lab Co-Founder"
       },
       {
-        "name":"Nicholas Heavner",
-        "img":"nicholas_heavner.jpg",
-        "major":"Mechanical Engineering",
-        "role":"MOCI Mechanical Lead",
-        "bio":"Nicholas is a Testing Operations Specialist for SPOC and MOCI.",
-        "id":"nicholas"
+        "name":"Nicholas Neel",
+        "bio":"Nicholas (Hollis) Neel, a co-founder of UGA’s Small Satellite research lab, is a mathematics major at the University of Georgia. He has developed and printed one of the largest 3D printed telescopes. Alongside these projects, he is also a researcher in mathematics. In this area, Hollis focuses on Knot Theory which is the study of mathematical knots.",
+        "major":"Mathematics",
+        "img":"hollis.jpg",
+        "id":"hollis",
+        "role":"SPOC Systems Engineer & Lab Co-Founder"
       },
       {
-        "name":"James Roach",
-        "bio":"James is a computer science student working towards an emphasis in software engineering. He loves to code and has worked as a developer for several enterprise companies. He hopes to obtain a masters in software engineering after graduation and then work with really cool things.",
-        "major":"Computer Science",
-        "img":"james.jpg",
-        "id":"james",
-        "role":"MOCI Electronics Lead"
+        "name":"Jackson Parker",
+        "img":"",
+        "major":"Electrical and Computer Engineering",
+        "role":"MOCI Systems Engineer",
+        "bio":"",
+        "id":""
       },
       {
-        "name":"Casper Versteeg",
-        "bio":"Casper has made unprecedented and incredibly valuable contributions to the lab, and thus has quickly worked himself up to a very prestigious position. He is an international student with a 4.0, and plans to go into mechanical research and development in Aerospace engineering.",
-        "major":"Mechanical Engineering",
-        "img":"casper.jpg",
-        "id":"casper",
-        "role":"SPOC Mechanical Lead"
+        "name":"Allen Spain",
+        "img":"",
+        "major":"Electrical and Computer Engineering",
+        "role":"Electrical Engineering Lead",
+        "bio":"",
+        "id":""
       },
       {
-        "name":"Paige Copenhaver",
-        "bio":"Paige is an undergraduate at UGA majoring in Physics and Astronomy. In addition to working on the flight team, she also conducts astronomical research in spectroscopy. She hopes to someday combine her knowledge of astrophysics and her passion for the environment to benefit the world and humanity. In her free time, she enjoys reading books, drawing, and playing ukulele.",
+        "name":"Megan Arogeti",
+        "img":"megan2.jpg",
         "major":"Astronomy and Physics",
-        "img":"paige.jpg",
-        "id":"paige",
-        "role":"SPOC & MOCI Mission Operations Lead"
+        "role":"",
+        "bio":"Megan is an honors student and part of the most recent member onboarding. She plans on going to graduate school to get a PhD in astrophysics, and hopefully end up doing research for NASA.",
+        "id":"megan2"
+      },
+      {
+        "name":"Sydney Whilden",
+        "img":"sydney.jpg",
+        "major":"Astronomy and Physics /  Comparative Literature",
+        "role":"",
+        "bio":"Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
+        "id":"sydney"
+      },
+      {
+        "name":"Michael Ely",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Mateen Saki",
+        "img":"Mateen.png",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
       },
       {
         "name":"S. Godfrey Hendrix",
@@ -67,23 +127,31 @@
         "role":"MOCI Systems Engineer & Lab Operations Lead"
       },
       {
-        "name":"Ethan Barnes",
-        "img":"ethan.jpg",
-        "major":"Computer Science",
-        "role":"SPOC Electronics Lead",
-        "bio":"Ethan is a Software Engineer for MOCI. In his free time, Ethan likes to play the guitar, piano, and drums.  He hopes to one day work for the team that puts the first person on the surface of Mars.",
-        "id":"ethan"
+        "name":"Kaitlyn Summey",
+        "img":"",
+        "major":"Computer Systems Engineering",
+        "role":"",
+        "bio":"Kaitlyn is an Electronics Team Member for SPOC and MOCI.",
+        "id":"kaitlyn"
+      },
+      {
+        "name":"Nir Patel",
+        "img":"nirpatel.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Tyler Murray",
+        "img":"tyler_murray.jpg",
+        "major":"Computer Systems Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
       }
     ],
     "electronics":[
-      {
-        "name":"Erick Gavinales",
-        "img":"eric.jpg",
-        "major":"Electrical Engineering",
-        "role":"",
-        "bio":"Erick is a senior Electrical and Electronics Engineering student with an interest in electronics, microcontrollers, custom PCB design, and 3D Printing/Modeling. He hopes to work for a company that will utilize all of his skills and creativity.",
-        "id":"eric"
-      },
       {
         "name":"Trey Miller",
         "img":"tre.jpg",
@@ -91,6 +159,14 @@
         "role":"",
         "bio":"Trey is the Embedded Systems Specialists for MOCI.",
         "id":"tre"
+      },
+      {
+        "name":"James Roach",
+        "bio":"James is a computer science student working towards an emphasis in software engineering. He loves to code and has worked as a developer for several enterprise companies. He hopes to obtain a masters in software engineering after graduation and then work with really cool things.",
+        "major":"Computer Science",
+        "img":"james.jpg",
+        "id":"james",
+        "role":"MOCI Electronics Lead"
       },
       {
         "name":"Kaitlyn Summey",
@@ -101,14 +177,6 @@
         "id":"kaitlyn"
       },
       {
-        "name":"Byron Williams",
-        "img":"",
-        "major":"Applied Mathematic",
-        "role":"",
-        "bio":"",
-        "id":"byron"
-      },
-      {
         "name":"Jacob Conley",
         "img":"jake.jpg",
         "major":"Computer Systems Engineering /  Mathematics",
@@ -117,33 +185,9 @@
         "id":"jake"
       },
       {
-        "name":"Aaron Martinez",
-        "img":"",
-        "major":"Computer Science & Mathematics",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Jackson Parker",
-        "img":"",
-        "major":"Biological Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
         "name":"Alex Lin",
         "img":"",
         "major":"Computer Systems Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Allen Spain",
-        "img":"",
-        "major":"Electrical Engineering",
         "role":"",
         "bio":"",
         "id":""
@@ -157,86 +201,110 @@
         "id":""
       },
       {
-        "name":"Josh Anickat",
-        "img":"",
+        "name":"Eric Miller",
+        "img":"ericmiller.jpg",
         "major":"Computer Science",
-        "role":"",
+        "role":"MOCI Electronics member",
         "bio":"",
-        "id":""
+        "id":"eric"
       },
       {
-        "name":"Meredith Van De Velde",
-        "img":"",
+        "name":"Mosopefoluwa Oni",
+        "img":"oni.jpg",
         "major":"Computer Science",
-        "role":"",
+        "role":"MOCI Electronics member",
         "bio":"",
-        "id":""
-      },
-      {
-        "name":"Sakthi Alapakkam",
-        "img":"",
-        "major":"Electrical Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Stephen Whit",
-        "img":"",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"",
-        "id":""
+        "id":"oni"
       },
       {
         "name":"Tyler Murray",
-        "img":"",
+        "img":"tyler_murray.jpg",
         "major":"Computer Systems Engineering",
         "role":"",
         "bio":"",
         "id":""
-      }
-    ],
-    "mechanical":[
+      },
       {
-        "name":"John Courtney",
+        "name":"Injoo Moon",
         "img":"",
-        "major":"",
+        "major":"Electrical Engineering",
         "role":"",
-        "bio":"-",
-        "id":"john"
+        "bio":"",
+        "id":"injoo"
       },
       {
-        "name":"Matthew Hevert",
-        "bio":"Matthew came to the University of Georgia from Denver, Colorado to pursue his goal of designing and developing advanced satellite optic systems and now co-leads the mechanical team. In 2015 Matthew led a small team in creating a successful Rocksat-C scientific payload that launched on an Improved Terrier Orion rocket. The SPOC and MOCI payloads will be Matthew's 3rd and 4th launched scientific payloads.",
-        "major":"Mechanical Engineering",
-        "img":"matthew.jpg",
-        "id":"matthew",
-        "role":"SPOC Payload Designer"
+        "name":"Anthony Zenere",
+        "img":"",
+        "major":"Electrical Engineering",
+        "role":"",
+        "bio":"",
+        "id":"ant"
       },
       {
-        "name":"Paul Bjorklund",
-        "img":"paul.jpg",
-        "major":"Agricultural Engineering - Mechanical Systems",
+        "name":"Stephen Whitcomb",
+        "img":"",
+        "major":"Computer Science",
         "role":"",
-        "bio":"Paul is a Mechanical Team Member for MOCI.",
-        "id":"paul2"
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Kolbe Nix",
+        "img":"",
+        "major":"Computer Systems Engineering",
+        "role":"",
+        "bio":"",
+        "id":"kolbe"
       },
       {
         "name":"Justin Heimerl",
         "img":"justin.jpg",
-        "major":"Mechanical Engineering",
+        "major":"Electrical Engineering",
         "role":"",
         "bio":"Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
         "id":"justin"
+      }
+    ],
+    "mechanical":[
+      {
+        "name":"Nicholas Heavner",
+        "img":"nicholas_heavner.jpg",
+        "major":"Mechanical Engineering",
+        "role":"MOCI Mechanical Lead",
+        "bio":"Nicholas is a Testing Operations Specialist for SPOC and MOCI.",
+        "id":"nicholas"
       },
       {
-        "name":"Michael Buzzy",
-        "img":"",
-        "major":"Mechanical Engineering",
-        "role":"",
+        "name":"Grayson Bellamy",
         "bio":"",
-        "id":""
+        "major":"Mechanical Engineering",
+        "img":"",
+        "id":"grayson",
+        "role":""
+      },
+      {
+        "name":"Anna Hoffman",
+        "bio":"",
+        "major":"Mechanical Engineering",
+        "img":"annahoffman.jpg",
+        "id":"anna",
+        "role":""
+      },
+      {
+        "name":"Clay Busbey",
+        "bio":"",
+        "major":"Mechanical Engineering",
+        "img":"",
+        "id":"clay",
+        "role":""
+      },
+      {
+        "name":"Paul Bjorklund",
+        "img":"bjorp.jpg",
+        "major":"Agricultural Engineering - Mechanical Systems",
+        "role":"",
+        "bio":"Paul is a Mechanical Team Member for MOCI.",
+        "id":"paul2"
       },
       {
         "name":"Niklas Endler",
@@ -247,40 +315,64 @@
         "id":"nick"
       },
       {
-        "name":"Khoa Ngo",
-        "img":"",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"Khoa Ngo is a Mechanical Engineering student at the University of Georgia. Having experience in working with control systems, simulations, and autonomous unmanned air systems, his main focus for this project is on System Engineering. In his free time, he likes to play guitar and watch anime.",
-        "id":"khoa"
-      },
-      {
         "name":"Kaelyn Deal",
-        "img":"",
+        "img":"kdeal.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
-        "id":""
+        "id":"kaelyn"
       },
       {
         "name":"Luke Wells",
-        "img":"",
+        "img":"lukewells.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
         "id":""
       },
       {
-        "name":"Michael Ely",
-        "img":"",
+        "name":"Jack McDaniels",
+        "img":"jackmcdaniels.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
-        "id":""
+        "id":"jackdaniels"
       },
       {
         "name":"Nir Patel",
-        "img":"",
+        "img":"nirpatel.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Joshua Barton",
+        "img":"joshuab.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":"Joshua"
+      },
+      {
+        "name":"Mary Clark",
+        "img":"MaryClark.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Tyler Hanson",
+        "img":"tylerh.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Ryan O'Hara",
+        "img":"ryanoh.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
@@ -329,24 +421,24 @@
         "id":"nirav"
       },
       {
-        "name":"Harli Bott",
-        "img":"",
-        "major":"Computer Science",
+        "name":"Claire Venenga",
+        "img":"claire1.png",
+        "major":"Computer Systems Engineering",
         "role":"",
         "bio":"",
         "id":""
       },
       {
-        "name":"Preston Sheppard",
-        "img":"preston.png",
-        "major":"Computer Science",
+        "name":"Mateen Saki",
+        "img":"Mateen.png",
+        "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
         "id":""
       },
       {
-        "name":"Richard Red",
-        "img":"",
+        "name":"Stephen Whitcomb",
+        "img":"stephenwhitcome.jpg",
         "major":"Computer Science",
         "role":"",
         "bio":"",
@@ -354,14 +446,6 @@
       }
     ],
     "labops":[
-      {
-        "name":"Paul Hwang",
-        "img":"paulh.jpg",
-        "major":"Art / Graphic Design",
-        "role":"",
-        "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
-        "id":"paulh"
-      },
       {
         "name":"Michael Akintonwa",
         "img":"",
@@ -372,11 +456,11 @@
       },
       {
         "name":"Sabrina Norris",
-        "img":"",
+        "img":"sabrina1.jpg",
         "major":"",
         "role":"",
         "bio":"",
-        "id":""
+        "id":"sabrina"
       },
       {
         "name":"Derek Huynh",
@@ -387,30 +471,22 @@
         "id":""
       }
     ],
-    "faculty":[
-      {
-        "name":"Dr. Deepak Mishra",
-        "img":"deepak_mishra.jpg",
-        "major":"",
-        "role":"Principal Investigator <br>&amp; Remote Sensing Expert",
-        "bio":"Dr. Mishra is an Associate Professor in the Center for Geospatial Research in the Geography Department. He specializes in the application of geospatial science including remote sensing, GIS, and GPS to coastal environments. Dr. Mishra’s broad research interests are: Remote Sensing of Wetlands, Estuaries, Coastal and Open Ocean Waters Remote Sensing in Monitoring Global Climate Change Ocean Optics and Satellite Oceanography. He envisions a permanent Small Sat Research Lab at the University of Georgia.",
-        "id":"mishra"
-      },
-      {
-        "name":"Dr. David Cotten",
-        "img":"david_cotten.jpg",
-        "major":"",
-        "role":"Co-Principal Investigator <br>&amp; Lab Supervisor",
-        "bio":"Dr. David Cotten is a Research Scientist in the Center for Geospatial Research (CGR). He graduated from UGA in 2011 with his doctorate in Physics and Astronomy. His research as a Post Doctoral Associate focused on surface-atmosphere exchange, and he is currently using remote sensing and micrometeorology techniques to quantify carbon storage in wetland regions at both the local and regional scales. Dr. Cotten is also using unmanned aerial vehicles, air photos, and satellite imagery to build 3D models of terrestrial objects using photogrammetric Structure from Motion. He enjoys mentoring students and is excited about helping the Small Sat Research Lab become a permanent fixture at UGA.",
-        "id":"cotten"
-      },
+    "associatedfaculty":[
       {
         "name":"Dr. Malcolm R Adams",
         "img":"malcolm_adams.jpg",
         "major":"",
-        "role":"Mission Operations Team Mentor",
+        "role":"Mathematics Expert",
         "bio":"Dr. Malcolm Adams is the Head of the Mathematics Department and Josiah Meigs Distinguished Teaching Professor. HIs research uses analytic and geometric techniques to study problems in mathematical physics and mathematical biology.",
         "id":"adams"
+      },
+      {
+        "name":"Dr. Fred Beyette",
+        "img":"",
+        "major":"",
+        "role":"Electrical & Computer Engineering Professor",
+        "bio":"Electrical & Computer Engineering.",
+        "id":"fred"
       },
       {
         "name":"Dr. Sergio Bernardes",
@@ -483,10 +559,99 @@
         "role":"Mechanical Team Mentor",
         "bio":"Dr. Ben Wagner is an engineering professor at the UGA College of Engineering. Dr. Wagner recieved his Ph.D. in Mehcanical Engineering at the Georgia Insitute of Technology in 2007 and specializes in dynamics and vibrations, rotating machinery, and industrial utilities and energy conservation.",
         "id":"wagner"
+      },
+      {
+        "name":"Dr. Yohannes Abate",
+        "img":"",
+        "major":"",
+        "role":"Quantum Nano Optics",
+        "bio":"",
+        "id":"wagner"
+      }
+    ],
+    "intern":[
+      {
+        "name":"Stephen Cofer",
+        "img":"Cofer4.JPG",
+        "major":"",
+        "role":"Lab Intern from Clarke Central High School",
+        "bio":"",
+        "id":""
       }
     ],
     "alumni":[
-
+      {
+        "name":"Erick Gavinales",
+        "img":"eric.jpg",
+        "major":"Electrical Engineering",
+        "role":"",
+        "bio":"Erick is a senior Electrical and Electronics Engineering student with an interest in electronics, microcontrollers, custom PCB design, and 3D Printing/Modeling. He hopes to work for a company that will utilize all of his skills and creativity.",
+        "id":"eric"
+      },
+      {
+        "name":"Adam King",
+        "bio":"Adam is currently pursuing a dual Bachelor's/Master's degree in Computer Science through the Honors Program and plans to specialize in robotics, namely AI-assisted feedback controls. After this, he plans to pursue a dual Bachelor's/Master's degree in Electrical Engineering through the Honors Program at Georgia Tech, and then pursue a Ph.D. in Electrical Engineering, hopefully at the Massachusetts Institute of Technology, Stanford University, or the University of California - Berkeley. This will enable career-based research at NASA, SpaceX, or Boeing with electrical feedback controls.",
+        "major":"Computer Science",
+        "img":"adam.jpg",
+        "id":"adam",
+        "role":"SPOC Graduate Advisor"
+      },
+      {
+        "name":"Nicholas Heavner",
+        "img":"nicholas_heavner.jpg",
+        "major":"Mechanical Engineering",
+        "role":"MOCI Mechanical Lead",
+        "bio":"Nicholas is a Testing Operations Specialist for SPOC and MOCI.",
+        "id":"nicholas"
+      },
+      {
+        "name":"James Roach",
+        "bio":"James is a computer science student working towards an emphasis in software engineering. He loves to code and has worked as a developer for several enterprise companies. He hopes to obtain a masters in software engineering after graduation and then work with really cool things.",
+        "major":"Computer Science",
+        "img":"james.jpg",
+        "id":"james",
+        "role":"MOCI Electronics Lead"
+      },
+      {
+        "name":"Casper Versteeg",
+        "bio":"Casper has made unprecedented and incredibly valuable contributions to the lab, and thus has quickly worked himself up to a very prestigious position. He is an international student with a 4.0, and plans to go into mechanical research and development in Aerospace engineering.",
+        "major":"Mechanical Engineering",
+        "img":"casper.jpg",
+        "id":"casper",
+        "role":"SPOC Mechanical Lead"
+      },
+      {
+        "name":"Paige Copenhaver",
+        "bio":"Paige is an undergraduate at UGA majoring in Physics and Astronomy. In addition to working on the flight team, she also conducts astronomical research in spectroscopy. She hopes to someday combine her knowledge of astrophysics and her passion for the environment to benefit the world and humanity. In her free time, she enjoys reading books, drawing, and playing ukulele.",
+        "major":"Astronomy and Physics",
+        "img":"paige.jpg",
+        "id":"paige",
+        "role":"SPOC & MOCI Mission Operations Lead"
+      },
+      {
+        "name":"Ethan Barnes",
+        "img":"ethan.jpg",
+        "major":"Computer Science",
+        "role":"SPOC Electronics Lead",
+        "bio":"Ethan is a Software Engineer for MOCI. In his free time, Ethan likes to play the guitar, piano, and drums.  He hopes to one day work for the team that puts the first person on the surface of Mars.",
+        "id":"ethan"
+      },
+      {
+        "name":"Matthew Hevert",
+        "bio":"Matthew came to the University of Georgia from Denver, Colorado to pursue his goal of designing and developing advanced satellite optic systems and now co-leads the mechanical team. In 2015 Matthew led a small team in creating a successful Rocksat-C scientific payload that launched on an Improved Terrier Orion rocket. The SPOC and MOCI payloads will be Matthew's 3rd and 4th launched scientific payloads.",
+        "major":"Mechanical Engineering",
+        "img":"matthew.jpg",
+        "id":"matthew",
+        "role":"SPOC Payload Designer"
+    },
+    {
+      "name":"Paul Hwang",
+      "img":"paulh.jpg",
+      "major":"Art / Graphic Design",
+      "role":"",
+      "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
+      "id":"paulh"
+    }
     ]
   }
 
