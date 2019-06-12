@@ -6,7 +6,7 @@
         "name":"Dr. Deepak Mishra",
         "img":"deepak_mishra.jpg",
         "major":"sdf",
-        "role":"Principal Investigator <br>&amp; Remote Sensing Expert",
+        "role":"Director             dmishra@uga.edu",
         "bio":"Dr. Mishra is an Associate Professor in the Center for Geospatial Research in the Geography Department. He specializes in the application of geospatial science including remote sensing, GIS, and GPS to coastal environments. Dr. Mishra’s broad research interests are: Remote Sensing of Wetlands, Estuaries, Coastal and Open Ocean Waters Remote Sensing in Monitoring Global Climate Change Ocean Optics and Satellite Oceanography. He envisions a permanent Small Sat Research Lab at the University of Georgia.",
         "id":"mishra"
       },
@@ -16,7 +16,7 @@
         "major":"",
         "img":"david_cotten.jpg",
         "id":"cb",
-        "role":"Principle Investigator & Lab Supervisor"
+        "role":"Associate Director      dcotte1@uga.edu"
       }
     ],
     "graduatestudents":[
@@ -26,7 +26,7 @@
         "major":"Computer Science",
         "img":"caleb12.jpg",
         "id":"caleb",
-        "role":"MOCI Project Manager & Lab Co-Founder"
+        "role":"SSRL Program Manager; MOCI Project Manager; calebashmoreadams@gmail.com"
       },
       {
         "name":"Nicholas Neel",
@@ -34,7 +34,7 @@
         "major":"Mathematics",
         "img":"hollis.jpg",
         "id":"hollis",
-        "role":"SPOC Systems Engineer & Lab Co-Founder"
+        "role":"SPOC Systems Engineer"
       },
       {
         "name":"Jackson Parker",
@@ -55,42 +55,10 @@
     ],
     "leadership":[
       {
-        "name":"Caleb Adams",
-        "bio":"Caleb Adams, along with Hollis Neel and Ryan Babaie, began UGA's Small Satellite Research Laboritory after starting a small satellite project that would soon involve UGA faculty. Caleb lead the first team from UGA to win an MLH, nationally recognized, Hackathon by building a low cost remote-operated telescope. He has worked for NASA as a Core Flight Software developer on the Orion project and was a beta tester of Google Glass. He spoke at the TEDx UGA student idea showcase about the future of small satellites and citizen science. Caleb currently runs one of the most popular computer science blogs and one of the most popular astronomy blogs on the tumblr blogging platform, with an outreach of 200,000.",
-        "major":"Computer Science",
-        "img":"caleb12.jpg",
-        "id":"caleb",
-        "role":"MOCI Project Manager & Lab Co-Founder"
-      },
-      {
-        "name":"Nicholas Neel",
-        "bio":"Nicholas (Hollis) Neel, a co-founder of UGA’s Small Satellite research lab, is a mathematics major at the University of Georgia. He has developed and printed one of the largest 3D printed telescopes. Alongside these projects, he is also a researcher in mathematics. In this area, Hollis focuses on Knot Theory which is the study of mathematical knots.",
-        "major":"Mathematics",
-        "img":"hollis.jpg",
-        "id":"hollis",
-        "role":"SPOC Systems Engineer & Lab Co-Founder"
-      },
-      {
-        "name":"Jackson Parker",
-        "img":"",
-        "major":"Electrical and Computer Engineering",
-        "role":"MOCI Systems Engineer",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Allen Spain",
-        "img":"",
-        "major":"Electrical and Computer Engineering",
-        "role":"Electrical Engineering Lead",
-        "bio":"",
-        "id":""
-      },
-      {
         "name":"Megan Arogeti",
         "img":"megan2.jpg",
         "major":"Astronomy and Physics",
-        "role":"",
+        "role":"SPOC Mission Operations Lead",
         "bio":"Megan is an honors student and part of the most recent member onboarding. She plans on going to graduate school to get a PhD in astrophysics, and hopefully end up doing research for NASA.",
         "id":"megan2"
       },
@@ -98,7 +66,7 @@
         "name":"Sydney Whilden",
         "img":"sydney.jpg",
         "major":"Astronomy and Physics /  Comparative Literature",
-        "role":"",
+        "role":"MOCI Mission Operations Lead",
         "bio":"Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
         "id":"sydney"
       },
@@ -106,7 +74,7 @@
         "name":"Michael Ely",
         "img":"",
         "major":"Mechanical Engineering",
-        "role":"",
+        "role":"MOCI Mechanical Lead",
         "bio":"",
         "id":""
       },
@@ -114,7 +82,7 @@
         "name":"Mateen Saki",
         "img":"Mateen.png",
         "major":"Mechanical Engineering",
-        "role":"",
+        "role":"MOCI Mission Operations Lead",
         "bio":"",
         "id":""
       },
@@ -124,13 +92,13 @@
         "major":"Computer Systems Engineering /   German",
         "img":"godfrey.jpg",
         "id":"godfrey",
-        "role":"MOCI Systems Engineer & Lab Operations Lead"
+        "role":"MOCI Electronics Lead"
       },
       {
         "name":"Kaitlyn Summey",
         "img":"",
         "major":"Computer Systems Engineering",
-        "role":"",
+        "role":"SPOC Payload Lead",
         "bio":"Kaitlyn is an Electronics Team Member for SPOC and MOCI.",
         "id":"kaitlyn"
       },
@@ -138,7 +106,7 @@
         "name":"Nir Patel",
         "img":"nirpatel.jpg",
         "major":"Mechanical Engineering",
-        "role":"",
+        "role":"SPOC Mechanical Lead",
         "bio":"",
         "id":""
       },
@@ -146,7 +114,7 @@
         "name":"Tyler Murray",
         "img":"tyler_murray.jpg",
         "major":"Computer Systems Engineering",
-        "role":"",
+        "role":"SPOC Electronics Lead",
         "bio":"",
         "id":""
       }
@@ -166,7 +134,7 @@
         "major":"Computer Science",
         "img":"james.jpg",
         "id":"james",
-        "role":"MOCI Electronics Lead"
+        "role":""
       },
       {
         "name":"Kaitlyn Summey",
@@ -204,7 +172,7 @@
         "name":"Eric Miller",
         "img":"ericmiller.jpg",
         "major":"Computer Science",
-        "role":"MOCI Electronics member",
+        "role":"",
         "bio":"",
         "id":"eric"
       },
@@ -212,7 +180,7 @@
         "name":"Mosopefoluwa Oni",
         "img":"oni.jpg",
         "major":"Computer Science",
-        "role":"MOCI Electronics member",
+        "role":"",
         "bio":"",
         "id":"oni"
       },
@@ -270,7 +238,7 @@
         "name":"Nicholas Heavner",
         "img":"nicholas_heavner.jpg",
         "major":"Mechanical Engineering",
-        "role":"MOCI Mechanical Lead",
+        "role":"",
         "bio":"Nicholas is a Testing Operations Specialist for SPOC and MOCI.",
         "id":"nicholas"
       },
@@ -476,7 +444,7 @@
         "name":"Dr. Malcolm R Adams",
         "img":"malcolm_adams.jpg",
         "major":"",
-        "role":"Mathematics Expert",
+        "role":"Mathematics and Algorithms Advisor",
         "bio":"Dr. Malcolm Adams is the Head of the Mathematics Department and Josiah Meigs Distinguished Teaching Professor. HIs research uses analytic and geometric techniques to study problems in mathematical physics and mathematical biology.",
         "id":"adams"
       },
@@ -484,47 +452,23 @@
         "name":"Dr. Fred Beyette",
         "img":"",
         "major":"",
-        "role":"Electrical & Computer Engineering Professor",
+        "role":"Electrical & Computer Engineering Advisor",
         "bio":"Electrical & Computer Engineering.",
         "id":"fred"
-      },
-      {
-        "name":"Dr. Sergio Bernardes",
-        "img":"sergio_bernardes.png",
-        "major":"",
-        "role":"Mission Operations Team Mentor",
-        "bio":"Dr. Sergio Bernardes is the Associate Director of the Center for Geospatial Research (CGR) in the Department of Geography at the University of Georgia (UGA). He received his MSc in Remote Sensing from the Brazilian National Institute for Space Research and a Ph.D in Geography from the University of Georgia. His expertise include software development, the design and implementation of large geospatial databases and time series analysis of remotely sensed images, ground-based climate data and derived metrics to assess vegetation responses to natural and anthropogenic-related environmental changes. He has over 25 years of experience working on geospatial projects involving government, industry and academia. Dr. Bernardes has been the Co-Chair for the Climage Change Committee of the American Society for Photogrammetry and Remote Sensing (ASPRS) and is currently the Associate Editor of the Image Processing and Analysis Methods chapter of the 2016 ASPRS Manual of Remote Sensing. He is a former NASA Fellow, stationed at NASA’s Goddard Space Flight Center and his work has been recognized multiple times by NASA, the United States Geospatial Intelligence Foundation (USGIF) and ASPRS.",
-        "id":"bernardes"
       },
       {
         "name":"Dr. Adrian Burd",
         "img":"adrian_burd.jpg",
         "major":"",
-        "role":"Marine Science Expert &amp; Mission Operations Team Mentor",
+        "role":"Marine Science Advisor",
         "bio":"Dr. Adrian Burd is an Associate Professor in the Marine Science Department. His research involves the use of mathematical and computer modeling to understand how different marine systems function and how they might change under changing environmental and climate conditions. For me, a marine system can mean many things; a the biological and chemical transformations of a single particle of detrital material settling through the water column; the productivity of a seagrass bed along the coast; the cycling of carbon in the global ocean.",
         "id":"burd"
-      },
-      {
-        "name":"Dr. Ben Davis",
-        "img":"ben_davis.jpg",
-        "major":"",
-        "role":"Mechanical Team Mentor",
-        "bio":"Dr. Ben Davis is an Assistant Professor in the College of Engineering. He leads the Dynamic Devices and Solutions Lab where they create innovative analytical and experimental solutions to today's most challenging multiphysics structural dynamics problems. The Dynamic Devices and Solutions Lab is developing new approaches to predict the flow induced vibration of bellows joints to be used in the propulsion systems of NASA's new Space Launch System (SLS).",
-        "id":"davis"
-      },
-      {
-        "name":"Dr. Bill Dennis",
-        "img":"bill_dennis.jpg",
-        "major":"",
-        "role":"Physics Expert",
-        "bio":"Dr. Bill Dennis is the Department Head of Physics and Astronomy and a Professor of Physics. His research group uses both linear and nonlinear optical spectroscopic techniques to investigate many of the fundamental dynamical processes that occur in condensed matter systems such as laser crystals, phosphors and glasses. He is currently using a combination of experimental techniques and computer simulations to investigate the effects of high intensity ultrashort pulses on optical materials, components, and systems.",
-        "id":"dennis"
       },
       {
         "name":"Dr. Marguerite Madden",
         "img":"marguerite_madden.jpg",
         "major":"",
-        "role":"Mission Operations Team Mentor",
+        "role":"Remote Sensing Advisor",
         "bio":"Dr. Marguerite Madden is the Director of the Center for Geospatial Research (CGR) and Professor in the Department of Geography at the University of Georgia (UGA). Dr. Madden is a Past President (2007) and Fellow (2010) of the American Society for Photogrammetry and Remote Sensing (ASPRS), Editor of the 2009 ASPRS Manual of GIS, and former International Society for Photogrammetry and Remote Sensing (ISPRS) Technical Commission President of Commission IV “Geodatabases and Digital Mapping” (2008-2012). Currently she is the current Second Vice President of ISPRS (2012-2016).",
         "id":"madden"
       },
@@ -532,7 +476,7 @@
         "name":"Dr. Thomas L Mote",
         "img":"thomas_mote.jpg",
         "major":"",
-        "role":"Mission Operations Team Mentor",
+        "role":"Remote Sensing Advisor",
         "bio":"Dr. Thomas Mote is the Department Head of Geography and a Professor in the Geography Department. His research involves hydroclimatology, climate change, synoptic climatology/meteorology, and satellite climatology/meteorology.",
         "id":"mote"
       },
@@ -548,7 +492,7 @@
         "name":"Dr. Susanne Ullrich",
         "img":"susanne_ullrich.jpg",
         "major":"",
-        "role":"Lab Operations Team Mentor &amp; Optics Expert",
+        "role":"Optics and Vacuum Chamber Advisor",
         "bio":"Dr. Susanne Ullrich is an Associate Professor of Physics. Her research involves exploring dynamics and functionality of biophotonic molecules via time-resolved spectroscopy. Her lab uses modern femtosecond and picosecond time-resolved pump-probe spectroscopies − both transient absorption and photoelectron photoion coincidence spectroscopy − to investigate dynamic biophotonic processes in the gas-phase, in molecular clusters, where the complexity of the environment can be varied, and in solution. She will use her background to mentor the students through the design process of different testing apparatuses, from vacuum chambers to ADCS testing.",
         "id":"ullrich"
       },
@@ -556,7 +500,7 @@
         "name":"Dr. Ben Wagner",
         "img":"ben_wagner.jpg",
         "major":"",
-        "role":"Mechanical Team Mentor",
+        "role":"Mechanical Advisor",
         "bio":"Dr. Ben Wagner is an engineering professor at the UGA College of Engineering. Dr. Wagner recieved his Ph.D. in Mehcanical Engineering at the Georgia Insitute of Technology in 2007 and specializes in dynamics and vibrations, rotating machinery, and industrial utilities and energy conservation.",
         "id":"wagner"
       },
@@ -564,7 +508,7 @@
         "name":"Dr. Yohannes Abate",
         "img":"",
         "major":"",
-        "role":"Quantum Nano Optics",
+        "role":"Quantum Nano Optics Advisor",
         "bio":"",
         "id":"wagner"
       }
@@ -580,6 +524,14 @@
       }
     ],
     "alumni":[
+      {
+        "name":"Graham Grable",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"Chief Engineer",
+        "bio":"",
+        "id":""
+      },
       {
         "name":"Erick Gavinales",
         "img":"eric.jpg",
@@ -643,15 +595,15 @@
         "img":"matthew.jpg",
         "id":"matthew",
         "role":"SPOC Payload Designer"
-    },
-    {
-      "name":"Paul Hwang",
-      "img":"paulh.jpg",
-      "major":"Art / Graphic Design",
-      "role":"",
-      "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
-      "id":"paulh"
-    }
+      },
+      {
+        "name":"Paul Hwang",
+        "img":"paulh.jpg",
+        "major":"Art / Graphic Design",
+        "role":"",
+        "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
+        "id":"paulh"
+      }
     ]
   }
 
