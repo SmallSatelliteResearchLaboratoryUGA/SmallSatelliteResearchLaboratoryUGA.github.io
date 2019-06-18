@@ -8,7 +8,8 @@
         "major":"sdf",
         "role":"Director             dmishra@uga.edu",
         "bio":"Dr. Mishra is an Associate Professor in the Center for Geospatial Research in the Geography Department. He specializes in the application of geospatial science including remote sensing, GIS, and GPS to coastal environments. Dr. Mishra’s broad research interests are: Remote Sensing of Wetlands, Estuaries, Coastal and Open Ocean Waters Remote Sensing in Monitoring Global Climate Change Ocean Optics and Satellite Oceanography. He envisions a permanent Small Sat Research Lab at the University of Georgia.",
-        "id":"mishra"
+        "id":"mishra",
+        "link":""
       },
       {
         "name":"Dr. David L. Cotten",
@@ -16,7 +17,8 @@
         "major":"",
         "img":"david_cotten.jpg",
         "id":"cb",
-        "role":"Associate Director      dcotte1@uga.edu"
+        "role":"Associate Director      dcotte1@uga.edu",
+        "link":""
       }
     ],
     "graduatestudents":[
@@ -26,7 +28,8 @@
         "major":"Computer Science",
         "img":"caleb12.jpg",
         "id":"caleb",
-        "role":"SSRL Program Manager; MOCI Project Manager; calebashmoreadams@gmail.com"
+        "role":"SSRL Program Manager; MOCI Project Manager; calebashmoreadams@gmail.com",
+        "link":""
       },
       {
         "name":"Nicholas Neel",
@@ -34,7 +37,8 @@
         "major":"Mathematics",
         "img":"hollis.jpg",
         "id":"hollis",
-        "role":"SPOC Systems Engineer"
+        "role":"SPOC Systems Engineer",
+        "link":""
       },
       {
         "name":"Jackson Parker",
@@ -42,7 +46,8 @@
         "major":"Electrical and Computer Engineering",
         "role":"MOCI Systems Engineer",
         "bio":"",
-        "id":""
+        "id":"",
+        "link":""
       },
       {
         "name":"Allen Spain",
@@ -50,7 +55,8 @@
         "major":"Electrical and Computer Engineering",
         "role":"Electrical Engineering Lead",
         "bio":"",
-        "id":""
+        "id":"",
+        "link":""
       }
     ],
     "leadership":[
@@ -523,7 +529,7 @@
         "id":""
       }
     ],
-    "alumni":[
+    "alumni2019":[
       {
         "name":"Graham Grable",
         "img":"",
@@ -603,6 +609,26 @@
         "role":"",
         "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
         "id":"paulh"
+      }
+    ],
+    "alumni2018":[
+      {
+        "name":"Graham Grable",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"Chief Engineer",
+        "bio":"",
+        "id":""
+      }
+    ],
+    "alumni2017":[
+      {
+        "name":"Graham Grable",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"Chief Engineer",
+        "bio":"",
+        "id":""
       }
     ]
   }

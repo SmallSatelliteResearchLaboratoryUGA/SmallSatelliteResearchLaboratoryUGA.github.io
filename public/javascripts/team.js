@@ -1,7 +1,6 @@
 $(document).ready(function(){
   //TODO: get rid of this and do it with ejs and express same for team
   $.getJSON("/json/team.json",function(data){
-    console.log("test2");
     //populate principleinvestigators
     for (let i = 0; i < data.team.principleinvestigators.length; i++) {
       createMember(data.team.principleinvestigators[i], "#section-principleinvestigators");
@@ -35,23 +34,39 @@ $(document).ready(function(){
     createMember(data.team.intern[i], "#section-intern");
     }
     // populate alumni
-    for (let i = 0; i < data.team.alumni.length; i++) {
-    createMember(data.team.alumni[i], "#section-alumni");
+    // populate alumni
+    for (let i = 0; i < data.team.alumni2019.length; i++) {
+      createMember(data.team.alumni2019[i], "#section-alumni2019");
+    }
+    for (let i = 0; i < data.team.alumni2018.length; i++) {
+      createMember(data.team.alumni2018[i], "#section-alumni2018");
+    }
+    for (let i = 0; i < data.team.alumni2017.length; i++) {
+      createMember(data.team.alumni2017[i], "#section-alumni2017");
     }
   });
 });
 
 function createMember(member, sectionid){
   var d = member;
+  var profilelink = document.createElement("a");
+
+  //set link if json has 'link' key
+  if (d.hasOwnProperty("link")) {
+    profilelink.setAttribute("href",d.link);
+  }
+
   var profileHeader = document.createElement("div");
   profileHeader.setAttribute("class", "profile");
   var profileHeaderImage = document.createElement("img");
+
   //get image, if none then use default
   if (d.img === "") {
     profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/default.png");
   }else {
     profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/" + d.img);
   }
+
   var profileHeaderName = document.createElement("span");
   profileHeaderName.setAttribute("class", "name");
   profileHeaderName.innerHTML = d.name;
@@ -71,7 +86,8 @@ function createMember(member, sectionid){
     profileHeader.appendChild(profileHeaderTitle);
   }
   // profileHeader.appendChild(profileHeaderButton);
-  $(sectionid).append(profileHeader);
+  profilelink.appendChild(profileHeader);
+  $(sectionid).append(profilelink);
   //
   // //body
   // var profileModal = document.createElement("div");
