@@ -1,14 +1,13 @@
 $(document).ready(function(){
   //TODO: get rid of this and do it with ejs and express same for team
   $.getJSON("/json/team.json",function(data){
-    console.log("test2");
     //populate principleinvestigators
     for (let i = 0; i < data.team.principleinvestigators.length; i++) {
-      createMember(data.team.principleinvestigators[i], "#section-principleinvestigators");
+      createMemberExtraContent(data.team.principleinvestigators[i], "#section-principleinvestigators");
     }
     //populate graduatestudents
     for (let i = 0; i < data.team.graduatestudents.length; i++) {
-      createMember(data.team.graduatestudents[i], "#section-graduatestudents");
+      createMemberExtraContent(data.team.graduatestudents[i], "#section-graduatestudents");
     }
     //populate leadership
     for (let i = 0; i < data.team.leadership.length; i++) {
@@ -35,32 +34,106 @@ $(document).ready(function(){
     createMember(data.team.intern[i], "#section-intern");
     }
     // populate alumni
-    for (let i = 0; i < data.team.alumni.length; i++) {
-    createMember(data.team.alumni[i], "#section-alumni");
+    // populate alumni
+    for (let i = 0; i < data.team.alumni2019.length; i++) {
+      createMember(data.team.alumni2019[i], "#section-alumni2019");
+    }
+    for (let i = 0; i < data.team.alumni2018.length; i++) {
+      createMember(data.team.alumni2018[i], "#section-alumni2018");
+    }
+    for (let i = 0; i < data.team.alumni2017.length; i++) {
+      createMember(data.team.alumni2017[i], "#section-alumni2017");
     }
   });
 });
 
-function createMember(member, sectionid){
+// this creates a member and also contains extra
+// content about the member. This will have a CV
+// link and
+// This is expected to be done for faculty and grad students.
+function createMemberExtraContent(member, sectionid){
   var d = member;
+  var profileBoi = document.createElement("span")
+  // var profilelink = document.createElement("a");
+  //
+  // //set link if json has 'link' key
+  // if (d.hasOwnProperty("link")) {
+  //   profilelink.setAttribute("href",d.link);
+  // }
+
   var profileHeader = document.createElement("div");
   profileHeader.setAttribute("class", "profile");
   var profileHeaderImage = document.createElement("img");
+
   //get image, if none then use default
   if (d.img === "") {
     profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/default.png");
   }else {
     profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/" + d.img);
   }
+
   var profileHeaderName = document.createElement("span");
   profileHeaderName.setAttribute("class", "name");
   profileHeaderName.innerHTML = d.name;
-  // var profileHeaderButton = document.createElement("button");
-  // profileHeaderButton.setAttribute("type","button");
-  // profileHeaderButton.setAttribute("class","btn btn_leader btn-lg");
-  // profileHeaderButton.setAttribute("data-toggle","modal");
-  // profileHeaderButton.setAttribute("data-target", "#" + d.id + "Modal");
-  // profileHeaderButton.innerHTML = "See Bio";
+
+  //append elements
+  profileHeader.appendChild(profileHeaderImage);
+  profileHeader.appendChild(profileHeaderName);
+  if (!(d.role === "")) {
+    let profileHeaderTitle = document.createElement("span");
+    profileHeaderTitle.setAttribute("class", "title");
+    profileHeaderTitle.innerHTML = d.role + '<br><br>';
+    // add the extra boi if it exists
+    if (d.hasOwnProperty("link")) {
+      var cvlink = document.createElement("a");
+      cvlink.innerHTML += '<i class="far fa-file-alt"></i> - ';
+      // because of grammar and spelling and stuff we have
+      // to put the apostropheeee guy in the right spot
+      var last = d.name[d.name.length -1];
+      if (last === "s" || last === "S") {
+        cvlink.innerHTML += d.name + '\' CV'
+      } else {
+        cvlink.innerHTML += d.name + '\'s CV'
+      }
+      cvlink.setAttribute("href",d.link);
+      cvlink.setAttribute("target",'_blank');
+      profileHeaderTitle.appendChild(cvlink)
+    }
+    profileHeader.appendChild(profileHeaderTitle);
+  }
+  profileBoi.appendChild(profileHeader)
+  // profilelink.appendChild(profileHeader);
+  $(sectionid).append(profileBoi);
+
+}
+
+// this function is a standard member
+// this does not include any extra links
+// or any extra content about said member
+function createMember(member, sectionid){
+  var d = member;
+  var profilelink = document.createElement("a");
+
+  //set link if json has 'link' key
+  if (d.hasOwnProperty("link")) {
+    profilelink.setAttribute("href",d.link);
+  }
+
+  var profileHeader = document.createElement("div");
+  profileHeader.setAttribute("class", "profile");
+  var profileHeaderImage = document.createElement("img");
+
+  //get image, if none then use default
+  if (d.img === "") {
+    profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/default.png");
+  }else {
+    profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/" + d.img);
+  }
+
+  var profileHeaderName = document.createElement("span");
+  profileHeaderName.setAttribute("class", "name");
+  profileHeaderName.innerHTML = d.name;
+
   //append elements
   profileHeader.appendChild(profileHeaderImage);
   profileHeader.appendChild(profileHeaderName);
@@ -70,67 +143,8 @@ function createMember(member, sectionid){
     profileHeaderTitle.innerHTML = d.role + '<br>';
     profileHeader.appendChild(profileHeaderTitle);
   }
-  // profileHeader.appendChild(profileHeaderButton);
-  $(sectionid).append(profileHeader);
-  //
-  // //body
-  // var profileModal = document.createElement("div");
-  // profileModal.setAttribute("class","modal fade");
-  // profileModal.setAttribute("id", d.id + "Modal");
-  // profileModal.setAttribute("role","dialog");
-  // var profileModalDialog = document.createElement("div");
-  // profileModalDialog.setAttribute("class","modal-dialog");
-  // var profileModalContent = document.createElement("div");
-  // profileModalContent.setAttribute("class","modal-content");
-  // var profileModalHeader = document.createElement("div");
-  // profileModalHeader.setAttribute("class","modal-header");
-  // var profileModalHeaderButton = document.createElement("button");
-  // profileModalHeaderButton.setAttribute("type", "button");
-  // profileModalHeaderButton.setAttribute("class", "close");
-  // profileModalHeaderButton.setAttribute("data-dismiss", "modal");
-  // profileModalHeaderButton.innerHTML = "x";
-  // var profileModalBody = document.createElement("div");
-  // profileModalBody.setAttribute("class", "modal-body");
-  // var profileModalBodyh1 = document.createElement("h1");
-  // profileModalBodyh1.setAttribute("class", "align_center");
-  // profileModalBodyh1.innerHTML = d.name;
-  //
-  // var profileModalBodyp = document.createElement("p");
-  // profileModalBodyp.innerHTML = d.bio;
-  //
-  // profileModal.appendChild(profileModalDialog);
-  // profileModalDialog.appendChild(profileModalContent);
-  // profileModalContent.appendChild(profileModalHeader);
-  // profileModalContent.appendChild(profileModalBody);
-  // profileModalHeader.appendChild(profileModalHeaderButton);
-  // profileModalBody.appendChild(profileModalBodyh1);
-  // if (!(d.major === "")) {
-  //   let profileModalBodyh3 = document.createElement("h3");
-  //   profileModalBodyh3.setAttribute("class", "align_center");
-  //   profileModalBodyh3.innerHTML = d.major;
-  //   profileModalBody.appendChild(profileModalBodyh3);
-  // }
-  // profileModalBody.appendChild(profileModalBodyp);
-  // $(sectionid).append(profileModal);
+
+  profilelink.appendChild(profileHeader);
+  $(sectionid).append(profilelink);
+
 }
-//'<div class="profile leader">
-  //<img src="assets/SSRLProfiles/' + ___IMG___ + '.jpg" class="picture">'
-  //<span class="name"> + ___NAME___ + </span>
-  //<span class="title"> + __ROLE__ + <br>&amp; Co-Founder</span>
-  //<button type="button" class="btn btn_leader btn-lg" data-toggle="modal" data-target="#calebModal">See Bio</button>
-//</div
-//<div class="modal fade" id="calebModal" role="dialog">
-  //<div class="modal-dialog">
-    //<!-- Modal content-->
-    //<div class="modal-content">
-      //<div class="modal-header">
-        //<button type="button" class="close" data-dismiss="modal">×</button>
-      //</div>
-      //<div class="modal-body">
-        //<h1 class="align_center">Caleb Adams</h1>
-        //<h3 class="align_center">Computer Science / Astronomy and Physics</h3>
-        //<p> + __BIO___ + </p>
-      //</div>
-    //</div>
-  //</div>
-//</div>'

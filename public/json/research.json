@@ -19,13 +19,13 @@
       "date":"Mar 2 - Mar 9, 2019"
     },
     {
-      "title":"Understanding the Kalman Filter",
+      "title":"Understanding the Kalman Filter (initial version)",
       "img":"simple_kalman.png",
       "src":"/images/documents/papers/adams_understanding_kalman.pdf",
       "authors":"C. Adams",
       "tags":"whitepaper",
       "subTitle":"Internal Training",
-      "date":"Feb 28, 2029"
+      "date":"Feb 28, 2019"
     },
     {
       "title":"The Spectral Ocean Color (SPOC) Small Satellite Mission: Developing an Adjustable Multispectral Imager",
