@@ -6,7 +6,7 @@
         "name":"Dr. Deepak Mishra",
         "img":"deepak_mishra.jpg",
         "major":"sdf",
-        "role":"Director             dmishra@uga.edu",
+        "role":"Director - dmishra@uga.edu",
         "bio":"Dr. Mishra is an Associate Professor in the Center for Geospatial Research in the Geography Department. He specializes in the application of geospatial science including remote sensing, GIS, and GPS to coastal environments. Dr. Mishra’s broad research interests are: Remote Sensing of Wetlands, Estuaries, Coastal and Open Ocean Waters Remote Sensing in Monitoring Global Climate Change Ocean Optics and Satellite Oceanography. He envisions a permanent Small Sat Research Lab at the University of Georgia.",
         "id":"mishra",
         "link":""
@@ -17,7 +17,7 @@
         "major":"",
         "img":"david_cotten.jpg",
         "id":"cb",
-        "role":"Associate Director      dcotte1@uga.edu",
+        "role":"Associate Director - dcotte1@uga.edu",
         "link":""
       }
     ],
@@ -115,14 +115,6 @@
         "role":"SPOC Mechanical Lead",
         "bio":"",
         "id":""
-      },
-      {
-        "name":"Tyler Murray",
-        "img":"tyler_murray.jpg",
-        "major":"Computer Systems Engineering",
-        "role":"SPOC Electronics Lead",
-        "bio":"",
-        "id":""
       }
     ],
     "electronics":[
@@ -133,22 +125,6 @@
         "role":"",
         "bio":"Trey is the Embedded Systems Specialists for MOCI.",
         "id":"tre"
-      },
-      {
-        "name":"James Roach",
-        "bio":"James is a computer science student working towards an emphasis in software engineering. He loves to code and has worked as a developer for several enterprise companies. He hopes to obtain a masters in software engineering after graduation and then work with really cool things.",
-        "major":"Computer Science",
-        "img":"james.jpg",
-        "id":"james",
-        "role":""
-      },
-      {
-        "name":"Kaitlyn Summey",
-        "img":"",
-        "major":"Computer Systems Engineering",
-        "role":"",
-        "bio":"Kaitlyn is an Electronics Team Member for SPOC and MOCI.",
-        "id":"kaitlyn"
       },
       {
         "name":"Jacob Conley",
@@ -189,14 +165,6 @@
         "role":"",
         "bio":"",
         "id":"oni"
-      },
-      {
-        "name":"Tyler Murray",
-        "img":"tyler_murray.jpg",
-        "major":"Computer Systems Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
       },
       {
         "name":"Injoo Moon",
@@ -241,14 +209,6 @@
     ],
     "mechanical":[
       {
-        "name":"Nicholas Heavner",
-        "img":"nicholas_heavner.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"Nicholas is a Testing Operations Specialist for SPOC and MOCI.",
-        "id":"nicholas"
-      },
-      {
         "name":"Grayson Bellamy",
         "bio":"",
         "major":"Mechanical Engineering",
@@ -273,14 +233,6 @@
         "role":""
       },
       {
-        "name":"Paul Bjorklund",
-        "img":"bjorp.jpg",
-        "major":"Agricultural Engineering - Mechanical Systems",
-        "role":"",
-        "bio":"Paul is a Mechanical Team Member for MOCI.",
-        "id":"paul2"
-      },
-      {
         "name":"Niklas Endler",
         "img":"nick.jpg",
         "major":"Mechanical Engineering",
@@ -297,28 +249,12 @@
         "id":"kaelyn"
       },
       {
-        "name":"Luke Wells",
-        "img":"lukewells.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
         "name":"Jack McDaniels",
         "img":"jackmcdaniels.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
         "id":"jackdaniels"
-      },
-      {
-        "name":"Nir Patel",
-        "img":"nirpatel.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
       },
       {
         "name":"Joshua Barton",
@@ -355,22 +291,6 @@
     ],
     "missionops":[
       {
-        "name":"Clark Veazey",
-        "img":"clark.jpg",
-        "major":"Physics and Astronomy /  Philosophy",
-        "role":"",
-        "bio":"Clark recently gave a presentation at the 230th meeting of the American Astronomical Society. He has also been admitted to the Dean William Tate Honor Society. He intends on studying cosmology at grad school and working with NASA, studying the primordial universe.",
-        "id":"clark"
-      },
-      {
-        "name":"Megan Arogeti",
-        "img":"megan2.jpg",
-        "major":"Astronomy and Physics",
-        "role":"",
-        "bio":"Megan is an honors student and part of the most recent member onboarding. She plans on going to graduate school to get a PhD in astrophysics, and hopefully end up doing research for NASA.",
-        "id":"megan2"
-      },
-      {
         "name":"Bjorn Leicher",
         "img":"bjorn.jpg",
         "major":"Astronomy and Physics /  Mathematics",
@@ -379,33 +299,9 @@
         "id":"bjorn"
       },
       {
-        "name":"Sydney Whilden",
-        "img":"sydney.jpg",
-        "major":"Astronomy and Physics /  Comparative Literature",
-        "role":"",
-        "bio":"Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
-        "id":"sydney"
-      },
-      {
-        "name":"Nirav Ilango",
-        "img":"",
-        "major":"Geography / Computer Science",
-        "role":"",
-        "bio":"Hey! My name is Nirav Ilango and I’m from Johns Creek, GA. I’m a member of the class of 2019 at the University of Georgia, majoring in computer science and geography, and the leader of the Data Team on the UGA CubeSat project. As someone who is passionate about our local environment, I’m particularly interested in the applications of our data for oceanographic and geographical research on the Georgia coast! In my free time, I enjoy spending time with friends, reading, watching Netflix, and hiking. Feel free to reach out!",
-        "id":"nirav"
-      },
-      {
         "name":"Claire Venenga",
         "img":"claire1.png",
         "major":"Computer Systems Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Mateen Saki",
-        "img":"Mateen.png",
-        "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
         "id":""
@@ -420,14 +316,6 @@
       }
     ],
     "labops":[
-      {
-        "name":"Michael Akintonwa",
-        "img":"",
-        "major":"Advertising",
-        "role":"",
-        "bio":"Michael is the lab's advertising director.",
-        "id":"michael"
-      },
       {
         "name":"Sabrina Norris",
         "img":"sabrina1.jpg",
@@ -530,69 +418,37 @@
       }
     ],
     "alumni2019":[
-      {
-        "name":"Graham Grable",
+       {
+        "name":"Michael Akintonwa",
         "img":"",
-        "major":"Mechanical Engineering",
-        "role":"Chief Engineer",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Erick Gavinales",
-        "img":"eric.jpg",
-        "major":"Electrical Engineering",
+        "major":"Advertising",
         "role":"",
-        "bio":"Erick is a senior Electrical and Electronics Engineering student with an interest in electronics, microcontrollers, custom PCB design, and 3D Printing/Modeling. He hopes to work for a company that will utilize all of his skills and creativity.",
-        "id":"eric"
+        "bio":"Michael is the lab's advertising director.",
+        "id":"michael"
       },
       {
-        "name":"Adam King",
-        "bio":"Adam is currently pursuing a dual Bachelor's/Master's degree in Computer Science through the Honors Program and plans to specialize in robotics, namely AI-assisted feedback controls. After this, he plans to pursue a dual Bachelor's/Master's degree in Electrical Engineering through the Honors Program at Georgia Tech, and then pursue a Ph.D. in Electrical Engineering, hopefully at the Massachusetts Institute of Technology, Stanford University, or the University of California - Berkeley. This will enable career-based research at NASA, SpaceX, or Boeing with electrical feedback controls.",
-        "major":"Computer Science",
-        "img":"adam.jpg",
-        "id":"adam",
-        "role":"SPOC Graduate Advisor"
+        "name":"Paul Bjorklund",
+        "img":"bjorp.jpg",
+        "major":"Agricultural Engineering - Mechanical Systems",
+        "role":"Ubiquitilink",
+        "bio":"Paul is a Mechanical Team Member for MOCI.",
+        "id":"paul2"
       },
       {
         "name":"Nicholas Heavner",
         "img":"nicholas_heavner.jpg",
         "major":"Mechanical Engineering",
-        "role":"MOCI Mechanical Lead",
+        "role":"Lockheed Martin",
         "bio":"Nicholas is a Testing Operations Specialist for SPOC and MOCI.",
         "id":"nicholas"
       },
       {
-        "name":"James Roach",
-        "bio":"James is a computer science student working towards an emphasis in software engineering. He loves to code and has worked as a developer for several enterprise companies. He hopes to obtain a masters in software engineering after graduation and then work with really cool things.",
-        "major":"Computer Science",
-        "img":"james.jpg",
-        "id":"james",
-        "role":"MOCI Electronics Lead"
-      },
-      {
-        "name":"Casper Versteeg",
-        "bio":"Casper has made unprecedented and incredibly valuable contributions to the lab, and thus has quickly worked himself up to a very prestigious position. He is an international student with a 4.0, and plans to go into mechanical research and development in Aerospace engineering.",
-        "major":"Mechanical Engineering",
-        "img":"casper.jpg",
-        "id":"casper",
-        "role":"SPOC Mechanical Lead"
-      },
-      {
-        "name":"Paige Copenhaver",
-        "bio":"Paige is an undergraduate at UGA majoring in Physics and Astronomy. In addition to working on the flight team, she also conducts astronomical research in spectroscopy. She hopes to someday combine her knowledge of astrophysics and her passion for the environment to benefit the world and humanity. In her free time, she enjoys reading books, drawing, and playing ukulele.",
-        "major":"Astronomy and Physics",
-        "img":"paige.jpg",
-        "id":"paige",
-        "role":"SPOC & MOCI Mission Operations Lead"
-      },
-      {
-        "name":"Ethan Barnes",
-        "img":"ethan.jpg",
-        "major":"Computer Science",
-        "role":"SPOC Electronics Lead",
-        "bio":"Ethan is a Software Engineer for MOCI. In his free time, Ethan likes to play the guitar, piano, and drums.  He hopes to one day work for the team that puts the first person on the surface of Mars.",
-        "id":"ethan"
+        "name":"Aaron Martinez",
+        "bio":".",
+        "major":"",
+        "img":"",
+        "id":"",
+        "role":""
       },
       {
         "name":"Matthew Hevert",
@@ -600,7 +456,113 @@
         "major":"Mechanical Engineering",
         "img":"matthew.jpg",
         "id":"matthew",
-        "role":"SPOC Payload Designer"
+        "role":"Ruda Cardnial"
+      },
+      {
+        "name":"Tyler Murray",
+        "img":"tyler_murray.jpg",
+        "major":"Computer Systems Engineering",
+        "role":"Deloitte",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"James Roach",
+        "bio":"James is a computer science student working towards an emphasis in software engineering. He loves to code and has worked as a developer for several enterprise companies. He hopes to obtain a masters in software engineering after graduation and then work with really cool things.",
+        "major":"Computer Science",
+        "img":"james.jpg",
+        "id":"james",
+        "role":"NASA AMES"
+      },
+        {
+        "name":"Clark Veazey",
+        "img":"clark.jpg",
+        "major":"Physics and Astronomy /  Philosophy",
+        "role":"",
+        "bio":"Clark recently gave a presentation at the 230th meeting of the American Astronomical Society. He has also been admitted to the Dean William Tate Honor Society. He intends on studying cosmology at grad school and working with NASA, studying the primordial universe.",
+        "id":"clark"
+      },
+      {
+        "name":"Luke Wells",
+        "img":"lukewells.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      }
+    ],
+    "alumni2018":[
+      {
+        "name":"Adam King",
+        "bio":"Adam is currently pursuing a dual Bachelor's/Master's degree in Computer Science through the Honors Program and plans to specialize in robotics, namely AI-assisted feedback controls. After this, he plans to pursue a dual Bachelor's/Master's degree in Electrical Engineering through the Honors Program at Georgia Tech, and then pursue a Ph.D. in Electrical Engineering, hopefully at the Massachusetts Institute of Technology, Stanford University, or the University of California - Berkeley. This will enable career-based research at NASA, SpaceX, or Boeing with electrical feedback controls.",
+        "major":"Computer Science",
+        "img":"adam.jpg",
+        "id":"adam",
+        "role":"Generation Orbitr"
+      },
+      {
+        "name":"Nirav Ilango",
+        "img":"",
+        "major":"Geography / Computer Science",
+        "role":"Oxford",
+        "bio":"Hey! My name is Nirav Ilango and I’m from Johns Creek, GA. I’m a member of the class of 2019 at the University of Georgia, majoring in computer science and geography, and the leader of the Data Team on the UGA CubeSat project. As someone who is passionate about our local environment, I’m particularly interested in the applications of our data for oceanographic and geographical research on the Georgia coast! In my free time, I enjoy spending time with friends, reading, watching Netflix, and hiking. Feel free to reach out!",
+        "id":"nirav"
+      },
+      {
+        "name":"Khoa Ngo",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"NASA AMES",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Ethan Barnes",
+        "img":"ethan.jpg",
+        "major":"Computer Science",
+        "role":"NASA Glenn",
+        "bio":"Ethan is a Software Engineer for MOCI. In his free time, Ethan likes to play the guitar, piano, and drums.  He hopes to one day work for the team that puts the first person on the surface of Mars.",
+        "id":"ethan"
+      },
+      {
+        "name":"Paige Copenhaver",
+        "bio":"Paige is an undergraduate at UGA majoring in Physics and Astronomy. In addition to working on the flight team, she also conducts astronomical research in spectroscopy. She hopes to someday combine her knowledge of astrophysics and her passion for the environment to benefit the world and humanity. In her free time, she enjoys reading books, drawing, and playing ukulele.",
+        "major":"Astronomy and Physics",
+        "img":"paige.jpg",
+        "id":"paige",
+        "role":"Georgia Tech"
+      },
+      {
+        "name":"John Courtney",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"Georgia Tech",
+        "bio":"",
+        "id":""
+      }, 
+      {
+        "name":"Natalie Davis",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      }, 
+      {
+        "name":"Erick Gavinales",
+        "img":"eric.jpg",
+        "major":"Electrical Engineering",
+        "role":"Lockheed Martin",
+        "bio":"Erick is a senior Electrical and Electronics Engineering student with an interest in electronics, microcontrollers, custom PCB design, and 3D Printing/Modeling. He hopes to work for a company that will utilize all of his skills and creativity.",
+        "id":"eric"
+      },
+      {
+        "name":"Casper Versteeg",
+        "bio":"Casper has made unprecedented and incredibly valuable contributions to the lab, and thus has quickly worked himself up to a very prestigious position. He is an international student with a 4.0, and plans to go into mechanical research and development in Aerospace engineering.",
+        "major":"Mechanical Engineering",
+        "img":"casper.jpg",
+        "id":"casper",
+        "role":"Duke University"
       },
       {
         "name":"Paul Hwang",
@@ -609,24 +571,70 @@
         "role":"",
         "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
         "id":"paulh"
-      }
-    ],
-    "alumni2018":[
-      {
+      },
+       {
         "name":"Graham Grable",
         "img":"",
         "major":"Mechanical Engineering",
-        "role":"Chief Engineer",
+        "role":"Tyvak",
         "bio":"",
         "id":""
       }
     ],
     "alumni2017":[
       {
-        "name":"Graham Grable",
+        "name":"Megan LeCorree",
+        "img":"megan.jpg",
+        "major":"Mechanical Engineering",
+        "role":"NASA Marshall",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"A.J. Banerjee",
         "img":"",
         "major":"Mechanical Engineering",
-        "role":"Chief Engineer",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Paul Keith",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Dustin Mizelle",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Esa Serog",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Alex Winkles",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"Georgia Tech",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Logan Skidmore",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
         "bio":"",
         "id":""
       }
