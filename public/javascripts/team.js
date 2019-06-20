@@ -44,6 +44,9 @@ $(document).ready(function(){
     for (let i = 0; i < data.team.alumni2017.length; i++) {
       createMember(data.team.alumni2017[i], "#section-alumni2017");
     }
+    for (let i = 0; i < data.team.alumni2016.length; i++) {
+      createMember(data.team.alumni2016[i], "#section-alumni2016");
+    }
   });
 });
 
