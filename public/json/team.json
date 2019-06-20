@@ -28,8 +28,8 @@
         "major":"Computer Science",
         "img":"caleb12.jpg",
         "id":"caleb",
-        "role":"SSRL Program Manager; MOCI Project Manager; calebashmoreadams@gmail.com",
-        "link":""
+        "role":"Co-Founder; SSRL Program Manager; MOCI Project Manager",
+        "link":"http://calebadams.space"
       },
       {
         "name":"Nicholas Neel",
@@ -37,7 +37,7 @@
         "major":"Mathematics",
         "img":"hollis.jpg",
         "id":"hollis",
-        "role":"SPOC Systems Engineer",
+        "role":"Co-Founder; SPOC Systems Engineer",
         "link":""
       },
       {
@@ -539,7 +539,7 @@
         "role":"Georgia Tech",
         "bio":"",
         "id":""
-      }, 
+      },
       {
         "name":"Natalie Davis",
         "img":"",
@@ -547,7 +547,7 @@
         "role":"",
         "bio":"",
         "id":""
-      }, 
+      },
       {
         "name":"Erick Gavinales",
         "img":"eric.jpg",

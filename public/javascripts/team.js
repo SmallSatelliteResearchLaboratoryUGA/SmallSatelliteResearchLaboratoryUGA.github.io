@@ -70,12 +70,7 @@ function createMember(member, sectionid){
   var profileHeaderName = document.createElement("span");
   profileHeaderName.setAttribute("class", "name");
   profileHeaderName.innerHTML = d.name;
-  // var profileHeaderButton = document.createElement("button");
-  // profileHeaderButton.setAttribute("type","button");
-  // profileHeaderButton.setAttribute("class","btn btn_leader btn-lg");
-  // profileHeaderButton.setAttribute("data-toggle","modal");
-  // profileHeaderButton.setAttribute("data-target", "#" + d.id + "Modal");
-  // profileHeaderButton.innerHTML = "See Bio";
+
   //append elements
   profileHeader.appendChild(profileHeaderImage);
   profileHeader.appendChild(profileHeaderName);
@@ -85,68 +80,8 @@ function createMember(member, sectionid){
     profileHeaderTitle.innerHTML = d.role + '<br>';
     profileHeader.appendChild(profileHeaderTitle);
   }
-  // profileHeader.appendChild(profileHeaderButton);
+
   profilelink.appendChild(profileHeader);
   $(sectionid).append(profilelink);
-  //
-  // //body
-  // var profileModal = document.createElement("div");
-  // profileModal.setAttribute("class","modal fade");
-  // profileModal.setAttribute("id", d.id + "Modal");
-  // profileModal.setAttribute("role","dialog");
-  // var profileModalDialog = document.createElement("div");
-  // profileModalDialog.setAttribute("class","modal-dialog");
-  // var profileModalContent = document.createElement("div");
-  // profileModalContent.setAttribute("class","modal-content");
-  // var profileModalHeader = document.createElement("div");
-  // profileModalHeader.setAttribute("class","modal-header");
-  // var profileModalHeaderButton = document.createElement("button");
-  // profileModalHeaderButton.setAttribute("type", "button");
-  // profileModalHeaderButton.setAttribute("class", "close");
-  // profileModalHeaderButton.setAttribute("data-dismiss", "modal");
-  // profileModalHeaderButton.innerHTML = "x";
-  // var profileModalBody = document.createElement("div");
-  // profileModalBody.setAttribute("class", "modal-body");
-  // var profileModalBodyh1 = document.createElement("h1");
-  // profileModalBodyh1.setAttribute("class", "align_center");
-  // profileModalBodyh1.innerHTML = d.name;
-  //
-  // var profileModalBodyp = document.createElement("p");
-  // profileModalBodyp.innerHTML = d.bio;
-  //
-  // profileModal.appendChild(profileModalDialog);
-  // profileModalDialog.appendChild(profileModalContent);
-  // profileModalContent.appendChild(profileModalHeader);
-  // profileModalContent.appendChild(profileModalBody);
-  // profileModalHeader.appendChild(profileModalHeaderButton);
-  // profileModalBody.appendChild(profileModalBodyh1);
-  // if (!(d.major === "")) {
-  //   let profileModalBodyh3 = document.createElement("h3");
-  //   profileModalBodyh3.setAttribute("class", "align_center");
-  //   profileModalBodyh3.innerHTML = d.major;
-  //   profileModalBody.appendChild(profileModalBodyh3);
-  // }
-  // profileModalBody.appendChild(profileModalBodyp);
-  // $(sectionid).append(profileModal);
+
 }
-//'<div class="profile leader">
-  //<img src="assets/SSRLProfiles/' + ___IMG___ + '.jpg" class="picture">'
-  //<span class="name"> + ___NAME___ + </span>
-  //<span class="title"> + __ROLE__ + <br>&amp; Co-Founder</span>
-  //<button type="button" class="btn btn_leader btn-lg" data-toggle="modal" data-target="#calebModal">See Bio</button>
-//</div
-//<div class="modal fade" id="calebModal" role="dialog">
-  //<div class="modal-dialog">
-    //<!-- Modal content-->
-    //<div class="modal-content">
-      //<div class="modal-header">
-        //<button type="button" class="close" data-dismiss="modal">×</button>
-      //</div>
-      //<div class="modal-body">
-        //<h1 class="align_center">Caleb Adams</h1>
-        //<h3 class="align_center">Computer Science / Astronomy and Physics</h3>
-        //<p> + __BIO___ + </p>
-      //</div>
-    //</div>
-  //</div>
-//</div>'
