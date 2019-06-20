@@ -51,7 +51,7 @@
       },
       {
         "name":"Allen Spain",
-        "img":"",
+        "img":"allenspain.png",
         "major":"Electrical and Computer Engineering",
         "role":"Electrical Engineering Lead",
         "bio":"",
@@ -102,7 +102,7 @@
       },
       {
         "name":"Kaitlyn Summey",
-        "img":"",
+        "img":"katiesummey.jpg",
         "major":"Computer Systems Engineering",
         "role":"SPOC Payload Lead",
         "bio":"Kaitlyn is an Electronics Team Member for SPOC and MOCI.",
@@ -136,7 +136,7 @@
       },
       {
         "name":"Alex Lin",
-        "img":"",
+        "img":"alexlin.jpg",
         "major":"Computer Systems Engineering",
         "role":"",
         "bio":"",
@@ -456,7 +456,7 @@
         "major":"Mechanical Engineering",
         "img":"matthew.jpg",
         "id":"matthew",
-        "role":"Ruda Cardnial"
+        "role":"Ruda Cardinal"
       },
       {
         "name":"Tyler Murray",
