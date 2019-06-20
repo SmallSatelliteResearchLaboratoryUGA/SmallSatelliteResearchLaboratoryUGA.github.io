@@ -99,3 +99,14 @@ hr{
 .description p{
   overflow-x: auto;
 }
+
+
+/* bootstrap override */
+
+.drop-colors{
+  color: black !important;
+}
+
+.drop-colors li a{
+  color: black !important;
+}
