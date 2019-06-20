@@ -205,6 +205,22 @@
         "role":"",
         "bio":"Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
         "id":"justin"
+      },
+      {
+        "name":"Preston Shepherd",
+        "img":"preston.png",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
+        "id":"preston"
+      },
+      {
+        "name":"Gabriel Gonzalez",
+        "img":"gabe.png",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
+        "id":""
       }
     ],
     "mechanical":[
@@ -287,6 +303,14 @@
         "role":"",
         "bio":"",
         "id":""
+      },
+      {
+        "name":"Alexander Watson-Jones",
+        "img":"alexanderwj.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":"alexanderwj"
       }
     ],
     "missionops":[
@@ -310,6 +334,14 @@
         "name":"Stephen Whitcomb",
         "img":"stephenwhitcome.jpg",
         "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Connor McFarren",
+        "img":"",
+        "major":"Computer Science and Physics",
         "role":"",
         "bio":"",
         "id":""
@@ -408,6 +440,14 @@
       }
     ],
     "intern":[
+      {
+        "name":"Annie Lin",
+        "img":"",
+        "major":"",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
       {
         "name":"Stephen Cofer",
         "img":"Cofer4.JPG",
@@ -594,7 +634,7 @@
         "name":"A.J. Banerjee",
         "img":"",
         "major":"Mechanical Engineering",
-        "role":"",
+        "role":"Amazon",
         "bio":"",
         "id":""
       },
@@ -634,6 +674,23 @@
         "name":"Logan Skidmore",
         "img":"",
         "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      }
+    ],
+    "alumni2016":[
+      {
+        "name":"Jaicob Stewart",
+        "img":"",
+        "major":"Computer Science",
+        "role":"Google",
+        "bio":"",
+        "id":""
+      },{
+        "name":"Kenny Cochran",
+        "img":"",
+        "major":"",
         "role":"",
         "bio":"",
         "id":""
