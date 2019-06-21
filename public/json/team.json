@@ -9,7 +9,7 @@
         "role":"Director - dmishra@uga.edu",
         "bio":"Dr. Mishra is an Associate Professor in the Center for Geospatial Research in the Geography Department. He specializes in the application of geospatial science including remote sensing, GIS, and GPS to coastal environments. Dr. Mishra’s broad research interests are: Remote Sensing of Wetlands, Estuaries, Coastal and Open Ocean Waters Remote Sensing in Monitoring Global Climate Change Ocean Optics and Satellite Oceanography. He envisions a permanent Small Sat Research Lab at the University of Georgia.",
         "id":"mishra",
-        "link":""
+        "link":"/images/documents/cv/DeepakMishra.pdf"
       },
       {
         "name":"Dr. David L. Cotten",
@@ -78,7 +78,7 @@
       },
       {
         "name":"Michael Ely",
-        "img":"",
+        "img":"ely.png",
         "major":"Mechanical Engineering",
         "role":"MOCI Mechanical Lead",
         "bio":"",
@@ -349,6 +349,13 @@
     ],
     "labops":[
       {
+        "name":"Michael Akintonwa",
+        "img":"",
+        "major":"",
+        "role":"",
+        "bio":"",
+        "id":""
+      },{
         "name":"Sabrina Norris",
         "img":"sabrina1.jpg",
         "major":"",
