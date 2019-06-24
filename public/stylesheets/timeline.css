@@ -25,6 +25,7 @@
   font-style: italic;
 }
 .timeline a {
+  font-family: 'Lato', sans-serif;
   color: var(--blue);
 }
 .timeline a:hover {
