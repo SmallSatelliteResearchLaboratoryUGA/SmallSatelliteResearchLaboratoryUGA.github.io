@@ -89,15 +89,15 @@
 }
 .timeline-image::before {
     content: "";
-    width: 125px;
-    height: 125px;
+    width: 65px;
+    height: 65px;
     border: 2px dashed #072027;
     border-radius: 50%;
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-20%);
     background-color: #072027;
     z-index: 1;
 
