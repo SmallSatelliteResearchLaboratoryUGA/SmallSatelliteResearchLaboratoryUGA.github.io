@@ -19,16 +19,18 @@
 .timeline p, .timeline time {
     color: #f6f6f6;
 }
-
+.timeline center {
+  color: #f6f6f6;
+  font-weight: lighter;
+  font-style: italic;
+}
 .timeline a {
   color: var(--blue);
 }
-
 .timeline a:hover {
     color: #0056b3;
     text-decoration: underline;
 }
-
 .timeline::before {
     content: "";
     display: block;
