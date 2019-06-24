@@ -582,8 +582,8 @@
       },
       {
         "name":"Natalie Davis",
-        "img":"davis.jpg",
-        "major":"Mechanical Engineering",
+        "img":"natalie.jpg",
+        "major":"Computer Systems Engineering",
         "role":"",
         "bio":"",
         "id":""
@@ -704,7 +704,7 @@
       },
       {
         "name":"Logan Skidmore",
-        "img":"logans.jpg",
+        "img":"logan.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
@@ -720,7 +720,7 @@
       },
       {
         "name":"Parker Ensing",
-        "img":"parkere.jpg",
+        "img":"parker.jpg",
         "major":"Mechanical Engineering",
         "role":"Generation Orbit",
         "bio":"",
@@ -728,7 +728,7 @@
       },
       {
         "name":"Kayla Gilbert",
-        "img":"kaylag.jpg",
+        "img":"kayla.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
@@ -794,23 +794,23 @@
     "alumni2016":[
       {
         "name":"Ryan Babaie",
-        "img":"",
-        "major":"Mechanical Engineering",
+        "img":"ryan_babaie_side.png",
+        "major":"Electrical Engineering",
         "role":"",
         "bio":"",
         "id":""
       },
      {
         "name":"Juweek Adolphe",
-        "img":"juweek.png",
+        "img":"juweek1.png",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
         "id":""
-      }, 
+      },
       {
         "name":"Chrissie Brady",
-        "img":"chrissie.jpg",
+        "img":"chrissie_brady.png",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
@@ -818,7 +818,7 @@
       },
       {
         "name":"Jaicob Stewart",
-        "img":"",
+        "img":"jaicob_stewart.jpg",
         "major":"Computer Science",
         "role":"Google",
         "bio":"",
@@ -850,7 +850,7 @@
       },
       {
         "name":"Tyler Bugbee",
-        "img":"tylerb.jpg",
+        "img":"tyler.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",

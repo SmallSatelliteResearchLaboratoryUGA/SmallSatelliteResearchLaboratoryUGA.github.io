@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css">
     <link  rel="stylesheet" type="text/css" href="/stylesheets/contact.css">
     <link  rel="stylesheet" type="text/css" href="/stylesheets/master.css">
+    <link  rel="stylesheet" type="text/css" href="/stylesheets/timeline.css">
     <script async src="/javascripts/bootstrap.js"></script>
     <script type="text/javascript" src="/javascripts/flif.js"></script>
     <title></title>
@@ -28,17 +29,139 @@
 
     <% include partials/nav %>
 
-    <h1> Page Under Construction </h1>
+    <div class="container">
 
-    <%# CONTENT GOES BELOW HERE %>
+      <br>
+      <h1> Founding and History </h1>
+      <br>
+
+      <div class="timeline">
+
+        <!-- left text -->
+        <div class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes">
+
+          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+            <h3 class=" text-light">First UGA Hackathon Winners</h3>
+            <p>A team of UGA Students, lead by Caleb Adams, place first at Virgina Tech hacks
+            and become the first team from UGA to win an MLH Hackathon. They designed and built
+            a low cost remote operated telescope. Members of this team would later go on to
+            begin the annual UGA Hackathon,
+            <a href="#" target="_blank">UGA Hacks</a>.
+            </p>
+          </div>
+
+          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+            <img src="images/founding/vt.jpg"  alt="img">
+          </div>
+
+          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+            <time>February 2015</time>
+          </div>
+
+        </div>
+
+        <!-- right text -->
+        <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+
+          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+            <h3 class=" text-light">Spacey Sciences LLC Founded</h3>
+            <p>
+              The company Spacey Sciences LLC was formed out of the UGA Entrepreneurship program.
+              The company consisted of Caleb Adams, Nicholas (Hollis) Neel, Kenny Cochran, and Ryan Babaie.
+              The goal of the organization was to launch a small satellite into space. The plan
+              was to fund this venture thorough a combiniation of smart-telescope sales and a kickstarter.
+              The orginization saw some early success with the development of
+              <a href="https://news.uga.edu/looking-to-space/" target="_blank"> the Spacey Smart Telescope</a>
+              The company would go on to sell several prototype units before dissolution.
+            </p>
+          </div>
+
+          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+            <img src="img/img13.png" class="img-fluid" alt="img">
+          </div>
+
+          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+            <time>March 2015</time>
+          </div>
+
+        </div>
+
+
+        <!-- left text -->
+        <div class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes">
+
+          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+            <h3 class=" text-light">Partnership with the Center for Geospatial Research</h3>
+            <p>
+              The Spacey Sciences team, now consisting over 18 students, partners with
+              UGA faculty and researchers to
+            </p>
+          </div>
+
+          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+            <img src="images/"  alt="img">
+          </div>
+
+          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+            <time>August 2015</time>
+          </div>
+
+        </div>
+
+
+        <!-- right text -->
+        <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+
+          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+            <h3 class=" text-light">Submission of NASA and AFRL Proposals</h3>
+            <p>
+
+            </p>
+          </div>
+
+          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+            <img src="img/img13.png" class="img-fluid" alt="img">
+          </div>
+
+          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+            <time>November 2015</time>
+          </div>
+
+        </div>
+
+        <!-- right text -->
+        <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+
+          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+            <h3 class=" text-light">Founding of the UGA Small Satellite Research Lab</h3>
+            <p>
+
+            </p>
+          </div>
+
+          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+            <img src="img/img13.png" class="img-fluid" alt="img">
+          </div>
+
+          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+            <time>January 2016</time>
+          </div>
+
+        </div>
+
+
+
+      </div>
 
 
 
 
-
-    <%# CONTENT GOES ABOVE HERE %>
 
     <% include partials/footer %>
+
+    </div>
+
+
   <script type="text/javascript">
     if (screen.width <= 699) {
       document.getElementById("departments").style.display = "none"
