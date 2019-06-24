@@ -331,14 +331,6 @@
         "id":""
       },
       {
-        "name":"Stephen Whitcomb",
-        "img":"stephenwhitcome.jpg",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
         "name":"Connor McFarren",
         "img":"",
         "major":"Computer Science and Physics",
@@ -348,14 +340,7 @@
       }
     ],
     "labops":[
-      {
-        "name":"Michael Akintonwa",
-        "img":"",
-        "major":"",
-        "role":"",
-        "bio":"",
-        "id":""
-      },{
+     {
         "name":"Sabrina Norris",
         "img":"sabrina1.jpg",
         "major":"",
@@ -377,15 +362,15 @@
         "name":"Dr. Malcolm R Adams",
         "img":"malcolm_adams.jpg",
         "major":"",
-        "role":"Mathematics and Algorithms Advisor",
+        "role":"Mathematics and Algorithms",
         "bio":"Dr. Malcolm Adams is the Head of the Mathematics Department and Josiah Meigs Distinguished Teaching Professor. HIs research uses analytic and geometric techniques to study problems in mathematical physics and mathematical biology.",
         "id":"adams"
       },
       {
         "name":"Dr. Fred Beyette",
-        "img":"",
+        "img":"beyette.jpeg",
         "major":"",
-        "role":"Electrical & Computer Engineering Advisor",
+        "role":"Electrical & Computer Engineering",
         "bio":"Electrical & Computer Engineering.",
         "id":"fred"
       },
@@ -393,7 +378,7 @@
         "name":"Dr. Adrian Burd",
         "img":"adrian_burd.jpg",
         "major":"",
-        "role":"Marine Science Advisor",
+        "role":"Marine Science",
         "bio":"Dr. Adrian Burd is an Associate Professor in the Marine Science Department. His research involves the use of mathematical and computer modeling to understand how different marine systems function and how they might change under changing environmental and climate conditions. For me, a marine system can mean many things; a the biological and chemical transformations of a single particle of detrital material settling through the water column; the productivity of a seagrass bed along the coast; the cycling of carbon in the global ocean.",
         "id":"burd"
       },
@@ -401,7 +386,7 @@
         "name":"Dr. Marguerite Madden",
         "img":"marguerite_madden.jpg",
         "major":"",
-        "role":"Remote Sensing Advisor",
+        "role":"Remote Sensing",
         "bio":"Dr. Marguerite Madden is the Director of the Center for Geospatial Research (CGR) and Professor in the Department of Geography at the University of Georgia (UGA). Dr. Madden is a Past President (2007) and Fellow (2010) of the American Society for Photogrammetry and Remote Sensing (ASPRS), Editor of the 2009 ASPRS Manual of GIS, and former International Society for Photogrammetry and Remote Sensing (ISPRS) Technical Commission President of Commission IV “Geodatabases and Digital Mapping” (2008-2012). Currently she is the current Second Vice President of ISPRS (2012-2016).",
         "id":"madden"
       },
@@ -409,7 +394,7 @@
         "name":"Dr. Thomas L Mote",
         "img":"thomas_mote.jpg",
         "major":"",
-        "role":"Remote Sensing Advisor",
+        "role":"Remote Sensing",
         "bio":"Dr. Thomas Mote is the Department Head of Geography and a Professor in the Geography Department. His research involves hydroclimatology, climate change, synoptic climatology/meteorology, and satellite climatology/meteorology.",
         "id":"mote"
       },
@@ -417,7 +402,7 @@
         "name":"Dr. Marshall Shepherd",
         "img":"marshall_shepherd.jpg",
         "major":"",
-        "role":"Mission Operations Team Mentor",
+        "role":"Mission Operations",
         "bio":"Dr. Marshall Shepherd is the Director for Program in Atmospheric Sciences and a Georgia Athletic Association Professor. His research interests include urban weather-climate, mesoscale weather processes, precipitation, tropical weather hazards, and satellite remote sensing. Dr. Shepherd worked at NASA's Goddard Space Flight Center (GSFC) as a research meteorologist for twelve years.",
         "id":"shepherd"
       },
@@ -425,7 +410,7 @@
         "name":"Dr. Susanne Ullrich",
         "img":"susanne_ullrich.jpg",
         "major":"",
-        "role":"Optics and Vacuum Chamber Advisor",
+        "role":"Optics and Vacuum Chamber",
         "bio":"Dr. Susanne Ullrich is an Associate Professor of Physics. Her research involves exploring dynamics and functionality of biophotonic molecules via time-resolved spectroscopy. Her lab uses modern femtosecond and picosecond time-resolved pump-probe spectroscopies − both transient absorption and photoelectron photoion coincidence spectroscopy − to investigate dynamic biophotonic processes in the gas-phase, in molecular clusters, where the complexity of the environment can be varied, and in solution. She will use her background to mentor the students through the design process of different testing apparatuses, from vacuum chambers to ADCS testing.",
         "id":"ullrich"
       },
@@ -433,15 +418,15 @@
         "name":"Dr. Ben Wagner",
         "img":"ben_wagner.jpg",
         "major":"",
-        "role":"Mechanical Advisor",
+        "role":"Mechanical Engineering",
         "bio":"Dr. Ben Wagner is an engineering professor at the UGA College of Engineering. Dr. Wagner recieved his Ph.D. in Mehcanical Engineering at the Georgia Insitute of Technology in 2007 and specializes in dynamics and vibrations, rotating machinery, and industrial utilities and energy conservation.",
         "id":"wagner"
       },
       {
         "name":"Dr. Yohannes Abate",
-        "img":"",
+        "img":"abate.jpeg",
         "major":"",
-        "role":"Quantum Nano Optics Advisor",
+        "role":"Quantum Nano Optics",
         "bio":"",
         "id":"wagner"
       }
@@ -539,25 +524,33 @@
       }
     ],
     "alumni2018":[
+     {
+        "name":"Graham Grable",
+        "img":"grahamg.jpg",
+        "major":"Mechanical Engineering",
+        "role":"Tyvak",
+        "bio":"",
+        "id":""
+      },
       {
         "name":"Adam King",
         "bio":"Adam is currently pursuing a dual Bachelor's/Master's degree in Computer Science through the Honors Program and plans to specialize in robotics, namely AI-assisted feedback controls. After this, he plans to pursue a dual Bachelor's/Master's degree in Electrical Engineering through the Honors Program at Georgia Tech, and then pursue a Ph.D. in Electrical Engineering, hopefully at the Massachusetts Institute of Technology, Stanford University, or the University of California - Berkeley. This will enable career-based research at NASA, SpaceX, or Boeing with electrical feedback controls.",
         "major":"Computer Science",
         "img":"adam.jpg",
         "id":"adam",
-        "role":"Generation Orbitr"
+        "role":"Generation Orbit"
       },
       {
         "name":"Nirav Ilango",
-        "img":"",
+        "img":"nirav.jpg",
         "major":"Geography / Computer Science",
-        "role":"Oxford",
+        "role":"ESRI",
         "bio":"Hey! My name is Nirav Ilango and I’m from Johns Creek, GA. I’m a member of the class of 2019 at the University of Georgia, majoring in computer science and geography, and the leader of the Data Team on the UGA CubeSat project. As someone who is passionate about our local environment, I’m particularly interested in the applications of our data for oceanographic and geographical research on the Georgia coast! In my free time, I enjoy spending time with friends, reading, watching Netflix, and hiking. Feel free to reach out!",
         "id":"nirav"
       },
       {
         "name":"Khoa Ngo",
-        "img":"",
+        "img":"ngo.jpg",
         "major":"Mechanical Engineering",
         "role":"NASA AMES",
         "bio":"",
@@ -589,8 +582,8 @@
       },
       {
         "name":"Natalie Davis",
-        "img":"",
-        "major":"Mechanical Engineering",
+        "img":"natalie.jpg",
+        "major":"Computer Systems Engineering",
         "role":"",
         "bio":"",
         "id":""
@@ -612,6 +605,22 @@
         "role":"Duke University"
       },
       {
+        "name":"Kyle Hamilton",
+        "img":"",
+        "major":"Art / Graphic Design",
+        "role":"",
+        "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
+        "id":"paulh"
+      },
+      {
+        "name":"Ashley Huynh",
+        "img":"ashleyh.jpg",
+        "major":"Art / Graphic Design",
+        "role":"",
+        "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
+        "id":"paulh"
+      },
+      {
         "name":"Paul Hwang",
         "img":"paulh.jpg",
         "major":"Art / Graphic Design",
@@ -620,12 +629,28 @@
         "id":"paulh"
       },
        {
-        "name":"Graham Grable",
+        "name":"Cindy Lieu",
         "img":"",
-        "major":"Mechanical Engineering",
-        "role":"Tyvak",
-        "bio":"",
-        "id":""
+        "major":"Art / Graphic Design",
+        "role":"",
+        "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
+        "id":"paulh"
+      },
+      {
+        "name":"Meredith Van De Velde",
+        "img":"",
+        "major":"Art / Graphic Design",
+        "role":"",
+        "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
+        "id":"paulh"
+      },
+      {
+        "name":"Byron Williams",
+        "img":"",
+        "major":"Art / Graphic Design",
+        "role":"",
+        "bio":">Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
+        "id":"paulh"
       }
     ],
     "alumni2017":[
@@ -639,7 +664,7 @@
       },
       {
         "name":"A.J. Banerjee",
-        "img":"",
+        "img":"AJ.jpg",
         "major":"Mechanical Engineering",
         "role":"Amazon",
         "bio":"",
@@ -647,7 +672,7 @@
       },
       {
         "name":"Paul Keith",
-        "img":"",
+        "img":"paulk2.png",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
@@ -655,7 +680,7 @@
       },
       {
         "name":"Dustin Mizelle",
-        "img":"",
+        "img":"dustinm.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
@@ -663,7 +688,7 @@
       },
       {
         "name":"Esa Serog",
-        "img":"",
+        "img":"esan.jpg",
         "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
@@ -671,7 +696,7 @@
       },
       {
         "name":"Alex Winkles",
-        "img":"",
+        "img":"alexw.jpg",
         "major":"Mechanical Engineering",
         "role":"Georgia Tech",
         "bio":"",
@@ -679,6 +704,86 @@
       },
       {
         "name":"Logan Skidmore",
+        "img":"logan.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Benson Chau",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Parker Ensing",
+        "img":"parker.jpg",
+        "major":"Mechanical Engineering",
+        "role":"Generation Orbit",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Kayla Gilbert",
+        "img":"kayla.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Alex Mailloux",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Kyle Millar",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Rick Ray",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Todd Emmenegger",
+        "img":"toddn.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Tiffany Hsieh",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"Tyvak",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Josh O'Shields",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Christine Yang",
         "img":"",
         "major":"Mechanical Engineering",
         "role":"",
@@ -688,16 +793,65 @@
     ],
     "alumni2016":[
       {
+        "name":"Ryan Babaie",
+        "img":"ryan_babaie_side.png",
+        "major":"Electrical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+     {
+        "name":"Juweek Adolphe",
+        "img":"juweek1.png",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Chrissie Brady",
+        "img":"chrissie_brady.png",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
         "name":"Jaicob Stewart",
-        "img":"",
+        "img":"jaicob_stewart.jpg",
         "major":"Computer Science",
         "role":"Google",
         "bio":"",
         "id":""
-      },{
+      },
+      {
+        "name":"Nick Szakal",
+        "img":"nicks.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
         "name":"Kenny Cochran",
-        "img":"",
+        "img":"kennyc.jpg",
         "major":"",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Nicholas Gravina",
+        "img":"",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Tyler Bugbee",
+        "img":"tyler.jpg",
+        "major":"Mechanical Engineering",
         "role":"",
         "bio":"",
         "id":""

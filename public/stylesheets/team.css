@@ -10,7 +10,7 @@ html body {
 }
 body, p, ol, ul, td {
     font-family: helvetica, verdana, arial, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 18px;
 }
 p{
@@ -47,7 +47,7 @@ iframe{
 }
 .profile-section{
   display: flex;
-  justify-content:flex-start;
+  justify-content:center;
   width: 100%;
   height: auto;
   flex-wrap: wrap;
@@ -61,7 +61,6 @@ iframe{
     margin-bottom: 20px;
 }
 .profile img {
-  //position: inherit;
   height: auto;
   width: 150px;
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -73,15 +72,12 @@ iframe{
   color: #f4f4f4;
   text-align: center;
   text-align: center;
-  font-size: 22px;
+  font-size: 14px;
   margin: 5px;
 }
 .profile .title {
-  color: #f4f4f4;
+  color: #7e7e7e;
   text-align: center;
-  /*text-align: center;
-  font-size: 15px;
-  margin: 5px;*/
 }
 p {
     font-family: 'Armata', sans-serif;
@@ -105,7 +101,8 @@ p {
     color: #f4f4f4;
     font-size: 50px;
     justify-content: center;
-    margin: 30px 0px 20px;
+    margin: 80px 0px 40px 0;
+    text-align: center;
 }
 .p-text {
     color: #f4f4f4;
