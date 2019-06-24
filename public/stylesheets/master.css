@@ -85,40 +85,6 @@ hr{
   justify-content: space-between;
   height: 100%;
 }
-.outreach{
-  width: 100%
-}
-.outreach .sub-title{
-  display: inline;
-  font-weight: bolder;
-}
-.outreach .sub{
-  display: inline;
-  margin-right: 40px;
-}
-.outreach .outreach-img{
-  min-width: 250px;
-  max-height: 250px;
-  overflow: hidden;
-  margin-right: 20px;
-}
-.outreach-img img{
-  margin: auto;
-  width: 100%;
-  height: auto;
-}
-.outreach .description{
-  margin-top: 20px;
-  display: flex;
-  align-items: flex-start;
-}
-.outreach .description p {
-  display: inline;
-}
-.description p{
-  overflow-x: auto;
-}
-
 
 /* bootstrap override */
 
