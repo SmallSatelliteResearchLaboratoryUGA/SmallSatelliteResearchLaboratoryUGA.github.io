@@ -6,10 +6,21 @@ $(document).ready(function(){
   $.getJSON("/json/research.json",function(data){
     for (var i = 0; i < data.research.length; i++) {
       //console.log(data.research.length);
-      var r = new createResearch(data.research[i])
+      var r = new createResearchLong(data.research[i])
       documents.push(r);
       //createResearch(data.research[i]);
-      $("#container-documents").append(documents[i].doc);
+      if(documents[i].year == "2019"){
+        $("#documents2019").append(documents[i].doc);
+      }
+      if(documents[i].year == "2018"){
+        $("#documents2018").append(documents[i].doc);
+      }
+      if(documents[i].year == "2017"){
+        $("#documents2017").append(documents[i].doc);
+      }
+      if(documents[i].year == "2016"){
+        $("#documents2016").append(documents[i].doc);
+      }
       //console.log("appended");
     }
   });
@@ -44,9 +55,69 @@ $(document).ready(function(){
     doca.appendChild(docInnerContainer);
     docImgContainer.appendChild(docImg);
     if(!(screen.width <= 699))docInnerContainer.appendChild(docImgContainer);
+    docInnerContainer.appendChild(docSubTitle);
     docInnerContainer.appendChild(docAuthors);
     docInnerContainer.appendChild(docTitle);
-    docInnerContainer.appendChild(docSubTitle);
+
+    this.hidden = false;
+
+    //functions
+    this.show = function(b){
+      if(b){
+        this.doc.setAttribute("class","document");
+        this.hidden = false;
+      }else{
+        this.doc.setAttribute("class","document-hidden");
+        this.hidden = true;
+      }
+    };
+
+  }
+
+  function createResearchLong(d){
+    this.year = d.year;
+    this.tags = d.tags;
+    this.doc = document.createElement("a");
+    //let doca = document.createElement("a");
+      let docInnerContainer = document.createElement("div");
+      docInnerContainer.setAttribute("class","doc-flex");
+      let docContent = document.createElement("div");
+      docContent.setAttribute("class","content");
+        let docImgContainer = document.createElement("div");
+          docImgContainer.setAttribute("class","img-container");
+          let grad = document.createElement("div");
+          grad.setAttribute("class","gradient");
+          let img = document.createElement("div");
+          img.setAttribute("style","background-image:url(\"/images/documents/thumbnails/"+d.img+"\")");
+          img.setAttribute("class","img");
+        let docAuthors = document.createElement("div");
+        let docTitle = document.createElement("h1");
+        docTitle.setAttribute("class","title");
+        let docLocDateFlex = document.createElement("div");
+        docLocDateFlex.setAttribute("class","subtitle");
+          let docLoc = document.createElement("div");
+          let docDate = document.createElement("div");
+
+    this.doc.setAttribute("class", "document");
+    this.doc.setAttribute("href", d.src);
+    this.doc.setAttribute("target","_blank");
+    docAuthors.innerHTML = d.authors;
+    docAuthors.setAttribute("class","document-author");
+    docTitle.innerHTML = d.title;
+    docLoc.innerHTML = d.subTitle;
+    docDate.innerHTML = d.date;
+
+    this.doc.appendChild(docInnerContainer);
+    //docInnerContainer.appendChild(docImgContainer);
+    docInnerContainer.appendChild(img);
+      //docImgContainer.appendChild(img);
+      //docImgContainer.appendChild(grad);
+    docInnerContainer.appendChild(docContent);
+    docContent.appendChild(docAuthors);
+    docContent.appendChild(docTitle);
+    docContent.appendChild(docLocDateFlex)
+    docLocDateFlex.appendChild(docLoc);
+    docLocDateFlex.appendChild(docDate);
 
     this.hidden = false;
 

@@ -40,7 +40,16 @@ h4{
   min-height: 100%;
   margin-top: -76px;
 }
-
+.mission-panel{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: -40px;
+}
 .mission-img{
   display: flex;
   flex-direction: column;
@@ -77,16 +86,9 @@ h4{
 .mission-desc{
   box-sizing: border-box;
   padding: 0 80px 0 0;
+  min-width: 420px;
 }
-.mission-panel{
-  width: 100%;
-  min-height: 100vh;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  margin-top: -40px;
-}
+
 .mission-hidden{
   display: none;
 }
@@ -176,4 +178,43 @@ h4{
 
 	/** Unhide lightbox **/
 	display: block;
+}
+
+@media only screen and (max-width: 990px) {
+  #Mission-container{
+    overflow-x: hidden;
+    min-height: 100%;
+    margin-top: 76px;
+  }
+  .sat-buttons{
+    box-sizing: border-box;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+    bottom: 0px;
+    height: auto;
+    background-color: #10141E;
+  }
+  .sat-buttons input{
+    margin: 5px 0px;
+    height: 60px;
+  }
+  .mission-panel{
+    flex-direction: column;
+    margin-bottom: 100px;
+    min-height: 0;
+  }
+  .mission-img{
+    padding: 0;
+  }
+  .mission-desc{
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
 }
