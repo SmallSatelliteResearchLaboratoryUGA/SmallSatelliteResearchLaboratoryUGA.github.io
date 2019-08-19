@@ -109,7 +109,7 @@
     border-radius: 50%;
     /* width: 200%; */
     /* height: 200%; */
-    transform: translate(-25%,0%);
+    transform: translate(-50%,0%);
     z-index: 100;
 }
 /*small device style*/
