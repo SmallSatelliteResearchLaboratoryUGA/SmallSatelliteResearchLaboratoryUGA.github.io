@@ -89,8 +89,8 @@
 }
 .timeline-image::before {
     content: "";
-    width: 65px;
-    height: 65px;
+    width: 65px !important;
+    height: 65px !important;
     border: 2px dashed #072027;
     border-radius: 50%;
     display: block;
@@ -107,8 +107,8 @@
     position: relative;
     background-size: cover;
     border-radius: 50%;
-    width: 200%;
-    height: 200%;
+    /* width: 200%; */
+    /* height: 200%; */
     transform: translate(-25%,0%);
     z-index: 100;
 }
@@ -172,8 +172,8 @@
     text-align: left;
 }
 .timeline-image::before {
-    width: 65px;
-    height: 65px;
+    width: 65px !important;
+    height: 65px !important;
 }
 }
 
@@ -191,7 +191,7 @@
     left: -5%;
     }
 .timeline-image::before {
-    width: 60px;
-    height: 60px;
+    width: 60px !important;
+    height: 60px !important;
 }
 }
