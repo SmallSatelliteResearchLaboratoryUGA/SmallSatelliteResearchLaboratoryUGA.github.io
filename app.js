@@ -69,6 +69,9 @@ app.get('/facilities', function (req, res) {
 app.get('/alumni', function (req, res) {
   res.render('alumni');
 })
+app.get('/donate', function (req, res) {
+  res.redirect('https://gail.uga.edu/commit?search=90072000&desonly=1');
+})
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
