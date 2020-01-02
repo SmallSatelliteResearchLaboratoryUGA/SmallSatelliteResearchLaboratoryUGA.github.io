@@ -2,7 +2,7 @@
 "research":[
     {
       "title":"Analysis and Design of Aluminium-6061 Structures for use in Satellites",
-      "img":"spocsmallsat2019paper.png",
+      "img":"Heavner-CURO_Poster-1.png",
       "src":"/images/documents/posters/Heavner-CURO_Poster.pdf",
       "authors":"N. Heavner, D. Cotten",
       "tags":"CURO publications,poster",
@@ -12,7 +12,7 @@
     },
     {
       "title":"A Study into the Structural and Thermal Integrity of 6U Cube Satellite Subsystems and Components",
-      "img":"spocsmallsat2019paper.png",
+      "img":"Ely_CURO_Poster_Ely-1.png",
       "src":"/images/documents/posters/Ely_CURO_Poster_Ely.pdf",
       "authors":"M. Ely, D. Cotten",
       "tags":"CURO publications,poster",
@@ -22,8 +22,8 @@
     },
     {
       "title":"Implementing Fault Tolerance and Radiation Hardening for an Accelerated Computing Platform in Low Earth Orbit",
-      "img":"spocsmallsat2019paper.png",
-      "src":"/images/documents/posters/Roach-_CURO_Oral.pptx",
+      "img":"Roach-_CURO_Oral-01.png",
+      "src":"/images/documents/presentations/Roach-_CURO_Oral.pptx",
       "authors":"J. Roach, D. Cotten",
       "tags":"CURO publications,poster",
       "subTitle":"UGA CURO Symposium",
@@ -32,7 +32,7 @@
     },
     {
       "title":"Modeling the Attitude Determination and Control Subsystems(ADCS) for Pointing",
-      "img":"spocsmallsat2019paper.png",
+      "img":"Lin_CURO_2019-1.png",
       "src":"/images/documents/posters/Lin_CURO_2019.pdf",
       "authors":"A. Lin, D. Cotten",
       "tags":"CURO publications,poster",
@@ -42,7 +42,7 @@
     },
     {
       "title":"UHF Half-Duplex Telecommand and Telemetry for Successful and Accurate Satellite Communication",
-      "img":"spocsmallsat2019paper.png",
+      "img":"Saki-CURO_Poster_Saki-1.png",
       "src":"/images/documents/posters/Saki-CURO_Poster_Saki.pdf",
       "authors":"M. Saki, D. Cotten",
       "tags":"CURO publications,poster",
@@ -52,7 +52,7 @@
     },
     {
       "title":"Small Satellite Communications: Functionality and Testing",
-      "img":"spocsmallsat2019paper.png",
+      "img":"Venenga-2019_CURO_Poster-1.png",
       "src":"/images/documents/posters/Venenga-2019_CURO_Poster.pptx",
       "authors":"C. Venega, D. Cotten",
       "tags":"CURO publications,poster",
@@ -62,7 +62,7 @@
     },
     {
       "title":"Undegraduates Modeling Small Satellites with Thermal Desktop",
-      "img":"spocsmallsat2019paper.png",
+      "img":"Deal_-_CURO_2019_-_Poster-1.png",
       "src":"/images/documents/posters/Deal_-_CURO_2019_-_Poster.pdf",
       "authors":"K. Deal, D. Cotten",
       "tags":"CURO publications,poster",
@@ -72,7 +72,7 @@
     },
     {
       "title":"Design and Implementation for Power Verification Engine for Small Satellite",
-      "img":"spocsmallsat2019paper.png",
+      "img":"Watson-Jones_CURO-1.png",
       "src":"/images/documents/posters/Watson-Jones_CURO.pdf",
       "authors":"S. Whitcomb, D. Cotten",
       "tags":"CURO publications,poster",
@@ -82,7 +82,7 @@
     },
     {
       "title":"Steady State Thermal Analysis of the 3U SPOC Satellite in ANSYS Workbench",
-      "img":"spocsmallsat2019paper.png",
+      "img":"Patel-Curo-1.png",
       "src":"/images/documents/posters/Patel-Curo.pdf",
       "authors":"N. Patel, D. Cotten",
       "tags":"CURO publications,poster",
@@ -92,7 +92,7 @@
     },
     {
       "title":"Front End Design/Development for Lab Systems",
-      "img":"spocsmallsat2019paper.png",
+      "img":"Huynh-2019CURO.png",
       "src":"/images/documents/posters/Huynh-2019CURO.png",
       "authors":"D. Huynh, D. Cotten",
       "tags":"CURO publications,poster",
@@ -102,7 +102,7 @@
     },
     {
       "title":"Structural-thermal Optical Performance Analysis of Small Satellite Payloads",
-      "img":"spocsmallsat2019paper.png",
+      "img":"Watson-Jones_CURO-1.png",
       "src":"/images/documents/posters/Watson-Jones_CURO.pdf",
       "authors":"A. Watson-Jones, D. Cotten",
       "tags":"CURO publications,poster",
