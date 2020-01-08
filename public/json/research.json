@@ -1,6 +1,96 @@
 {
 "research":[
     {
+      "title":"An Exploration of the Art Gallery Problem with Small Satellites",
+      "img":"Adams-etal-Art_Gallery_w_Small_Sats-1.png",
+      "src":"/images/documents/posters/Adams-etal-Art_Gallery_w_Small_Sats.pdf",
+      "authors":"C. Adams, D. Cotten, D. Mishra, R. Parasuraman",
+      "tags":"Symposium on Space Innovation,poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
+      "date":"November 18, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Feasibility of CubeSat Frames for Heat Dissipation",
+      "img":"Ely-cotten-mishra-Symposium_2019-1.png",
+      "src":"/images/documents/posters/Ely-cotten-mishra-Symposium_2019.pdf",
+      "authors":"M. Ely, D. Cotten, D. Mishra",
+      "tags":"Symposium on Space Innovation,poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
+      "date":"November 18, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Radiation Sensing and Interface Circuity in Support of High-Performance Computation in a Small Satellite Payload",
+      "img":"Heimerl-Cotten-Mishra-1.png",
+      "src":"/images/documents/posters/Heimerl-Cotten-Mishra.pdf",
+      "authors":"J. Heimerl, D. Cotten, D. Mishra",
+      "tags":"Symposium on Space Innovation,poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
+      "date":"November 18, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"A Method for Using a TX2i for Onboard Computer via Serial Connection",
+      "img":"Hendrix-Miller-Cotten-Mishra-TX2i_Control_Program_Poster-1.png",
+      "src":"/images/documents/posters/Hendrix-Miller-Cotten-Mishra-TX2i_Control_Program_Poster.pdf",
+      "authors":"S.G. Hendrix, E. Miller, D. Cotten, D. Mishra",
+      "tags":"Symposium on Space Innovation,poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
+      "date":"November 18, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Space Environment Research and Validation of Accelerate LAN processing",
+      "img":"Kinkade-Spain-Cotten-SERVAL_Space_Syposium_2019_Vertical-1.png",
+      "src":"/images/documents/posters/Kinkade-Spain-Cotten-SERVAL_Space_Syposium_2019_Vertical.pdf",
+      "authors":"A. Kinkade, A. Spain, D. Cotten",
+      "tags":"Symposium on Space Innovation,poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
+      "date":"November 18, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Proposal for an Ultra-Cheap, Fault-Tolerant Comman & data Handling System",
+      "img":"Lin-Roach-Cotten-Ultra-Cheap__Fault-Tolerant_CDH-1.png",
+      "src":"/images/documents/posters/Lin-Roach-Cotten-Ultra-Cheap__Fault-Tolerant_CDH.pdf",
+      "authors":"A. Lin, J. Roach, D. Cotten",
+      "tags":"Symposium on Space Innovation,poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
+      "date":"November 18, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Corruption Tolerant Operation System for GPU in Low Earth Orbit",
+      "img":"Miller-Cotten-Mishra-TMR_Poster-1.png",
+      "src":"/images/documents/posters/Miller-Cotten-Mishra-TMR_Poster.pdf",
+      "authors":"E. Miller, D. Cotten, D. Mishra",
+      "tags":"Symposium on Space Innovation,poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
+      "date":"November 18, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Agile, Elastic and Flexible: Incorporating AWS's Cloud-Based Technologies with Ground Systems",
+      "img":"Venenga-Cotten-Symposium_Poster-1.png",
+      "src":"/images/documents/posters/Venenga-Cotten-Symposium_Poster.pdf",
+      "authors":"C. Venenga, D. Cotten",
+      "tags":"Symposium on Space Innovation,poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
+      "date":"November 18, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Orbital Simulation Tools for CubeSat Missions",
+      "img":"Whilden_McFerren_Cotten-1.png",
+      "src":"/images/documents/posters/Whilden_McFerren_Cotten.pdf",
+      "authors":"S. Whilden, C. McFarren, D. Cotten",
+      "tags":"Symposium on Space Innovation,poster",
+      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
+      "date":"November 18, 2019",
+      "year":"2019"
+    },
+    {
       "title":"Analysis and Design of Aluminium-6061 Structures for use in Satellites",
       "img":"Heavner-CURO_Poster-1.png",
       "src":"/images/documents/posters/Heavner-CURO_Poster.pdf",
@@ -54,7 +144,7 @@
       "title":"Small Satellite Communications: Functionality and Testing",
       "img":"Venenga-2019_CURO_Poster-1.png",
       "src":"/images/documents/posters/Venenga-2019_CURO_Poster.pptx",
-      "authors":"C. Venega, D. Cotten",
+      "authors":"C. Venenga, D. Cotten",
       "tags":"CURO publications,poster",
       "subTitle":"UGA CURO Symposium",
       "date":"April 8, 2019",
