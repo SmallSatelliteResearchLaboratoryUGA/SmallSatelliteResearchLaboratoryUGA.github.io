@@ -2,6 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="UGA Alumni, UGA SSRL Alumni">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"></script>
@@ -21,7 +22,7 @@
     <link  rel="stylesheet" type="text/css" href="/stylesheets/team.css">
     <script async src="/javascripts/bootstrap.js"></script>
     <script type="text/javascript" src="/javascripts/flif.js"></script>
-    <script type="text/javascript" src="/javascripts/team.js"></script>
+    <script type="text/javascript" src="/javascripts/alumni.js"></script>
     <title></title>
   </head>
 
@@ -31,30 +32,32 @@
 
     <%# <h1> Page Under Construction </h1> %>
 
+      <div id="header-img">
+        <!-- <canvas data-polyflif-src="/images/SSRLProfiles/team.flif" id="team_pic"></canvas> -->
+        <div id="header">
+          <p id="header_p">The Alumni of the UGA SSRL, with their hard work and dedication,
+            have shaped the organization into what it is today. Without them, UGAs space program
+            would not exist. We thank them for their time and continued support.
+          </p>
+        </div>
+      </div>
 
     <div class="container">
 
 
-      <div id="header">
-        <canvas data-polyflif-src="/images/SSRLProfiles/team(old).flif" id="team_pic"></canvas>
-        <p id="header_p">The Alumni of the UGA SSRL, with their hard work and dedication,
-          have shaped the organization into what it is today. Without them, UGAs space program
-          would not exist. We thank them for their time and continued support.</p>
-      </div>
-
       <h1 class="section">Alumni</h1>
 
-      <h2 class="">2019</h2>
-      <div id="section-alumni2019" class="profile-section"></div>
 
-      <h2 class="">2018</h2>
-      <div id="section-alumni2018" class="profile-section"></div>
 
-      <h2 class="">2017</h2>
-      <div id="section-alumni2017" class="profile-section"></div>
+      <ul class="selection">
+        <li><button id="Everyone" type="button" name="button" class="selected">Everyone</button></li>
+        <li><button id="2019" type="button" name="button">2019</button></li>
+        <li><button id="2018" type="button" name="button">2018</button></li>
+        <li><button id="2017" type="button" name="button">2017</button></li>
+        <li><button id="2016" type="button" name="button">2016</button></li>
+      </ul>
 
-      <h2 class="">2016</h2>
-      <div id="section-alumni2016" class="profile-section"></div>
+      <div id="section-alumni" class="profile-section"></div>
 
       <% include partials/footer %>
 

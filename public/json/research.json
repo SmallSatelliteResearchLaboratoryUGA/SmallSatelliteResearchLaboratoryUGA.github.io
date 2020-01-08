@@ -1,5 +1,115 @@
 {
-  "research":[
+"research":[
+    {
+      "title":"Analysis and Design of Aluminium-6061 Structures for use in Satellites",
+      "img":"Heavner-CURO_Poster-1.png",
+      "src":"/images/documents/posters/Heavner-CURO_Poster.pdf",
+      "authors":"N. Heavner, D. Cotten",
+      "tags":"CURO publications,poster",
+      "subTitle":"UGA CURO Symposium",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"A Study into the Structural and Thermal Integrity of 6U Cube Satellite Subsystems and Components",
+      "img":"Ely_CURO_Poster_Ely-1.png",
+      "src":"/images/documents/posters/Ely_CURO_Poster_Ely.pdf",
+      "authors":"M. Ely, D. Cotten",
+      "tags":"CURO publications,poster",
+      "subTitle":"UGA CURO Symposium",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Implementing Fault Tolerance and Radiation Hardening for an Accelerated Computing Platform in Low Earth Orbit",
+      "img":"Roach-_CURO_Oral-01.png",
+      "src":"/images/documents/presentations/Roach-_CURO_Oral.pptx",
+      "authors":"J. Roach, D. Cotten",
+      "tags":"CURO publications,poster",
+      "subTitle":"UGA CURO Symposium",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Modeling the Attitude Determination and Control Subsystems(ADCS) for Pointing",
+      "img":"Lin_CURO_2019-1.png",
+      "src":"/images/documents/posters/Lin_CURO_2019.pdf",
+      "authors":"A. Lin, D. Cotten",
+      "tags":"CURO publications,poster",
+      "subTitle":"UGA CURO Symposium",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"UHF Half-Duplex Telecommand and Telemetry for Successful and Accurate Satellite Communication",
+      "img":"Saki-CURO_Poster_Saki-1.png",
+      "src":"/images/documents/posters/Saki-CURO_Poster_Saki.pdf",
+      "authors":"M. Saki, D. Cotten",
+      "tags":"CURO publications,poster",
+      "subTitle":"UGA CURO Symposium",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Small Satellite Communications: Functionality and Testing",
+      "img":"Venenga-2019_CURO_Poster-1.png",
+      "src":"/images/documents/posters/Venenga-2019_CURO_Poster.pptx",
+      "authors":"C. Venega, D. Cotten",
+      "tags":"CURO publications,poster",
+      "subTitle":"UGA CURO Symposium",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Undegraduates Modeling Small Satellites with Thermal Desktop",
+      "img":"Deal_-_CURO_2019_-_Poster-1.png",
+      "src":"/images/documents/posters/Deal_-_CURO_2019_-_Poster.pdf",
+      "authors":"K. Deal, D. Cotten",
+      "tags":"CURO publications,poster",
+      "subTitle":"UGA CURO Symposium",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Design and Implementation for Power Verification Engine for Small Satellite",
+      "img":"Watson-Jones_CURO-1.png",
+      "src":"/images/documents/posters/Watson-Jones_CURO.pdf",
+      "authors":"S. Whitcomb, D. Cotten",
+      "tags":"CURO publications,poster",
+      "subTitle":"UGA CURO Symposium",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Steady State Thermal Analysis of the 3U SPOC Satellite in ANSYS Workbench",
+      "img":"Patel-Curo-1.png",
+      "src":"/images/documents/posters/Patel-Curo.pdf",
+      "authors":"N. Patel, D. Cotten",
+      "tags":"CURO publications,poster",
+	"subTitle":"UGA CURO Symposium",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Front End Design/Development for Lab Systems",
+      "img":"Huynh-2019CURO.png",
+      "src":"/images/documents/posters/Huynh-2019CURO.png",
+      "authors":"D. Huynh, D. Cotten",
+      "tags":"CURO publications,poster",
+      "subTitle":"Website Design and Development for LabOps",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
+    {
+      "title":"Structural-thermal Optical Performance Analysis of Small Satellite Payloads",
+      "img":"Watson-Jones_CURO-1.png",
+      "src":"/images/documents/posters/Watson-Jones_CURO.pdf",
+      "authors":"A. Watson-Jones, D. Cotten",
+      "tags":"CURO publications,poster",
+      "subTitle":"Building a Better Box: Design and Analysis of 3U and 6U Cubesat Frames",
+      "date":"April 8, 2019",
+      "year":"2019"
+    },
     {
       "title":"SPOC: The Spectral Ocean Color Mission",
       "img":"spocsmallsat2019paper.png",
@@ -8,16 +118,6 @@
       "tags":"conference proceedings,paper",
       "subTitle":"33nd Annual AIAA/USU Conference on Small Satellites",
       "date":"August 2 - Agust 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"SPOC: The Spectral Ocean Color Mission",
-      "img":"spocsmallsat2019.png",
-      "src":"/images/documents/presentations/SmallSat-SPOC-Cotten-2019-v5.pdf",
-      "authors":"Dr. David L Cotten, Hollis Neel, and Katie Summey",
-      "tags":"conference proceedings,presentation",
-      "subTitle":"33nd Annual AIAA/USU Conference on Small Satellites",
-      "date":"August 4th, 2019",
       "year":"2019"
     },
     {
