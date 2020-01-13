@@ -49,7 +49,7 @@
         "id":"",
         "link":""
       },
-      {
+	{
         "name":"Allen Spain",
         "img":"allenspain.png",
         "major":"Electrical and Computer Engineering",
@@ -57,6 +57,15 @@
         "bio":"",
         "id":"",
         "link":"https://spain2394.github.io/resume-template/"
+      },
+	{
+        "name":"Sydney Whilden",
+        "img":"sydney.jpg",
+        "major":"Astronomy and Physics /  Comparative Literature",
+        "role":"MOCI Mission Operations Lead",
+        "bio":"Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
+        "id":"sydney",
+        "link":"/images/documents/cv/SydCV.pdf"
       }
     ],
     "leadership":[
@@ -67,14 +76,6 @@
         "role":"SPOC Mission Operations Lead",
         "bio":"Megan is an honors student and part of the most recent member onboarding. She plans on going to graduate school to get a PhD in astrophysics, and hopefully end up doing research for NASA.",
         "id":"megan2"
-      },
-      {
-        "name":"Sydney Whilden",
-        "img":"sydney.jpg",
-        "major":"Astronomy and Physics /  Comparative Literature",
-        "role":"MOCI Mission Operations Lead",
-        "bio":"Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
-        "id":"sydney"
       },
       {
         "name":"Michael Ely",
@@ -392,7 +393,7 @@
       },
       {
         "name":"Dr. Thomas L Mote",
-        "img":"thomas_mote.jpg",
+        "img":"thomas_mote.png",
         "major":"",
         "role":"Remote Sensing",
         "bio":"Dr. Thomas Mote is the Department Head of Geography and a Professor in the Geography Department. His research involves hydroclimatology, climate change, synoptic climatology/meteorology, and satellite climatology/meteorology.",
