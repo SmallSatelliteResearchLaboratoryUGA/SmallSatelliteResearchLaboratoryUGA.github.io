@@ -52,7 +52,7 @@ app.get('/missions', function (req, res) {
   res.render('missions');
 })
 app.get('/apply', function (req, res) {
-  res.redirect('https://docs.google.com/forms/d/e/1FAIpQLSdLu_PnAXqS3KPzwiZA1X70kq-SHOUKztIrlxH_EuQ5H-cYTw/viewform?usp=sf_link');
+  res.redirect('https://docs.google.com/forms/d/e/1FAIpQLSeHtyeO-Ee9xQcP0ogfmwHJSdVeTb15OApwqrLvqePpJp0vrw/viewform');
 })
 app.get('/partners', function (req, res) {
   res.render('partners');
