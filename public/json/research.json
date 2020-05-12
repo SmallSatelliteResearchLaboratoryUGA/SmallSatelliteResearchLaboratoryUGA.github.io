@@ -1,6 +1,16 @@
 {
 "research":[
     {
+      "title":"High Performance Computation with Small Satellites and Small Satellite Swarms for 3D Reconstruction",
+      "img":"adamsThesis.png",
+      "src":"/images/documents/papers/CalebAdamsMSThesis.pdf",
+      "authors":"C. Adams",
+      "tags":"Master's of Science in Computer Science",
+      "subTitle":"MS, The University of Georgia",
+      "date":"May 8, 2020",
+      "year":"2020"
+    },
+    {
       "title":"An Exploration of the Art Gallery Problem with Small Satellites",
       "img":"Adams-etal-Art_Gallery_w_Small_Sats-1.png",
       "src":"/images/documents/posters/Adams-etal-Art_Gallery_w_Small_Sats.pdf",
