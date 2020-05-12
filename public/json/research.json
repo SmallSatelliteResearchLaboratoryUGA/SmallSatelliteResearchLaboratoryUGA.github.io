@@ -5,8 +5,8 @@
       "img":"adamsThesis.png",
       "src":"/images/documents/papers/CalebAdamsMSThesis.pdf",
       "authors":"C. Adams",
-      "tags":"Master's of Science in Computer Science",
-      "subTitle":"MS, The University of Georgia",
+      "tags":"thesis,theses,paper",
+      "subTitle":"Master's of Science in Computer Science, The University of Georgia",
       "date":"May 8, 2020",
       "year":"2020"
     },
@@ -15,7 +15,7 @@
       "img":"Adams-etal-Art_Gallery_w_Small_Sats-1.png",
       "src":"/images/documents/posters/Adams-etal-Art_Gallery_w_Small_Sats.pdf",
       "authors":"C. Adams, D. Cotten, D. Mishra, R. Parasuraman",
-      "tags":"Symposium on Space Innovation,poster",
+      "tags":"poster",
       "subTitle":"Symposium on Space Innovation, Atlanta,GA",
       "date":"November 18, 2019",
       "year":"2019"
@@ -35,7 +35,7 @@
       "img":"Heimerl-Cotten-Mishra-1.png",
       "src":"/images/documents/posters/Heimerl-Cotten-Mishra.pdf",
       "authors":"J. Heimerl, D. Cotten, D. Mishra",
-      "tags":"Symposium on Space Innovation,poster",
+      "tags":"poster",
       "subTitle":"Symposium on Space Innovation, Atlanta,GA",
       "date":"November 18, 2019",
       "year":"2019"
