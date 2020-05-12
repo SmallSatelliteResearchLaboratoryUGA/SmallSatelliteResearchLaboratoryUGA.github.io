@@ -72,6 +72,13 @@ app.get('/alumni', function (req, res) {
 app.get('/donate', function (req, res) {
   res.redirect('https://gail.uga.edu/commit?search=90072000&desonly=1');
 })
+app.get('/software', function (req, res) {
+  res.render('software');
+})
+// redirect to the thesis data of caleb
+app.get('/orbitalReconstructionDataset', function (req, res) {
+  res.redirect('http://104.236.14.11/');
+})
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
