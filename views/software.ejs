@@ -58,9 +58,9 @@
             <div class="col-md-9">
               <p>
               Small Satellite Research Laboratory Computer Vision, SSRLCV, is a computer vision software library written in C++ and the <a href="https://en.wikipedia.org/wiki/CUDA" target="_blank">Nvidia CUDA</a> programming language
-              for Nvidia GPU SoCs in a space enviromentents.
+              for Nvidia GPU SoCs in space environments.
               The software will be used onboard the MOCI satellite with our modified TX2i, but is also compatible with Ubuntu 16.04, Ubuntu 18.04, and Linux for Tegra. SSRLCV can also run on the TX2 and the Jetson Nano.
-              The software currently inculdes SIFT feature detection, SIFT feature generation, SIFT feature matching, point cloud filtering, 2 view triangulation, N view triangulation, and 2 view bundle adjustment.
+              The software currently includes SIFT feature detection, SIFT feature generation, SIFT feature matching, point cloud filtering, 2 view triangulation, N view triangulation, and 2 view bundle adjustment.
               </p>
 
             </div>
@@ -81,7 +81,7 @@
           <div class="row software-content-row">
 
             <!-- Precompiled Binaries -->
-            <div class="col-md-3">
+            <div class="col-md-4">
               <h class="software-subtitle">Precompiled Binaries</h>
               <hr>
               <ul class="software-list">
@@ -94,31 +94,41 @@
             </div>
 
             <!-- code -->
-            <div class="col-md-3">
+            <div class="col-md-4">
               <h class="software-subtitle">Source Code</h>
               <hr>
               <ul class="software-list">
-                <li> <i class="fab fa-gitlab"></i> gitlab source </li>
-                <li> <i class="fab fa-github"></i> github mirror </li>
+                <li> <a href="https://gitlab.smallsat.uga.edu/payload_software/SSRLCV" target="_blank"><i class="fab fa-gitlab"></i> gitlab source</a> </li>
+                <li> <a href="https://github.com/uga-ssrl/SSRLCV" target="_blank"><i class="fab fa-github"></i> github mirror</a> </li>
               </ul>
             </div>
 
             <!-- documentation -->
-            <div class="col-md-3">
+            <div class="col-md-4">
               <h class="software-subtitle">Documentation</h>
               <hr>
               <ul class="software-list">
-                <li> Software Wiki </li>
+                <li> SSRLCV Wiki </li>
                 <li> Doxygen </li>
                 <li> Examples </li>
                 <li> Gitlab Issue Reports </li>
-                <li> SSRLCV Utilities </li>
-                <li> SSRLCV Sample Data </li>
+                <li> <i class="fab fa-gitlab"></i> SSRLCV Utilities </li>
+                <li> <i class="fab fa-github"></i> SSRLCV Utilities mirror </li>
+                <li> <i class="fab fa-gitlab"></i> SSRLCV Sample Data </li>
+                <li> <i class="fab fa-github"></i> SSRLCV Sample Data mirror </li>
               </ul>
             </div>
 
+
+          </div>
+
+
+          <!-- associated research links -->
+
+          <div class="row software-content-row">
+
             <!-- associated research -->
-            <div class="col-md-3">
+            <div class="col-md-6">
               <h class="software-subtitle">Associated Research</h>
               <hr>
               <ul class="software-list">
@@ -128,8 +138,19 @@
               </ul>
             </div>
 
+            <!-- maintainers -->
+            <div class="col-md-6">
+              <h class="software-subtitle">Maintainers</h>
+              <hr>
+              <ul class="software-list">
+                <li> Caleb Adams </li>
+                <li> Jackson Parker </li>
+              </ul>
+            </div>
 
           </div>
+
+
 
 
           <!-- release note warning -->
@@ -149,19 +170,126 @@
     <!-- SSRL Swarm Net -->
     <div class="container">
       <div class="software-item">
+        <div class="grid">
 
-        <!-- release note warning -->
-        <div class="row">
-          <div class="col-md-3"> </div>
-          <div class="col-md-6">
-            <p class="bg-danger">WARN: This software is pending release in <b>late June 2020</b></p>
+          <!-- top row -->
+          <div class="row">
+            <div class="col-md-2">
+              <img src="/images/documents/thumbnails/Adams-etal-Art_Gallery_w_Small_Sats-1.png" alt="ssrlcvlogo" class="img-thumbnail software-thumbnail">
+            </div>
+            <div class="col-md-10">
+              <h class="software-title">SSRL Swarm Net<h> <br>
+              <h class="software-subtitle">Small Satellite Research Laboratory Swarm Network </h>
+            </div>
           </div>
-          <div class="col-md-3"> </div>
-        </div>
 
+          <br>
+
+          <!-- description -->
+          <div class="row software-content-row">
+
+            <div class="col-md-9">
+              <p>
+              Small Satellite Research Laboratory Swarm Network is a proof of concept satellite swarm manager designed for Nvidia GPU SoCs on flat-sat prototypes.
+              SSRL Swarm Net uses an IP stack to distribute agent state data over a multicast capable network and transfers data from peer to peer. The software is compatible
+              with POSIX compliant systems.
+              </p>
+
+            </div>
+            <div class="col-md-3">
+              <ul class="software-list-status">
+                <li> version: 0.1</li>
+                <li> licence: <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html" target="
+                  ">LGPLv2</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+          <br>
+          <!-- Documentation and Other Links -->
+
+          <!-- release items -->
+          <div class="row software-content-row">
+
+            <!-- Precompiled Binaries -->
+            <div class="col-md-4">
+              <h class="software-subtitle">Precompiled Binaries</h>
+              <hr>
+              <ul class="software-list">
+                <li> (TX2i) Linux for Tegra, v 0.1 </li>
+                <li> (TX2) Linux for Tegra, v 0.1 </li>
+                <li> (Jetson Nano) Linux for Tegra, v 0.1 </li>
+                <li> Ubuntu 18.04 , v 0.1 </li>
+                <li> Rasbian , v 0.1 </li>
+              </ul>
+            </div>
+
+            <!-- code -->
+            <div class="col-md-4">
+              <h class="software-subtitle">Source Code</h>
+              <hr>
+              <ul class="software-list">
+                <li> <a href="https://github.com/uga-ssrl/SSRLCV" target="_blank"><i class="fab fa-github"></i> github source</a> </li>
+              </ul>
+            </div>
+
+            <!-- documentation -->
+            <div class="col-md-4">
+              <h class="software-subtitle">Documentation</h>
+              <hr>
+              <ul class="software-list">
+                <li> SSRL Swarm Net Wiki </li>
+                <li> Doxygen </li>
+                <li> Examples </li>
+              </ul>
+            </div>
+
+
+          </div>
+
+
+          <!-- associated research links -->
+
+          <div class="row software-content-row">
+
+            <!-- associated research -->
+            <div class="col-md-6">
+              <h class="software-subtitle">Associated Research</h>
+              <hr>
+              <ul class="software-list">
+                <li> High Performance Computation with Small Satellites and Small Satellite Swarms for 3D Reconstruction </li>
+                <li> Towards an Integrated GPU Accelerated SoC as a Flight Computer for Small Satellites  </li>
+              </ul>
+            </div>
+
+            <!-- maintainers -->
+            <div class="col-md-6">
+              <h class="software-subtitle">Maintainers</h>
+              <hr>
+              <ul class="software-list">
+                <li> Caleb Adams </li>
+              </ul>
+            </div>
+
+          </div>
+
+
+
+
+          <!-- release note warning -->
+          <div class="row software-content-row">
+            <div class="col-md-12">
+              <p class="bg-danger">WARN: This software is pending release in <b>late June 2020</b></p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
 
+
+    <br><br>
 
     <script type="text/javascript">
       if (screen.width <= 699) {
