@@ -1,6 +1,16 @@
 {
 "research":[
     {
+      "title":"SmallSat Conference Poster",
+      "img":"MOCI_patch.png",
+      "src":"/images/documents/posters/LAB_FULL-2.pdf",
+      "authors":"UGA SSRL",
+      "tags":"poster,smallsat,conference",
+      "subTitle":"",
+      "date":"August 2, 2020",
+      "year":"2020"
+    },
+    {
       "title":"High Performance Computation with Small Satellites and Small Satellite Swarms for 3D Reconstruction",
       "img":"adamsThesis.png",
       "src":"/images/documents/papers/CalebAdamsMSThesis.pdf",
