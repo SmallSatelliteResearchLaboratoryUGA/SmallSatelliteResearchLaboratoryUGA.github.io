@@ -23,37 +23,10 @@
     ],
     "graduatestudents":[
       {
-        "name":"Caleb Adams",
-        "bio":"Caleb Adams, along with Hollis Neel and Ryan Babaie, began UGA's Small Satellite Research Laboritory after starting a small satellite project that would soon involve UGA faculty. Caleb lead the first team from UGA to win an MLH, nationally recognized, Hackathon by building a low cost remote-operated telescope. He has worked for NASA as a Core Flight Software developer on the Orion project and was a beta tester of Google Glass. He spoke at the TEDx UGA student idea showcase about the future of small satellites and citizen science. Caleb currently runs one of the most popular computer science blogs and one of the most popular astronomy blogs on the tumblr blogging platform, with an outreach of 200,000.",
-        "major":"Computer Science",
-        "img":"caleb12.jpg",
-        "id":"caleb",
-        "role":"Co-Founder; SSRL Program Manager; MOCI Project Manager",
-        "link":"http://piepieninja.github.io/cv"
-      },
-      {
-        "name":"Nicholas Neel",
-        "bio":"Nicholas (Hollis) Neel, a co-founder of UGA’s Small Satellite research lab, is a mathematics major at the University of Georgia. He has developed and printed one of the largest 3D printed telescopes. Alongside these projects, he is also a researcher in mathematics. In this area, Hollis focuses on Knot Theory which is the study of mathematical knots.",
-        "major":"Mathematics",
-        "img":"hollis.jpg",
-        "id":"hollis",
-        "role":"Co-Founder; SPOC Systems Engineer",
-        "link":""
-      },
-      {
-        "name":"Jackson Parker",
-        "img":"jacksonp.jpg",
-        "major":"Electrical and Computer Engineering",
-        "role":"MOCI Systems Engineer",
-        "bio":"",
-        "id":"",
-        "link":""
-      },
-      {
         "name":"Allen Spain",
         "img":"allenspain.png",
         "major":"Electrical and Computer Engineering",
-        "role":"Electrical Engineering Lead",
+        "role":"",
         "bio":"",
         "id":"",
         "link":"https://spain2394.github.io/resume-template/"
@@ -62,36 +35,18 @@
         "name":"Sydney Whilden",
         "img":"sydney.jpg",
         "major":"Astronomy and Physics /  Comparative Literature",
-        "role":"MOCI Mission Operations Lead",
+        "role":"",
         "bio":"Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
         "id":"sydney",
         "link":"/images/documents/cv/SydCV.pdf"
-      }
-    ],
-    "leadership":[
-      {
-        "name":"Megan Arogeti",
-        "img":"megan2.jpg",
-        "major":"Astronomy and Physics",
-        "role":"SPOC Mission Operations Lead",
-        "bio":"Megan is an honors student and part of the most recent member onboarding. She plans on going to graduate school to get a PhD in astrophysics, and hopefully end up doing research for NASA.",
-        "id":"megan2"
       },
       {
-        "name":"Michael Ely",
-        "img":"ely.png",
-        "major":"Mechanical Engineering",
-        "role":"MOCI Mechanical Lead",
+	"name":"William Rittmeyer",
         "bio":"",
-        "id":""
-      },
-      {
-        "name":"Mateen Saki",
-        "img":"Mateen.png",
-        "major":"Mechanical Engineering",
-        "role":"MOCI Mission Operations Lead",
-        "bio":"",
-        "id":""
+        "major":"",
+        "img":"",
+        "id":"",
+        "role":"Electronics Team Member"
       },
       {
         "name":"S. Godfrey Hendrix",
@@ -99,235 +54,47 @@
         "major":"Computer Systems Engineering /   German",
         "img":"godfrey.jpg",
         "id":"godfrey",
-        "role":"MOCI Electronics Lead"
-      },
-      {
-        "name":"Kaitlyn Summey",
-        "img":"katiesummey.jpg",
-        "major":"Computer Systems Engineering",
-        "role":"SPOC Payload Lead",
-        "bio":"Kaitlyn is an Electronics Team Member for SPOC and MOCI.",
-        "id":"kaitlyn"
-      },
-      {
-        "name":"Nir Patel",
-        "img":"nirpatel.jpg",
-        "major":"Mechanical Engineering",
-        "role":"SPOC Mechanical Lead",
-        "bio":"",
-        "id":""
+        "role":"MS Purdue University"
       }
     ],
-    "electronics":[
-      {
-        "name":"Trey Miller",
-        "img":"tre.jpg",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"Trey is the Embedded Systems Specialists for MOCI.",
-        "id":"tre"
-      },
-      {
-        "name":"Jacob Conley",
-        "img":"jake.jpg",
-        "major":"Computer Systems Engineering /  Mathematics",
-        "role":"",
-        "bio":"Jake is a Computer Systems Engineering student and software developer, aspiring to go into either research technology-related business. He is on the research team for MOCI, develooping and testing algorithms for data analysis.",
-        "id":"jake"
-      },
-      {
-        "name":"Alex Lin",
-        "img":"alexlin.jpg",
-        "major":"Computer Systems Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Austin Kinkade",
-        "img":"austin_kinkade.jpg",
-        "major":"Electrical Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Eric Miller",
-        "img":"ericmiller.jpg",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"",
-        "id":"eric"
-      },
-      {
-        "name":"Mosopefoluwa Oni",
-        "img":"oni.jpg",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"",
-        "id":"oni"
-      },
-      {
-        "name":"Injoo Moon",
-        "img":"",
-        "major":"Electrical Engineering",
-        "role":"",
-        "bio":"",
-        "id":"injoo"
-      },
-      {
-        "name":"Anthony Zenere",
-        "img":"Anthony_Zenere_Photo.jpg",
-        "major":"Electrical Engineering",
-        "role":"",
-        "bio":"",
-        "id":"ant"
-      },
-      {
-        "name":"Stephen Whitcomb",
-        "img":"stephenwhitcome.jpg",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Kolbe Nix",
-        "img":"kolbe_nix.jpg",
-        "major":"Computer Systems Engineering",
-        "role":"",
-        "bio":"",
-        "id":"kolbe"
-      },
-      {
-        "name":"Justin Heimerl",
-        "img":"justin.jpg",
-        "major":"Electrical Engineering",
-        "role":"",
-        "bio":"Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
-        "id":"justin"
-      },
-      {
-        "name":"Preston Sheppard",
-        "img":"preston.png",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
-        "id":"preston"
-      },
-      {
-        "name":"Gabriel Gonzalez",
-        "img":"gabe.png",
-        "major":"Computer Science",
-        "role":"",
-        "bio":"Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
-        "id":""
-      }
-    ],
-    "mechanical":[
-      {
-        "name":"Grayson Bellamy",
-        "bio":"",
-        "major":"Mechanical Engineering",
-        "img":"",
-        "id":"grayson",
-        "role":""
-      },
-      {
-        "name":"Anna Hoffman",
-        "bio":"",
-        "major":"Mechanical Engineering",
-        "img":"annahoffman.jpg",
-        "id":"anna",
-        "role":""
-      },
+    "leadership":[
       {
         "name":"Clay Busbey",
         "bio":"",
         "major":"Mechanical Engineering",
         "img":"",
         "id":"clay",
-        "role":""
+        "role":"MOCI Mechanical Lead"
       },
       {
-        "name":"Niklas Endler",
-        "img":"nick.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"Niklas is a Testing Operations specialist for SPOC and MOCI.",
-        "id":"nick"
+        "name":"Justin Heimerl",
+        "img":"justin.jpg",
+        "major":"Electrical Engineering",
+        "role":"MOCI Hardware Lead",
+        "bio":"Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
+        "id":"justin"
       },
       {
-        "name":"Kaelyn Deal",
-        "img":"kdeal.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
+        "name":"Alex Lin",
+        "img":"alexlin.jpg",
+        "major":"Computer Systems Engineering",
+        "role":"MOCI Systems Engineer",
         "bio":"",
-        "id":"kaelyn"
+        "id":""
       },
       {
         "name":"Jack McDaniels",
         "img":"jackmcdaniels.jpg",
         "major":"Mechanical Engineering",
-        "role":"",
+        "role":"SPOC Flight Director",
         "bio":"",
         "id":"jackdaniels"
-      },
-      {
-        "name":"Joshua Barton",
-        "img":"joshuab.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"",
-        "id":"Joshua"
-      },
-      {
-        "name":"Mary Clark",
-        "img":"MaryClark.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Tyler Hanson",
-        "img":"tylerh.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Ryan O'Hara",
-        "img":"ryanoh.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Alexander Watson-Jones",
-        "img":"alexanderwj.jpg",
-        "major":"Mechanical Engineering",
-        "role":"",
-        "bio":"",
-        "id":"alexanderwj"
-      }
-    ],
-    "missionops":[
-      {
-        "name":"Bjorn Leicher",
-        "img":"bjorn.jpg",
-        "major":"Astronomy and Physics /  Mathematics",
-        "role":"",
-        "bio":"Bjorn Leicher is a rising sophomore, and part of the most recent group of new SSRL members. He is from South Africa and wants to be a rocket scientist!",
-        "id":"bjorn"
       },
       {
         "name":"Claire Venenga",
         "img":"claire1.png",
         "major":"Computer Systems Engineering",
-        "role":"",
+        "role":"Comms Lead",
         "bio":"",
         "id":""
       },
@@ -335,25 +102,223 @@
         "name":"Connor McFarren",
         "img":"",
         "major":"Computer Science and Physics",
-        "role":"",
+        "role":"MOCI Mission Operations Lead",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Alexander Watson-Jones",
+        "img":"alexanderwj.jpg",
+        "major":"Mechanical Engineering",
+        "role":"Program Manager",
+        "bio":"",
+        "id":"alexanderwj"
+      },
+      {
+        "name":"Eric Miller",
+        "img":"ericmiller.jpg",
+        "major":"Computer Science",
+        "role":"MOCI Payload Lead",
+        "bio":"",
+        "id":"eric"
+      },
+      {
+        "name":"Andres Rodriguez",
+        "img":"",
+        "major":"Computer Science",
+        "role":"MOCI Electronics Lead",
+        "bio":"",
+        "id":""
+      }
+    ],
+    "electronics":[
+      {
+        "name":"Tyler Back",
+        "img":"",
+        "major":"",
+        "role":"Electronics Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Troy Crawford",
+        "img":"",
+        "major":"",
+        "role":"Electronics Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Cate Davis",
+        "img":"",
+        "major":"",
+        "role":"Electronics Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Markell Hardee",
+        "img":"",
+        "major":"",
+        "role":"Electronics Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Alex Holmes",
+        "img":"",
+        "major":"",
+        "role":"Electronics Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Mujean Kajan",
+        "img":"",
+        "major":"",
+        "role":"Electronics Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Evan Lengle",
+        "img":"",
+        "major":"",
+        "role":"Electronics Team Member",
+        "bio":"",
+        "id":""
+      }
+    ],
+    "mechanical":[
+      {
+        "name":"Joshua Burke",
+        "img":"",
+        "major":"",
+        "role":"Mechanical Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Keaton Coletti",
+        "img":"",
+        "major":"",
+        "role":"Mechanical Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Joshua DeJongh",
+        "img":"",
+        "major":"",
+        "role":"Mechanical Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Niklas Endler",
+        "img":"nick.jpg",
+        "major":"Mechanical Engineering",
+        "role":"Mechanical Team Member",
+        "bio":"Niklas is a Testing Operations specialist for SPOC and MOCI.",
+        "id":"nick"
+      },
+      {
+        "name":"Noor Ladha",
+        "img":"",
+        "major":"",
+        "role":"Mechanical Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Gillian O'Bryant",
+        "img":"",
+        "major":"",
+        "role":"Mechanical Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Ryan O'Hara",
+        "img":"ryanoh.jpg",
+        "major":"Mechanical Engineering",
+        "role":"Mechanical Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Bowen O'Steen",
+        "img":"",
+        "major":"",
+        "role":"Mechanical Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Paul Paterson",
+        "img":"",
+        "major":"",
+        "role":"Mechanical Team Member",
+        "bio":"",
+        "id":""
+      }
+    ],
+    "missionops":[
+      {
+        "name":"Andrew Decker",
+        "img":"",
+        "major":"",
+        "role":"Mission Ops Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Cole Hooper",
+        "img":"",
+        "major":"",
+        "role":"Mission Ops Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Cole Hooper",
+        "img":"",
+        "major":"",
+        "role":"Mission Ops Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Jackson Alvarez",
+        "img":"",
+        "major":"",
+        "role":"Mission Ops Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Ojas Nadkarni",
+        "img":"",
+        "major":"",
+        "role":"Mission Ops Team Member",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Sean Krautheim",
+        "img":"",
+        "major":"",
+        "role":"Mission Ops Team Member",
         "bio":"",
         "id":""
       }
     ],
     "labops":[
-     {
-        "name":"Sabrina Norris",
-        "img":"sabrina1.jpg",
-        "major":"",
-        "role":"",
-        "bio":"",
-        "id":"sabrina"
-      },
       {
-        "name":"Derek Huynh",
-        "img":"derek.png",
-        "major":"Computing & Design",
-        "role":"",
+        "name":"Benjamin Grisham",
+        "img":"",
+        "major":"",
+        "role":"Lab Ops Team Member",
         "bio":"",
         "id":""
       }
@@ -450,7 +415,228 @@
         "id":""
       }
     ],
+    "alumni2020":[
+      {
+        "name":"Caleb Adams",
+        "bio":"Caleb Adams, along with Hollis Neel and Ryan Babaie, began UGA's Small Satellite Research Laboritory after starting a small satellite project that would soon involve UGA faculty. Caleb lead the first team from UGA to win an MLH, nationally recognized, Hackathon by building a low cost remote-operated telescope. He has worked for NASA as a Core Flight Software developer on the Orion project and was a beta tester of Google Glass. He spoke at the TEDx UGA student idea showcase about the future of small satellites and citizen science. Caleb currently runs one of the most popular computer science blogs and one of the most popular astronomy blogs on the tumblr blogging platform, with an outreach of 200,000.",
+        "major":"Computer Science",
+        "img":"caleb12.jpg",
+        "id":"caleb",
+        "role":"NASA AMES",
+        "link":"http://piepieninja.github.io/cv"
+      },
+      {
+        "name":"Jackson Parker",
+        "img":"jacksonp.jpg",
+        "major":"Electrical and Computer Engineering",
+        "role":"NASA AMES",
+        "bio":"",
+        "id":"",
+        "link":""
+      },
+      {
+        "name":"Megan Arogeti",
+        "img":"megan2.jpg",
+        "major":"Astronomy and Physics",
+        "role":"PHD Ga Tech",
+        "bio":"Megan is an honors student and part of the most recent member onboarding. She plans on going to graduate school to get a PhD in astrophysics, and hopefully end up doing research for NASA.",
+        "id":"megan2"
+      },
+      {
+        "name":"Michael Ely",
+        "img":"ely.png",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Mateen Saki",
+        "img":"Mateen.png",
+        "major":"Mechanical Engineering",
+        "role":"Northrup Grumman",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Nir Patel",
+        "img":"nirpatel.jpg",
+        "major":"Mechanical Engineering",
+        "role":"Boeing",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Jacob Conley",
+        "img":"jake.jpg",
+        "major":"Computer Systems Engineering /  Mathematics",
+        "role":"",
+        "bio":"Jake is a Computer Systems Engineering student and software developer, aspiring to go into either research technology-related business. He is on the research team for MOCI, develooping and testing algorithms for data analysis.",
+        "id":"jake"
+      },
+      {
+        "name":"Austin Kinkade",
+        "img":"austin_kinkade.jpg",
+        "major":"Electrical Engineering",
+        "role":"General Atomics",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Grayson Bellamy",
+        "bio":"",
+        "major":"Mechanical Engineering",
+        "img":"",
+        "id":"grayson",
+        "role":""
+      },
+      {
+        "name":"Kaelyn Deal",
+        "img":"kdeal.jpg",
+        "major":"Mechanical Engineering",
+        "role":"Generation Orbit",
+        "bio":"",
+        "id":"kaelyn"
+      },
+      {
+        "name":"Tyler Hanson",
+        "img":"tylerh.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Bjorn Leicher",
+        "img":"bjorn.jpg",
+        "major":"Astronomy and Physics /  Mathematics",
+        "role":"",
+        "bio":"Bjorn Leicher is a rising sophomore, and part of the most recent group of new SSRL members. He is from South Africa and wants to be a rocket scientist!",
+        "id":"bjorn"
+      },
+      {
+        "name":"Sabrina Norris",
+        "img":"sabrina1.jpg",
+        "major":"",
+        "role":"",
+        "bio":"",
+        "id":"sabrina"
+      }
+    ],
     "alumni2019":[
+      {
+        "name":"Nicholas Neel",
+        "bio":"Nicholas (Hollis) Neel, a co-founder of UGA’s Small Satellite research lab, is a mathematics major at the University of Georgia. He has developed and printed one of the largest 3D printed telescopes. Alongside these projects, he is also a researcher in mathematics. In this area, Hollis focuses on Knot Theory which is the study of mathematical knots.",
+        "major":"Mathematics",
+        "img":"hollis.jpg",
+        "id":"hollis",
+        "role":"Oak Ridge National Lab",
+        "link":""
+      },
+      {
+        "name":"Kaitlyn Summey",
+        "img":"katiesummey.jpg",
+        "major":"Computer Systems Engineering",
+        "role":"Cornell University",
+        "bio":"Kaitlyn is an Electronics Team Member for SPOC and MOCI.",
+        "id":"kaitlyn"
+      },
+      {
+        "name":"Trey Miller",
+        "img":"tre.jpg",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"Trey is the Embedded Systems Specialists for MOCI.",
+        "id":"tre"
+      },
+      {
+        "name":"Mosopefoluwa Oni",
+        "img":"oni.jpg",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":"oni"
+      },
+      {
+        "name":"Injoo Moon",
+        "img":"",
+        "major":"Electrical Engineering",
+        "role":"",
+        "bio":"",
+        "id":"injoo"
+      },
+      {
+        "name":"Anthony Zenere",
+        "img":"Anthony_Zenere_Photo.jpg",
+        "major":"Electrical Engineering",
+        "role":"Georgia Tech Research Institute",
+        "bio":"",
+        "id":"ant"
+      },
+      {
+        "name":"Stephen Whitcomb",
+        "img":"stephenwhitcome.jpg",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Kolbe Nix",
+        "img":"kolbe_nix.jpg",
+        "major":"Computer Systems Engineering",
+        "role":"L3 Harris",
+        "bio":"",
+        "id":"kolbe"
+      },
+      {
+        "name":"Preston Sheppard",
+        "img":"preston.png",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":"preston"
+      },
+      {
+        "name":"Gabriel Gonzalez",
+        "img":"gabe.png",
+        "major":"Computer Science",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Anna Hoffman",
+        "bio":"",
+        "major":"Mechanical Engineering",
+        "img":"annahoffman.jpg",
+        "id":"anna",
+        "role":""
+      },
+      {
+        "name":"Joshua Barton",
+        "img":"joshuab.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":"Joshua"
+      },
+      {
+        "name":"Mary Clark",
+        "img":"MaryClark.jpg",
+        "major":"Mechanical Engineering",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
+      {
+        "name":"Derek Huynh",
+        "img":"derek.png",
+        "major":"Computing & Design",
+        "role":"",
+        "bio":"",
+        "id":""
+      },
        {
         "name":"Michael Akintonwa",
         "img":"",

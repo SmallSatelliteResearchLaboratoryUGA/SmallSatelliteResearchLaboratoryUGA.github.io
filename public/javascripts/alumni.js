@@ -3,6 +3,7 @@ var buttons = [];
 $(document).ready(function(){
 
     buttons.push(document.getElementById("Everyone"));
+    buttons.push(document.getElementById("2020"));
     buttons.push(document.getElementById("2019"));
     buttons.push(document.getElementById("2018"));
     buttons.push(document.getElementById("2017"));
@@ -12,21 +13,29 @@ $(document).ready(function(){
         filterMembers("Everyone")
     });
     buttons[1].addEventListener("click", function(){
-        filterMembers("2019")
+        filterMembers("2020")
     });
     buttons[2].addEventListener("click", function(){
-        filterMembers("2018")
+        filterMembers("2019")
     });
     buttons[3].addEventListener("click", function(){
-        filterMembers("2017")
+        filterMembers("2018")
     });
     buttons[4].addEventListener("click", function(){
+        filterMembers("2017")
+    });
+    buttons[5].addEventListener("click", function(){
         filterMembers("2016")
     });
 
     //TODO: get rid of this and do it with ejs and express same for team
     $.getJSON("/json/team.json",function(data){
     // populate alumni
+    for (let i = 0; i < data.team.alumni2020.length; i++) {
+      let m = new createMember(data.team.alumni2020[i], "#section-alumni");
+      m.tag = "2020";
+      profiles.push(m);
+    }
     for (let i = 0; i < data.team.alumni2019.length; i++) {
       let m = new createMember(data.team.alumni2019[i], "#section-alumni");
       m.tag = "2019";
