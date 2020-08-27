@@ -32,21 +32,12 @@
         "link":"https://spain2394.github.io/resume-template/"
       },
       {
-        "name":"Sydney Whilden",
-        "img":"sydney.jpg",
-        "major":"Astronomy and Physics /  Comparative Literature",
-        "role":"",
-        "bio":"Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
-        "id":"sydney",
-        "link":"/images/documents/cv/SydCV.pdf"
-      },
-      {
 	"name":"William Rittmeyer",
         "bio":"",
         "major":"",
         "img":"",
         "id":"",
-        "role":"Electronics Team Member"
+        "role":"MemeSat Electronics"
       },
       {
         "name":"S. Godfrey Hendrix",
@@ -94,7 +85,7 @@
         "name":"Claire Venenga",
         "img":"claire1.png",
         "major":"Computer Systems Engineering",
-        "role":"Comms Lead",
+        "role":"Ground Control Lead",
         "bio":"",
         "id":""
       },
@@ -266,14 +257,6 @@
     "missionops":[
       {
         "name":"Andrew Decker",
-        "img":"",
-        "major":"",
-        "role":"Mission Ops Team Member",
-        "bio":"",
-        "id":""
-      },
-      {
-        "name":"Cole Hooper",
         "img":"",
         "major":"",
         "role":"Mission Ops Team Member",
@@ -524,6 +507,15 @@
       }
     ],
     "alumni2019":[
+        {
+        "name":"Sydney Whilden",
+        "img":"sydney.jpg",
+        "major":"Astronomy and Physics /  Comparative Literature",
+        "role":"",
+        "bio":"Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
+        "id":"sydney",
+        "link":""
+      },
       {
         "name":"Nicholas Neel",
         "bio":"Nicholas (Hollis) Neel, a co-founder of UGA’s Small Satellite research lab, is a mathematics major at the University of Georgia. He has developed and printed one of the largest 3D printed telescopes. Alongside these projects, he is also a researcher in mathematics. In this area, Hollis focuses on Knot Theory which is the study of mathematical knots.",
