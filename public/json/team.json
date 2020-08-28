@@ -43,7 +43,7 @@
 	"name":"William Rittmeyer",
         "bio":"",
         "major":"",
-        "img":"",
+        "img":"Ritmeyer.jpg",
         "id":"",
         "role":"MemeSat Electronics"
       },
@@ -133,7 +133,7 @@
     "electronics":[
       {
         "name":"Tyler Back",
-        "img":"",
+        "img":"Back.jpg",
         "major":"",
         "role":"Electronics Team Member",
         "bio":"",
@@ -141,7 +141,7 @@
       },
       {
         "name":"Troy Crawford",
-        "img":"",
+        "img":"TroyCrawford.png",
         "major":"",
         "role":"Electronics Team Member",
         "bio":"",
@@ -157,7 +157,7 @@
       },
       {
         "name":"Markell Hardee",
-        "img":"",
+        "img":"Hardee.jpg",
         "major":"",
         "role":"Electronics Team Member",
         "bio":"",
@@ -181,7 +181,7 @@
       },
       {
         "name":"Evan Lengle",
-        "img":"",
+        "img":"Lengle.jpg",
         "major":"",
         "role":"Electronics Team Member",
         "bio":"",
@@ -273,7 +273,7 @@
       },
       {
         "name":"Cole Hooper",
-        "img":"",
+        "img":"Hooper.jpg",
         "major":"",
         "role":"Mission Ops Team Member",
         "bio":"",
@@ -307,7 +307,7 @@
     "labops":[
       {
         "name":"Benjamin Grisham",
-        "img":"",
+        "img":"Grisham.jpg",
         "major":"",
         "role":"Lab Ops Team Member",
         "bio":"",
