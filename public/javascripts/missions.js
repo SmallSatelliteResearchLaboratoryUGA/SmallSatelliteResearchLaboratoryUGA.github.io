@@ -5,9 +5,11 @@ $(document).ready(function(){
   satButtons.push(g("Sat-button-0"));
   satButtons.push(g("Sat-button-1"));
   satButtons.push(g("Sat-button-2"));
+  satButtons.push(g("Sat-button-3"));
   missions.push(g("Mission-0"));
   missions.push(g("Mission-1"));
   missions.push(g("Mission-2"));
+  missions.push(g("Mission-3"));
 
   g("Sat-button-0").addEventListener("click",function(){
     buttonStuff(0);
@@ -16,9 +18,12 @@ $(document).ready(function(){
   g("Sat-button-1").addEventListener("click",function(){
     buttonStuff(1);
   });
-
   g("Sat-button-2").addEventListener("click",function(){
     buttonStuff(2);
+  });
+
+  g("Sat-button-3").addEventListener("click",function(){
+    buttonStuff(3);
   });
 
   function buttonStuff(x){

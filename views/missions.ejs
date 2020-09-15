@@ -48,10 +48,11 @@
       <div class="sat-buttons">
         <input id="Sat-button-0" class="sat-button-selected" type="image" src="/images/cube-yellow.svg" name="" value="">
         <input id="Sat-button-1" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name="" value="">
-        <input id="Sat-button-2" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name="" value="">
+	<input id="Sat-button-2" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name="" value="">
+        <input id="Sat-button-3" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name="" value="">
       </div>
 
-      <div id="Mission-2" class="mission-panel out hidden">
+      <div id="Mission-3" class="mission-panel out hidden">
         <div class="mission-img">
         </div>
         <div class="mission-desc">
@@ -82,6 +83,9 @@
             <a href="#SPOC_1">
               <div class="thumbnail" style="background-image: url('/images/cubesat/SPOC_1.JPG')"></div>
             </a>
+	    <a href="#SPOC_2">
+              <div class="thumbnail" style="background-image: url('/images/cubesat/SPOC_2.jpg')"></div>
+            </a>
           </div>
 
           <!-- lightbox container hidden with CSS -->
@@ -93,7 +97,11 @@
             <img src="images/cubesat/SPOC_1.JPG">
           </a>
 
-          <button class="hidden" type="button" name="button">Explore the Design</button>
+	  <a href="#_" class="lightbox" id="SPOC_2">
+            <img src="images/cubesat/SPOC_2.jpg">
+          </a>
+
+	  <button class="hidden" type="button" name="button">Explore the Design</button>
 
         </div>
         <div class="mission-desc">
@@ -120,10 +128,9 @@
           </p>
           <h1>Current Status</h1>
           <p>
-            During intergration with the NanoRacks deployer, SPOC experienced
-	    an unexpected memory failure. We are currently troubleshooting the
-	    issue and aim to have it resolved in early Spring 2020. Updated launch
-	    information will be posted when it becomes available.
+	    SPOC was succesfully integrated with NanoRacks on August 19 in Houston. It is scheduled for launch to the ISS on September 29th, 2020 from Wallops, VA. It is part of ELaNa 31 and will be launched onboard the Northrop Grumman Antares rocket (NG-14) as part of a Cygnus resupply mission.
+
+Once onboard the ISS SPOC will be deployed into space sometime in late November using the Japanese Experiment Module (JEM) Robotic Manipulator System (JEMRMS). This robotic arm moves aims the satellite below the ISS and releases it.
           </p>
         </div>
       </div>
@@ -161,8 +168,23 @@
           </p>
           <h1>Launch Information</h1>
           <p>
-            MOCI is currently in phase B of its construction with an expected
-            delivery date of Q3 2020.
+	    MOCI is currently in phase B of its construction with an expected delivery date of Q2 2021. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Mission-2" class="mission-panel out hidden" style="font-size:20px;">
+        <div class="mission-img">
+          <img class="icon" src="/images/cubesat/MemeSat.png" alt="" style="max-width:300px;">
+          <button class="hidden" type="button" name="button">Explore the Design</button>
+        </div>
+        <div class="mission-desc">
+          <h4>MEMESat:</h4>
+          <h2>(Mission for Education and Multimedia Engagement Satellite)</h2>
+          <h1>Mission Overview</h1>
+          <p>
+            UGA is working with a local nonprofit, Let’s Go to Space, Inc.’s to build its first satellite mission, the Mission for Education and Multimedia Engagement. This spacecraft will be a 1U amateur radio CubeSat. It’s primary mission is to serve as an FM Repeater and to downlink donor submitted memes via UHF SSTV protocol. MEMESat is being created to engage people through outreach and help fund small satellite focused research. 
           </p>
         </div>
       </div>
