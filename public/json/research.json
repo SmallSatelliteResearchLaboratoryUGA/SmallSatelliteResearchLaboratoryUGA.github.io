@@ -1,6 +1,16 @@
 {
 "research":[
     {
+      "title":"Basics of Passive PMOS Radiation Sensing for Low Earth Orbit",
+      "img":"papers/Passive_PMOS_RadiationSensing_for_LEO.png",
+      "src":"/images/documents/papers/Basics_of_Passive_PMOS_RadiationSensing_for_Low_Earth_Orbit.pdf",
+      "authors":"Justing Heimerl",
+      "tags":"paper,smallsat,conference,internal training",
+      "subTitle":"",
+      "date":"December 9, 2020",
+      "year":"2020"
+    },
+    {
       "title":"SmallSat Conference Poster",
       "img":"MOCI_patch.png",
       "src":"/images/documents/posters/LAB_FULL-2.pdf",
