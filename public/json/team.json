@@ -39,6 +39,14 @@
         "role": "MOCI Mechanical Lead"
       },
       {
+        "name": "Matthew Olson",
+        "bio": "",
+        "major": "Mechanical Engineering",
+        "img": "matthew_olson.jpg",
+        "id": "",
+        "role": "MEMESat Mechanical Lead"
+      },
+      {
         "name": "Justin Heimerl",
         "img": "justin.jpg",
         "major": "Electrical Engineering",
@@ -108,7 +116,7 @@
         "name": "Tyler Back",
         "img": "Back.jpg",
         "major": "",
-        "role": "Electronics Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -116,7 +124,7 @@
         "name": "Troy Crawford",
         "img": "TroyCrawford.png",
         "major": "",
-        "role": "Electronics Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -124,7 +132,7 @@
         "name": "Cate Davis",
         "img": "",
         "major": "",
-        "role": "Electronics Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -132,7 +140,7 @@
         "name": "Markell Hardee",
         "img": "Hardee.jpg",
         "major": "",
-        "role": "Electronics Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -140,7 +148,7 @@
         "name": "Vedika Ghildyal",
         "img": "Ghildyal.jpg",
         "major": "vedika_ghildyal.JPG",
-        "role": "Electronics Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -284,7 +292,7 @@
       },
       {
         "name": "Trevor Houghton",
-        "img": "",
+        "img": "trevor_houghton.jpg",
         "major": "Mechanical Engineering",
         "role": "",
         "bio": "",
@@ -318,7 +326,7 @@
       },
       {
         "name": "Jeffery John",
-        "img": "",
+        "img": "jeffery_john.png",
         "major": "Computer Science",
         "role": "",
         "bio": "",
@@ -334,7 +342,7 @@
       },
       {
         "name": "Claire Venenga",
-        "img": "",
+        "img": "claire_venenga.jpg",
         "major": "Computer Systems Engineering",
         "role": "",
         "bio": "",
