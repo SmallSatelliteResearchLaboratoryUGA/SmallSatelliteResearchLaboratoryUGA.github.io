@@ -56,7 +56,7 @@
       },
       {
         "name": "W. Conor McFerren",
-        "img": "",
+        "img": "conor_mcferren.JPG",
         "major": "Computer Science and Physics",
         "role": "MOCI Mission Operations Lead",
         "bio": "",
@@ -64,7 +64,7 @@
       },
       {
         "name": "Joshua Messitte",
-        "img": "joshua_messite.JPG",
+        "img": "joshua_messitte.JPG",
         "major": "Computer Science",
         "role": "Mission Operations Lead",
         "bio": "",
@@ -214,7 +214,7 @@
         "name": "Joshua Burke",
         "img": "JoshBurke.jpg",
         "major": "",
-        "role": "Mechanical Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -222,7 +222,7 @@
         "name": "Keaton Coletti",
         "img": "KeatonColetti.png",
         "major": "",
-        "role": "Mechanical Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -230,7 +230,7 @@
         "name": "Niklas Endler",
         "img": "Niklas_Endler_Headshot.JPG",
         "major": "Mechanical Engineering",
-        "role": "Mechanical Team Member",
+        "role": "",
         "bio": "Niklas is a Testing Operations specialist for SPOC and MOCI.",
         "id": "nick"
       },
@@ -238,7 +238,7 @@
         "name": "Gillian O'Bryant",
         "img": "GillianObryant.jpg",
         "major": "",
-        "role": "Mechanical Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -270,7 +270,7 @@
         "name": "Bowen O'Steen",
         "img": "",
         "major": "",
-        "role": "Mechanical Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -278,7 +278,7 @@
         "name": "Paul Paterson",
         "img": "PaulPeterson.jpg",
         "major": "",
-        "role": "Mechanical Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -302,8 +302,8 @@
       },
       {
         "name": "Tyler Darby",
-        "img": "Computer Science",
-        "major": "",
+        "img": "",
+        "major": "Computer Science",
         "role": "",
         "bio": "",
         "id": ""
@@ -710,7 +710,7 @@
         "img": "bjorp.jpg",
         "major": "Agricultural Engineering - Mechanical Systems",
         "role": "Ubiquitilink",
-        "bio": "Paul is a Mechanical Team Member for MOCI.",
+        "bio": "Paul is a  for MOCI.",
         "id": "paul2"
       },
       {
