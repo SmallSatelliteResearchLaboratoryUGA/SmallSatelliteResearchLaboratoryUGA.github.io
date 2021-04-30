@@ -326,7 +326,7 @@
       },
       {
         "name": "Jeffery John",
-        "img": "jeffery_john.png",
+        "img": "jeffery_john.jpg",
         "major": "Computer Science",
         "role": "",
         "bio": "",
@@ -400,6 +400,14 @@
       }
     ],
     "associatedfaculty": [
+      {
+        "name": "Dr. David Cotten",
+        "img": "david_cotten.jpg",
+        "major": "",
+        "role": "",
+        "bio": "Dr. Cotten is a member of Oak Ridge National Laboratory and advisor to the SSRL.",
+        "id": ""
+      },
       {
         "name": "Dr. Malcolm R Adams",
         "img": "malcolm_adams.jpg",
