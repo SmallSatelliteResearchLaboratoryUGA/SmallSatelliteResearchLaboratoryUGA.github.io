@@ -304,7 +304,7 @@
         "name": "Ojas Nadkarni",
         "img": "",
         "major": "",
-        "role": "Mission Ops Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -370,7 +370,7 @@
         "name": "Benjamin Grisham",
         "img": "Grisham.jpg",
         "major": "",
-        "role": "Lab Ops Team Member",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -404,8 +404,8 @@
         "name": "Dr. David Cotten",
         "img": "david_cotten.jpg",
         "major": "",
-        "role": "",
-        "bio": "Dr. Cotten is a member of Oak Ridge National Laboratory and advisor to the SSRL.",
+        "role": "Satellite Development",
+        "bio": "Dr. Cotten is a Senior Scientist in the Resilient Communications and Autonomous Systems group at Oak Ridge National Lab and serves as an advisor to the SSRL.",
         "id": ""
       },
       {
