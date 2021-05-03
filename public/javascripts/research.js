@@ -9,6 +9,9 @@ $(document).ready(function(){
       var r = new createResearchLong(data.research[i])
       documents.push(r);
       //createResearch(data.research[i]);
+      if(documents[i].year == "2021"){
+        $("#documents2021").append(documents[i].doc);
+      }
       if(documents[i].year == "2020"){
         $("#documents2020").append(documents[i].doc);
       }

@@ -1,874 +1,884 @@
 {
-"research":[
-    {
-      "title":"Basics of Passive PMOS Radiation Sensing for Low Earth Orbit",
-      "img":"papers/Passive_PMOS_RadiationSensing_for_LEO.png",
-      "src":"/images/documents/papers/Basics_of_Passive_PMOS_RadiationSensing_for_Low_Earth_Orbit.pdf",
-      "authors":"Justin Heimerl",
-      "tags":"paper,smallsat,conference,internal training",
-      "subTitle":"",
-      "date":"December 9, 2020",
-      "year":"2020"
-    },
-    {
-      "title":"SmallSat Conference Poster",
-      "img":"MOCI_patch.png",
-      "src":"/images/documents/posters/LAB_FULL-2.pdf",
-      "authors":"UGA SSRL",
-      "tags":"poster,smallsat,conference",
-      "subTitle":"",
-      "date":"August 2, 2020",
-      "year":"2020"
-    },
-    {
-      "title":"High Performance Computation with Small Satellites and Small Satellite Swarms for 3D Reconstruction",
-      "img":"adamsThesis.png",
-      "src":"/images/documents/papers/CalebAdamsMSThesis.pdf",
-      "authors":"C. Adams",
-      "tags":"thesis,theses,paper",
-      "subTitle":"Master's of Science in Computer Science, The University of Georgia",
-      "date":"May 8, 2020",
-      "year":"2020"
-    },
-    {
-      "title":"An Exploration of the Art Gallery Problem with Small Satellites",
-      "img":"Adams-etal-Art_Gallery_w_Small_Sats-1.png",
-      "src":"/images/documents/posters/Adams-etal-Art_Gallery_w_Small_Sats.pdf",
-      "authors":"C. Adams, D. Cotten, D. Mishra, R. Parasuraman",
-      "tags":"poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
-      "date":"November 18, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Feasibility of CubeSat Frames for Heat Dissipation",
-      "img":"Ely-cotten-mishra-Symposium_2019-1.png",
-      "src":"/images/documents/posters/Ely-cotten-mishra-Symposium_2019.pdf",
-      "authors":"M. Ely, D. Cotten, D. Mishra",
-      "tags":"Symposium on Space Innovation,poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
-      "date":"November 18, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Radiation Sensing and Interface Circuity in Support of High-Performance Computation in a Small Satellite Payload",
-      "img":"Heimerl-Cotten-Mishra-1.png",
-      "src":"/images/documents/posters/Heimerl-Cotten-Mishra.pdf",
-      "authors":"J. Heimerl, D. Cotten, D. Mishra",
-      "tags":"poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
-      "date":"November 18, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"A Method for Using a TX2i for Onboard Computer via Serial Connection",
-      "img":"Hendrix-Miller-Cotten-Mishra-TX2i_Control_Program_Poster-1.png",
-      "src":"/images/documents/posters/Hendrix-Miller-Cotten-Mishra-TX2i_Control_Program_Poster.pdf",
-      "authors":"S.G. Hendrix, E. Miller, D. Cotten, D. Mishra",
-      "tags":"Symposium on Space Innovation,poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
-      "date":"November 18, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Space Environment Research and Validation of Accelerate LAN processing",
-      "img":"Kinkade-Spain-Cotten-SERVAL_Space_Syposium_2019_Vertical-1.png",
-      "src":"/images/documents/posters/Kinkade-Spain-Cotten-SERVAL_Space_Syposium_2019_Vertical.pdf",
-      "authors":"A. Kinkade, A. Spain, D. Cotten",
-      "tags":"Symposium on Space Innovation,poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
-      "date":"November 18, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Proposal for an Ultra-Cheap, Fault-Tolerant Comman & data Handling System",
-      "img":"Lin-Roach-Cotten-Ultra-Cheap__Fault-Tolerant_CDH-1.png",
-      "src":"/images/documents/posters/Lin-Roach-Cotten-Ultra-Cheap__Fault-Tolerant_CDH.pdf",
-      "authors":"A. Lin, J. Roach, D. Cotten",
-      "tags":"Symposium on Space Innovation,poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
-      "date":"November 18, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Corruption Tolerant Operation System for GPU in Low Earth Orbit",
-      "img":"Miller-Cotten-Mishra-TMR_Poster-1.png",
-      "src":"/images/documents/posters/Miller-Cotten-Mishra-TMR_Poster.pdf",
-      "authors":"E. Miller, D. Cotten, D. Mishra",
-      "tags":"Symposium on Space Innovation,poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
-      "date":"November 18, 2019",
-      "year":"2019"
-    },
+  "research": [
+    {
+      "title": "Design and Test of Novel Computing System for Low Earth Orbit",
+      "img": "Heimerl_Symposium_2021.png",
+      "src": "/images/documents/posters/Heimerl_Symposium_2021.pdf",
+      "authors": "Justin Heimerl",
+      "tags": "paper,smallsat, curo",
+      "subTitle": "",
+      "date": "April 12, 2021",
+      "year": "2021"
+    },
+    {
+      "title": "Basics of Passive PMOS Radiation Sensing for Low Earth Orbit",
+      "img": "papers/Passive_PMOS_RadiationSensing_for_LEO.png",
+      "src": "/images/documents/papers/Basics_of_Passive_PMOS_RadiationSensing_for_Low_Earth_Orbit.pdf",
+      "authors": "Justin Heimerl",
+      "tags": "paper,smallsat,conference,internal training",
+      "subTitle": "",
+      "date": "December 9, 2020",
+      "year": "2020"
+    },
+    {
+      "title": "SmallSat Conference Poster",
+      "img": "MOCI_patch.png",
+      "src": "/images/documents/posters/LAB_FULL-2.pdf",
+      "authors": "UGA SSRL",
+      "tags": "poster,smallsat,conference",
+      "subTitle": "",
+      "date": "August 2, 2020",
+      "year": "2020"
+    },
+    {
+      "title": "High Performance Computation with Small Satellites and Small Satellite Swarms for 3D Reconstruction",
+      "img": "adamsThesis.png",
+      "src": "/images/documents/papers/CalebAdamsMSThesis.pdf",
+      "authors": "C. Adams",
+      "tags": "thesis,theses,paper",
+      "subTitle": "Master's of Science in Computer Science, The University of Georgia",
+      "date": "May 8, 2020",
+      "year": "2020"
+    },
+    {
+      "title": "An Exploration of the Art Gallery Problem with Small Satellites",
+      "img": "Adams-etal-Art_Gallery_w_Small_Sats-1.png",
+      "src": "/images/documents/posters/Adams-etal-Art_Gallery_w_Small_Sats.pdf",
+      "authors": "C. Adams, D. Cotten, D. Mishra, R. Parasuraman",
+      "tags": "poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta,GA",
+      "date": "November 18, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Feasibility of CubeSat Frames for Heat Dissipation",
+      "img": "Ely-cotten-mishra-Symposium_2019-1.png",
+      "src": "/images/documents/posters/Ely-cotten-mishra-Symposium_2019.pdf",
+      "authors": "M. Ely, D. Cotten, D. Mishra",
+      "tags": "Symposium on Space Innovation,poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta,GA",
+      "date": "November 18, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Radiation Sensing and Interface Circuity in Support of High-Performance Computation in a Small Satellite Payload",
+      "img": "Heimerl-Cotten-Mishra-1.png",
+      "src": "/images/documents/posters/Heimerl-Cotten-Mishra.pdf",
+      "authors": "J. Heimerl, D. Cotten, D. Mishra",
+      "tags": "poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta,GA",
+      "date": "November 18, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "A Method for Using a TX2i for Onboard Computer via Serial Connection",
+      "img": "Hendrix-Miller-Cotten-Mishra-TX2i_Control_Program_Poster-1.png",
+      "src": "/images/documents/posters/Hendrix-Miller-Cotten-Mishra-TX2i_Control_Program_Poster.pdf",
+      "authors": "S.G. Hendrix, E. Miller, D. Cotten, D. Mishra",
+      "tags": "Symposium on Space Innovation,poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta,GA",
+      "date": "November 18, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Space Environment Research and Validation of Accelerate LAN processing",
+      "img": "Kinkade-Spain-Cotten-SERVAL_Space_Syposium_2019_Vertical-1.png",
+      "src": "/images/documents/posters/Kinkade-Spain-Cotten-SERVAL_Space_Syposium_2019_Vertical.pdf",
+      "authors": "A. Kinkade, A. Spain, D. Cotten",
+      "tags": "Symposium on Space Innovation,poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta,GA",
+      "date": "November 18, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Proposal for an Ultra-Cheap, Fault-Tolerant Comman & data Handling System",
+      "img": "Lin-Roach-Cotten-Ultra-Cheap__Fault-Tolerant_CDH-1.png",
+      "src": "/images/documents/posters/Lin-Roach-Cotten-Ultra-Cheap__Fault-Tolerant_CDH.pdf",
+      "authors": "A. Lin, J. Roach, D. Cotten",
+      "tags": "Symposium on Space Innovation,poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta,GA",
+      "date": "November 18, 2019",
+      "year": "2019"
+    },
     {
-      "title":"Agile, Elastic and Flexible: Incorporating AWS's Cloud-Based Technologies with Ground Systems",
-      "img":"Venenga-Cotten-Symposium_Poster-1.png",
-      "src":"/images/documents/posters/Venenga-Cotten-Symposium_Poster.pdf",
-      "authors":"C. Venenga, D. Cotten",
-      "tags":"Symposium on Space Innovation,poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
-      "date":"November 18, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Orbital Simulation Tools for CubeSat Missions",
-      "img":"Whilden_McFerren_Cotten-1.png",
-      "src":"/images/documents/posters/Whilden_McFerren_Cotten.pdf",
-      "authors":"S. Whilden, C. McFarren, D. Cotten",
-      "tags":"Symposium on Space Innovation,poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta,GA",
-      "date":"November 18, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Validation of Structure from Motion Algorithms Through Testing Apparatuses",
-      "img":"ClayBusbeySFMCURO.jpg",
-      "src":"/images/documents/posters/SFM Poster_fixed.pdf",
-      "authors":"C. Busbey, D. Cotten",
-      "tags":"poster, CURO",
-      "subTitle":"UGA CURO Symposium",
-      "date":"Spring 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Analysis and Design of Aluminium-6061 Structures for use in Satellites",
-      "img":"Heavner-CURO_Poster-1.png",
-      "src":"/images/documents/posters/Heavner-CURO_Poster.pdf",
-      "authors":"N. Heavner, D. Cotten",
-      "tags":"CURO publications,poster",
-      "subTitle":"UGA CURO Symposium",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"A Study into the Structural and Thermal Integrity of 6U Cube Satellite Subsystems and Components",
-      "img":"Ely_CURO_Poster_Ely-1.png",
-      "src":"/images/documents/posters/Ely_CURO_Poster_Ely.pdf",
-      "authors":"M. Ely, D. Cotten",
-      "tags":"CURO publications,poster",
-      "subTitle":"UGA CURO Symposium",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Implementing Fault Tolerance and Radiation Hardening for an Accelerated Computing Platform in Low Earth Orbit",
-      "img":"Roach-_CURO_Oral-01.png",
-      "src":"/images/documents/presentations/Roach-_CURO_Oral.pptx",
-      "authors":"J. Roach, D. Cotten",
-      "tags":"CURO publications,poster",
-      "subTitle":"UGA CURO Symposium",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Modeling the Attitude Determination and Control Subsystems(ADCS) for Pointing",
-      "img":"Lin_CURO_2019-1.png",
-      "src":"/images/documents/posters/Lin_CURO_2019.pdf",
-      "authors":"A. Lin, D. Cotten",
-      "tags":"CURO publications,poster",
-      "subTitle":"UGA CURO Symposium",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"UHF Half-Duplex Telecommand and Telemetry for Successful and Accurate Satellite Communication",
-      "img":"Saki-CURO_Poster_Saki-1.png",
-      "src":"/images/documents/posters/Saki-CURO_Poster_Saki.pdf",
-      "authors":"M. Saki, D. Cotten",
-      "tags":"CURO publications,poster",
-      "subTitle":"UGA CURO Symposium",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Small Satellite Communications: Functionality and Testing",
-      "img":"Venenga-2019_CURO_Poster-1.png",
-      "src":"/images/documents/posters/Venenga-2019_CURO_Poster.pptx",
-      "authors":"C. Venenga, D. Cotten",
-      "tags":"CURO publications,poster",
-      "subTitle":"UGA CURO Symposium",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Undegraduates Modeling Small Satellites with Thermal Desktop",
-      "img":"Deal_-_CURO_2019_-_Poster-1.png",
-      "src":"/images/documents/posters/Deal_-_CURO_2019_-_Poster.pdf",
-      "authors":"K. Deal, D. Cotten",
-      "tags":"CURO publications,poster",
-      "subTitle":"UGA CURO Symposium",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Design and Implementation for Power Verification Engine for Small Satellite",
-      "img":"",
-      "src":"",
-      "authors":"S. Whitcomb, D. Cotten",
-      "tags":"CURO publications,poster",
-      "subTitle":"UGA CURO Symposium",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Steady State Thermal Analysis of the 3U SPOC Satellite in ANSYS Workbench",
-      "img":"Patel-Curo-1.png",
-      "src":"/images/documents/posters/Patel-Curo.pdf",
-      "authors":"N. Patel, D. Cotten",
-      "tags":"CURO publications,poster",
-	"subTitle":"UGA CURO Symposium",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Front End Design/Development for Lab Systems",
-      "img":"Huynh-2019CURO.png",
-      "src":"/images/documents/posters/Huynh-2019CURO.png",
-      "authors":"D. Huynh, D. Cotten",
-      "tags":"CURO publications,poster",
-      "subTitle":"Website Design and Development for LabOps",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Structural-thermal Optical Performance Analysis of Small Satellite Payloads",
-      "img":"Watson-Jones_CURO-1.png",
-      "src":"/images/documents/posters/Watson-Jones_CURO.pdf",
-      "authors":"A. Watson-Jones, D. Cotten",
-      "tags":"CURO publications,poster",
-      "subTitle":"Building a Better Box: Design and Analysis of 3U and 6U Cubesat Frames",
-      "date":"April 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"SPOC: The Spectral Ocean Color Mission",
-      "img":"spocsmallsat2019paper.png",
-      "src":"/images/documents/papers/david_smallsat_2019_paper.pdf",
-      "authors":"David L. Cotten, Nicholas Neel, Deepak Mishra, Marguerite Madden, Caleb Adams, Susanne Ullrich, Adrian Burd, Malcolm Adams, Kaitlyn Summey, Casper Versteeg, Jackson Parker, Fred Beyette",
-      "tags":"conference proceedings,paper",
-      "subTitle":"33nd Annual AIAA/USU Conference on Small Satellites",
-      "date":"August 2 - Agust 8, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Towards an Integrated GPU Accelerated SoC as a Flight Computer for Small Satellites",
-      "img":"afc_block.png",
-      "src":"/images/documents/papers/Adams_GPU_Paper.pdf",
-      "authors":"C. Adams, A. Spain, J. Parker, M. Hevert, D. Cotten, and J. Roach",
-      "tags":"conference proceedings,paper",
-      "subTitle":"IEEE Aerospace, Big Sky, MT",
-      "date":"Mar 2 - Mar 9, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Towards an Integrated GPU Accelerated SoC as a Flight Computer for Small Satellites",
-      "img":"afc_shot.png",
-      "src":"/images/documents/presentations/IEEE_Aerospace_GPU_Presentation.pdf",
-      "authors":"C. Adams, A. Spain, J. Parker, M. Hevert, D. Cotten, and J. Roach",
-      "tags":"presentation",
-      "subTitle":"IEEE Aerospace, Big Sky, MT",
-      "date":"Mar 2 - Mar 9, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"Understanding the Kalman Filter (initial version)",
-      "img":"simple_kalman.png",
-      "src":"/images/documents/papers/adams_understanding_kalman.pdf",
-      "authors":"C. Adams",
-      "tags":"whitepaper",
-      "subTitle":"Internal Training",
-      "date":"Feb 28, 2019",
-      "year":"2019"
-    },
-    {
-      "title":"The Spectral Ocean Color (SPOC) Small Satellite Mission: Developing an Adjustable Multispectral Imager",
-      "img":"hollisboi.png",
-      "src":"/images/documents/posters/hollis_boi.pdf",
-      "authors":"N. Neel, D.L. Cotten, D. Mishra, S. Ullrich, M. Adams, A. Burd, M. Madden, and T. Mote",
-      "tags":"conference proceedings",
-      "subTitle":"Poster Presentation at American Geophysical Union (AGU) Meeting, Washington, D.C.",
-      "date":"December 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Multi View Tech Demonstration",
-      "img":"normals.png",
-      "src":"/images/documents/presentations/MOCI_Software_Demo2018.pdf",
-      "authors":"C. Adams, J. Parker, D.L. Cotten",
-      "tags":"software Demonstration",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 14th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"How UGA is Helping Develop the Next Generation of Systems Engineers for the State of Georgia",
-      "img":"Uga_cotten.JPG",
-      "src":"/images/documents/presentations/Cotten-SSI.pdf",
-      "authors":"D.L. Cotten",
-      "tags":"presentation",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 14th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"GPU Accelerated SoCs as Flight Computers for Small Satellites",
-      "img":"gpus.jpg",
-      "src":"/images/documents/posters/GPU_SmallSatposter.pdf",
-      "authors":"C. Adams, D.L. Cotten, J. Parker, A. Spain",
-      "tags":"poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 13th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Steady State Thermal Analysis of the Avionics Stack for the 3U Cube Satellite SPOC",
-      "img":"steadystate.jpg",
-      "src":"/images/documents/posters/Deal-Patel-Cotten- A Steady State Thermal Analysis of the Avionics Stack  for the 3U Cube Satellite SPOC- Poster.pdf",
-      "authors":"K. Deal, N. Patel, and D.L. Cotten",
-      "tags":"poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 13th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Feasibility of CubeSat Frames for Heat Dissipation Multi-view Onboard Computational Imager (MOCI)",
-      "img":"feasibility.jpg",
-      "src":"/images/documents/posters/Heavner-Ely-cotten-mishra-SSI.pdf",
-      "authors":"N. Heavner, M. Ely, D. Mishra and D.L. Cotten",
-      "tags":"poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 13th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Design and Implementation of a Novel Software Interface for an Adjustable Multispectral Payload",
-      "img":"design_poster.JPG",
-      "src":"/images/documents/posters/King-cotten,mishra-SSI-SPOC.pdf",
-      "authors":"A. King and David L. Cotten PhD",
-      "tags":"poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 13th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Implementing Fault Tolerance and Radiation Hardening on a Commercial Off the Shelf Accelerated Computing Processor in Space",
-      "img":"fault_tolerance_poster.png",
-      "src":"/images/documents/posters/Lin-Roach-Cotten-Implementing Fault Tolerance and Radiation Hardening on a Commercial Off The Shelf Accelerated Computing Processor in Space v2.0.pdf",
-      "authors":"A. Lin, J. Roach, and David L. Cotten PhD",
-      "tags":"poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 13th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Software Architecture of the UGA COSMO Ground Station",
-      "img":"software_architecure.png",
-      "src":"/images/documents/posters/Red-Saki-cotten-mishra-SSI Poster.pdf",
-      "authors":"R. Red, M. Saki, D. Mishra, and David L. Cotten PhD",
-      "tags":"poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 13th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Post-Launch Optical Aberration Detection for Small Satellites",
-      "img":"post_launch.png",
-      "src":"/images/documents/posters/Summey-Cotten-Mishra-wavefront analysis.pdf",
-      "authors":"K. Summey, D. Mishra, and David L. Cotten PhD",
-      "tags":"poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 13th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Implementing a Software-Defined Radio Scheme for a CubeSat Ground Station",
-      "img":"implementing_software.png",
-      "src":"/images/documents/posters/Whilden-neel-cotten-mishra-Software-Defined Radio Scheme for a CubeSat Ground Station (1).pdf",
-      "authors":"S. Whilden, N. Neel, D. Mishra, and David L. Cotten PhD",
-      "tags":"poster",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 13th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"The Spectral Ocean Color Satellite: A Pre-Integration, Post Critical Design Review Overview",
-      "img":"spoc.jpg",
-      "src":"/images/documents/presentations/SPOC_Design_Review.pdf",
-      "authors":"Hollis Neel, David L. Cotten Phd",
-      "tags":"presentation",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"November 13th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"A Near Real Time Space Based Computer Vision System for Accurate Terrain Mapping",
-      "img":"Everest-test.JPG",
-      "src":"/images/documents/papers/Adams_32nd_SmallSatConference.pdf",
-      "authors":"Caleb Adams and David L. Cotten PhD",
-      "tags":"conference proceedings,paper",
-      "subTitle":"32nd Annual AIAA/USU Conference on Small Satellites",
-      "date":"August 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Thermal Management and Design of High Heat Small Satellite Payloads",
-      "img":"HighHeatTest.JPG",
-      "src":"/images/documents/papers/Thermal_Management_of_High_Heat_Small_Satellite_Payloads.pdf",
-      "authors":"Casper Versteeg and David L. Cotten PhD",
-      "tags":"conference proceedings,paper",
-      "subTitle":"32nd Annual AIAA/USU Conference on Small Satellites",
-      "date":"August 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Preliminary Thermal Analysis of Small Satellites",
-      "img":"Versteeg-betaheat.JPG",
-      "src":"/images/documents/papers/Preliminary_Thermal_Analysis_of_Small_Satellites.pdf",
-      "authors":"Casper Versteeg and David L. Cotten PhD",
-      "tags":"conference proceedings,paper",
-      "subTitle":"AIAA Region II Student Conference",
-      "date":"April 5th 2018",
-      "year":"2018"
-    },
-    {
-      "title":"The Multi-view Onboard Computational Imager (MOCI) Mission: A 3U Sized Supercomputer Floating in Space",
-      "img":"Heavner-2018NASALAW-MOCI.png",
-      "src":"/images/documents/posters/NASALAW_Poster_Heavner.pdf",
-      "tags":"poster",
-      "authors":"Nicholas Heavner and David L. Cotten PhD",
-      "subTitle":"2018 NASA Laboratory for Astrophysics Workshop",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Pseudo Invariant and Coastal Target Feasibility",
-      "img":"Arogeti - 2018 CURO targets.JPG",
-      "src":"/images/documents/posters/Arogeti - 2018 CURO Poster.pdf",
-      "tags":"poster",
-      "authors":"Megan Arogeti and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Compression and Encryption Methods for Small Satellite Communications",
-      "img":"Barnes-2018CURO-compression.JPG",
-      "src":"/images/documents/posters/Barnes - 2018 CURO_Poster.pdf",
-      "tags":"poster",
-      "authors":"Ethan Barnes and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-     {
-      "title":"Joule Heating Analysis of Spacecraft PCB's",
-      "img":"Buzzy2018-CORGI.JPG",
-      "src":"",
-      "tags":"presentation",
-      "authors":"Michael Buzzy and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Antenna Theory and the University of Georgia's First Ground Station",
-      "img":"GroundStationComputer.jpg",
-      "src":"",
-      "tags":"poster",
-      "authors":"Paige Copenhaver and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"UGA’s Leap to Space: Small Satellite Research Lab Testing",
-      "img":"Endler-2018CURO-Tvac.jpg",
-      "src":"/images/documents/presentations/Endler - 2018 CURO Presentation.pdf",
-      "tags":"presentation",
-      "authors":"Nichlas Endler and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Structural Analysis of Small Satellites SPectral Ocean Color (SPOC)",
-      "img":"Ensing-2018CURO-structure.JPG",
-      "src":"/images/documents/posters/Ensing- 2018 CURO Poster.pdf",
-      "tags":"poster",
-      "authors":"Parker Ensing and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Enhancement of Space-Borne Sensors through Adaptive Temperature Control and Thermoelectric Modules",
-      "img":"Grable-2018 CURO-PID.JPG",
-      "src":"/images/documents/posters/Grable-2018 CURO Poster.pdf",
-      "tags":"poster",
-      "authors":"Graham Grable and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Cost Effective Thermal Vacuum Testing System",
-      "img":"Hendrix-2018CURO-Tvac.jpg",
-      "src":"/images/documents/posters/Hendrix - 2018 CURO Poster.pdf",
-      "tags":"poster",
-      "authors":"Samuel Hendrix and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Concept of Operations in Small Satellite Functionality",
-      "img":"Leicher-conops.JPG",
-      "src":"/images/documents/posters/Leicher-2018_CURO_Poster.pdf",
-      "tags":"poster",
-      "authors":"Bjorn Leicher and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Structural-Thermal Optical Performance Analysis of Small Satellite Payloads",
-      "img":"SPOCeye.JPG",
-      "src":"/images/documents/posters/Versteeg-2018_CURO_Poster.pdf",
-      "tags":"poster",
-      "authors":"Casper Versteeg and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Modeling the Attitude Determination and Control Subsystem (ADCS) on 3U CubeSat",
-      "img":"Lin-2018CURO-ADCS.JPG",
-      "src":"/images/documents/posters/Lin-2018CURO.pdf",
-      "tags":"poster",
-      "authors":"Casper Versteeg, Alexandria Lin, and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"How Beta Angle Determines CubeSat Mission Development",
-      "img":"Whilden-power.JPG",
-      "src":"/images/documents/posters/Whilden-2018_CURO_Poster.pdf",
-      "tags":"poster",
-      "authors":"Sydeny Whilden and David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 9th, 2018",
-      "year":"2018"
-    },
-    {
-      "title":"Batch Analytical Comparisons",
-      "img":"Adams,Caleb_Presentation.jpg",
-      "src":"/images/documents/presentations/Adams,Caleb_Presentation.pdf",
-      "tags":"presentation",
-      "authors":"Caleb Adams, Nicholas (Hollis) Neel, and David L. Cotten PhD",
-      "subTitle":" Symposium on Space Innovation, Atlanta, GA",
-      "date":"19 October 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Self-Improving Structure-from-Motion in Orbit",
-      "img":"Self-Improving_Structure-from-Motion.jpg",
-      "src":"/images/documents/posters/Self-Improving_Structure-from-Motion.pdf",
-      "tags":"poster",
-      "authors":"Jacob Conley and David L. Cotten PhD",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"18 October 2017",
-      "year":"2017"
-    },
-    {
-      "title":"System to Cool Satellite Sensors",
-      "img":"Graham_Symposium_on_Space_Innovations.jpg",
-      "src":"/images/documents/posters/Graham_Symposium_on_Space_Innovations.pdf",
-      "tags":"poster",
-      "authors":"Graham Grable and David L. Cotten PhD",
-      "subTitle":" Symposium on Space Innovation, Atlanta, GA",
-      "date":"18 October 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Design of a CubeSat Ready Hyperspectral Camera",
-      "img":"2017Hevert.JPG",
-      "src":"/images/documents/presentations/ATL_Symposium_Presentation.pdf",
-      "tags":"presentation",
-      "authors":"Matthew Hevert",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"19 October 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Concept of Operations in Small Satellite Functionality",
-      "img":"Symposium_for_Space_Innovations_Poster.jpg",
-      "src":"/images/documents/posters/Symposium_for_Space_Innovations_Poster.pdf",
-      "tags":"poster",
-      "authors":"Bjorn Leicher, Paige Copenhaver, Caleb Adams, David L. Cotten PhD., and Deepak Mishra PhD",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"18 October 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Feature Matching from Orbiting Vehicles",
-      "img":"Feature_Matching_from_Orbiting_Vehicles.jpg",
-      "src":"/images/documents/posters/Feature_Matching_from_Orbiting_Vehicles.pdf",
-      "tags":"poster",
-      "authors":"Nicholas (Hollis) Neel, Caleb Adams, and David L. Cotten PhD",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"18 October 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Thermal and Structural Simulations of Small Satellite Systems",
-      "img":"Casper_Versteeg_Poster.jpg",
-      "src":"/images/documents/posters/Casper_Versteeg_Poster.pdf",
-      "tags":"poster",
-      "authors":"Casper Versteeg, David L. Cotten PdD., and Deepak Mishra PhD",
-      "subTitle":" Symposium on Space Innovation, Atlanta, GA",
-      "date":"18 October 2017",
-      "year":"2017"
-    },
-    {
-      "title":"CubeSats and Radiation Damage",
-      "img":"Sydney_Whilden_Cubesats_and_radiation_damage.jpg",
-      "src":"/images/documents/posters/Sydney_Whilden_Cubesats_and_radiation_damage.pdf",
-      "tags":"poster",
-      "authors":"Sydney Whilden, David L. Cotten PhD., and Deepak Mishra PhD",
-      "subTitle":"Symposium on Space Innovation, Atlanta, GA",
-      "date":"18 October 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Final Results of a Solid-State Cooling Mechanism",
-      "img":"Graham-Poster.jpg",
-      "src":"/images/documents/posters/Graham-Poster.pdf",
-      "tags":"conference proceedings,poster",
-      "authors":"Graham Grable and David L. Cotten PhD",
-      "subTitle":"31st Annual AIAA/USU Conference on Small Satellites",
-      "date":"August 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Feasability of Structure from motion over planetary bodies",
-      "img":"Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.jpg",
-      "src":"/images/documents/presentations/Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.pdf",
-      "tags":"conference proceedings,presentation",
-      "authors":"Caleb Adams, David L. Cotten PhD, Deepak Mishra PhD, and Nicholas (Hollis) Neel",
-      "subTitle":"31st Annual AIAA/USU Conference on Small Satellites",
-      "date":"August 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Structure from Motion from a Constrained Orbiting Platform",
-      "img":"Structure_from_Motion_from_a_Constrained_Orbit.jpg",
-      "src":"/images/documents/posters/Structure_from_Motion_from_a_Constrained_Orbit.pdf",
-      "tags":"presentation",
-      "authors":"Caleb Adams, David L. Cotten PhD, Deepak Mishra PhD, and Nicholas (Hollis) Neel",
-      "subTitle":"International Space Station R&D Conference, Washington D.C.",
-      "date":"July 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Spectral Ocean Color Satellite ",
-      "img":"UGAWorkshop2017CubeSatDeveloper.jpg",
-      "src":"/images/documents/presentations/UGAWorkshop2017CubeSatDeveloper.pdf",
-      "tags":"presentation",
-      "authors":"David L. Cotten PhD, Caleb Adams, Deepak Mishra PhD, Nicholas (Hollis) Neel, Graham Grable, and Khoa Ngo",
-      "subTitle":"CubeSat Developers Workshop, San Luis Obispo, CA",
-      "date":"April 26, 2017 ",
-      "year":"2017"
-    },
-    {
-      "title":"Preliminary Design of a Solid-State Thermoelectric Cooling System for Small Satellite Sensors",
-      "img":"Solid-State_Thermoelectric_Cooling_System.jpg",
-      "src":"/images/documents/papers/Final_Draft_Three_Preliminary_Design_of_A_Solid_State_Thermoelectric_Cooling_System_for_Small_Satellites.pdf",
-      "tags":"conference proceedings,paper",
-      "authors":"Graham Grable, Khoa Ngo, Megan LeCorre, Paul Keith, Ramana Pidaparti",
-       "subTitle":"AIAA Region II Student Conference",
-      "date":"April 2017",
-      "year":"2017"
-    },
-    {
-      "title":"The Feasibility of Structure from Motion over Planetary Bodies with Small Satellite Systems",
-      "img":"Space_SFM-2017_CURO_Syposium.jpg",
-      "src":"/images/documents/presentations/Space_SFM-2017_CURO_Syposium.pdf",
-      "tags":"presentation",
-      "authors":"Caleb Adams, David L. Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 3, 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Structural Design and Optimization of SPOC Satellite",
-      "img":"StructuralAnalysisSPOC_r2.jpg",
-      "src":"/images/documents/presentations/StructuralAnalysisSPOC_r2.pdf",
-      "tags":"presentation",
-      "authors":"Graham Grable, Megan LeCorre, and David L Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 3, 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Laboratory Operations Support for Small Satellite Research Laboratory",
-      "img":"lab_ops_curo_poster.jpg",
-      "src":"/images/documents/posters/lab_ops_curo_poster.pdf",
-      "tags":"poster",
-      "authors":"Paul Hwang, James Roachand Marguerite Madden PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 3, 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Accuracy of Dense Point Clouds Given Varying Image Quality",
-      "img":"nirav_curo_poster.jpg",
-      "src":"/images/documents/posters/nirav_curo_poster.pdf",
-      "tags":"poster",
-      "authors":"Nirav Ilango, David L. Cotten PhD, Caleb Adams, Nicholas (Hollis) Neel, Marguerite Madden PhD, Deepak Mishra PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 3, 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Implementation of Structure from Motion from a Cube Satellite in Low Earth Orbit",
-      "img":"hollis_curo_poster.jpg",
-      "src":"/images/documents/posters/hollis_curo_poster.pdf",
-      "tags":"poster",
-      "authors":"Nicholas (Hollis) Neel and Marguerite Madden PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 3, 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Simulation of Small Satellite Photovoltaic Power Generation Systems",
-      "img":"KhoaNgoCURO2017-2.jpg",
-      "src":"/images/documents/presentations/KhoaNgoCURO2017-2.pdf",
-      "tags":"presentation",
-      "authors":"Khoa Ngo and David L Cotten PhD",
-      "subTitle":"UGA Center for Undergraduate Research Symposium",
-      "date":"April 3, 2017",
-      "year":"2017"
-    },
-    {
-      "title":"STEM Opportunities for Undergraduates Building Nanosatellites: the NASA CubeSat Program Georgia",
-      "img":"2017-ASPRS-IGTF-1-STEMopprotunities-1.jpg",
-      "src":"/images/documents/posters/2017-ASPRS-IGTF-1-STEMopprotunities.pdf",
-      "tags":"poster",
-      "authors":"David L. Cotten PhD, Caleb Adams, Deepak Mishra PhD, Marguerite Madden, and Sergio Bernardes",
-      "subTitle":"IGTF/ASPRS Baltimore, MD",
-      "date":"14 March 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Building a Small Satellite Research Program at the University of Georgia: UGA Payload Development for CubeSats",
-      "img":"2017-ASPRS-IGTF-2-PayloadDevelopment-1.jpg",
-      "src":"/images/documents/posters/2017-ASPRS-IGTF-2-PayloadDevelopment.pdf",
-      "tags":"poster",
-      "authors":"David L. Cotten PhD., Caleb Adams, Deepak Mishra PhD, Marguerite Madden, Sergio Bernardes, Khoa Ngo, Nicholas (Hollis) Neel, Nirav Illango, Megan Le Corre, Graham Grable, and Adam King",
-      "subTitle":" IGTF/ASPRS Baltimore, MD",
-      "date":"14 March 2017",
-      "year":"2017"
-    },
-    {
-      "title":"Feasibility of Structure from Motion over Planetary Bodies using Small Satellites",
-      "img":"SymposiumPoster.jpg",
-      "src":"/images/documents/posters/2017-GeorgiaScientificComputingSymposium final.pdf",
-      "tags":"poster",
-      "authors":"Caleb Adams, David L. Cotten PhD., Nicholas (Hollis) Neel, Nirav Illango, Graham Grable, and Deepak Mishra PhD",
-      "subTitle":"Georgia Scientific Computing Symposium, Athens, GA",
-      "date":"February 25, 2017",
-      "year":"2017"
-    },
-    {
-      "title":"The SPectral Ocean Color (SPOC) Small Satellite Mission: From Payload to Ground Station Development and Everything in Between",
-      "img":"AGU2016-SPOC-final2.jpg",
-      "src":"/images/documents/posters/AGU2016-SPOC-final2.pdf",
-      "tags":"poster",
-      "authors":"David L. Cotten, Sergio Bernardes, Deepak Mishra, Caleb Adams, Hollis Neel, Khoa Ngo, Megan LeCorre, Paige Copenhaver, Nirav Ilango, Adam King, Graham Grable, Paul Hwang",
-      "subTitle":"AGU Meeting Fall Meeting, San Francisco, CA",
-      "date":"December 12-16, 2016",
-      "year":"2017"
-    },
-    {
-      "title":"Enhancing STEM Education through CubeSats:Using Satellite Integration as a Teaching Tool at a Non-Tech School",
-      "img":"AGU2016-SSRL-final3.jpg",
-      "src":"/images/documents/posters/AGU2016-SSRL-final3.pdf",
-      "tags":"poster",
-      "authors":"David L. Cotten, Sergio Bernardes, Deepak Mishra, Caleb Adams, Hollis Neel, Khoa Ngo, Megan LeCorre, Paige Copenhaver, Nirav Ilango, Adam King, Graham Grable, Paul Hwang",
-      "subTitle":"AGU Meeting Fall Meeting, San Francisco, CA",
-      "date":"December 12-16, 2016",
-      "year":"2016"
-    },
-    {
-      "title":"SPOC Payload",
-      "img":"SPOC_RIGHT.jpg",
-      "src":"/images/documents/posters/SPOC_RIGHT.pdf",
-      "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" ",
-      "year":"2016"
-    },
-    {
-      "title":"SPOC Mission Overview",
-      "img":"SPOC_MIDDLE.jpg",
-      "src":"/images/documents/posters/SPOC_MIDDLE.pdf",
-      "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" ",
-      "year":"2016"
-    },
-    {
-      "title":"SPOC Science",
-      "img":"SPOC_LEFT.jpg",
-      "src":"/images/documents/posters/SPOC_LEFT.pdf",
-      "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" ",
-      "year":"2016"
-    },
-    {
-      "title":"MOCI Payload",
-      "img":"MOCI_RIGHT.jpg",
-      "src":"/images/documents/posters/MOCI_RIGHT.pdf",
-      "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" ",
-      "year":"2016"
-    },
-    {
-      "title":"MOCI Mission Overview",
-      "img":"MOCI_MIDDLE.jpg",
-      "src":"/images/documents/posters/MOCI_MIDDLE.pdf",
-      "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" ",
-      "year":"2016"
-    },
-    {
-      "title":"MOCI Science",
-      "img":"MOCI_LEFT.jpg",
-      "src":"/images/documents/posters/MOCI_LEFT.pdf",
-      "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" ",
-      "year":"2016"
-    },
-    {
-      "title":"Lab Story",
-      "img":"LAB_STORY.jpg",
-      "src":"/images/documents/posters/LAB_STORY.pdf",
-      "tags":"poster",
-      "authors":"Authors",
-      "subTitle":"location-date",
-      "date":" ",
-      "year":"2016"
+      "title": "Corruption Tolerant Operation System for GPU in Low Earth Orbit",
+      "img": "Miller-Cotten-Mishra-TMR_Poster-1.png",
+      "src": "/images/documents/posters/Miller-Cotten-Mishra-TMR_Poster.pdf",
+      "authors": "E. Miller, D. Cotten, D. Mishra",
+      "tags": "Symposium on Space Innovation,poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta,GA",
+      "date": "November 18, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Agile, Elastic and Flexible: Incorporating AWS's Cloud-Based Technologies with Ground Systems",
+      "img": "Venenga-Cotten-Symposium_Poster-1.png",
+      "src": "/images/documents/posters/Venenga-Cotten-Symposium_Poster.pdf",
+      "authors": "C. Venenga, D. Cotten",
+      "tags": "Symposium on Space Innovation,poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta,GA",
+      "date": "November 18, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Orbital Simulation Tools for CubeSat Missions",
+      "img": "Whilden_McFerren_Cotten-1.png",
+      "src": "/images/documents/posters/Whilden_McFerren_Cotten.pdf",
+      "authors": "S. Whilden, C. McFarren, D. Cotten",
+      "tags": "Symposium on Space Innovation,poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta,GA",
+      "date": "November 18, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Validation of Structure from Motion Algorithms Through Testing Apparatuses",
+      "img": "ClayBusbeySFMCURO.jpg",
+      "src": "/images/documents/posters/SFM Poster_fixed.pdf",
+      "authors": "C. Busbey, D. Cotten",
+      "tags": "poster, CURO",
+      "subTitle": "UGA CURO Symposium",
+      "date": "Spring 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Analysis and Design of Aluminium-6061 Structures for use in Satellites",
+      "img": "Heavner-CURO_Poster-1.png",
+      "src": "/images/documents/posters/Heavner-CURO_Poster.pdf",
+      "authors": "N. Heavner, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "UGA CURO Symposium",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "A Study into the Structural and Thermal Integrity of 6U Cube Satellite Subsystems and Components",
+      "img": "Ely_CURO_Poster_Ely-1.png",
+      "src": "/images/documents/posters/Ely_CURO_Poster_Ely.pdf",
+      "authors": "M. Ely, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "UGA CURO Symposium",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Implementing Fault Tolerance and Radiation Hardening for an Accelerated Computing Platform in Low Earth Orbit",
+      "img": "Roach-_CURO_Oral-01.png",
+      "src": "/images/documents/presentations/Roach-_CURO_Oral.pptx",
+      "authors": "J. Roach, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "UGA CURO Symposium",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Modeling the Attitude Determination and Control Subsystems(ADCS) for Pointing",
+      "img": "Lin_CURO_2019-1.png",
+      "src": "/images/documents/posters/Lin_CURO_2019.pdf",
+      "authors": "A. Lin, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "UGA CURO Symposium",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "UHF Half-Duplex Telecommand and Telemetry for Successful and Accurate Satellite Communication",
+      "img": "Saki-CURO_Poster_Saki-1.png",
+      "src": "/images/documents/posters/Saki-CURO_Poster_Saki.pdf",
+      "authors": "M. Saki, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "UGA CURO Symposium",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Small Satellite Communications: Functionality and Testing",
+      "img": "Venenga-2019_CURO_Poster-1.png",
+      "src": "/images/documents/posters/Venenga-2019_CURO_Poster.pptx",
+      "authors": "C. Venenga, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "UGA CURO Symposium",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Undegraduates Modeling Small Satellites with Thermal Desktop",
+      "img": "Deal_-_CURO_2019_-_Poster-1.png",
+      "src": "/images/documents/posters/Deal_-_CURO_2019_-_Poster.pdf",
+      "authors": "K. Deal, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "UGA CURO Symposium",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Design and Implementation for Power Verification Engine for Small Satellite",
+      "img": "",
+      "src": "",
+      "authors": "S. Whitcomb, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "UGA CURO Symposium",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Steady State Thermal Analysis of the 3U SPOC Satellite in ANSYS Workbench",
+      "img": "Patel-Curo-1.png",
+      "src": "/images/documents/posters/Patel-Curo.pdf",
+      "authors": "N. Patel, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "UGA CURO Symposium",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Front End Design/Development for Lab Systems",
+      "img": "Huynh-2019CURO.png",
+      "src": "/images/documents/posters/Huynh-2019CURO.png",
+      "authors": "D. Huynh, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "Website Design and Development for LabOps",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Structural-thermal Optical Performance Analysis of Small Satellite Payloads",
+      "img": "Watson-Jones_CURO-1.png",
+      "src": "/images/documents/posters/Watson-Jones_CURO.pdf",
+      "authors": "A. Watson-Jones, D. Cotten",
+      "tags": "CURO publications,poster",
+      "subTitle": "Building a Better Box: Design and Analysis of 3U and 6U Cubesat Frames",
+      "date": "April 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "SPOC: The Spectral Ocean Color Mission",
+      "img": "spocsmallsat2019paper.png",
+      "src": "/images/documents/papers/david_smallsat_2019_paper.pdf",
+      "authors": "David L. Cotten, Nicholas Neel, Deepak Mishra, Marguerite Madden, Caleb Adams, Susanne Ullrich, Adrian Burd, Malcolm Adams, Kaitlyn Summey, Casper Versteeg, Jackson Parker, Fred Beyette",
+      "tags": "conference proceedings,paper",
+      "subTitle": "33nd Annual AIAA/USU Conference on Small Satellites",
+      "date": "August 2 - Agust 8, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Towards an Integrated GPU Accelerated SoC as a Flight Computer for Small Satellites",
+      "img": "afc_block.png",
+      "src": "/images/documents/papers/Adams_GPU_Paper.pdf",
+      "authors": "C. Adams, A. Spain, J. Parker, M. Hevert, D. Cotten, and J. Roach",
+      "tags": "conference proceedings,paper",
+      "subTitle": "IEEE Aerospace, Big Sky, MT",
+      "date": "Mar 2 - Mar 9, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Towards an Integrated GPU Accelerated SoC as a Flight Computer for Small Satellites",
+      "img": "afc_shot.png",
+      "src": "/images/documents/presentations/IEEE_Aerospace_GPU_Presentation.pdf",
+      "authors": "C. Adams, A. Spain, J. Parker, M. Hevert, D. Cotten, and J. Roach",
+      "tags": "presentation",
+      "subTitle": "IEEE Aerospace, Big Sky, MT",
+      "date": "Mar 2 - Mar 9, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "Understanding the Kalman Filter (initial version)",
+      "img": "simple_kalman.png",
+      "src": "/images/documents/papers/adams_understanding_kalman.pdf",
+      "authors": "C. Adams",
+      "tags": "whitepaper",
+      "subTitle": "Internal Training",
+      "date": "Feb 28, 2019",
+      "year": "2019"
+    },
+    {
+      "title": "The Spectral Ocean Color (SPOC) Small Satellite Mission: Developing an Adjustable Multispectral Imager",
+      "img": "hollisboi.png",
+      "src": "/images/documents/posters/hollis_boi.pdf",
+      "authors": "N. Neel, D.L. Cotten, D. Mishra, S. Ullrich, M. Adams, A. Burd, M. Madden, and T. Mote",
+      "tags": "conference proceedings",
+      "subTitle": "Poster Presentation at American Geophysical Union (AGU) Meeting, Washington, D.C.",
+      "date": "December 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Multi View Tech Demonstration",
+      "img": "normals.png",
+      "src": "/images/documents/presentations/MOCI_Software_Demo2018.pdf",
+      "authors": "C. Adams, J. Parker, D.L. Cotten",
+      "tags": "software Demonstration",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 14th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "How UGA is Helping Develop the Next Generation of Systems Engineers for the State of Georgia",
+      "img": "Uga_cotten.JPG",
+      "src": "/images/documents/presentations/Cotten-SSI.pdf",
+      "authors": "D.L. Cotten",
+      "tags": "presentation",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 14th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "GPU Accelerated SoCs as Flight Computers for Small Satellites",
+      "img": "gpus.jpg",
+      "src": "/images/documents/posters/GPU_SmallSatposter.pdf",
+      "authors": "C. Adams, D.L. Cotten, J. Parker, A. Spain",
+      "tags": "poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 13th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Steady State Thermal Analysis of the Avionics Stack for the 3U Cube Satellite SPOC",
+      "img": "steadystate.jpg",
+      "src": "/images/documents/posters/Deal-Patel-Cotten- A Steady State Thermal Analysis of the Avionics Stack  for the 3U Cube Satellite SPOC- Poster.pdf",
+      "authors": "K. Deal, N. Patel, and D.L. Cotten",
+      "tags": "poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 13th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Feasibility of CubeSat Frames for Heat Dissipation Multi-view Onboard Computational Imager (MOCI)",
+      "img": "feasibility.jpg",
+      "src": "/images/documents/posters/Heavner-Ely-cotten-mishra-SSI.pdf",
+      "authors": "N. Heavner, M. Ely, D. Mishra and D.L. Cotten",
+      "tags": "poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 13th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Design and Implementation of a Novel Software Interface for an Adjustable Multispectral Payload",
+      "img": "design_poster.JPG",
+      "src": "/images/documents/posters/King-cotten,mishra-SSI-SPOC.pdf",
+      "authors": "A. King and David L. Cotten PhD",
+      "tags": "poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 13th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Implementing Fault Tolerance and Radiation Hardening on a Commercial Off the Shelf Accelerated Computing Processor in Space",
+      "img": "fault_tolerance_poster.png",
+      "src": "/images/documents/posters/Lin-Roach-Cotten-Implementing Fault Tolerance and Radiation Hardening on a Commercial Off The Shelf Accelerated Computing Processor in Space v2.0.pdf",
+      "authors": "A. Lin, J. Roach, and David L. Cotten PhD",
+      "tags": "poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 13th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Software Architecture of the UGA COSMO Ground Station",
+      "img": "software_architecure.png",
+      "src": "/images/documents/posters/Red-Saki-cotten-mishra-SSI Poster.pdf",
+      "authors": "R. Red, M. Saki, D. Mishra, and David L. Cotten PhD",
+      "tags": "poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 13th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Post-Launch Optical Aberration Detection for Small Satellites",
+      "img": "post_launch.png",
+      "src": "/images/documents/posters/Summey-Cotten-Mishra-wavefront analysis.pdf",
+      "authors": "K. Summey, D. Mishra, and David L. Cotten PhD",
+      "tags": "poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 13th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Implementing a Software-Defined Radio Scheme for a CubeSat Ground Station",
+      "img": "implementing_software.png",
+      "src": "/images/documents/posters/Whilden-neel-cotten-mishra-Software-Defined Radio Scheme for a CubeSat Ground Station (1).pdf",
+      "authors": "S. Whilden, N. Neel, D. Mishra, and David L. Cotten PhD",
+      "tags": "poster",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 13th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "The Spectral Ocean Color Satellite: A Pre-Integration, Post Critical Design Review Overview",
+      "img": "spoc.jpg",
+      "src": "/images/documents/presentations/SPOC_Design_Review.pdf",
+      "authors": "Hollis Neel, David L. Cotten Phd",
+      "tags": "presentation",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "November 13th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "A Near Real Time Space Based Computer Vision System for Accurate Terrain Mapping",
+      "img": "Everest-test.JPG",
+      "src": "/images/documents/papers/Adams_32nd_SmallSatConference.pdf",
+      "authors": "Caleb Adams and David L. Cotten PhD",
+      "tags": "conference proceedings,paper",
+      "subTitle": "32nd Annual AIAA/USU Conference on Small Satellites",
+      "date": "August 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Thermal Management and Design of High Heat Small Satellite Payloads",
+      "img": "HighHeatTest.JPG",
+      "src": "/images/documents/papers/Thermal_Management_of_High_Heat_Small_Satellite_Payloads.pdf",
+      "authors": "Casper Versteeg and David L. Cotten PhD",
+      "tags": "conference proceedings,paper",
+      "subTitle": "32nd Annual AIAA/USU Conference on Small Satellites",
+      "date": "August 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Preliminary Thermal Analysis of Small Satellites",
+      "img": "Versteeg-betaheat.JPG",
+      "src": "/images/documents/papers/Preliminary_Thermal_Analysis_of_Small_Satellites.pdf",
+      "authors": "Casper Versteeg and David L. Cotten PhD",
+      "tags": "conference proceedings,paper",
+      "subTitle": "AIAA Region II Student Conference",
+      "date": "April 5th 2018",
+      "year": "2018"
+    },
+    {
+      "title": "The Multi-view Onboard Computational Imager (MOCI) Mission: A 3U Sized Supercomputer Floating in Space",
+      "img": "Heavner-2018NASALAW-MOCI.png",
+      "src": "/images/documents/posters/NASALAW_Poster_Heavner.pdf",
+      "tags": "poster",
+      "authors": "Nicholas Heavner and David L. Cotten PhD",
+      "subTitle": "2018 NASA Laboratory for Astrophysics Workshop",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Pseudo Invariant and Coastal Target Feasibility",
+      "img": "Arogeti - 2018 CURO targets.JPG",
+      "src": "/images/documents/posters/Arogeti - 2018 CURO Poster.pdf",
+      "tags": "poster",
+      "authors": "Megan Arogeti and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Compression and Encryption Methods for Small Satellite Communications",
+      "img": "Barnes-2018CURO-compression.JPG",
+      "src": "/images/documents/posters/Barnes - 2018 CURO_Poster.pdf",
+      "tags": "poster",
+      "authors": "Ethan Barnes and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Joule Heating Analysis of Spacecraft PCB's",
+      "img": "Buzzy2018-CORGI.JPG",
+      "src": "",
+      "tags": "presentation",
+      "authors": "Michael Buzzy and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Antenna Theory and the University of Georgia's First Ground Station",
+      "img": "GroundStationComputer.jpg",
+      "src": "",
+      "tags": "poster",
+      "authors": "Paige Copenhaver and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "UGA’s Leap to Space: Small Satellite Research Lab Testing",
+      "img": "Endler-2018CURO-Tvac.jpg",
+      "src": "/images/documents/presentations/Endler - 2018 CURO Presentation.pdf",
+      "tags": "presentation",
+      "authors": "Nichlas Endler and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Structural Analysis of Small Satellites SPectral Ocean Color (SPOC)",
+      "img": "Ensing-2018CURO-structure.JPG",
+      "src": "/images/documents/posters/Ensing- 2018 CURO Poster.pdf",
+      "tags": "poster",
+      "authors": "Parker Ensing and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Enhancement of Space-Borne Sensors through Adaptive Temperature Control and Thermoelectric Modules",
+      "img": "Grable-2018 CURO-PID.JPG",
+      "src": "/images/documents/posters/Grable-2018 CURO Poster.pdf",
+      "tags": "poster",
+      "authors": "Graham Grable and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Cost Effective Thermal Vacuum Testing System",
+      "img": "Hendrix-2018CURO-Tvac.jpg",
+      "src": "/images/documents/posters/Hendrix - 2018 CURO Poster.pdf",
+      "tags": "poster",
+      "authors": "Samuel Hendrix and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Concept of Operations in Small Satellite Functionality",
+      "img": "Leicher-conops.JPG",
+      "src": "/images/documents/posters/Leicher-2018_CURO_Poster.pdf",
+      "tags": "poster",
+      "authors": "Bjorn Leicher and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Structural-Thermal Optical Performance Analysis of Small Satellite Payloads",
+      "img": "SPOCeye.JPG",
+      "src": "/images/documents/posters/Versteeg-2018_CURO_Poster.pdf",
+      "tags": "poster",
+      "authors": "Casper Versteeg and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Modeling the Attitude Determination and Control Subsystem (ADCS) on 3U CubeSat",
+      "img": "Lin-2018CURO-ADCS.JPG",
+      "src": "/images/documents/posters/Lin-2018CURO.pdf",
+      "tags": "poster",
+      "authors": "Casper Versteeg, Alexandria Lin, and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "How Beta Angle Determines CubeSat Mission Development",
+      "img": "Whilden-power.JPG",
+      "src": "/images/documents/posters/Whilden-2018_CURO_Poster.pdf",
+      "tags": "poster",
+      "authors": "Sydeny Whilden and David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 9th, 2018",
+      "year": "2018"
+    },
+    {
+      "title": "Batch Analytical Comparisons",
+      "img": "Adams,Caleb_Presentation.jpg",
+      "src": "/images/documents/presentations/Adams,Caleb_Presentation.pdf",
+      "tags": "presentation",
+      "authors": "Caleb Adams, Nicholas (Hollis) Neel, and David L. Cotten PhD",
+      "subTitle": " Symposium on Space Innovation, Atlanta, GA",
+      "date": "19 October 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Self-Improving Structure-from-Motion in Orbit",
+      "img": "Self-Improving_Structure-from-Motion.jpg",
+      "src": "/images/documents/posters/Self-Improving_Structure-from-Motion.pdf",
+      "tags": "poster",
+      "authors": "Jacob Conley and David L. Cotten PhD",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "18 October 2017",
+      "year": "2017"
+    },
+    {
+      "title": "System to Cool Satellite Sensors",
+      "img": "Graham_Symposium_on_Space_Innovations.jpg",
+      "src": "/images/documents/posters/Graham_Symposium_on_Space_Innovations.pdf",
+      "tags": "poster",
+      "authors": "Graham Grable and David L. Cotten PhD",
+      "subTitle": " Symposium on Space Innovation, Atlanta, GA",
+      "date": "18 October 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Design of a CubeSat Ready Hyperspectral Camera",
+      "img": "2017Hevert.JPG",
+      "src": "/images/documents/presentations/ATL_Symposium_Presentation.pdf",
+      "tags": "presentation",
+      "authors": "Matthew Hevert",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "19 October 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Concept of Operations in Small Satellite Functionality",
+      "img": "Symposium_for_Space_Innovations_Poster.jpg",
+      "src": "/images/documents/posters/Symposium_for_Space_Innovations_Poster.pdf",
+      "tags": "poster",
+      "authors": "Bjorn Leicher, Paige Copenhaver, Caleb Adams, David L. Cotten PhD., and Deepak Mishra PhD",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "18 October 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Feature Matching from Orbiting Vehicles",
+      "img": "Feature_Matching_from_Orbiting_Vehicles.jpg",
+      "src": "/images/documents/posters/Feature_Matching_from_Orbiting_Vehicles.pdf",
+      "tags": "poster",
+      "authors": "Nicholas (Hollis) Neel, Caleb Adams, and David L. Cotten PhD",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "18 October 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Thermal and Structural Simulations of Small Satellite Systems",
+      "img": "Casper_Versteeg_Poster.jpg",
+      "src": "/images/documents/posters/Casper_Versteeg_Poster.pdf",
+      "tags": "poster",
+      "authors": "Casper Versteeg, David L. Cotten PdD., and Deepak Mishra PhD",
+      "subTitle": " Symposium on Space Innovation, Atlanta, GA",
+      "date": "18 October 2017",
+      "year": "2017"
+    },
+    {
+      "title": "CubeSats and Radiation Damage",
+      "img": "Sydney_Whilden_Cubesats_and_radiation_damage.jpg",
+      "src": "/images/documents/posters/Sydney_Whilden_Cubesats_and_radiation_damage.pdf",
+      "tags": "poster",
+      "authors": "Sydney Whilden, David L. Cotten PhD., and Deepak Mishra PhD",
+      "subTitle": "Symposium on Space Innovation, Atlanta, GA",
+      "date": "18 October 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Final Results of a Solid-State Cooling Mechanism",
+      "img": "Graham-Poster.jpg",
+      "src": "/images/documents/posters/Graham-Poster.pdf",
+      "tags": "conference proceedings,poster",
+      "authors": "Graham Grable and David L. Cotten PhD",
+      "subTitle": "31st Annual AIAA/USU Conference on Small Satellites",
+      "date": "August 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Feasability of Structure from motion over planetary bodies",
+      "img": "Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.jpg",
+      "src": "/images/documents/presentations/Feasability_of_Structure_from_motion_over_planetary_bodies_using_small_satellites.pdf",
+      "tags": "conference proceedings,presentation",
+      "authors": "Caleb Adams, David L. Cotten PhD, Deepak Mishra PhD, and Nicholas (Hollis) Neel",
+      "subTitle": "31st Annual AIAA/USU Conference on Small Satellites",
+      "date": "August 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Structure from Motion from a Constrained Orbiting Platform",
+      "img": "Structure_from_Motion_from_a_Constrained_Orbit.jpg",
+      "src": "/images/documents/posters/Structure_from_Motion_from_a_Constrained_Orbit.pdf",
+      "tags": "presentation",
+      "authors": "Caleb Adams, David L. Cotten PhD, Deepak Mishra PhD, and Nicholas (Hollis) Neel",
+      "subTitle": "International Space Station R&D Conference, Washington D.C.",
+      "date": "July 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Spectral Ocean Color Satellite ",
+      "img": "UGAWorkshop2017CubeSatDeveloper.jpg",
+      "src": "/images/documents/presentations/UGAWorkshop2017CubeSatDeveloper.pdf",
+      "tags": "presentation",
+      "authors": "David L. Cotten PhD, Caleb Adams, Deepak Mishra PhD, Nicholas (Hollis) Neel, Graham Grable, and Khoa Ngo",
+      "subTitle": "CubeSat Developers Workshop, San Luis Obispo, CA",
+      "date": "April 26, 2017 ",
+      "year": "2017"
+    },
+    {
+      "title": "Preliminary Design of a Solid-State Thermoelectric Cooling System for Small Satellite Sensors",
+      "img": "Solid-State_Thermoelectric_Cooling_System.jpg",
+      "src": "/images/documents/papers/Final_Draft_Three_Preliminary_Design_of_A_Solid_State_Thermoelectric_Cooling_System_for_Small_Satellites.pdf",
+      "tags": "conference proceedings,paper",
+      "authors": "Graham Grable, Khoa Ngo, Megan LeCorre, Paul Keith, Ramana Pidaparti",
+      "subTitle": "AIAA Region II Student Conference",
+      "date": "April 2017",
+      "year": "2017"
+    },
+    {
+      "title": "The Feasibility of Structure from Motion over Planetary Bodies with Small Satellite Systems",
+      "img": "Space_SFM-2017_CURO_Syposium.jpg",
+      "src": "/images/documents/presentations/Space_SFM-2017_CURO_Syposium.pdf",
+      "tags": "presentation",
+      "authors": "Caleb Adams, David L. Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 3, 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Structural Design and Optimization of SPOC Satellite",
+      "img": "StructuralAnalysisSPOC_r2.jpg",
+      "src": "/images/documents/presentations/StructuralAnalysisSPOC_r2.pdf",
+      "tags": "presentation",
+      "authors": "Graham Grable, Megan LeCorre, and David L Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 3, 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Laboratory Operations Support for Small Satellite Research Laboratory",
+      "img": "lab_ops_curo_poster.jpg",
+      "src": "/images/documents/posters/lab_ops_curo_poster.pdf",
+      "tags": "poster",
+      "authors": "Paul Hwang, James Roachand Marguerite Madden PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 3, 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Accuracy of Dense Point Clouds Given Varying Image Quality",
+      "img": "nirav_curo_poster.jpg",
+      "src": "/images/documents/posters/nirav_curo_poster.pdf",
+      "tags": "poster",
+      "authors": "Nirav Ilango, David L. Cotten PhD, Caleb Adams, Nicholas (Hollis) Neel, Marguerite Madden PhD, Deepak Mishra PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 3, 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Implementation of Structure from Motion from a Cube Satellite in Low Earth Orbit",
+      "img": "hollis_curo_poster.jpg",
+      "src": "/images/documents/posters/hollis_curo_poster.pdf",
+      "tags": "poster",
+      "authors": "Nicholas (Hollis) Neel and Marguerite Madden PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 3, 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Simulation of Small Satellite Photovoltaic Power Generation Systems",
+      "img": "KhoaNgoCURO2017-2.jpg",
+      "src": "/images/documents/presentations/KhoaNgoCURO2017-2.pdf",
+      "tags": "presentation",
+      "authors": "Khoa Ngo and David L Cotten PhD",
+      "subTitle": "UGA Center for Undergraduate Research Symposium",
+      "date": "April 3, 2017",
+      "year": "2017"
+    },
+    {
+      "title": "STEM Opportunities for Undergraduates Building Nanosatellites: the NASA CubeSat Program Georgia",
+      "img": "2017-ASPRS-IGTF-1-STEMopprotunities-1.jpg",
+      "src": "/images/documents/posters/2017-ASPRS-IGTF-1-STEMopprotunities.pdf",
+      "tags": "poster",
+      "authors": "David L. Cotten PhD, Caleb Adams, Deepak Mishra PhD, Marguerite Madden, and Sergio Bernardes",
+      "subTitle": "IGTF/ASPRS Baltimore, MD",
+      "date": "14 March 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Building a Small Satellite Research Program at the University of Georgia: UGA Payload Development for CubeSats",
+      "img": "2017-ASPRS-IGTF-2-PayloadDevelopment-1.jpg",
+      "src": "/images/documents/posters/2017-ASPRS-IGTF-2-PayloadDevelopment.pdf",
+      "tags": "poster",
+      "authors": "David L. Cotten PhD., Caleb Adams, Deepak Mishra PhD, Marguerite Madden, Sergio Bernardes, Khoa Ngo, Nicholas (Hollis) Neel, Nirav Illango, Megan Le Corre, Graham Grable, and Adam King",
+      "subTitle": " IGTF/ASPRS Baltimore, MD",
+      "date": "14 March 2017",
+      "year": "2017"
+    },
+    {
+      "title": "Feasibility of Structure from Motion over Planetary Bodies using Small Satellites",
+      "img": "SymposiumPoster.jpg",
+      "src": "/images/documents/posters/2017-GeorgiaScientificComputingSymposium final.pdf",
+      "tags": "poster",
+      "authors": "Caleb Adams, David L. Cotten PhD., Nicholas (Hollis) Neel, Nirav Illango, Graham Grable, and Deepak Mishra PhD",
+      "subTitle": "Georgia Scientific Computing Symposium, Athens, GA",
+      "date": "February 25, 2017",
+      "year": "2017"
+    },
+    {
+      "title": "The SPectral Ocean Color (SPOC) Small Satellite Mission: From Payload to Ground Station Development and Everything in Between",
+      "img": "AGU2016-SPOC-final2.jpg",
+      "src": "/images/documents/posters/AGU2016-SPOC-final2.pdf",
+      "tags": "poster",
+      "authors": "David L. Cotten, Sergio Bernardes, Deepak Mishra, Caleb Adams, Hollis Neel, Khoa Ngo, Megan LeCorre, Paige Copenhaver, Nirav Ilango, Adam King, Graham Grable, Paul Hwang",
+      "subTitle": "AGU Meeting Fall Meeting, San Francisco, CA",
+      "date": "December 12-16, 2016",
+      "year": "2017"
+    },
+    {
+      "title": "Enhancing STEM Education through CubeSats:Using Satellite Integration as a Teaching Tool at a Non-Tech School",
+      "img": "AGU2016-SSRL-final3.jpg",
+      "src": "/images/documents/posters/AGU2016-SSRL-final3.pdf",
+      "tags": "poster",
+      "authors": "David L. Cotten, Sergio Bernardes, Deepak Mishra, Caleb Adams, Hollis Neel, Khoa Ngo, Megan LeCorre, Paige Copenhaver, Nirav Ilango, Adam King, Graham Grable, Paul Hwang",
+      "subTitle": "AGU Meeting Fall Meeting, San Francisco, CA",
+      "date": "December 12-16, 2016",
+      "year": "2016"
+    },
+    {
+      "title": "SPOC Payload",
+      "img": "SPOC_RIGHT.jpg",
+      "src": "/images/documents/posters/SPOC_RIGHT.pdf",
+      "tags": "poster",
+      "authors": "Authors",
+      "subTitle": "location-date",
+      "date": " ",
+      "year": "2016"
+    },
+    {
+      "title": "SPOC Mission Overview",
+      "img": "SPOC_MIDDLE.jpg",
+      "src": "/images/documents/posters/SPOC_MIDDLE.pdf",
+      "tags": "poster",
+      "authors": "Authors",
+      "subTitle": "location-date",
+      "date": " ",
+      "year": "2016"
+    },
+    {
+      "title": "SPOC Science",
+      "img": "SPOC_LEFT.jpg",
+      "src": "/images/documents/posters/SPOC_LEFT.pdf",
+      "tags": "poster",
+      "authors": "Authors",
+      "subTitle": "location-date",
+      "date": " ",
+      "year": "2016"
+    },
+    {
+      "title": "MOCI Payload",
+      "img": "MOCI_RIGHT.jpg",
+      "src": "/images/documents/posters/MOCI_RIGHT.pdf",
+      "tags": "poster",
+      "authors": "Authors",
+      "subTitle": "location-date",
+      "date": " ",
+      "year": "2016"
+    },
+    {
+      "title": "MOCI Mission Overview",
+      "img": "MOCI_MIDDLE.jpg",
+      "src": "/images/documents/posters/MOCI_MIDDLE.pdf",
+      "tags": "poster",
+      "authors": "Authors",
+      "subTitle": "location-date",
+      "date": " ",
+      "year": "2016"
+    },
+    {
+      "title": "MOCI Science",
+      "img": "MOCI_LEFT.jpg",
+      "src": "/images/documents/posters/MOCI_LEFT.pdf",
+      "tags": "poster",
+      "authors": "Authors",
+      "subTitle": "location-date",
+      "date": " ",
+      "year": "2016"
+    },
+    {
+      "title": "Lab Story",
+      "img": "LAB_STORY.jpg",
+      "src": "/images/documents/posters/LAB_STORY.pdf",
+      "tags": "poster",
+      "authors": "Authors",
+      "subTitle": "location-date",
+      "date": " ",
+      "year": "2016"
     }
   ]
 }
