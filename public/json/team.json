@@ -104,6 +104,14 @@
         "id": "eric"
       },
       {
+        "name": "Parker Ensing",
+        "img": "parker.jpg",
+        "major": "Mechanical Engineering",
+        "role": "Chief Engineer & Flight Lead",
+        "bio": "",
+        "id": ""
+      },
+      {
         "name": "Andres Rodriguez",
         "img": "andres.jpg",
         "major": "Computer Science",
@@ -979,14 +987,6 @@
         "img": "",
         "major": "Mechanical Engineering",
         "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Parker Ensing",
-        "img": "parker.jpg",
-        "major": "Mechanical Engineering",
-        "role": "Generation Orbit",
         "bio": "",
         "id": ""
       },
