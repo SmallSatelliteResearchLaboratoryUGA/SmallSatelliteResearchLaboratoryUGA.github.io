@@ -138,30 +138,6 @@
         "id": ""
       },
       {
-        "name": "Saba Merchant",
-        "img": "saba_merchant.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Evan Tichenor",
-        "img": "evan_tichenor.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Divya Ragunathan",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Saori Shigehisa",
         "img": "saori_shigehisa.png",
         "major": "",
@@ -178,24 +154,8 @@
         "id": ""
       },
       {
-        "name": "Cameron Bonesteel",
-        "img": "cameron_bonesteel.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Troy Crawford",
         "img": "troy_crawford.png",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Cate Davis",
-        "img": "",
         "major": "",
         "role": "",
         "bio": "",
@@ -243,7 +203,7 @@
       },
       {
         "name": "Kasra Ghaffari",
-        "img": "",
+        "img": "kasra_ghaffari.jpg",
         "major": "",
         "role": "",
         "bio": "",
@@ -266,16 +226,52 @@
         "id": ""
       },
       {
-        "name": "Nick Piotrowski",
-        "img": "nick_piotrowski.jpg",
+        "name": "Trent Rafferty",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      }
+    ],
+    "software": [
+      {
+        "name": "Saba Merchant",
+        "img": "saba_merchant.jpg",
         "major": "",
         "role": "",
         "bio": "",
         "id": ""
       },
       {
-        "name": "Trent Rafferty",
+        "name": "Cameron Bonesteel",
+        "img": "cameron_bonesteel.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Divya Ragunathan",
         "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Evan Tichenor",
+        "img": "evan_tichenor.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      }
+    ],
+    "hardware": [
+      {
+        "name": "Nick Piotrowski",
+        "img": "nick_piotrowski.jpg",
         "major": "",
         "role": "",
         "bio": "",
