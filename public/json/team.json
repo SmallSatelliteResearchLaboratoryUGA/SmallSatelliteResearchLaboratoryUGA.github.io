@@ -72,6 +72,14 @@
         "id": ""
       },
       {
+        "name": "Caroline Lassiter",
+        "bio": "",
+        "major": "",
+        "img": "caroline_lassiter.jpg",
+        "id": "",
+        "role": "MEMESat Systems Engineer"
+      },
+      {
         "name": "Joshua Messitte",
         "img": "joshua_messitte.jpg",
         "major": "Computer Science",
@@ -81,7 +89,7 @@
       },
       {
         "name": "Evan Lengle",
-        "img": "",
+        "img": "evan_lengle.png",
         "major": "Electrical Engineering",
         "role": "Flight Director",
         "bio": "",
@@ -162,6 +170,14 @@
         "id": ""
       },
       {
+        "name": "Cate Davis",
+        "img": "cate_davis.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
         "name": "Cameron Bonesteel",
         "img": "cameron_bonesteel.jpg",
         "major": "",
@@ -203,6 +219,14 @@
       },
       {
         "name": "Sophie Barrett",
+        "img": "sophie_barrett.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Jordanne Brisby",
         "img": "",
         "major": "",
         "role": "",
@@ -375,7 +399,7 @@
       },
       {
         "name": "Uddhav Swami",
-        "img": "",
+        "img": "uddhav_swami.jpg",
         "major": "",
         "role": "",
         "bio": "",
@@ -399,7 +423,7 @@
       },
       {
         "name": "Sudhan Chitgopkar",
-        "img": "sudhan_chitgopkar.JPG",
+        "img": "sudhan_chitgopkar.jpg",
         "major": "",
         "role": "",
         "bio": "",
