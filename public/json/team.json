@@ -8,7 +8,7 @@
         "role": "Director - dmishra@uga.edu",
         "bio": "Dr. Mishra is an Associate Professor in the Center for Geospatial Research in the Geography Department. He specializes in the application of geospatial science including remote sensing, GIS, and GPS to coastal environments. Dr. Mishra’s broad research interests are: Remote Sensing of Wetlands, Estuaries, Coastal and Open Ocean Waters Remote Sensing in Monitoring Global Climate Change Ocean Optics and Satellite Oceanography. He envisions a permanent Small Sat Research Lab at the University of Georgia.",
         "id": "mishra",
-        "link": "/images/documents/cv/DeepakMishra.pdf"
+        "link": "https://geography.uga.edu/directory/people/deepak-r-mishra"
       }
     ],
     "graduatestudents": [
@@ -415,7 +415,8 @@
         "major": "",
         "role": "Satellite Development",
         "bio": "Dr. Cotten is a Senior Scientist in the Resilient Communications and Autonomous Systems group at Oak Ridge National Lab and serves as an advisor to the SSRL.",
-        "id": ""
+        "id": "",
+        "link": "https://www.ornl.gov/staff-profile/david-l-cotten"
       },
       {
         "name": "Dr. Malcolm R Adams",
@@ -423,7 +424,8 @@
         "major": "",
         "role": "Mathematics and Algorithms",
         "bio": "Dr. Malcolm Adams is the Head of the Mathematics Department and Josiah Meigs Distinguished Teaching Professor. HIs research uses analytic and geometric techniques to study problems in mathematical physics and mathematical biology.",
-        "id": "adams"
+        "id": "adams", 
+        "link": "https://www.math.uga.edu/directory/people/malcolm-r-adams"
       },
       {
         "name": "Dr. Fred Beyette",
@@ -431,7 +433,8 @@
         "major": "",
         "role": "Electrical & Computer Engineering",
         "bio": "Electrical & Computer Engineering.",
-        "id": "fred"
+        "id": "fred",
+        "link": "https://www.engineering.uga.edu/people/profile/fred-beyette-ph.d"
       },
       {
         "name": "Dr. Adrian Burd",
@@ -439,7 +442,8 @@
         "major": "",
         "role": "Marine Science",
         "bio": "Dr. Adrian Burd is an Associate Professor in the Marine Science Department. His research involves the use of mathematical and computer modeling to understand how different marine systems function and how they might change under changing environmental and climate conditions. For me, a marine system can mean many things; a the biological and chemical transformations of a single particle of detrital material settling through the water column; the productivity of a seagrass bed along the coast; the cycling of carbon in the global ocean.",
-        "id": "burd"
+        "id": "burd", 
+        "link": "https://www.marsci.uga.edu/directory/people/adrian-burd"
       },
       {
         "name": "Dr. Marguerite Madden",
@@ -447,7 +451,8 @@
         "major": "",
         "role": "Remote Sensing",
         "bio": "Dr. Marguerite Madden is the Director of the Center for Geospatial Research (CGR) and Professor in the Department of Geography at the University of Georgia (UGA). Dr. Madden is a Past President (2007) and Fellow (2010) of the American Society for Photogrammetry and Remote Sensing (ASPRS), Editor of the 2009 ASPRS Manual of GIS, and former International Society for Photogrammetry and Remote Sensing (ISPRS) Technical Commission President of Commission IV “Geodatabases and Digital Mapping” (2008-2012). Currently she is the current Second Vice President of ISPRS (2012-2016).",
-        "id": "madden"
+        "id": "madden", 
+        "link": "https://geography.uga.edu/directory/people/marguerite-madden"
       },
       {
         "name": "Dr. Thomas L Mote",
@@ -455,7 +460,8 @@
         "major": "",
         "role": "Remote Sensing",
         "bio": "Dr. Thomas Mote is the Department Head of Geography and a Professor in the Geography Department. His research involves hydroclimatology, climate change, synoptic climatology/meteorology, and satellite climatology/meteorology.",
-        "id": "mote"
+        "id": "mote",
+        "link": "https://geography.uga.edu/directory/people/thomas-l-mote"
       },
       {
         "name": "Dr. Marshall Shepherd",
@@ -463,7 +469,8 @@
         "major": "",
         "role": "Mission Operations",
         "bio": "Dr. Marshall Shepherd is the Director for Program in Atmospheric Sciences and a Georgia Athletic Association Professor. His research interests include urban weather-climate, mesoscale weather processes, precipitation, tropical weather hazards, and satellite remote sensing. Dr. Shepherd worked at NASA's Goddard Space Flight Center (GSFC) as a research meteorologist for twelve years.",
-        "id": "shepherd"
+        "id": "shepherd",
+        "link": "https://geography.uga.edu/directory/people/james-marshall-shepherd"
       },
       {
         "name": "Dr. Susanne Ullrich",
@@ -471,7 +478,8 @@
         "major": "",
         "role": "Optics and Vacuum Chamber",
         "bio": "Dr. Susanne Ullrich is an Associate Professor of Physics. Her research involves exploring dynamics and functionality of biophotonic molecules via time-resolved spectroscopy. Her lab uses modern femtosecond and picosecond time-resolved pump-probe spectroscopies − both transient absorption and photoelectron photoion coincidence spectroscopy − to investigate dynamic biophotonic processes in the gas-phase, in molecular clusters, where the complexity of the environment can be varied, and in solution. She will use her background to mentor the students through the design process of different testing apparatuses, from vacuum chambers to ADCS testing.",
-        "id": "ullrich"
+        "id": "ullrich",
+        "link": "https://www.physast.uga.edu/people/susanne_ullrich"
       },
       {
         "name": "Dr. Ben Wagner",
@@ -479,7 +487,8 @@
         "major": "",
         "role": "Mechanical Engineering",
         "bio": "Dr. Ben Wagner is an engineering professor at the UGA College of Engineering. Dr. Wagner recieved his Ph.D. in Mehcanical Engineering at the Georgia Insitute of Technology in 2007 and specializes in dynamics and vibrations, rotating machinery, and industrial utilities and energy conservation.",
-        "id": "wagner"
+        "id": "wagner", 
+        "link": "https://www.engineering.uga.edu/people/profile/ben-wagner-ph.d"
       },
       {
         "name": "Dr. Yohannes Abate",
@@ -487,7 +496,8 @@
         "major": "",
         "role": "Quantum Nano Optics",
         "bio": "",
-        "id": "wagner"
+        "id": "wagner",
+        "link": "https://www.physast.uga.edu/people/yohannes-abate"
       }
     ],
     "intern": [
