@@ -149,8 +149,14 @@ function createMember(member, sectionid) {
   profileHeaderName.innerHTML = d.name;
 
   //append elements
+  //let profileHeaderImage = document.createElement("span")
+  profileHeaderImage.innerHTML = "<div class ='crop'>"
   profileHeader.appendChild(profileHeaderImage);
+  profileHeaderImage.setAttribute("class", "rounded");
+  profileHeaderImage.innerHTML = "</div>"
+
   profileHeader.appendChild(profileHeaderName);
+
   if (!(d.role === "")) {
     let profileHeaderTitle = document.createElement("span");
     profileHeaderTitle.setAttribute("class", "title");
