@@ -1,36 +1,45 @@
 var profiles = [];
 var buttons = [];
-$(document).ready(function(){
+$(document).ready(function () {
 
-    buttons.push(document.getElementById("Everyone"));
-    buttons.push(document.getElementById("2020"));
-    buttons.push(document.getElementById("2019"));
-    buttons.push(document.getElementById("2018"));
-    buttons.push(document.getElementById("2017"));
-    buttons.push(document.getElementById("2016"));
+  buttons.push(document.getElementById("Everyone"));
+  buttons.push(document.getElementById("2021"));
+  buttons.push(document.getElementById("2020"));
+  buttons.push(document.getElementById("2019"));
+  buttons.push(document.getElementById("2018"));
+  buttons.push(document.getElementById("2017"));
+  buttons.push(document.getElementById("2016"));
 
-    buttons[0].addEventListener("click", function(){
-        filterMembers("Everyone")
-    });
-    buttons[1].addEventListener("click", function(){
-        filterMembers("2020")
-    });
-    buttons[2].addEventListener("click", function(){
-        filterMembers("2019")
-    });
-    buttons[3].addEventListener("click", function(){
-        filterMembers("2018")
-    });
-    buttons[4].addEventListener("click", function(){
-        filterMembers("2017")
-    });
-    buttons[5].addEventListener("click", function(){
-        filterMembers("2016")
-    });
+  buttons[0].addEventListener("click", function () {
+    filterMembers("Everyone")
+  });
+  buttons[1].addEventListener("click", function () {
+    filterMembers("2021")
+  });
+  buttons[2].addEventListener("click", function () {
+    filterMembers("2020")
+  });
+  buttons[3].addEventListener("click", function () {
+    filterMembers("2019")
+  });
+  buttons[4].addEventListener("click", function () {
+    filterMembers("2018")
+  });
+  buttons[5].addEventListener("click", function () {
+    filterMembers("2017")
+  });
+  buttons[6].addEventListener("click", function () {
+    filterMembers("2016")
+  });
 
-    //TODO: get rid of this and do it with ejs and express same for team
-    $.getJSON("/json/team.json",function(data){
+  //TODO: get rid of this and do it with ejs and express same for team
+  $.getJSON("/json/team.json", function (data) {
     // populate alumni
+    for (let i = 0; i < data.team.alumni2021.length; i++) {
+      let m = new createMember(data.team.alumni2021[i], "#section-alumni");
+      m.tag = "2021";
+      profiles.push(m);
+    }
     for (let i = 0; i < data.team.alumni2020.length; i++) {
       let m = new createMember(data.team.alumni2020[i], "#section-alumni");
       m.tag = "2020";
@@ -58,24 +67,24 @@ $(document).ready(function(){
     }
   });
 
-  function filterMembers(year){
-    buttons.forEach(function(d){
+  function filterMembers(year) {
+    buttons.forEach(function (d) {
       d.setAttribute("class", "");
     });
     document.getElementById(year).setAttribute("class", "selected");
-    
+
     //filter tags
     let tagged = [];
 
-    if(year == "Everyone"){
-      profiles.forEach(function(d){
+    if (year == "Everyone") {
+      profiles.forEach(function (d) {
         d.show(true);
       });
-    }else {
-      profiles.forEach(function(d){
+    } else {
+      profiles.forEach(function (d) {
         if (d.tag.includes(year)) {
           d.show(true);
-        }else{
+        } else {
           d.show(false);
         }
       });
@@ -88,14 +97,14 @@ $(document).ready(function(){
 // this function is a standard member
 // this does not include any extra links
 // or any extra content about said member
-function createMember(member, sectionid){
-    this.tag = "";
-    var d = member;
-    var profilelink = document.createElement("a");
+function createMember(member, sectionid) {
+  this.tag = "";
+  var d = member;
+  var profilelink = document.createElement("a");
 
   //set link if json has 'link' key
   if (d.hasOwnProperty("link")) {
-    profilelink.setAttribute("href",d.link);
+    profilelink.setAttribute("href", d.link);
   }
 
   this.profileHeader = document.createElement("div");
@@ -105,7 +114,7 @@ function createMember(member, sectionid){
   //get image, if none then use default
   if (d.img === "") {
     profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/default.png");
-  }else {
+  } else {
     profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/" + d.img);
   }
 
@@ -126,13 +135,13 @@ function createMember(member, sectionid){
   profilelink.appendChild(this.profileHeader);
   $(sectionid).append(profilelink);
 
-   //functions
-   this.show = function(b){
-    if(b){
-      this.profileHeader.setAttribute("class","profile");
+  //functions
+  this.show = function (b) {
+    if (b) {
+      this.profileHeader.setAttribute("class", "profile");
       this.hidden = false;
-    }else{
-      this.profileHeader.setAttribute("class","profile hidden");
+    } else {
+      this.profileHeader.setAttribute("class", "profile hidden");
       this.hidden = true;
     }
   };

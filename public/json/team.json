@@ -48,30 +48,6 @@
         "role": "Hardware Lead"
       },
       {
-        "name": "Justin Heimerl",
-        "img": "justin.jpg",
-        "major": "Electrical Engineering",
-        "role": "MOCI Hardware Lead",
-        "bio": "Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
-        "id": "justin"
-      },
-      {
-        "name": "Alex Lin",
-        "img": "alex_lin.jpg",
-        "major": "Computer Systems Engineering",
-        "role": "MOCI Systems Engineer",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "W. Conor McFerren",
-        "img": "conor_mcferren.jpg",
-        "major": "Computer Science and Physics",
-        "role": "MOCI Mission Operations Lead",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Caroline Lassiter",
         "bio": "",
         "major": "",
@@ -130,14 +106,6 @@
     ],
     "electronics": [
       {
-        "name": "Tyler Back",
-        "img": "tyler_back.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Saori Shigehisa",
         "img": "saori_shigehisa.png",
         "major": "",
@@ -148,14 +116,6 @@
       {
         "name": "Cate Davis",
         "img": "cate_davis.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Troy Crawford",
-        "img": "troy_crawford.png",
         "major": "",
         "role": "",
         "bio": "",
@@ -280,24 +240,8 @@
     ],
     "mechanical": [
       {
-        "name": "Joshua Burke",
-        "img": "joshua_burke.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Keaton Coletti",
         "img": "keaton_coletti.png",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Niklas Endler",
-        "img": "niklas_endler.jpg",
         "major": "",
         "role": "",
         "bio": "",
@@ -558,6 +502,81 @@
         "img": "",
         "major": "High School",
         "role": "Intern",
+        "bio": "",
+        "id": ""
+      }
+    ],
+    "alumni2021": [
+      {
+        "name": "Alex Lin",
+        "img": "alex_lin.jpg",
+        "major": "Computer Systems Engineering",
+        "role": "MOCI Systems Engineer",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Justin Heimerl",
+        "img": "justin.jpg",
+        "major": "Electrical Engineering",
+        "role": "MOCI Hardware Lead",
+        "bio": "Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
+        "id": "justin"
+      },
+      {
+        "name": "W. Conor McFerren",
+        "img": "conor_mcferren.jpg",
+        "major": "Computer Science and Physics",
+        "role": "MOCI Mission Operations Lead",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Niklas Endler",
+        "img": "niklas_endler.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Jack McDaniels",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Troy Crawford",
+        "img": "troy_crawford.png",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Joshua Burke",
+        "img": "joshua_burke.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Godfrey Hendrix",
+        "img": "godfrey_hendrix.jpg",
+        "major": "Computer Systems Engineering",
+        "role": "MOCI Electronics Lead",
+        "bio": "",
+        "id": "",
+        "link": ""
+      },
+      {
+        "name": "Tyler Back",
+        "img": "tyler_back.jpg",
+        "major": "",
+        "role": "",
         "bio": "",
         "id": ""
       }
