@@ -1,6 +1,16 @@
 {
   "research": [
     {
+      "title": "Design Simulation and Testing of a Custom Co-Processor for Cubesatellites in LEO",
+      "img": "CORGI_SmallSat2021.png",
+      "src": "/images/documents/papers/CORGI_SmallSat2021.pdf",
+      "authors": "J. Heimerl, A. Spain, A. Lin, D. Cotten",
+      "tags": "AIAA, USU, paper",
+      "subTitle": "",
+      "date": "August 7, 2021",
+      "year": "2021"
+    },
+    {
       "title": "Design and Test of Novel Computing System for Low Earth Orbit",
       "img": "Heimerl_Symposium_2021.png",
       "src": "/images/documents/posters/Heimerl_Symposium_2021.pdf",
