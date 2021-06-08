@@ -22,12 +22,12 @@
         "link": "/images/documents/cv/sydney_whilden_onlinecv.pdf"
       },
       {
-        "name": "William Rittmeyer",
+        "name": "Parker Ensing",
+        "img": "parker_ensing.jpg",
+        "major": "Mechanical Engineering",
+        "role": "Chief Engineer & Flight Lead",
         "bio": "",
-        "major": "",
-        "img": "Ritmeyer.jpg",
-        "id": "",
-        "role": "MemeSat Electronics"
+        "id": ""
       }
     ],
     "leadership": [
@@ -86,14 +86,6 @@
         "role": "MOCI Payload Lead",
         "bio": "",
         "id": "eric"
-      },
-      {
-        "name": "Parker Ensing",
-        "img": "parker_ensing.jpg",
-        "major": "Mechanical Engineering",
-        "role": "Chief Engineer & Flight Lead",
-        "bio": "",
-        "id": ""
       },
       {
         "name": "Andres Rodriguez",
@@ -615,6 +607,14 @@
         "role": "",
         "bio": "",
         "id": ""
+      },
+      {
+        "name": "William Rittmeyer",
+        "bio": "",
+        "major": "",
+        "img": "Ritmeyer.jpg",
+        "id": "",
+        "role": "MemeSat Electronics"
       },
       {
         "name": "Mateen Saki",
