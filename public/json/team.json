@@ -28,6 +28,14 @@
         "role": "Chief Engineer & Flight Lead",
         "bio": "",
         "id": ""
+      },
+      {
+        "name": "Eric Miller",
+        "img": "eric_miller.jpg",
+        "major": "Computer Science",
+        "role": "MOCI Payload Lead",
+        "bio": "",
+        "id": "eric"
       }
     ],
     "leadership": [
@@ -78,14 +86,6 @@
         "role": "Program Manager",
         "bio": "",
         "id": "alexanderwj"
-      },
-      {
-        "name": "Eric Miller",
-        "img": "eric_miller.jpg",
-        "major": "Computer Science",
-        "role": "MOCI Payload Lead",
-        "bio": "",
-        "id": "eric"
       },
       {
         "name": "Andres Rodriguez",
@@ -224,6 +224,14 @@
       {
         "name": "Nick Piotrowski",
         "img": "nick_piotrowski.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Nathan Nobles",
+        "img": "",
         "major": "",
         "role": "",
         "bio": "",
@@ -486,6 +494,51 @@
         "bio": "",
         "id": "",
         "link": "https://www.physast.uga.edu/people/yohannes-abate"
+      },
+      {
+        "name": "Dr. Lakshmish Macheeri Ramaswamy",
+        "img": "laksmish_ramaswamy.jpg",
+        "major": "",
+        "role": "Data Science, SpaceAI",
+        "bio": "",
+        "id": "",
+        "link": "Data Science, SpaceAI"
+      },
+      {
+        "name": "Dr. In Kee Kim",
+        "img": "inkee_kim.jpeg",
+        "major": "",
+        "role": "Data Science and Cloud Computing, SpaceAI",
+        "bio": "",
+        "id": "",
+        "link": "https://www.cs.uga.edu/directory/people/kee-kim"
+      },
+      {
+        "name": "Dr. Brian M Hopkinson",
+        "img": "brian_hopkinson.jpg",
+        "major": "",
+        "role": "Data Science, SpaceAI",
+        "bio": "",
+        "id": "",
+        "link": "https://www.marsci.uga.edu/directory/people/brian-hopkinson"
+      },
+      {
+        "name": "Dr. Phillip C Stancil",
+        "img": "phillip_stancil.jpg",
+        "major": "",
+        "role": "Space Exploration, Astrophysics",
+        "bio": "",
+        "id": "",
+        "link": "https://www.physast.uga.edu/research/stancil-group/"
+      },
+      {
+        "name": "Dr. Sara Rivero-Calle",
+        "img": "sarah_rivero-calle.png",
+        "major": "",
+        "role": "Remote Sensing",
+        "bio": "",
+        "id": "",
+        "link": "https://www.skio.uga.edu/sara-rivero-calle/"
       }
     ],
     "intern": [
