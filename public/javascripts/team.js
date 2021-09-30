@@ -13,10 +13,6 @@ $(document).ready(function () {
     for (let i = 0; i < data.team.leadership.length; i++) {
       createMember(data.team.leadership[i], "#section-leadership");
     }
-    //populate electronics members
-    for (let i = 0; i < data.team.electronics.length; i++) {
-      createMember(data.team.electronics[i], "#section-electronics");
-    }
     //populate software members
     for (let i = 0; i < data.team.software.length; i++) {
       createMember(data.team.software[i], "#section-software");

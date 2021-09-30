@@ -13,13 +13,12 @@
     ],
     "graduatestudents": [
       {
-        "name": "Sydney Whilden",
-        "img": "sydney_whilden.jpg",
-        "major": "Astronomy and Physics /  Comparative Literature",
-        "role": "Physics and Astronomy PhD",
-        "bio": "Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
-        "id": "",
-        "link": "/images/documents/cv/sydney_whilden_onlinecv.pdf"
+        "name": "Eric Miller",
+        "img": "eric_miller.jpg",
+        "major": "Computer Science",
+        "role": "MOCI Payload Lead",
+        "bio": "",
+        "id": "eric"
       },
       {
         "name": "Parker Ensing",
@@ -30,30 +29,23 @@
         "id": ""
       },
       {
-        "name": "Eric Miller",
-        "img": "eric_miller.jpg",
-        "major": "Computer Science",
-        "role": "MOCI Payload Lead",
-        "bio": "",
-        "id": "eric"
+        "name": "Sydney Whilden",
+        "img": "sydney_whilden.jpg",
+        "major": "Astronomy and Physics /  Comparative Literature",
+        "role": "Physics and Astronomy PhD",
+        "bio": "Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
+        "id": "",
+        "link": "/images/documents/cv/sydney_whilden_onlinecv.pdf"
       }
     ],
     "leadership": [
       {
-        "name": "Clay Busbey",
+        "name": "Andres Rodriguez",
+        "img": "andres_rodriguez.jpg",
+        "major": "Computer Science",
+        "role": "MOCI Flight Software Lead",
         "bio": "",
-        "major": "Mechanical Engineering",
-        "img": "ClayBusbey.jpg",
-        "id": "",
-        "role": "MOCI Mechanical Lead"
-      },
-      {
-        "name": "Matthew Olson",
-        "bio": "",
-        "major": "Mechanical Engineering",
-        "img": "matthew_olson.jpg",
-        "id": "",
-        "role": "Hardware Lead"
+        "id": ""
       },
       {
         "name": "Caroline Lassiter",
@@ -64,6 +56,30 @@
         "role": "MEMESat Systems Engineer"
       },
       {
+        "name": "Clay Busbey",
+        "bio": "",
+        "major": "Mechanical Engineering",
+        "img": "ClayBusbey.jpg",
+        "id": "",
+        "role": "MOCI Mechanical Lead"
+      },
+      {
+        "name": "Evan Lengle",
+        "img": "evan_lengle.png",
+        "major": "Electrical Engineering",
+        "role": "MOCI Systems Engineer",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Jeffery John",
+        "img": "jeffery_john.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
         "name": "Joshua Messitte",
         "img": "joshua_messitte.jpg",
         "major": "Computer Science",
@@ -72,113 +88,15 @@
         "id": ""
       },
       {
-        "name": "Evan Lengle",
-        "img": "evan_lengle.png",
-        "major": "Electrical Engineering",
-        "role": "Flight Director",
+        "name": "Matthew Olson",
         "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Alexander Watson-Jones",
-        "img": "alexander_watson-jones.jpg",
         "major": "Mechanical Engineering",
-        "role": "Program Manager",
-        "bio": "",
-        "id": "alexanderwj"
+        "img": "matthew_olson.jpg",
+        "id": "",
+        "role": "Hardware Lead"
       },
       {
-        "name": "Andres Rodriguez",
-        "img": "andres_rodriguez.jpg",
-        "major": "Computer Science",
-        "role": "MOCI Electronics Lead",
-        "bio": "",
-        "id": ""
-      }
-    ],
-    "electronics": [
-      {
-        "name": "Saori Shigehisa",
-        "img": "saori_shigehisa.png",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Cate Davis",
-        "img": "cate_davis.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Markell Hardee",
-        "img": "markell_hardee.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Vedika Ghildyal",
-        "img": "vedika_ghildyal.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Sophie Barrett",
-        "img": "sophie_barrett.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Jordanne Brisby",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Omer Cinar",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Kasra Ghaffari",
-        "img": "kasra_ghaffari.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Braden Heimerl",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Vani Gupta",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Trent Rafferty",
+        "name": "Tyler Darby",
         "img": "",
         "major": "",
         "role": "",
@@ -188,8 +106,8 @@
     ],
     "software": [
       {
-        "name": "Saba Merchant",
-        "img": "saba_merchant.jpg",
+        "name": "Brett Toutkoushian",
+        "img": "",
         "major": "",
         "role": "",
         "bio": "",
@@ -218,12 +136,108 @@
         "role": "",
         "bio": "",
         "id": ""
+      },
+      {
+        "name": "Michael Starks",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Moss Ivy",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Omer Cinar",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Reese Mallory",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Saba Merchant",
+        "img": "saba_merchant.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Saori Shigehisa",
+        "img": "saori_shigehisa.png",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Shashank Ganeshan",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Trent Rafferty",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Vedika Ghildyal",
+        "img": "vedika_ghildyal.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
       }
     ],
     "hardware": [
       {
-        "name": "Nick Piotrowski",
-        "img": "nick_piotrowski.jpg",
+        "name": "Cate Davis",
+        "img": "cate_davis.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Jonathan Shoemaker",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Kasra Ghaffari",
+        "img": "kasra_ghaffari.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Markell Hardee",
+        "img": "markell_hardee.jpg",
         "major": "",
         "role": "",
         "bio": "",
@@ -236,41 +250,25 @@
         "role": "",
         "bio": "",
         "id": ""
+      },
+      {
+        "name": "Nick Piotrowski",
+        "img": "nick_piotrowski.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Sophie Barrett",
+        "img": "sophie_barrett.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
       }
     ],
     "mechanical": [
-      {
-        "name": "Keaton Coletti",
-        "img": "keaton_coletti.png",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Gillian O'Bryant",
-        "img": "gillian_obryant.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Sid Amonchomchupong",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Joshua Burke",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
       {
         "name": "Aidan Delliponti",
         "img": "",
@@ -288,8 +286,32 @@
         "id": ""
       },
       {
-        "name": "Paul Paterson",
-        "img": "paul_peterson.jpg",
+        "name": "Cody Carroll",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Gillian O'Bryant",
+        "img": "gillian_obryant.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Ryan Hughes",
+        "img": "ryan_hughes.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Sid Amonchomchupong",
+        "img": "",
         "major": "",
         "role": "",
         "bio": "",
@@ -306,55 +328,23 @@
     ],
     "missionops": [
       {
+        "name": "Hunter Wilkins",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Jordanne Brisby",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
         "name": "Ojas Nadkarni",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Tyler Darby",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Ryan Hughes",
-        "img": "ryan_hughes.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Jeffery John",
-        "img": "jeffery_john.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Uddhav Swami",
-        "img": "uddhav_swami.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Claire Venenga",
-        "img": "claire_venenga.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Richard Hoepfinger",
         "img": "",
         "major": "",
         "role": "",
@@ -364,6 +354,14 @@
       {
         "name": "Sudhan Chitgopkar",
         "img": "sudhan_chitgopkar.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Uddhav Swami",
+        "img": "uddhav_swami.jpg",
         "major": "",
         "role": "",
         "bio": "",
@@ -380,16 +378,24 @@
         "id": ""
       },
       {
-        "name": "Matthew Enny",
-        "img": "matthew_enny.jpg",
+        "name": "Blaire Houlihan",
+        "img": "",
         "major": "",
         "role": "",
         "bio": "",
         "id": ""
       },
       {
-        "name": "Blaire Houlihan",
-        "img": "",
+        "name": "Claire Venenga",
+        "img": "claire_venenga.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Matthew Enny",
+        "img": "matthew_enny.jpg",
         "major": "",
         "role": "",
         "bio": "",
@@ -406,33 +412,6 @@
     ],
     "associatedfaculty": [
       {
-        "name": "Dr. David Cotten",
-        "img": "david_cotten.jpg",
-        "major": "",
-        "role": "Satellite Development",
-        "bio": "Dr. Cotten is a Senior Scientist in the Resilient Communications and Autonomous Systems group at Oak Ridge National Lab and serves as an advisor to the SSRL.",
-        "id": "",
-        "link": "https://www.ornl.gov/staff-profile/david-l-cotten"
-      },
-      {
-        "name": "Dr. Malcolm R Adams",
-        "img": "malcolm_adams.jpg",
-        "major": "",
-        "role": "Mathematics and Algorithms",
-        "bio": "Dr. Malcolm Adams is the Head of the Mathematics Department and Josiah Meigs Distinguished Teaching Professor. HIs research uses analytic and geometric techniques to study problems in mathematical physics and mathematical biology.",
-        "id": "adams",
-        "link": "https://www.math.uga.edu/directory/people/malcolm-r-adams"
-      },
-      {
-        "name": "Dr. Fred Beyette",
-        "img": "fred_beyette.jpg",
-        "major": "",
-        "role": "Electrical & Computer Engineering",
-        "bio": "",
-        "id": "",
-        "link": "https://www.engineering.uga.edu/people/profile/fred-beyette-ph.d"
-      },
-      {
         "name": "Dr. Adrian Burd",
         "img": "adrian_burd.jpg",
         "major": "",
@@ -440,42 +419,6 @@
         "bio": "Dr. Adrian Burd is an Associate Professor in the Marine Science Department. His research involves the use of mathematical and computer modeling to understand how different marine systems function and how they might change under changing environmental and climate conditions. For me, a marine system can mean many things; a the biological and chemical transformations of a single particle of detrital material settling through the water column; the productivity of a seagrass bed along the coast; the cycling of carbon in the global ocean.",
         "id": "",
         "link": "https://www.marsci.uga.edu/directory/people/adrian-burd"
-      },
-      {
-        "name": "Dr. Marguerite Madden",
-        "img": "marguerite_madden.jpg",
-        "major": "",
-        "role": "Remote Sensing",
-        "bio": "Dr. Marguerite Madden is the Director of the Center for Geospatial Research (CGR) and Professor in the Department of Geography at the University of Georgia (UGA). Dr. Madden is a Past President (2007) and Fellow (2010) of the American Society for Photogrammetry and Remote Sensing (ASPRS), Editor of the 2009 ASPRS Manual of GIS, and former International Society for Photogrammetry and Remote Sensing (ISPRS) Technical Commission President of Commission IV “Geodatabases and Digital Mapping” (2008-2012). Currently she is the current Second Vice President of ISPRS (2012-2016).",
-        "id": "",
-        "link": "https://geography.uga.edu/directory/people/marguerite-madden"
-      },
-      {
-        "name": "Dr. Thomas L Mote",
-        "img": "thomas_mote.png",
-        "major": "",
-        "role": "Remote Sensing",
-        "bio": "Dr. Thomas Mote is the Department Head of Geography and a Professor in the Geography Department. His research involves hydroclimatology, climate change, synoptic climatology/meteorology, and satellite climatology/meteorology.",
-        "id": "",
-        "link": "https://geography.uga.edu/directory/people/thomas-l-mote"
-      },
-      {
-        "name": "Dr. Marshall Shepherd",
-        "img": "marshall_shepherd.jpg",
-        "major": "",
-        "role": "Mission Operations",
-        "bio": "Dr. Marshall Shepherd is the Director for Program in Atmospheric Sciences and a Georgia Athletic Association Professor. His research interests include urban weather-climate, mesoscale weather processes, precipitation, tropical weather hazards, and satellite remote sensing. Dr. Shepherd worked at NASA's Goddard Space Flight Center (GSFC) as a research meteorologist for twelve years.",
-        "id": "",
-        "link": "https://geography.uga.edu/directory/people/james-marshall-shepherd"
-      },
-      {
-        "name": "Dr. Susanne Ullrich",
-        "img": "susanne_ullrich.jpg",
-        "major": "",
-        "role": "Optics and Vacuum Chamber",
-        "bio": "Dr. Susanne Ullrich is an Associate Professor of Physics. Her research involves exploring dynamics and functionality of biophotonic molecules via time-resolved spectroscopy. Her lab uses modern femtosecond and picosecond time-resolved pump-probe spectroscopies − both transient absorption and photoelectron photoion coincidence spectroscopy − to investigate dynamic biophotonic processes in the gas-phase, in molecular clusters, where the complexity of the environment can be varied, and in solution. She will use her background to mentor the students through the design process of different testing apparatuses, from vacuum chambers to ADCS testing.",
-        "id": "",
-        "link": "https://www.physast.uga.edu/people/susanne_ullrich"
       },
       {
         "name": "Dr. Ben Wagner",
@@ -487,22 +430,31 @@
         "link": "https://www.engineering.uga.edu/people/profile/ben-wagner-ph.d"
       },
       {
-        "name": "Dr. Yohannes Abate",
-        "img": "yohannes_abate.jpg",
-        "major": "",
-        "role": "Quantum Nano Optics",
-        "bio": "",
-        "id": "",
-        "link": "https://www.physast.uga.edu/people/yohannes-abate"
-      },
-      {
-        "name": "Dr. Lakshmish Macheeri Ramaswamy",
-        "img": "laksmish_ramaswamy.jpg",
+        "name": "Dr. Brian M Hopkinson",
+        "img": "brian_hopkinson.jpg",
         "major": "",
         "role": "Data Science, SpaceAI",
         "bio": "",
         "id": "",
-        "link": "Data Science, SpaceAI"
+        "link": "https://www.marsci.uga.edu/directory/people/brian-hopkinson"
+      },
+      {
+        "name": "Dr. David Cotten",
+        "img": "david_cotten.jpg",
+        "major": "",
+        "role": "Satellite Development",
+        "bio": "Dr. Cotten is a Senior Scientist in the Resilient Communications and Autonomous Systems group at Oak Ridge National Lab and serves as an advisor to the SSRL.",
+        "id": "",
+        "link": "https://www.ornl.gov/staff-profile/david-l-cotten"
+      },
+      {
+        "name": "Dr. Fred Beyette",
+        "img": "fred_beyette.jpg",
+        "major": "",
+        "role": "Electrical & Computer Engineering",
+        "bio": "",
+        "id": "",
+        "link": "https://www.engineering.uga.edu/people/profile/fred-beyette-ph.d"
       },
       {
         "name": "Dr. In Kee Kim",
@@ -514,13 +466,40 @@
         "link": "https://www.cs.uga.edu/directory/people/kee-kim"
       },
       {
-        "name": "Dr. Brian M Hopkinson",
-        "img": "brian_hopkinson.jpg",
+        "name": "Dr. Lakshmish Macheeri Ramaswamy",
+        "img": "lakshmish_ramaswamy.jpg",
         "major": "",
         "role": "Data Science, SpaceAI",
         "bio": "",
         "id": "",
-        "link": "https://www.marsci.uga.edu/directory/people/brian-hopkinson"
+        "link": "https://csci.franklin.uga.edu/directory/people/lakshmish-ramaswamy"
+      },
+      {
+        "name": "Dr. Malcolm R Adams",
+        "img": "malcolm_adams.jpg",
+        "major": "",
+        "role": "Mathematics and Algorithms",
+        "bio": "Dr. Malcolm Adams is the Head of the Mathematics Department and Josiah Meigs Distinguished Teaching Professor. HIs research uses analytic and geometric techniques to study problems in mathematical physics and mathematical biology.",
+        "id": "adams",
+        "link": "https://www.math.uga.edu/directory/people/malcolm-r-adams"
+      },
+      {
+        "name": "Dr. Marguerite Madden",
+        "img": "marguerite_madden.jpg",
+        "major": "",
+        "role": "Remote Sensing",
+        "bio": "Dr. Marguerite Madden is the Director of the Center for Geospatial Research (CGR) and Professor in the Department of Geography at the University of Georgia (UGA). Dr. Madden is a Past President (2007) and Fellow (2010) of the American Society for Photogrammetry and Remote Sensing (ASPRS), Editor of the 2009 ASPRS Manual of GIS, and former International Society for Photogrammetry and Remote Sensing (ISPRS) Technical Commission President of Commission IV “Geodatabases and Digital Mapping” (2008-2012). Currently she is the current Second Vice President of ISPRS (2012-2016).",
+        "id": "",
+        "link": "https://geography.uga.edu/directory/people/marguerite-madden"
+      },
+      {
+        "name": "Dr. Marshall Shepherd",
+        "img": "marshall_shepherd.jpg",
+        "major": "",
+        "role": "Mission Operations",
+        "bio": "Dr. Marshall Shepherd is the Director for Program in Atmospheric Sciences and a Georgia Athletic Association Professor. His research interests include urban weather-climate, mesoscale weather processes, precipitation, tropical weather hazards, and satellite remote sensing. Dr. Shepherd worked at NASA's Goddard Space Flight Center (GSFC) as a research meteorologist for twelve years.",
+        "id": "",
+        "link": "https://geography.uga.edu/directory/people/james-marshall-shepherd"
       },
       {
         "name": "Dr. Phillip C Stancil",
@@ -539,11 +518,38 @@
         "bio": "",
         "id": "",
         "link": "https://www.skio.uga.edu/sara-rivero-calle/"
+      },
+      {
+        "name": "Dr. Susanne Ullrich",
+        "img": "susanne_ullrich.jpg",
+        "major": "",
+        "role": "Optics and Vacuum Chamber",
+        "bio": "Dr. Susanne Ullrich is an Associate Professor of Physics. Her research involves exploring dynamics and functionality of biophotonic molecules via time-resolved spectroscopy. Her lab uses modern femtosecond and picosecond time-resolved pump-probe spectroscopies − both transient absorption and photoelectron photoion coincidence spectroscopy − to investigate dynamic biophotonic processes in the gas-phase, in molecular clusters, where the complexity of the environment can be varied, and in solution. She will use her background to mentor the students through the design process of different testing apparatuses, from vacuum chambers to ADCS testing.",
+        "id": "",
+        "link": "https://www.physast.uga.edu/people/susanne_ullrich"
+      },
+      {
+        "name": "Dr. Thomas L Mote",
+        "img": "thomas_mote.png",
+        "major": "",
+        "role": "Remote Sensing",
+        "bio": "Dr. Thomas Mote is the Department Head of Geography and a Professor in the Geography Department. His research involves hydroclimatology, climate change, synoptic climatology/meteorology, and satellite climatology/meteorology.",
+        "id": "",
+        "link": "https://geography.uga.edu/directory/people/thomas-l-mote"
+      },
+      {
+        "name": "Dr. Yohannes Abate",
+        "img": "yohannes_abate.jpg",
+        "major": "",
+        "role": "Quantum Nano Optics",
+        "bio": "",
+        "id": "",
+        "link": "https://www.physast.uga.edu/people/yohannes-abate"
       }
     ],
     "intern": [
       {
-        "name": "Aron Bauer",
+        "name": "Henry Frierson",
         "img": "",
         "major": "High School",
         "role": "Intern",
@@ -561,40 +567,25 @@
         "id": ""
       },
       {
-        "name": "Justin Heimerl",
-        "img": "justin.jpg",
-        "major": "Electrical Engineering",
-        "role": "MOCI Hardware Lead",
-        "bio": "Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
-        "id": "justin"
-      },
-      {
-        "name": "W. Conor McFerren",
-        "img": "conor_mcferren.jpg",
-        "major": "Computer Science and Physics",
-        "role": "MOCI Mission Operations Lead",
+        "name": "Alex Watson-Jones",
+        "img": "alexander_watson-jones.jpg",
+        "major": "Mechanical Engineering",
+        "role": "Program Manager",
         "bio": "",
         "id": ""
       },
       {
-        "name": "Niklas Endler",
-        "img": "niklas_endler.jpg",
-        "major": "",
-        "role": "",
+        "name": "Godfrey Hendrix",
+        "img": "godfrey_hendrix.jpg",
+        "major": "Computer Systems Engineering",
+        "role": "MOCI Electronics Lead",
         "bio": "",
-        "id": ""
+        "id": "",
+        "link": ""
       },
       {
         "name": "Jack McDaniels",
         "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Troy Crawford",
-        "img": "troy_crawford.png",
         "major": "",
         "role": "",
         "bio": "",
@@ -609,13 +600,28 @@
         "id": ""
       },
       {
-        "name": "Godfrey Hendrix",
-        "img": "godfrey_hendrix.jpg",
-        "major": "Computer Systems Engineering",
-        "role": "MOCI Electronics Lead",
+        "name": "Justin Heimerl",
+        "img": "justin.jpg",
+        "major": "Electrical Engineering",
+        "role": "MOCI Hardware Lead",
+        "bio": "Justin is a mechanical engineering major and math minor. In his spare time he enjoys running, playing soccer, or learning new math. He is also a member of Theta Tau, a professional engineering fraternity.",
+        "id": "justin"
+      },
+      {
+        "name": "Niklas Endler",
+        "img": "niklas_endler.jpg",
+        "major": "",
+        "role": "",
         "bio": "",
-        "id": "",
-        "link": ""
+        "id": ""
+      },
+      {
+        "name": "Troy Crawford",
+        "img": "troy_crawford.png",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
       },
       {
         "name": "Tyler Back",
@@ -624,9 +630,33 @@
         "role": "",
         "bio": "",
         "id": ""
+      },
+      {
+        "name": "W. Conor McFerren",
+        "img": "conor_mcferren.jpg",
+        "major": "Computer Science and Physics",
+        "role": "MOCI Mission Operations Lead",
+        "bio": "",
+        "id": ""
       }
     ],
     "alumni2020": [
+      {
+        "name": "Austin Kinkade",
+        "img": "austin_kinkade.jpg",
+        "major": "Electrical Engineering",
+        "role": "General Atomics",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Bjorn Leicher",
+        "img": "bjorn_leicher.jpg",
+        "major": "Astronomy and Physics /  Mathematics",
+        "role": "",
+        "bio": "Bjorn Leicher is a rising sophomore, and part of the most recent group of new SSRL members. He is from South Africa and wants to be a rocket scientist!",
+        "id": ""
+      },
       {
         "name": "Caleb Adams",
         "bio": "Caleb Adams, along with Hollis Neel and Ryan Babaie, began UGA's Small Satellite Research Laboritory after starting a small satellite project that would soon involve UGA faculty. Caleb lead the first team from UGA to win an MLH, nationally recognized, Hackathon by building a low cost remote-operated telescope. He has worked for NASA as a Core Flight Software developer on the Orion project and was a beta tester of Google Glass. He spoke at the TEDx UGA student idea showcase about the future of small satellites and citizen science. Caleb currently runs one of the most popular computer science blogs and one of the most popular astronomy blogs on the tumblr blogging platform, with an outreach of 200,000.",
@@ -637,6 +667,14 @@
         "link": "http://piepieninja.github.io/cv"
       },
       {
+        "name": "Grayson Bellamy",
+        "bio": "",
+        "major": "Mechanical Engineering",
+        "img": "",
+        "id": "",
+        "role": ""
+      },
+      {
         "name": "Jackson Parker",
         "img": "jackson_parker.jpg",
         "major": "Electrical and Computer Engineering",
@@ -644,6 +682,30 @@
         "bio": "",
         "id": "",
         "link": ""
+      },
+      {
+        "name": "Jacob Conley",
+        "img": "jake_conley.jpg",
+        "major": "Computer Systems Engineering /  Mathematics",
+        "role": "",
+        "bio": "Jake is a Computer Systems Engineering student and software developer, aspiring to go into either research technology-related business. He is on the research team for MOCI, develooping and testing algorithms for data analysis.",
+        "id": "jake"
+      },
+      {
+        "name": "Kaelyn Deal",
+        "img": "kaelyn_deal.jpg",
+        "major": "Mechanical Engineering",
+        "role": "Generation Orbit",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Mateen Saki",
+        "img": "mateen_saki.png",
+        "major": "Mechanical Engineering",
+        "role": "Northrup Grumman",
+        "bio": "",
+        "id": ""
       },
       {
         "name": "Megan Arogeti",
@@ -662,22 +724,6 @@
         "id": ""
       },
       {
-        "name": "William Rittmeyer",
-        "bio": "",
-        "major": "",
-        "img": "Ritmeyer.jpg",
-        "id": "",
-        "role": "MemeSat Electronics"
-      },
-      {
-        "name": "Mateen Saki",
-        "img": "mateen_saki.png",
-        "major": "Mechanical Engineering",
-        "role": "Northrup Grumman",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Nir Patel",
         "img": "nir_patel.jpg",
         "major": "Mechanical Engineering",
@@ -686,34 +732,10 @@
         "id": ""
       },
       {
-        "name": "Jacob Conley",
-        "img": "jake_conley.jpg",
-        "major": "Computer Systems Engineering /  Mathematics",
+        "name": "Sabrina Norris",
+        "img": "sabrina_norris.jpg",
+        "major": "",
         "role": "",
-        "bio": "Jake is a Computer Systems Engineering student and software developer, aspiring to go into either research technology-related business. He is on the research team for MOCI, develooping and testing algorithms for data analysis.",
-        "id": "jake"
-      },
-      {
-        "name": "Austin Kinkade",
-        "img": "austin_kinkade.jpg",
-        "major": "Electrical Engineering",
-        "role": "General Atomics",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Grayson Bellamy",
-        "bio": "",
-        "major": "Mechanical Engineering",
-        "img": "",
-        "id": "",
-        "role": ""
-      },
-      {
-        "name": "Kaelyn Deal",
-        "img": "kaelyn_deal.jpg",
-        "major": "Mechanical Engineering",
-        "role": "Generation Orbit",
         "bio": "",
         "id": ""
       },
@@ -726,51 +748,58 @@
         "id": ""
       },
       {
-        "name": "Bjorn Leicher",
-        "img": "bjorn_leicher.jpg",
-        "major": "Astronomy and Physics /  Mathematics",
-        "role": "",
-        "bio": "Bjorn Leicher is a rising sophomore, and part of the most recent group of new SSRL members. He is from South Africa and wants to be a rocket scientist!",
-        "id": ""
-      },
-      {
-        "name": "Sabrina Norris",
-        "img": "sabrina_norris.jpg",
-        "major": "",
-        "role": "",
+        "name": "William Rittmeyer",
         "bio": "",
-        "id": ""
+        "major": "",
+        "img": "Ritmeyer.jpg",
+        "id": "",
+        "role": "MemeSat Electronics"
       }
     ],
     "alumni2019": [
       {
-        "name": "Nicholas Neel",
-        "bio": "Nicholas (Hollis) Neel, a co-founder of UGA’s Small Satellite research lab, is a mathematics major at the University of Georgia. He has developed and printed one of the largest 3D printed telescopes. Alongside these projects, he is also a researcher in mathematics. In this area, Hollis focuses on Knot Theory which is the study of mathematical knots.",
-        "major": "Mathematics",
-        "img": "nicholas_neel.jpg",
+        "name": "Aaron Martinez",
+        "bio": ".",
+        "major": "",
+        "img": "",
         "id": "",
-        "role": "Oak Ridge National Lab",
-        "link": ""
+        "role": ""
       },
       {
-        "name": "Kaitlyn Summey",
-        "img": "katie_summey.jpg",
-        "major": "Computer Systems Engineering",
-        "role": "Cornell University",
-        "bio": "Kaitlyn is an Electronics Team Member for SPOC and MOCI.",
+        "name": "Anna Hoffman",
+        "bio": "",
+        "major": "Mechanical Engineering",
+        "img": "annahoffman.jpg",
+        "id": "anna",
+        "role": ""
+      },
+      {
+        "name": "Anthony Zenere",
+        "img": "anthony_zenere.jpg",
+        "major": "Electrical Engineering",
+        "role": "Georgia Tech Research Institute",
+        "bio": "",
         "id": ""
       },
       {
-        "name": "Trey Miller",
-        "img": "trey_miller.jpg",
-        "major": "Computer Science",
+        "name": "Clark Veazey",
+        "img": "clark_veazey.jpg",
+        "major": "Physics and Astronomy /  Philosophy",
         "role": "",
-        "bio": "Trey is the Embedded Systems Specialists for MOCI.",
+        "bio": "Clark recently gave a presentation at the 230th meeting of the American Astronomical Society. He has also been admitted to the Dean William Tate Honor Society. He intends on studying cosmology at grad school and working with NASA, studying the primordial universe.",
         "id": ""
       },
       {
-        "name": "Mosopefoluwa Oni",
-        "img": "mosopefoluwa_oni.jpg",
+        "name": "Derek Huynh",
+        "img": "derek_huynh.png",
+        "major": "Computing & Design",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Gabriel Gonzalez",
+        "img": "gabe_gonzalez.png",
         "major": "Computer Science",
         "role": "",
         "bio": "",
@@ -785,19 +814,27 @@
         "id": ""
       },
       {
-        "name": "Anthony Zenere",
-        "img": "anthony_zenere.jpg",
-        "major": "Electrical Engineering",
-        "role": "Georgia Tech Research Institute",
-        "bio": "",
-        "id": ""
+        "name": "James Roach",
+        "bio": "James is a computer science student working towards an emphasis in software engineering. He loves to code and has worked as a developer for several enterprise companies. He hopes to obtain a masters in software engineering after graduation and then work with really cool things.",
+        "major": "Computer Science",
+        "img": "james_roach.jpg",
+        "id": "",
+        "role": "NASA AMES"
       },
       {
-        "name": "Stephen Whitcomb",
-        "img": "stephen_whitcome.jpg",
-        "major": "Computer Science",
+        "name": "Joshua Barton",
+        "img": "joshua_barton.jpg",
+        "major": "Mechanical Engineering",
         "role": "",
         "bio": "",
+        "id": "Joshua"
+      },
+      {
+        "name": "Kaitlyn Summey",
+        "img": "katie_summey.jpg",
+        "major": "Computer Systems Engineering",
+        "role": "Cornell University",
+        "bio": "Kaitlyn is an Electronics Team Member for SPOC and MOCI.",
         "id": ""
       },
       {
@@ -809,36 +846,12 @@
         "id": ""
       },
       {
-        "name": "Preston Sheppard",
-        "img": "preston_sheppard.png",
-        "major": "Computer Science",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Gabriel Gonzalez",
-        "img": "gabe_gonzalez.png",
-        "major": "Computer Science",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Anna Hoffman",
-        "bio": "",
-        "major": "Mechanical Engineering",
-        "img": "annahoffman.jpg",
-        "id": "anna",
-        "role": ""
-      },
-      {
-        "name": "Joshua Barton",
-        "img": "joshua_barton.jpg",
+        "name": "Luke Wells",
+        "img": "luke_wells.jpg",
         "major": "Mechanical Engineering",
         "role": "",
         "bio": "",
-        "id": "Joshua"
+        "id": ""
       },
       {
         "name": "Mary Clark",
@@ -849,12 +862,12 @@
         "id": ""
       },
       {
-        "name": "Derek Huynh",
-        "img": "derek_huynh.png",
-        "major": "Computing & Design",
-        "role": "",
-        "bio": "",
-        "id": ""
+        "name": "Matthew Hevert",
+        "bio": "Matthew came to the University of Georgia from Denver, Colorado to pursue his goal of designing and developing advanced satellite optic systems and now co-leads the mechanical team. In 2015 Matthew led a small team in creating a successful Rocksat-C scientific payload that launched on an Improved Terrier Orion rocket. The SPOC and MOCI payloads will be Matthew's 3rd and 4th launched scientific payloads.",
+        "major": "Mechanical Engineering",
+        "img": "matthew_hevert.jpg",
+        "id": "",
+        "role": "Ruda Cardinal"
       },
       {
         "name": "Michael Akintonwa",
@@ -865,10 +878,10 @@
         "id": ""
       },
       {
-        "name": "Paul Bjorklund",
-        "img": "paul_bjorklund.jpg",
-        "major": "Agricultural Engineering - Mechanical Systems",
-        "role": "Ubiquitilink",
+        "name": "Mosopefoluwa Oni",
+        "img": "mosopefoluwa_oni.jpg",
+        "major": "Computer Science",
+        "role": "",
         "bio": "",
         "id": ""
       },
@@ -881,20 +894,45 @@
         "id": ""
       },
       {
-        "name": "Aaron Martinez",
-        "bio": ".",
-        "major": "",
-        "img": "",
+        "name": "Nicholas Neel",
+        "bio": "Nicholas (Hollis) Neel, a co-founder of UGA’s Small Satellite research lab, is a mathematics major at the University of Georgia. He has developed and printed one of the largest 3D printed telescopes. Alongside these projects, he is also a researcher in mathematics. In this area, Hollis focuses on Knot Theory which is the study of mathematical knots.",
+        "major": "Mathematics",
+        "img": "nicholas_neel.jpg",
         "id": "",
-        "role": ""
+        "role": "Oak Ridge National Lab",
+        "link": ""
       },
       {
-        "name": "Matthew Hevert",
-        "bio": "Matthew came to the University of Georgia from Denver, Colorado to pursue his goal of designing and developing advanced satellite optic systems and now co-leads the mechanical team. In 2015 Matthew led a small team in creating a successful Rocksat-C scientific payload that launched on an Improved Terrier Orion rocket. The SPOC and MOCI payloads will be Matthew's 3rd and 4th launched scientific payloads.",
-        "major": "Mechanical Engineering",
-        "img": "matthew_hevert.jpg",
-        "id": "",
-        "role": "Ruda Cardinal"
+        "name": "Paul Bjorklund",
+        "img": "paul_bjorklund.jpg",
+        "major": "Agricultural Engineering - Mechanical Systems",
+        "role": "Ubiquitilink",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Preston Sheppard",
+        "img": "preston_sheppard.png",
+        "major": "Computer Science",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Stephen Whitcomb",
+        "img": "stephen_whitcome.jpg",
+        "major": "Computer Science",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Trey Miller",
+        "img": "trey_miller.jpg",
+        "major": "Computer Science",
+        "role": "",
+        "bio": "Trey is the Embedded Systems Specialists for MOCI.",
+        "id": ""
       },
       {
         "name": "Tyler Murray",
@@ -903,41 +941,9 @@
         "role": "Deloitte",
         "bio": "",
         "id": ""
-      },
-      {
-        "name": "James Roach",
-        "bio": "James is a computer science student working towards an emphasis in software engineering. He loves to code and has worked as a developer for several enterprise companies. He hopes to obtain a masters in software engineering after graduation and then work with really cool things.",
-        "major": "Computer Science",
-        "img": "james_roach.jpg",
-        "id": "",
-        "role": "NASA AMES"
-      },
-      {
-        "name": "Clark Veazey",
-        "img": "clark_veazey.jpg",
-        "major": "Physics and Astronomy /  Philosophy",
-        "role": "",
-        "bio": "Clark recently gave a presentation at the 230th meeting of the American Astronomical Society. He has also been admitted to the Dean William Tate Honor Society. He intends on studying cosmology at grad school and working with NASA, studying the primordial universe.",
-        "id": ""
-      },
-      {
-        "name": "Luke Wells",
-        "img": "luke_wells.jpg",
-        "major": "Mechanical Engineering",
-        "role": "",
-        "bio": "",
-        "id": ""
       }
     ],
     "alumni2018": [
-      {
-        "name": "Graham Grable",
-        "img": "graham_grable.jpg",
-        "major": "Mechanical Engineering",
-        "role": "Tyvak",
-        "bio": "",
-        "id": ""
-      },
       {
         "name": "Adam King",
         "bio": "Adam is currently pursuing a dual Bachelor's/Master's degree in Computer Science through the Honors Program and plans to specialize in robotics, namely AI-assisted feedback controls. After this, he plans to pursue a dual Bachelor's/Master's degree in Electrical Engineering through the Honors Program at Georgia Tech, and then pursue a Ph.D. in Electrical Engineering, hopefully at the Massachusetts Institute of Technology, Stanford University, or the University of California - Berkeley. This will enable career-based research at NASA, SpaceX, or Boeing with electrical feedback controls.",
@@ -947,49 +953,33 @@
         "role": "Generation Orbit"
       },
       {
-        "name": "Nirav Ilango",
-        "img": "nirav_ilango.jpg",
-        "major": "Geography / Computer Science",
-        "role": "ESRI",
-        "bio": "Hey! My name is Nirav Ilango and I’m from Johns Creek, GA. I’m a member of the class of 2019 at the University of Georgia, majoring in computer science and geography, and the leader of the Data Team on the UGA CubeSat project. As someone who is passionate about our local environment, I’m particularly interested in the applications of our data for oceanographic and geographical research on the Georgia coast! In my free time, I enjoy spending time with friends, reading, watching Netflix, and hiking. Feel free to reach out!",
-        "id": ""
-      },
-      {
-        "name": "Khoa Ngo",
-        "img": "khoa_ngo.jpg",
-        "major": "Mechanical Engineering",
-        "role": "NASA AMES",
+        "name": "Ashley Huynh",
+        "img": "ashley_huynh.jpg",
+        "major": "",
+        "role": "",
         "bio": "",
         "id": ""
       },
       {
-        "name": "Ethan Barnes",
-        "img": "ethan_barnes.jpg",
-        "major": "Computer Science",
-        "role": "NASA Glenn",
-        "bio": "Ethan is a Software Engineer for MOCI. In his free time, Ethan likes to play the guitar, piano, and drums.  He hopes to one day work for the team that puts the first person on the surface of Mars.",
-        "id": ""
-      },
-      {
-        "name": "Paige Copenhaver",
-        "bio": "Paige is an undergraduate at UGA majoring in Physics and Astronomy. In addition to working on the flight team, she also conducts astronomical research in spectroscopy. She hopes to someday combine her knowledge of astrophysics and her passion for the environment to benefit the world and humanity. In her free time, she enjoys reading books, drawing, and playing ukulele.",
-        "major": "Astronomy and Physics",
-        "img": "paige_copenhaver.jpg",
-        "id": "",
-        "role": "Georgia Tech"
-      },
-      {
-        "name": "John Courtney",
+        "name": "Byron Williams",
         "img": "",
-        "major": "Mechanical Engineering",
-        "role": "Georgia Tech",
+        "major": "",
+        "role": "",
         "bio": "",
         "id": ""
       },
       {
-        "name": "Natalie Davis",
-        "img": "natalie_davis.jpg",
-        "major": "Computer Systems Engineering",
+        "name": "Casper Versteeg",
+        "bio": "",
+        "major": "Mechanical Engineering",
+        "img": "casper_versteeg.jpg",
+        "id": "",
+        "role": "Duke University"
+      },
+      {
+        "name": "Cindy Lieu",
+        "img": "",
+        "major": "",
         "role": "",
         "bio": "",
         "id": ""
@@ -1003,39 +993,39 @@
         "id": ""
       },
       {
-        "name": "Casper Versteeg",
-        "bio": "",
+        "name": "Ethan Barnes",
+        "img": "ethan_barnes.jpg",
+        "major": "Computer Science",
+        "role": "NASA Glenn",
+        "bio": "Ethan is a Software Engineer for MOCI. In his free time, Ethan likes to play the guitar, piano, and drums.  He hopes to one day work for the team that puts the first person on the surface of Mars.",
+        "id": ""
+      },
+      {
+        "name": "Graham Grable",
+        "img": "graham_grable.jpg",
         "major": "Mechanical Engineering",
-        "img": "casper_versteeg.jpg",
-        "id": "",
-        "role": "Duke University"
+        "role": "Tyvak",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "John Courtney",
+        "img": "",
+        "major": "Mechanical Engineering",
+        "role": "Georgia Tech",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Khoa Ngo",
+        "img": "khoa_ngo.jpg",
+        "major": "Mechanical Engineering",
+        "role": "NASA AMES",
+        "bio": "",
+        "id": ""
       },
       {
         "name": "Kyle Hamilton",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Ashley Huynh",
-        "img": "ashley_huynh.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Paul Hwang",
-        "img": "paul_hwang.jpg",
-        "major": "",
-        "role": "",
-        "bio": "Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
-        "id": ""
-      },
-      {
-        "name": "Cindy Lieu",
         "img": "",
         "major": "",
         "role": "",
@@ -1051,23 +1041,39 @@
         "id": ""
       },
       {
-        "name": "Byron Williams",
-        "img": "",
-        "major": "",
+        "name": "Natalie Davis",
+        "img": "natalie_davis.jpg",
+        "major": "Computer Systems Engineering",
         "role": "",
         "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Nirav Ilango",
+        "img": "nirav_ilango.jpg",
+        "major": "Geography / Computer Science",
+        "role": "ESRI",
+        "bio": "Hey! My name is Nirav Ilango and I’m from Johns Creek, GA. I’m a member of the class of 2019 at the University of Georgia, majoring in computer science and geography, and the leader of the Data Team on the UGA CubeSat project. As someone who is passionate about our local environment, I’m particularly interested in the applications of our data for oceanographic and geographical research on the Georgia coast! In my free time, I enjoy spending time with friends, reading, watching Netflix, and hiking. Feel free to reach out!",
+        "id": ""
+      },
+      {
+        "name": "Paige Copenhaver",
+        "bio": "Paige is an undergraduate at UGA majoring in Physics and Astronomy. In addition to working on the flight team, she also conducts astronomical research in spectroscopy. She hopes to someday combine her knowledge of astrophysics and her passion for the environment to benefit the world and humanity. In her free time, she enjoys reading books, drawing, and playing ukulele.",
+        "major": "Astronomy and Physics",
+        "img": "paige_copenhaver.jpg",
+        "id": "",
+        "role": "Georgia Tech"
+      },
+      {
+        "name": "Paul Hwang",
+        "img": "paul_hwang.jpg",
+        "major": "",
+        "role": "",
+        "bio": "Paul Hwang is a second year undergraduate getting his BFA in graphic design at the University of Georgia. With a focus in design, he takes care of all creative and design matters here at Spacey. He is also an organizer/lead designer for UGA Hacks, works with startups in Athens as a designer, and plays a mean game of catch. A hobbyist at heart, he has a new obsession every few months, including cooking, game design, programming, writing music, and so on. He also loves to meet people who are passionate about what they do, so if that sounds like you, drop him a line!",
         "id": ""
       }
     ],
     "alumni2017": [
-      {
-        "name": "Megan LeCorre",
-        "img": "megan_lecorre.jpg",
-        "major": "Mechanical Engineering",
-        "role": "NASA Marshall",
-        "bio": "",
-        "id": ""
-      },
       {
         "name": "A.J. Banerjee",
         "img": "aj_banerjee.jpg",
@@ -1077,7 +1083,31 @@
         "id": ""
       },
       {
-        "name": "Paul Keith",
+        "name": "Alex Mailloux",
+        "img": "",
+        "major": "Mechanical Engineering",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Alex Winkles",
+        "img": "alex_winkles.jpg",
+        "major": "Mechanical Engineering",
+        "role": "Georgia Tech",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Benson Chau",
+        "img": "",
+        "major": "Mechanical Engineering",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Christine Yang",
         "img": "",
         "major": "Mechanical Engineering",
         "role": "",
@@ -1101,23 +1131,7 @@
         "id": ""
       },
       {
-        "name": "Alex Winkles",
-        "img": "alex_winkles.jpg",
-        "major": "Mechanical Engineering",
-        "role": "Georgia Tech",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Logan Skidmore",
-        "img": "logan_skidmore.jpg",
-        "major": "Mechanical Engineering",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Benson Chau",
+        "name": "Josh O'Shields",
         "img": "",
         "major": "Mechanical Engineering",
         "role": "",
@@ -1133,7 +1147,7 @@
         "id": ""
       },
       {
-        "name": "Alex Mailloux",
+        "name": "Kyle Millar",
         "img": "",
         "major": "Mechanical Engineering",
         "role": "",
@@ -1141,7 +1155,23 @@
         "id": ""
       },
       {
-        "name": "Kyle Millar",
+        "name": "Logan Skidmore",
+        "img": "logan_skidmore.jpg",
+        "major": "Mechanical Engineering",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Megan LeCorre",
+        "img": "megan_lecorre.jpg",
+        "major": "Mechanical Engineering",
+        "role": "NASA Marshall",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Paul Keith",
         "img": "",
         "major": "Mechanical Engineering",
         "role": "",
@@ -1157,14 +1187,6 @@
         "id": ""
       },
       {
-        "name": "Todd Emmenegger",
-        "img": "todd_emmenegger.jpg",
-        "major": "Mechanical Engineering",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Tiffany Hsieh",
         "img": "",
         "major": "Mechanical Engineering",
@@ -1173,16 +1195,8 @@
         "id": ""
       },
       {
-        "name": "Josh O'Shields",
-        "img": "",
-        "major": "Mechanical Engineering",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Christine Yang",
-        "img": "",
+        "name": "Todd Emmenegger",
+        "img": "todd_emmenegger.jpg",
         "major": "Mechanical Engineering",
         "role": "",
         "bio": "",
@@ -1190,22 +1204,6 @@
       }
     ],
     "alumni2016": [
-      {
-        "name": "Ryan Babaie",
-        "img": "ryan_babaie.png",
-        "major": "Electrical Engineering",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Juweek Adolphe",
-        "img": "",
-        "major": "Mechanical Engineering",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
       {
         "name": "Chrissie Brady",
         "img": "chrissie_brady.png",
@@ -1223,8 +1221,8 @@
         "id": ""
       },
       {
-        "name": "Nick Szakal",
-        "img": "nick_szakal.jpg",
+        "name": "Juweek Adolphe",
+        "img": "",
         "major": "Mechanical Engineering",
         "role": "",
         "bio": "",
@@ -1242,6 +1240,22 @@
         "name": "Nicholas Gravina",
         "img": "",
         "major": "Mechanical Engineering",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Nick Szakal",
+        "img": "nick_szakal.jpg",
+        "major": "Mechanical Engineering",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Ryan Babaie",
+        "img": "ryan_babaie.png",
+        "major": "Electrical Engineering",
         "role": "",
         "bio": "",
         "id": ""
