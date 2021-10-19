@@ -1,6 +1,16 @@
 {
   "research": [
     {
+      "title": "A Hardware Accelerated Computer Vision Library for 3D Reconstruction Onboard Small Satellites",
+      "img": "Hardware_Accelerated.png",
+      "src": "/images/documents/papers/adams2021-accelerated-cv.pdf",
+      "authors": "C. Adams, J. Parker, D. Cotten",
+      "tags": "paper",
+      "subTitle": "",
+      "date": "",
+      "year": "2021"
+    },
+    {
       "title": "Design Simulation and Testing of a Custom Co-Processor for Cubesatellites in LEO",
       "img": "CORGI_SmallSat2021.png",
       "src": "/images/documents/papers/CORGI_SmallSat2021.pdf",
