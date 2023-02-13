@@ -2,7 +2,7 @@
   "research": [
     {
       "title": "A Hardware Accelerated Computer Vision Library for 3D Reconstruction Onboard Small Satellites",
-      "img": "Hardware_Accelerated.png",
+      "img": "Hardware_Accelerated.jpg",
       "src": "/images/documents/papers/adams2021-accelerated-cv.pdf",
       "authors": "C. Adams, J. Parker, D. Cotten",
       "tags": "paper",

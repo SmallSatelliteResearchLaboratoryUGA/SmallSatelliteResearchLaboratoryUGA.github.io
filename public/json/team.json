@@ -11,6 +11,17 @@
         "link": "https://geography.uga.edu/directory/people/deepak-r-mishra"
       }
     ],
+    "labmanagers": [
+      {
+        "name": "Sydney Whilden",
+        "img": "",
+        "major": "Astronomy and Physics /  Comparative Literature",
+        "role": "Lab Manager",
+        "bio": "Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
+        "id": "",
+        "link": "/images/documents/cv/sydney_whilden_onlinecv.pdf"
+      }
+    ],
     "graduatestudents": [
       {
         "name": "Eric Miller",
@@ -27,63 +38,23 @@
         "role": "Chief Engineer & Flight Lead",
         "bio": "",
         "id": ""
-      },
-      {
-        "name": "Sydney Whilden",
-        "img": "sydney_whilden.jpg",
-        "major": "Astronomy and Physics /  Comparative Literature",
-        "role": "Physics and Astronomy PhD",
-        "bio": "Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
-        "id": "",
-        "link": "/images/documents/cv/sydney_whilden_onlinecv.pdf"
       }
     ],
     "leadership": [
+
       {
-        "name": "Andres Rodriguez",
-        "img": "andres_rodriguez.jpg",
-        "major": "Computer Science",
-        "role": "MOCI Flight Software Lead",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Caroline Lassiter",
-        "bio": "",
+        "name": "Cameron Bonesteel",
+        "img": "cameron_bonesteel.jpg",
         "major": "",
-        "img": "caroline_lassiter.jpg",
-        "id": "",
-        "role": "MEMESat Systems Engineer"
-      },
-      {
-        "name": "Clay Busbey",
-        "bio": "",
-        "major": "Mechanical Engineering",
-        "img": "ClayBusbey.jpg",
-        "id": "",
-        "role": "MOCI Mechanical Lead"
-      },
-      {
-        "name": "Evan Lengle",
-        "img": "evan_lengle.png",
-        "major": "Electrical Engineering",
-        "role": "MOCI Systems Engineer",
+        "role": "MOCI Program Manager",
         "bio": "",
         "id": ""
       },
       {
-        "name": "Jeffery John",
-        "img": "jeffery_john.jpg",
+        "name": "Ryan Hughes",
+        "img": "",
         "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Joshua Messitte",
-        "img": "joshua_messitte.jpg",
-        "major": "Computer Science",
-        "role": "Mission Operations Lead",
+        "role": "MOCI Chief Engineer",
         "bio": "",
         "id": ""
       },
@@ -96,57 +67,25 @@
         "role": "Hardware Lead"
       },
       {
-        "name": "Tyler Darby",
-        "img": "",
+        "name": "Caroline Lassiter",
+        "bio": "",
         "major": "",
-        "role": "",
+        "img": "carowine.jpg",
+        "id": "",
+        "role": "MEMESat Program Manager and Chief Engineer"
+      },
+      {
+        "name": "Vedika Ghildyal",
+        "img": "vedika_ghildyal.jpg",
+        "major": "",
+        "role": "Mission Operations Lead",
         "bio": "",
         "id": ""
       }
     ],
     "software": [
       {
-        "name": "Brett Toutkoushian",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Cameron Bonesteel",
-        "img": "cameron_bonesteel.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Divya Ragunathan",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Evan Tichenor",
-        "img": "evan_tichenor.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Michael Starks",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Moss Ivy",
         "img": "",
         "major": "",
         "role": "",
@@ -162,48 +101,8 @@
         "id": ""
       },
       {
-        "name": "Reese Mallory",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Saba Merchant",
         "img": "saba_merchant.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Saori Shigehisa",
-        "img": "saori_shigehisa.png",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Shashank Ganeshan",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Trent Rafferty",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Vedika Ghildyal",
-        "img": "vedika_ghildyal.jpg",
         "major": "",
         "role": "",
         "bio": "",
@@ -229,7 +128,7 @@
       },
       {
         "name": "Kasra Ghaffari",
-        "img": "kasra_ghaffari.jpg",
+        "img": "",
         "major": "",
         "role": "",
         "bio": "",
@@ -252,16 +151,56 @@
         "id": ""
       },
       {
-        "name": "Nick Piotrowski",
-        "img": "nick_piotrowski.jpg",
+        "name": "Sophie Barrett",
+        "img": "sophie_barrett.jpg",
         "major": "",
         "role": "",
         "bio": "",
         "id": ""
       },
       {
-        "name": "Sophie Barrett",
-        "img": "sophie_barrett.jpg",
+        "name": "Tahsin Nabi",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Matt Corrigan",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Krishan Mistry",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Nick Piotrowski",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Ethan Bowmar",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Jacob Shuman",
+        "img": "",
         "major": "",
         "role": "",
         "bio": "",
@@ -286,30 +225,6 @@
         "id": ""
       },
       {
-        "name": "Cody Carroll",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Gillian O'Bryant",
-        "img": "gillian_obryant.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Ryan Hughes",
-        "img": "ryan_hughes.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Sid Amonchomchupong",
         "img": "",
         "major": "",
@@ -318,23 +233,15 @@
         "id": ""
       },
       {
-        "name": "Trevor Houghton",
-        "img": "trevor_houghton.jpg",
-        "major": "Mechanical Engineering",
+        "name": "Pandora Paterson",
+        "img": "",
+        "major": "",
         "role": "",
         "bio": "",
         "id": ""
       }
     ],
     "missionops": [
-      {
-        "name": "Hunter Wilkins",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
       {
         "name": "Jordanne Brisby",
         "img": "",
@@ -344,24 +251,16 @@
         "id": ""
       },
       {
-        "name": "Ojas Nadkarni",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Sudhan Chitgopkar",
-        "img": "sudhan_chitgopkar.jpg",
+        "img": "sudaddy.jpg",
         "major": "",
         "role": "",
         "bio": "",
-        "id": ""
+        "fid": ""
       },
       {
-        "name": "Uddhav Swami",
-        "img": "uddhav_swami.jpg",
+        "name": "Rinisha Ramprakash",
+        "img": "",
         "major": "",
         "role": "",
         "bio": "",
@@ -370,15 +269,7 @@
     ],
     "labops": [
       {
-        "name": "Benjamin Grisham",
-        "img": "benjamin_grisham.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Blaire Houlihan",
+        "name": "Matthew Enny",
         "img": "",
         "major": "",
         "role": "",
@@ -386,23 +277,59 @@
         "id": ""
       },
       {
-        "name": "Claire Venenga",
-        "img": "claire_venenga.jpg",
+        "name": "Helium Yang",
+        "img": "",
         "major": "",
         "role": "",
         "bio": "",
         "id": ""
       },
       {
-        "name": "Matthew Enny",
-        "img": "matthew_enny.jpg",
+        "name": "Collin Young",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      }
+    ],
+    "groundstation": [
+      {
+        "name": "Nathaniel Anderson",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      }
+    ],
+    "data": [
+      {
+        "name": "Aniyah Norman",
+        "img": "",
         "major": "",
         "role": "",
         "bio": "",
         "id": ""
       },
       {
-        "name": "Rachel Ivester",
+        "name": "Ellemieke Van Kints",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Siddhi Chitgopkar",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Genivieve Young",
         "img": "",
         "major": "",
         "role": "",
@@ -502,6 +429,15 @@
         "link": "https://geography.uga.edu/directory/people/james-marshall-shepherd"
       },
       {
+        "name": "Dr. Ramviyas Parasuraman",
+        "img": "ramviyas_parasuraman.jpg",
+        "major": "",
+        "role": "Heterogeneous Robotics",
+        "bio": "",
+        "id": "",
+        "link": "http://cobweb.cs.uga.edu/~ramviyas/"
+      },
+      {
         "name": "Dr. Phillip C Stancil",
         "img": "phillip_stancil.jpg",
         "major": "",
@@ -547,12 +483,68 @@
         "link": "https://www.physast.uga.edu/people/yohannes-abate"
       }
     ],
-    "intern": [
+    "alumni2022": [
       {
-        "name": "Henry Frierson",
+        "name": "Clay Busbey",
+        "bio": "",
+        "major": "Mechanical Engineering",
+        "img": "ClayBusbey.jpg",
+        "id": "",
+        "role": "MOCI Mechanical Lead"
+      },
+      {
+        "name": "Andres Rodriguez",
+        "img": "andres_rodriguez.jpg",
+        "major": "Computer Science",
+        "role": "MOCI Flight Software Lead",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Evan Lengle",
+        "img": "evan_lengle.png",
+        "major": "Electrical Engineering",
+        "role": "MOCI Systems Engineer",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Jeffery John",
+        "img": "jeffery_john.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Evan Tichenor",
+        "img": "evan_tichenor.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Reese Mallory",
         "img": "",
-        "major": "High School",
-        "role": "Intern",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Claire Venenga",
+        "img": "claire_venenga.jpg",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Saori Shigehisa",
+        "img": "saori_shigehisa.png",
+        "major": "",
+        "role": "",
         "bio": "",
         "id": ""
       }
@@ -618,6 +610,15 @@
       {
         "name": "Troy Crawford",
         "img": "troy_crawford.png",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": "",
+        "link": "https://www.linkedin.com/in/ryan-o-b30285127"
+      },
+      {
+        "name": "Ryan O'Hara",
+        "img": "ryan_ohara.png",
         "major": "",
         "role": "",
         "bio": "",

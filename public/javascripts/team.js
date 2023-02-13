@@ -5,6 +5,10 @@ $(document).ready(function () {
     for (let i = 0; i < data.team.principleinvestigators.length; i++) {
       createMemberExtraContent(data.team.principleinvestigators[i], "#section-principleinvestigators");
     }
+    //populate labmanagers
+    for (let i = 0; i < data.team.labmanagers.length; i++) {
+      createMemberExtraContent(data.team.labmanagers[i], "#section-labmanagers");
+    }
     //populate graduatestudents
     for (let i = 0; i < data.team.graduatestudents.length; i++) {
       createMemberExtraContent(data.team.graduatestudents[i], "#section-graduatestudents");
@@ -29,6 +33,14 @@ $(document).ready(function () {
     for (let i = 0; i < data.team.labops.length; i++) {
       createMember(data.team.labops[i], "#section-labops");
     }
+    //populate groundstation members
+    for (let i = 0; i < data.team.groundstation.length; i++) {
+      createMember(data.team.groundstation[i], "#section-groundstation");
+    }
+    //populate data members
+    for (let i = 0; i < data.team.data.length; i++) {
+      createMember(data.team.data[i], "#section-data");
+    }
     //populate mops members
     for (let i = 0; i < data.team.missionops.length; i++) {
       createMember(data.team.missionops[i], "#section-missionops");
@@ -38,9 +50,9 @@ $(document).ready(function () {
       createMember(data.team.associatedfaculty[i], "#section-associatedfaculty");
     }
     //populate intern members
-    for (let i = 0; i < data.team.intern.length; i++) {
-      createMember(data.team.intern[i], "#section-intern");
-    }
+    //for (let i = 0; i < data.team.intern.length; i++) {
+    //  createMember(data.team.intern[i], "#section-intern");
+    // }
     // populate alumni
     for (let i = 0; i < data.team.alumni2019.length; i++) {
       createMember(data.team.alumni2019[i], "#section-alumni2019");
