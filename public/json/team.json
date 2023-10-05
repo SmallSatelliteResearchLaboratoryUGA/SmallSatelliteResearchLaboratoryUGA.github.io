@@ -41,20 +41,27 @@
       }
     ],
     "leadership": [
-
-      {
-        "name": "Cameron Bonesteel",
-        "img": "cameron_bonesteel.jpg",
-        "major": "",
-        "role": "MOCI Program Manager",
-        "bio": "",
-        "id": ""
-      },
       {
         "name": "Ryan Hughes",
         "img": "",
         "major": "",
         "role": "MOCI Chief Engineer",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Isaac Garon",
+        "img": "",
+        "major": "",
+        "role": "MEMESat Chief Engineer",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Aiden Hammond",
+        "img": "",
+        "major": "",
+        "role": "MEMESat Program Manager",
         "bio": "",
         "id": ""
       },
@@ -67,14 +74,6 @@
         "role": "Hardware Lead"
       },
       {
-        "name": "Caroline Lassiter",
-        "bio": "",
-        "major": "",
-        "img": "carowine.jpg",
-        "id": "",
-        "role": "MEMESat Program Manager and Chief Engineer"
-      },
-      {
         "name": "Vedika Ghildyal",
         "img": "vedika_ghildyal.jpg",
         "major": "",
@@ -85,14 +84,6 @@
     ],
     "software": [
       {
-        "name": "Michael Starks",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Omer Cinar",
         "img": "",
         "major": "",
@@ -101,25 +92,23 @@
         "id": ""
       },
       {
-        "name": "Saba Merchant",
-        "img": "saba_merchant.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      }
-    ],
-    "hardware": [
-      {
-        "name": "Cate Davis",
-        "img": "cate_davis.jpg",
+        "name": "Olivia Beattie",
+        "img": "",
         "major": "",
         "role": "",
         "bio": "",
         "id": ""
       },
       {
-        "name": "Jonathan Shoemaker",
+        "name": "Preetam Jain",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Sidharth Chaudhary",
         "img": "",
         "major": "",
         "role": "",
@@ -135,56 +124,26 @@
         "id": ""
       },
       {
-        "name": "Markell Hardee",
-        "img": "markell_hardee.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Nathan Nobles",
+        "name": "Aiden LeCroy",
         "img": "",
         "major": "",
         "role": "",
         "bio": "",
         "id": ""
       },
+      {
+        "name": "Christian Jensen",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      }	
+    ],
+    "hardware": [
       {
         "name": "Sophie Barrett",
         "img": "sophie_barrett.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Tahsin Nabi",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Matt Corrigan",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Krishan Mistry",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Nick Piotrowski",
-        "img": "",
         "major": "",
         "role": "",
         "bio": "",
@@ -205,33 +164,41 @@
         "role": "",
         "bio": "",
         "id": ""
+      },
+      {
+        "name": "Nathaniel Leblanc",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Ollie Fairlamb",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Jake VanEssendelft",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Lucian Bracy",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
       }
     ],
     "mechanical": [
-      {
-        "name": "Aidan Delliponti",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Bowen O'Steen",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Sid Amonchomchupong",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
       {
         "name": "Pandora Paterson",
         "img": "",
@@ -239,7 +206,55 @@
         "role": "",
         "bio": "",
         "id": ""
-      }
+      },
+      {
+        "name": "Emilia Reber",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "George Hendrix",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Braxton Zeidler",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Brian Williams",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Ben Pumphrey",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Guy Kemelmakher",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      }	
     ],
     "missionops": [
       {
@@ -251,41 +266,57 @@
         "id": ""
       },
       {
-        "name": "Sudhan Chitgopkar",
-        "img": "sudaddy.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "fid": ""
-      },
-      {
         "name": "Rinisha Ramprakash",
         "img": "",
         "major": "",
         "role": "",
         "bio": "",
         "id": ""
-      }
+      },
+      {
+	"name": "Batu Ozdener",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Akhila Yellapragda",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Clay Reece",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Sam Penkava",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Jillian Russell",
+        "img": "",
+        "major": "",
+        "role": "",
+        "bio": "",
+        "id": ""
+      }	
     ],
     "labops": [
       {
-        "name": "Matthew Enny",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Helium Yang",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Collin Young",
         "img": "",
         "major": "",
         "role": "",
@@ -305,31 +336,7 @@
     ],
     "data": [
       {
-        "name": "Aniyah Norman",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
         "name": "Ellemieke Van Kints",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Siddhi Chitgopkar",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Genivieve Young",
         "img": "",
         "major": "",
         "role": "",
