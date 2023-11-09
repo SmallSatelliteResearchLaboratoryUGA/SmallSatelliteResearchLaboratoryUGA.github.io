@@ -1,0 +1,240 @@
+<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
+  &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"&gt;&lt;/script&gt;
+  &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="https://platform.twitter.com/widgets.js"&gt;&lt;/script&gt;
+  &lt;% include partials/head %&gt;
+    &lt;script&gt;
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109138593-1');
+    &lt;/script&gt;
+
+    &lt;style media="screen"&gt;
+      #Short-img {
+        display: none;
+      }
+
+      @media only screen and (max-width: 699px) {
+        #Short-img {
+          display: block;
+        }
+
+        #Long-img {
+          display: none;
+        }
+      }
+    &lt;/style&gt;
+
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/styles.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/footer.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/master.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/missions.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/lab.css"&gt;
+    &lt;script type="text/javascript" src="/javascripts/missions.js"&gt;&lt;/script&gt;
+    &lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+  &lt;% include partials/nav %&gt;
+
+    &lt;div id="Mission-container"&gt;
+
+      &lt;div class="sat-buttons"&gt;
+        &lt;input id="Sat-button-0" class="sat-button-selected" type="image" src="/images/cube-yellow.svg" name=""
+          value=""&gt;
+        &lt;input id="Sat-button-1" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name=""
+          value=""&gt;
+        &lt;input id="Sat-button-2" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name=""
+          value=""&gt;
+        &lt;input id="Sat-button-3" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name=""
+          value=""&gt;
+      &lt;/div&gt;
+
+      &lt;div id="Mission-3" class="mission-panel out hidden"&gt;
+        &lt;div class="mission-img"&gt;
+        &lt;/div&gt;
+        &lt;div class="mission-desc"&gt;
+          &lt;h4&gt;Broader Interests&lt;/h4&gt;
+          &lt;h1&gt;Research Interests&lt;/h1&gt;
+          &lt;p&gt;The lab is currently focused on advancing&lt;/p&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Custom sensors for environmental monitoring&lt;/li&gt;
+            &lt;li&gt;Earth based remote sensing&lt;/li&gt;
+            &lt;li&gt;High performance computational boards utilizing Graphics Processing Units&lt;/li&gt;
+            &lt;li&gt;Feature detection algorithms&lt;/li&gt;
+            &lt;li&gt;Neural networks specifically tailored to classify and track surface based objects&lt;/li&gt;
+            &lt;li&gt;Interconnectivity of multi node systems&lt;/li&gt;
+            &lt;li&gt;Quantum cyber security&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div id="Mission-0" class="mission-panel in"&gt;
+        &lt;div class="mission-img"&gt;
+          &lt;img class="icon" src="/images/cubesat/SPOC_patch.png" alt="" style="max-width:300px;"&gt;
+
+          &lt;div class="thumbnail-container"&gt;
+            &lt;!-- thumbnail image wrapped in a link --&gt;
+            &lt;a href="#SPOC_0"&gt;
+              &lt;div class="thumbnail" style="background-image: url('/images/cubesat/SPOC_0.JPG')"&gt;&lt;/div&gt;
+            &lt;/a&gt;
+            &lt;a href="#SPOC_1"&gt;
+              &lt;div class="thumbnail" style="background-image: url('/images/cubesat/SPOC_1.JPG')"&gt;&lt;/div&gt;
+            &lt;/a&gt;
+            &lt;a href="#SPOC_2"&gt;
+              &lt;div class="thumbnail" style="background-image: url('/images/cubesat/SPOC_2.jpg')"&gt;&lt;/div&gt;
+            &lt;/a&gt;
+          &lt;/div&gt;
+
+          &lt;!-- lightbox container hidden with CSS --&gt;
+          &lt;a href="#_" class="lightbox" id="SPOC_0"&gt;
+            &lt;img src="images/cubesat/SPOC_0.JPG"&gt;
+          &lt;/a&gt;
+
+          &lt;a href="#_" class="lightbox" id="SPOC_1"&gt;
+            &lt;img src="images/cubesat/SPOC_1.JPG"&gt;
+          &lt;/a&gt;
+
+          &lt;a href="#_" class="lightbox" id="SPOC_2"&gt;
+            &lt;img src="images/cubesat/SPOC_2.jpg"&gt;
+          &lt;/a&gt;
+
+          &lt;a href="#_" class="lightbox" id="SPOC_3"&gt;
+            &lt;img src="images/cubesat/SPOC_2.jpg"&gt;
+          &lt;/a&gt;
+
+          &lt;button class="hidden" type="button" name="button"&gt;Explore the Design&lt;/button&gt;
+
+        &lt;/div&gt;
+        &lt;div class="mission-desc"&gt;
+          &lt;h4 class=""&gt;SPOC&lt;/h4&gt;
+          &lt;h2&gt;(Spectral Ocean Color Satellite)&lt;/h2&gt;
+          &lt;h1&gt;Mission Overview&lt;/h1&gt;
+          &lt;p&gt;
+            The SPectral Ocean Color (SPOC) satellite mission, was funded
+            through NASA’s second iteration of the Undergraduate Student
+            Instrument Project (USIP) in mid 2016. The SPOC's mission shall
+            acquire moderate resolution imagery across a wide range of spectral
+            bands to monitor coastal ecosystems and ocean color. SPOC will
+            acquire image data between 433 and 866 nm to monitor 1) coastal
+            wetlands status, 2) estuarine water quality including wetland
+            biophysical characteristics and phytoplankton dynamics, and 3)
+            near-coastal ocean productivity. SPOC shall use multispectral
+            remote sensing techniques to quantify vegetation health, primary
+            productivity, ocean productivity, suspended sediments, and organic
+            matter in coastal regions. The uniqueness of SPOC lies in its
+            payload, a 16 band adjustable multi spectral imager, called SPOC
+            eye. The payload structure for SPOC was designed by Cloudland
+            Instruments and the UGA SSRL SPOC team is actively building and
+            refining the optical structure.
+          &lt;/p&gt;
+          &lt;h1&gt;Current Status&lt;/h1&gt;
+          &lt;p&gt;
+            SPOC was succesfully integrated with NanoRacks on August 19 in Houston. It is scheduled for launch to the
+            ISS on September 29th, 2020 from Wallops, VA. It is part of ELaNa 31 and will be launched onboard the
+            Northrop Grumman Antares rocket (NG-14) as part of a Cygnus resupply mission.
+
+            Once onboard the ISS SPOC will be deployed into space sometime in late November using the Japanese
+            Experiment Module (JEM) Robotic Manipulator System (JEMRMS). This robotic arm moves aims the satellite below
+            the ISS and releases it.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div id="Mission-1" class="mission-panel out hidden" style="font-size:20px;"&gt;
+        &lt;div class="mission-img"&gt;
+          &lt;img class="icon" src="/images/cubesat/MOCI_Patchv3.png" alt="" style="max-width:300px;"&gt;
+          &lt;button class="hidden" type="button" name="button"&gt;Explore the Design&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="mission-desc"&gt;
+          &lt;h4&gt;MOCI:&lt;/h4&gt;
+          &lt;h2&gt;(Multi-view On-board Computational Imager)&lt;/h2&gt;
+          &lt;h1&gt;Mission Overview&lt;/h1&gt;
+          &lt;p&gt;
+            The Multi-view Onboard Computational Imager (MOCI) mission shall
+            acquire imagery of the Earth’s surface from (Low Earth Orbit) LEO
+            and perform near real time Structure from Motion (SfM) at a
+            landscape scale using custom algorithms and off the shelf, high
+            performance computational units. The MOCI mission will also
+            identify and map coastal phenomena such as sediment plumes and
+            algal blooms while training students in STEM related fields.
+            Efficient data compression, feature detection, feature matching,
+            and SfM processing techniques of space-based imagery will be
+            performed on board the spacecraft as a proof-of-concept of high
+            performance, on board processing capabilities. 3D models produced
+            by the MOCI satellite will take the form of Digital Surface Models
+            (DSM) as their end product for quick data downlink.
+            &lt;br&gt;&lt;br&gt;
+            In early 2018 the student team in the UGA SSRL was selected as one
+            of only two winners of the US Air Force Research Laboratory
+            University Nanosatellite Program (Competition NS-9) Flight
+            Selection Review for our MOCI (Multi-view Onboard Computational
+            Imager) spacecraft. The team is now actively building MOCI and is
+            in Phase B of the process.
+          &lt;/p&gt;
+          &lt;h1&gt;Launch Information&lt;/h1&gt;
+          &lt;p&gt;
+            MOCI is currently in phase B of its construction with an expected delivery date of Q2 2021.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div id="Mission-2" class="mission-panel out hidden" style="font-size:20px;"&gt;
+      &lt;div class="mission-img"&gt;
+        &lt;img class="icon" src="/images/cubesat/MEMESAT-1.png" alt="" style="max-width:300px;"&gt;
+        &lt;button class="hidden" type="button" name="button"&gt;Explore the Design&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class="mission-desc"&gt;
+        &lt;h4&gt;MEMESat-1:&lt;/h4&gt;
+        &lt;h2&gt;(Mission for Education and Multimedia Engagement Satellite)&lt;/h2&gt;
+        &lt;h1&gt;Mission Overview&lt;/h1&gt;
+        &lt;p&gt;
+          UGA is working with a local nonprofit, Let’s Go to Space, Inc.’s to build its first satellite mission, the
+          Mission for Education and Multimedia Engagement. This spacecraft will be a 1U amateur radio CubeSat. It’s
+          primary mission is to serve as an FM Repeater and to downlink donor submitted memes via UHF SSTV protocol.
+          MEMESat-1 is being created to engage people through outreach and help fund small satellite focused research.
+          &lt;br&gt;&lt;br&gt;
+          Nearly all systems will be custom build by UGA. Besides serving the greater outreach community this project
+          will help our students hone their skills by allowing them to focus on building subsystems from the ground up.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id="Mission-3" class="mission-panel out hidden" style="font-size:20px;"&gt;
+      &lt;div class="mission-img"&gt;
+        &lt;img class="icon" src="/images/cubesat/MEMESAT-1.png" alt="" style="max-width:300px;"&gt;
+        &lt;button class="hidden" type="button" name="button"&gt;Explore the Design&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class="mission-desc"&gt;
+        &lt;h4&gt;COSMO:&lt;/h4&gt;
+        &lt;h2&gt;(Center for Orbital Satellite Mission Operations)&lt;/h2&gt;
+        &lt;h1&gt;Mission Overview&lt;/h1&gt;
+        &lt;p&gt;
+          The University of Georgia's Ground Station!
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script type="text/javascript"&gt;
+      if (screen.width &lt;= 699) {
+        document.getElementById("departments").style.display = "none"
+      } else {
+
+      }
+      console.log(screen.width);
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</pre></body></html>

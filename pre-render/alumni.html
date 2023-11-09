@@ -1,0 +1,85 @@
+<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">&lt;html&gt;
+
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;meta name="keywords" content="UGA Alumni, UGA SSRL Alumni"&gt;
+  &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
+  &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109138593-1');
+  &lt;/script&gt;
+  &lt;% include partials/head %&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/styles.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/footer.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/lab.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/master.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/team.css"&gt;
+    &lt;script async src="/javascripts/bootstrap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/javascripts/flif.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/javascripts/alumni.js"&gt;&lt;/script&gt;
+    &lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+  &lt;% include partials/nav %&gt;
+
+    &lt;%# &lt;h1&gt; Page Under Construction &lt;/h1&gt; %&gt;
+
+      &lt;div id="header-img"&gt;
+        &lt;!-- &lt;canvas data-polyflif-src="/images/SSRLProfiles/team.flif" id="team_pic"&gt;&lt;/canvas&gt; --&gt;
+        &lt;div id="header"&gt;
+          &lt;p id="header_p"&gt;The Alumni of the UGA SSRL, with their hard work and dedication,
+            have shaped the organization into what it is today. Without them, UGA's space program
+            would not exist. We thank them for their time and continued support.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class="container"&gt;
+
+
+        &lt;h1 class="section"&gt;Alumni&lt;/h1&gt;
+
+        &lt;ul class="selection"&gt;
+          &lt;li&gt;&lt;button id="Everyone" type="button" name="button" class="selected"&gt;Everyone&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button id="2021" type="button" name="button"&gt;2021&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button id="2020" type="button" name="button"&gt;2020&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button id="2019" type="button" name="button"&gt;2019&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button id="2018" type="button" name="button"&gt;2018&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button id="2017" type="button" name="button"&gt;2017&lt;/button&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;button id="2016" type="button" name="button"&gt;2016&lt;/button&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;div id="section-alumni" class="profile-section"&gt;&lt;/div&gt;
+
+        &lt;% include partials/footer %&gt;
+
+      &lt;/div&gt;
+
+
+      &lt;script type="text/javascript"&gt;
+        if (screen.width &lt;= 699) {
+          document.getElementById("departments").style.display = "none"
+          //document.getElementById("footer").setAttribute("margin-top","100%");
+        } else {
+
+        }
+        console.log(screen.width);
+      &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/body&gt;
+
+
+
+
+
+&lt;/html&gt;</pre></body></html>

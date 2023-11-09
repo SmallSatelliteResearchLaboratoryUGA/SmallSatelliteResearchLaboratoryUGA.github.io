@@ -1,0 +1,112 @@
+<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
+    &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"&gt;&lt;/script&gt;
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="https://platform.twitter.com/widgets.js"&gt;&lt;/script&gt;
+    &lt;script async src="/javacripts/bootstrap.js"&gt;&lt;/script&gt;
+    &lt;% include partials/head %&gt;
+    &lt;script&gt;
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109138593-1');
+    &lt;/script&gt;
+
+    &lt;style media="screen"&gt;
+      #Short-img{
+        display: none;
+      }
+      @media only screen and (max-width: 699px) {
+        #Short-img{
+          display: block;
+        }
+        #Long-img{
+          display: none;
+        }
+      }
+    &lt;/style&gt;
+
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/styles.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/footer.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/research.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/lab.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/stylesheets/master.css"&gt;
+    &lt;script type="text/javascript" src="/javascripts/flif.js"&gt;&lt;/script&gt;
+    &lt;title&gt;&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+
+    &lt;% include partials/nav %&gt;
+
+    &lt;div class="container"&gt;
+      &lt;img id="Long-img" src="/images/logos/ssrl_logo_long.png" class="img-fluid" alt="Responsive image" style="margin-top:100px"&gt;
+      &lt;img id="Short-img" src="/images/logos/ssrl_logo_short.png" class="img-fluid" alt="Responsive image" style="margin-top:100px"&gt;
+      &lt;p style="margin-top:50px;margin-bottom:64px;"&gt;
+      SSRL aims “to teach, to develop, and to discover” through undergraduate involvement. For years to come the lab hopes to continue: “teaching” students how to build and use space ready equipment, “developing” the local community by getting local K-12 students interested in both space exploration and the University, and “discovering”, by using space based equipment to observe phenomenon on Earth from an orbital perspective through national funding opportunities, creating new technologies that can be used on future missions, and demonstrating how small satellite systems can make large scientific discoveries
+      &lt;/p&gt;
+
+      &lt;hr&gt;
+
+      &lt;div class="mission-box" style="font-size:20px;color:white;"&gt;
+        &lt;h2 class="mission-header" align="center"&gt;SPOC Sat: &lt;i&gt;Spectral Ocean Color Satellite&lt;/i&gt;&lt;/h2&gt;
+        &lt;div class="icon-box"&gt;
+          &lt;img class="icon" src="/images/cubesat/SPOC_patch.png" alt="" style="max-width:300px;"&gt;
+        &lt;/div&gt;
+        &lt;h4 style="color:white;"&gt;Mission Overview&lt;/h2&gt;
+        &lt;p style="color:white;"&gt;
+          The SPectral Ocean Color (SPOC) satellite mission, was funded through NASA’s second iteration of the Undergraduate Student Instrument Project (USIP) in mid 2016. The SPOC's mission shall acquire moderate resolution imagery across a wide range of spectral bands to monitor coastal ecosystems and ocean color. SPOC will acquire image data between 433 and 866 nm to monitor 1) coastal wetlands status, 2) estuarine water quality including wetland biophysical characteristics and phytoplankton dynamics, and 3) near-coastal ocean productivity. SPOC shall use multispectral remote sensing techniques to quantify vegetation health, primary productivity, ocean productivity, suspended sediments, and organic matter in coastal regions.
+          The uniqueness of SPOC lies in its payload, a 16 band adjustable multi spectral imager, called SPOC eye. The payload structure for SPOC was designed by Cloudland Instruments and the UGA SSRL SPOC team is actively building and refining the optical structure.
+        &lt;/p&gt;
+        &lt;h4 style="color:white;"&gt;Launch Information&lt;/h3&gt;
+        &lt;p style="color:white;"&gt;
+          SPOC has been chosen for NASA’s eighth class of candidates through the CubeSat Launch Initiative. Through this initiive SPOC is scheduled to be launched either on October 19, 2019 on an Anteres II from Wallops, VA.
+        &lt;/p&gt;
+      &lt;/div&gt;
+
+      &lt;hr&gt;
+
+      &lt;div class="mission-box" style="font-size:20px;color:white;"&gt;
+        &lt;h2 class="mission-header" align="center"&gt;MOCI: &lt;i&gt;Multi-view On-board Computational Imager&lt;/i&gt;&lt;/h2&gt;
+        &lt;div class="icon-box"&gt;
+          &lt;img class="icon" src="/images/cubesat/MOCI_Patchv3.png" alt="" style="max-width:300px;"&gt;
+        &lt;/div&gt;
+        &lt;h4 style="color:white;"&gt;Mission Overview&lt;/h2&gt;
+        &lt;p style="color:white;"&gt;
+          The Multi-view Onboard Computational Imager (MOCI) mission shall acquire imagery of the Earth’s surface from (Low Earth Orbit) LEO and perform near real time Structure from Motion (SfM) at a landscape scale using custom algorithms and off the shelf, high performance computational units. The MOCI mission will also identify and map coastal phenomena such as sediment plumes and algal blooms while training students in STEM related fields. Efficient data compression, feature detection, feature matching, and SfM processing techniques of space-based imagery will be performed on board the spacecraft as a proof-of-concept of high performance, on board processing capabilities. 3D models produced by the MOCI satellite will take the form of Digital Surface Models (DSM) as their end product for quick data downlink.
+        &lt;/p&gt;
+        &lt;p&gt;
+          In early 2018 the student team in the UGA SSRL was selected as one of only two winners of the US Air Force Research Laboratory University Nanosatellite Program (Competition NS-9) Flight Selection Review for our MOCI (Multi-view Onboard Computational Imager) spacecraft. The team is now actively building MOCI and is in Phase B of the process.
+        &lt;/p&gt;
+        &lt;h4 style="color:white;"&gt;Launch Information&lt;/h3&gt;
+        &lt;p style="color:white;"&gt;
+          MOCI is currently in phase B of its construction with an expected delivery date of Q2 2020.
+        &lt;/p&gt;
+      &lt;/div&gt;
+
+
+      &lt;div class="mission-box" style="font-size:20px;color:white;"&gt;
+        &lt;h2 class="mission-header" align="center"&gt;Broader Interests &lt;/i&gt;&lt;/h2&gt;
+        &lt;h4 style="color:white;"&gt;Reserach Interests&lt;/h2&gt;
+        &lt;p style="color:white;"&gt;The lab is currently focused on advancing
+          &lt;ul&gt;
+              &lt;li&gt;Custom sensors for environmental monitoring&lt;/li&gt;
+              &lt;li&gt;Earth based remote sensing&lt;/li&gt;
+              &lt;li&gt;High performance computational boards utilizing Graphics Processing Units&lt;/li&gt;
+              &lt;li&gt;Feature detection algorithms&lt;/li&gt;
+              &lt;li&gt;Neural networks specifically tailored to classify and track surface based objects&lt;/li&gt;
+              &lt;li&gt;Interconnectivity of multi node systems&lt;/li&gt;
+              &lt;li&gt;Quantum cyber security&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+
+
+    &lt;% include partials/footer %&gt;
+&lt;/html&gt;
+</pre></body></html>

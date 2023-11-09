@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="UGA SSRL, UGA SSRL Software, 3D Reconstruction, 3D software, satellite software, structure from motion, surface Reconstruction, satellite swarms, swarm software, robotics">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109138593-1');
+    </script>
+    <script async src="/javascripts/bootstrap.js"></script>
+    <% include partials/head %>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/lab.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/research.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/software.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/master.css">
+    <script type="text/javascript" src="javascripts/flif.js"></script>
+    <script type="text/javascript" src="/javascripts/research.js"></script>
+    <title></title>
+  </head>
+
+  <body>
+
+    <% include partials/nav %>
+
+    <br>
+
+    <!-- SSRLCV -->
+    <div class="container">
+      <div class="software-item">
+        <div class="grid">
+
+          <!-- top row -->
+          <div class="row">
+            <div class="col-md-2">
+              <img src="/images/documents/thumbnails/adamsThesis.png" alt="ssrlcvlogo" class="img-thumbnail software-thumbnail">
+            </div>
+            <div class="col-md-10">
+              <h class="software-title">SSRLCV <h> <br>
+              <h class="software-subtitle">Small Satellite Research Laboratory Computer Vision </h>
+            </div>
+          </div>
+
+          <br>
+
+          <!-- description -->
+          <div class="row software-content-row">
+
+            <div class="col-md-9">
+              <p>
+              Small Satellite Research Laboratory Computer Vision, SSRLCV, is a computer vision software library written in C++ and the Nvidia CUDA programming language
+              for Nvidia GPU SoCs in space environments.
+              The software will be used onboard the MOCI satellite with our modified TX2i, but is also compatible with Ubuntu 16.04, Ubuntu 18.04, and Linux for Tegra. SSRLCV can also run on the TX2 and the Jetson Nano.
+              The software currently includes SIFT feature detection, SIFT feature generation, SIFT feature matching, point cloud filtering, 2 view triangulation, N view triangulation, and 2 view bundle adjustment.
+              </p>
+
+            </div>
+            <div class="col-md-3">
+              <ul class="software-list-status">
+                <li> version: 0.1</li>
+                <li> licence: <a href="https://www.gnu.org/licenses/lgpl-3.0.en.html" target="
+                  ">LGPLv3</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+          <br>
+          <!-- Documentation and Other Links -->
+
+          <!-- release items -->
+          <div class="row software-content-row">
+
+            <!-- Precompiled Binaries -->
+            <div class="col-md-4">
+              <h class="software-subtitle">Precompiled Binaries</h>
+              <hr>
+              <ul class="software-list">
+                <li> in progress </li>
+                <!-- <li> (TX2i) Linux for Tegra, v 0.1        </li> -->
+                <!-- <li> (TX2) Linux for Tegra, v 0.1         </li> -->
+                <!-- <li> (Jetson Nano) Linux for Tegra, v 0.1 </li> -->
+                <!-- <li> Ubuntu 16.04 , v 0.1                 </li> -->
+                <!-- <li> Ubuntu 18.04 , v 0.1                 </li> -->
+              </ul>
+            </div>
+
+            <!-- code -->
+            <div class="col-md-4">
+              <h class="software-subtitle">Source Code</h>
+              <hr>
+              <ul class="software-list">
+                <li> <a href="https://gitlab.smallsat.uga.edu/payload_software/SSRLCV" target="_blank"><i class="fab fa-gitlab"></i> (internal) gitlab source</a> </li>
+                <li> <a href="https://github.com/uga-ssrl/SSRLCV" target="_blank"><i class="fab fa-github"></i> (external) github mirror</a> </li>
+              </ul>
+            </div>
+
+            <!-- documentation -->
+            <div class="col-md-4">
+              <h class="software-subtitle">Documentation</h>
+              <hr>
+              <ul class="software-list">
+                <li> <a href="https://github.com/uga-ssrl/SSRLCV/wiki">SSRLCV Wiki</a> </li>
+                <li> <a href="http://104.236.14.11/doxygen/documentation/html/files.html" target="_blank">Doxygen / Code Documentation</a> </li>
+                <!-- <li> Examples </li> -->
+                <li> <a href="https://gitlab.smallsat.uga.edu/payload_software/ssrlcv-utilities" target="_blank"><i class="fab fa-gitlab"></i> (internal) SSRLCV Utilities</a> </li>
+                <li> <a href="https://github.com/uga-ssrl/SSRLCV-Util" target="_blank"><i class="fab fa-github"></i> (external) SSRLCV Utilities mirror</a> </li>
+                <li> <a href="https://gitlab.smallsat.uga.edu/payload_software/ssrlcv-sample-data" target="_blank"><i class="fab fa-gitlab"></i> (internal) SSRLCV Sample Data</a> </li>
+                <li> <a href="https://github.com/uga-ssrl/SSRLCV-Sample-Data" target="_blank"><i class="fab fa-github"></i> (external) SSRLCV Sample Data mirror</a> </li>
+              </ul>
+            </div>
+
+
+          </div>
+
+
+          <!-- associated research links -->
+
+          <div class="row software-content-row">
+
+            <!-- associated research -->
+            <div class="col-md-6">
+              <h class="software-subtitle">Associated Research</h>
+              <hr>
+              <ul class="software-list">
+                <li> <a href="https://www.researchgate.net/publication/341254626_High_Performance_Computation_with_Small_Satellites_and_Small_Satellite_Swarms_for_3D_Reconstruction" target="_blank">High Performance Computation with Small Satellites and Small Satellite Swarms for 3D Reconstruction</a> </li>
+                <li> <a href="https://www.researchgate.net/publication/333926430_Towards_an_Integrated_GPU_Accelerated_SoC_as_a_Flight_Computer_for_Small_Satellites" target="_blank">Towards an Integrated GPU Accelerated SoC as a Flight Computer for Small Satellites</a>  </li>
+                <li> <a href="https://www.researchgate.net/publication/335401782_A_Near_Real_Time_Space_Based_Computer_Vision_System_for_Accurate_Terrain_Mapping" target="_blank">A Near Real Time Space Based Computer Vision System for Accurate Terrain Mapping</a> </li>
+              </ul>
+            </div>
+
+            <!-- maintainers -->
+            <div class="col-md-6">
+              <h class="software-subtitle">Maintainers</h>
+              <hr>
+              <ul class="software-list">
+                <li> <a href="http://calebadams.space" target="_blank">Caleb Adams</a> </li>
+                <li> Jackson Parker </li>
+              </ul>
+            </div>
+
+          </div>
+
+
+
+
+          <!-- release note warning -->
+          <div class="row software-content-row">
+            <div class="col-md-12">
+              <p class="bg-danger">WARNING: This software is partially released, pending full release in <b>late May 2020</b></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- some space -->
+    <br><br>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- SSRL Swarm Net -->
+    <div class="container">
+      <div class="software-item">
+        <div class="grid">
+
+          <!-- top row -->
+          <div class="row">
+            <div class="col-md-2">
+              <img src="/images/documents/thumbnails/Adams-etal-Art_Gallery_w_Small_Sats-1.png" alt="ssrlcvlogo" class="img-thumbnail software-thumbnail">
+            </div>
+            <div class="col-md-10">
+              <h class="software-title">SSRL Swarm Net<h> <br>
+              <h class="software-subtitle">Small Satellite Research Laboratory Swarm Network </h>
+            </div>
+          </div>
+
+          <br>
+
+          <!-- description -->
+          <div class="row software-content-row">
+
+            <div class="col-md-9">
+              <p>
+              Small Satellite Research Laboratory Swarm Network is a proof of concept satellite swarm manager designed for Nvidia GPU SoCs on flat-sat prototypes.
+              SSRL Swarm Net uses an IP stack to distribute agent state data over a multicast capable network and transfers data from peer to peer. The software is compatible
+              with POSIX compliant systems.
+              </p>
+
+            </div>
+            <div class="col-md-3">
+              <ul class="software-list-status">
+                <li> version: 0.1</li>
+                <li> licence: <a href="https://www.gnu.org/licenses/lgpl-3.0.en.html" target="
+                  ">LGPLv3</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+          <br>
+          <!-- Documentation and Other Links -->
+
+          <!-- release items -->
+          <div class="row software-content-row">
+
+            <!-- Precompiled Binaries -->
+            <div class="col-md-4">
+              <h class="software-subtitle">Precompiled Binaries</h>
+              <hr>
+              <ul class="software-list">
+                <li> in progress </li>
+                <!-- <li> (TX2i) Linux for Tegra, v 0.1 </li>
+                <li> (TX2) Linux for Tegra, v 0.1 </li>
+                <li> (Jetson Nano) Linux for Tegra, v 0.1 </li>
+                <li> Ubuntu 18.04 , v 0.1 </li>
+                <li> Rasbian , v 0.1 </li> -->
+              </ul>
+            </div>
+
+            <!-- code -->
+            <div class="col-md-4">
+              <h class="software-subtitle">Source Code</h>
+              <hr>
+              <ul class="software-list">
+                <li> <a href="https://github.com/uga-ssrl/SSRLCV" target="_blank"><i class="fab fa-github"></i> github source</a> </li>
+              </ul>
+            </div>
+
+            <!-- documentation -->
+            <div class="col-md-4">
+              <h class="software-subtitle">Documentation</h>
+              <hr>
+              <ul class="software-list">
+                <li> SSRL Swarm Net Wiki </li>
+                <li> Doxygen </li>
+                <li> Examples </li>
+              </ul>
+            </div>
+
+
+          </div>
+
+
+          <!-- associated research links -->
+
+          <div class="row software-content-row">
+
+            <!-- associated research -->
+            <div class="col-md-6">
+              <h class="software-subtitle">Associated Research</h>
+              <hr>
+              <ul class="software-list">
+                <li> <a href="https://www.researchgate.net/publication/341254626_High_Performance_Computation_with_Small_Satellites_and_Small_Satellite_Swarms_for_3D_Reconstruction" target="_blank">High Performance Computation with Small Satellites and Small Satellite Swarms for 3D Reconstruction</a> </li>
+                <li> <a href="https://www.researchgate.net/publication/333926430_Towards_an_Integrated_GPU_Accelerated_SoC_as_a_Flight_Computer_for_Small_Satellites" target="_blank">Towards an Integrated GPU Accelerated SoC as a Flight Computer for Small Satellites</a>  </li>
+              </ul>
+            </div>
+
+            <!-- maintainers -->
+            <div class="col-md-6">
+              <h class="software-subtitle">Maintainers</h>
+              <hr>
+              <ul class="software-list">
+                <li> <a href="http://calebadams.space" target="_blank">Caleb Adams</a> </li>
+              </ul>
+            </div>
+
+          </div>
+
+
+
+
+          <!-- release note warning -->
+          <div class="row software-content-row">
+            <div class="col-md-12">
+              <p class="bg-danger">WARNING: This software is pending release in <b>late June 2020</b></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <br><br>
+
+    <script type="text/javascript">
+      if (screen.width <= 699) {
+        document.getElementById("departments").style.display = "none"
+      }else{
+
+      }
+      console.log(screen.width);
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+  <% include partials/head %>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109138593-1');
+    </script>
+
+    <style media="screen">
+      #Short-img {
+        display: none;
+      }
+
+      @media only screen and (max-width: 699px) {
+        #Short-img {
+          display: block;
+        }
+
+        #Long-img {
+          display: none;
+        }
+      }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/master.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/missions.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/lab.css">
+    <script type="text/javascript" src="/javascripts/missions.js"></script>
+    <title></title>
+</head>
+
+<body>
+
+  <% include partials/nav %>
+
+    <div id="Mission-container">
+
+      <div class="sat-buttons">
+        <input id="Sat-button-0" class="sat-button-selected" type="image" src="/images/cube-yellow.svg" name=""
+          value="">
+        <input id="Sat-button-1" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name=""
+          value="">
+        <input id="Sat-button-2" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name=""
+          value="">
+        <input id="Sat-button-3" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name=""
+          value="">
+      </div>
+
+      <div id="Mission-3" class="mission-panel out hidden">
+        <div class="mission-img">
+        </div>
+        <div class="mission-desc">
+          <h4>Broader Interests</h4>
+          <h1>Research Interests</h1>
+          <p>The lab is currently focused on advancing</p>
+          <ul>
+            <li>Custom sensors for environmental monitoring</li>
+            <li>Earth based remote sensing</li>
+            <li>High performance computational boards utilizing Graphics Processing Units</li>
+            <li>Feature detection algorithms</li>
+            <li>Neural networks specifically tailored to classify and track surface based objects</li>
+            <li>Interconnectivity of multi node systems</li>
+            <li>Quantum cyber security</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="Mission-0" class="mission-panel in">
+        <div class="mission-img">
+          <img class="icon" src="/images/cubesat/SPOC_patch.png" alt="" style="max-width:300px;">
+
+          <div class="thumbnail-container">
+            <!-- thumbnail image wrapped in a link -->
+            <a href="#SPOC_0">
+              <div class="thumbnail" style="background-image: url('/images/cubesat/SPOC_0.JPG')"></div>
+            </a>
+            <a href="#SPOC_1">
+              <div class="thumbnail" style="background-image: url('/images/cubesat/SPOC_1.JPG')"></div>
+            </a>
+            <a href="#SPOC_2">
+              <div class="thumbnail" style="background-image: url('/images/cubesat/SPOC_2.jpg')"></div>
+            </a>
+          </div>
+
+          <!-- lightbox container hidden with CSS -->
+          <a href="#_" class="lightbox" id="SPOC_0">
+            <img src="images/cubesat/SPOC_0.JPG">
+          </a>
+
+          <a href="#_" class="lightbox" id="SPOC_1">
+            <img src="images/cubesat/SPOC_1.JPG">
+          </a>
+
+          <a href="#_" class="lightbox" id="SPOC_2">
+            <img src="images/cubesat/SPOC_2.jpg">
+          </a>
+
+          <a href="#_" class="lightbox" id="SPOC_3">
+            <img src="images/cubesat/SPOC_2.jpg">
+          </a>
+
+          <button class="hidden" type="button" name="button">Explore the Design</button>
+
+        </div>
+        <div class="mission-desc">
+          <h4 class="">SPOC</h4>
+          <h2>(Spectral Ocean Color Satellite)</h2>
+          <h1>Mission Overview</h1>
+          <p>
+            The SPectral Ocean Color (SPOC) satellite mission, was funded
+            through NASA’s second iteration of the Undergraduate Student
+            Instrument Project (USIP) in mid 2016. The SPOC's mission shall
+            acquire moderate resolution imagery across a wide range of spectral
+            bands to monitor coastal ecosystems and ocean color. SPOC will
+            acquire image data between 433 and 866 nm to monitor 1) coastal
+            wetlands status, 2) estuarine water quality including wetland
+            biophysical characteristics and phytoplankton dynamics, and 3)
+            near-coastal ocean productivity. SPOC shall use multispectral
+            remote sensing techniques to quantify vegetation health, primary
+            productivity, ocean productivity, suspended sediments, and organic
+            matter in coastal regions. The uniqueness of SPOC lies in its
+            payload, a 16 band adjustable multi spectral imager, called SPOC
+            eye. The payload structure for SPOC was designed by Cloudland
+            Instruments and the UGA SSRL SPOC team is actively building and
+            refining the optical structure.
+          </p>
+          <h1>Current Status</h1>
+          <p>
+            SPOC was succesfully integrated with NanoRacks on August 19 in Houston. It is scheduled for launch to the
+            ISS on September 29th, 2020 from Wallops, VA. It is part of ELaNa 31 and will be launched onboard the
+            Northrop Grumman Antares rocket (NG-14) as part of a Cygnus resupply mission.
+
+            Once onboard the ISS SPOC will be deployed into space sometime in late November using the Japanese
+            Experiment Module (JEM) Robotic Manipulator System (JEMRMS). This robotic arm moves aims the satellite below
+            the ISS and releases it.
+          </p>
+        </div>
+      </div>
+
+      <div id="Mission-1" class="mission-panel out hidden" style="font-size:20px;">
+        <div class="mission-img">
+          <img class="icon" src="/images/cubesat/MOCI_Patchv3.png" alt="" style="max-width:300px;">
+          <button class="hidden" type="button" name="button">Explore the Design</button>
+        </div>
+        <div class="mission-desc">
+          <h4>MOCI:</h4>
+          <h2>(Multi-view On-board Computational Imager)</h2>
+          <h1>Mission Overview</h1>
+          <p>
+            The Multi-view Onboard Computational Imager (MOCI) mission shall
+            acquire imagery of the Earth’s surface from (Low Earth Orbit) LEO
+            and perform near real time Structure from Motion (SfM) at a
+            landscape scale using custom algorithms and off the shelf, high
+            performance computational units. The MOCI mission will also
+            identify and map coastal phenomena such as sediment plumes and
+            algal blooms while training students in STEM related fields.
+            Efficient data compression, feature detection, feature matching,
+            and SfM processing techniques of space-based imagery will be
+            performed on board the spacecraft as a proof-of-concept of high
+            performance, on board processing capabilities. 3D models produced
+            by the MOCI satellite will take the form of Digital Surface Models
+            (DSM) as their end product for quick data downlink.
+            <br><br>
+            In early 2018 the student team in the UGA SSRL was selected as one
+            of only two winners of the US Air Force Research Laboratory
+            University Nanosatellite Program (Competition NS-9) Flight
+            Selection Review for our MOCI (Multi-view Onboard Computational
+            Imager) spacecraft. The team is now actively building MOCI and is
+            in Phase B of the process.
+          </p>
+          <h1>Launch Information</h1>
+          <p>
+            MOCI is currently in phase B of its construction with an expected delivery date of Q2 2021.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Mission-2" class="mission-panel out hidden" style="font-size:20px;">
+      <div class="mission-img">
+        <img class="icon" src="/images/cubesat/MEMESAT-1.png" alt="" style="max-width:300px;">
+        <button class="hidden" type="button" name="button">Explore the Design</button>
+      </div>
+      <div class="mission-desc">
+        <h4>MEMESat-1:</h4>
+        <h2>(Mission for Education and Multimedia Engagement Satellite)</h2>
+        <h1>Mission Overview</h1>
+        <p>
+          UGA is working with a local nonprofit, Let’s Go to Space, Inc.’s to build its first satellite mission, the
+          Mission for Education and Multimedia Engagement. This spacecraft will be a 1U amateur radio CubeSat. It’s
+          primary mission is to serve as an FM Repeater and to downlink donor submitted memes via UHF SSTV protocol.
+          MEMESat-1 is being created to engage people through outreach and help fund small satellite focused research.
+          <br><br>
+          Nearly all systems will be custom build by UGA. Besides serving the greater outreach community this project
+          will help our students hone their skills by allowing them to focus on building subsystems from the ground up.
+        </p>
+      </div>
+    </div>
+    <div id="Mission-3" class="mission-panel out hidden" style="font-size:20px;">
+      <div class="mission-img">
+        <img class="icon" src="/images/cubesat/MEMESAT-1.png" alt="" style="max-width:300px;">
+        <button class="hidden" type="button" name="button">Explore the Design</button>
+      </div>
+      <div class="mission-desc">
+        <h4>COSMO:</h4>
+        <h2>(Center for Orbital Satellite Mission Operations)</h2>
+        <h1>Mission Overview</h1>
+        <p>
+          The University of Georgia's Ground Station!
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <script type="text/javascript">
+      if (screen.width <= 699) {
+        document.getElementById("departments").style.display = "none"
+      } else {
+
+      }
+      console.log(screen.width);
+    </script>
+</body>
+
+</html>
