@@ -1,0 +1,166 @@
+h1{
+  color: #212529;
+}
+
+html body {
+    background-color: #10141e;
+    font-family: 'Montserrat', sans-serif;
+}
+body, p, ol, ul, td {
+    font-family: helvetica, verdana, arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+p{
+  color: #212529;
+}
+button{
+  background: none;
+  color: #f4f4f4;
+  border: none;
+  padding: 10px 26px;
+}
+button:focus{
+  outline: none;
+}
+.container{
+  max-width: 930px;
+}
+.selection{
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.selection li{
+  font-family: 'Armata', sans-serif;
+  font-size: 16px;
+  display: inline;
+  margin: 0 0px;
+}
+.selected{
+  color: #10141E;
+  background-color: #f4f4f4;
+  border-radius: 50px;
+}
+#header-img{
+  background-image: url("../images/SSRLProfiles/team-bigteamfam.png");
+  top: 78px;
+  width: auto;
+  height: auto;
+}
+#header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 475px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+#header_p {
+  color: #f4f4f4;
+  text-align: center;
+  margin: 40px 40px 0px 40px;
+  font-size: 16px;
+  z-index: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+#header_p a{
+    font-size: 16px;
+    z-index: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.video-container{
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 40px auto;
+}
+iframe{
+  margin: 0 auto;
+}
+.profile-section{
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+.profile img {
+  height: auto;
+  width: 120px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  margin-bottom: 10px;
+}
+.profile .name {
+  font-family: 'Montserrat', sans-serif;
+  color: #f4f4f4;
+  text-align: center;
+  text-align: center;
+  font-size: 14px;
+  margin: 2px;
+}
+.profile .title {
+  width: 120px;
+  font-size: 10px;
+  line-height: 12px;
+  color: #7e7e7e;
+  text-align: center;
+}
+p {
+    font-family: 'Armata', sans-serif;
+    font-size: 12px;
+}
+p {
+    margin: 0 0 10px;
+}
+.btn_leader {
+    position: absolute;
+    bottom: 20px;
+}
+.btn {
+    margin-left: 53px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: #393D49;
+    border-color: #393D49;
+}
+.section {
+    color: #f4f4f4;
+    font-size: 50px;
+    justify-content: center;
+    margin: 80px 0px 40px 0;
+    text-align: center;
+}
+.p-text {
+    color: #f4f4f4;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+.leader {
+    height: 485px;
+}
+.faculty {
+    height: 515px;
+}
+.fade.in{
+	opacity:1;
+}
+.hidden{
+  display: none;
+}
