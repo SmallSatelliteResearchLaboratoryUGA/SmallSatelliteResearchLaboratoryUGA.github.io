@@ -1,3 +1,3 @@
-This branch holds the static html files for the site to be hosted on github pages.
+This branch holds the static files that allow the site to be hosted on GitHub Pages. Html files are located in the root directory and control the views/layout. CSS and Javascript are in the stylesheet and javascripts directory respectively.
 
-Files were converted from the ejs files in the views directory on master branch using preRenderScript.js
+Deployments are made automatically with every commit to **the STATIC branch**
