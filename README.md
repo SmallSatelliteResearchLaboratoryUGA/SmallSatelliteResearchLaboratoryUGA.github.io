@@ -86,11 +86,13 @@ $sudo apt-get install npm
 $sudo npm install -g n
 $sudo n latest
 ```
-In order to test new features you are implementing create your own local branch using `git branch -b <branch name`. You're free to edit and commit to this local branch as you like. 
+In order to test new features you are implementing create your own local branch using `git branch -b <branch name`. You're free to edit and commit to this local branch as you like. Set your local branch to track changes from the remote developement branch (here) with `git branch -u origin/development`. Now any commits you push will be pushed to github.
 
 The site is completely static so using an html viewer in your browser is crucial.
 Using an IDE like VS Code is reccomended because you may can use extensions like **Live Server** which opens a server in your browser under localhost:[port number] Using this extension you will be able to edit the static files on your local machine and see changes automatically populate in your browser.
 
-Deployments are made automatically with every commit to **the DEVELOPMENT branch**
+Once your changes are finalized and thoroughly tested you may push your committed changes to the development branch.
+
+Deployments are made automatically with every commit to **the DEVELOPMENT branch**. Github Pages watches and deploys from **DEVELOPMENT** as of 12/12/2023
 
 
