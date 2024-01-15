@@ -1,5 +1,5 @@
 # Adding/Updating Content
-This site was built using [GitHub Pages](https://pages.github.com/).
+This site was built using [GitHub Pages](https://pages.github.com/) and the built in static site generator Jekyll.
 
 This branch holds the static files that allow the site to be hosted on GitHub Pages. HTML files are located in the root directory and control the layout. CSS and Javascript are in the stylesheet and javascripts directory respectively.
 
@@ -10,7 +10,7 @@ Content should **ALWAYS** be added in the ***DEVELOPMENT*** branch. **NEVER** ad
 
 > ### Pages
 
-If you would like to add a new page you will need to create a new HTML file locally where you will define the layout of the new page with HTML markup. Each HTML file should have relative links to CSS files that provide styling and/or Javascript files that provide any necessary functionality.
+If you would like to add a new page you will need to create a new HTML file locally where you will define the layout of the new page with HTML markup. Each HTML file should have relative links to CSS files that provide styling and/or Javascript files that provide any necessary functionality. If the page will make use of Jekyll variables defined in the _config.yml file then you will need to add [Front Matter](https://jekyllrb.com/docs/front-matter/) to the page.
 
 To maintain cohesiveness, we reccommend you use the style elements (color, fonts, image styles, etc) already used for the site. 
 
@@ -22,6 +22,13 @@ Please place any new resources in the correct directory.
 - New Images -> /images directory
 - New CSS -> /stylesheets directory
 - New JS -> /javascripts directory
+> ### Links
+
+Links that are change like the lab application link are saved as variables in the _config.yml file and are referenced using Jekyll syntax.
+i.e)  For the variable lab_app_link it would be referenced in the html as `<a src= "{{ site.lab_app_link }}"></a>`
+Read more on Jekyll syntax for variables and liquid templating [here](https://jekyllrb.com/docs/liquid/)
+
+
 
 ## Updating Research Page
 **MAKE SURE YOU READ THE SECTION ABOVE**
@@ -71,7 +78,9 @@ nested within each of those categories are entries for team memebers. An element
 * the id tag **must be unique** for each member, so we cannot have two members with the same name share the same id. Keep this in mind when updating this section
 
 ## Editing HTML
-The raw html of each page can also be edited. You will find these in the root directory. 
+The raw html of each page can also be edited. You will find these in the root directory.
+**Jekyll**
+This website has a special `_config.yml` file used to customize the build for our gh pages site. Currently, this file is used to update the biannual lab application link, but feel free to explore more configurations [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 
 
 # smallsat.uga.edu
@@ -86,13 +95,15 @@ $sudo apt-get install npm
 $sudo npm install -g n
 $sudo n latest
 ```
-In order to test new features you are implementing create your own local branch using `git branch -b <branch name`. You're free to edit and commit to this local branch as you like. Set your local branch to track changes from the remote developement branch (here) with `git branch -u origin/development`. Now any commits you push will be pushed to github.
+In order to test new features you are implementing create your own local branch using `git branch -b <branch name`. You're free to edit and commit to this local branch as you like. You may choose to set the testing branch as an upstream branch to your local branch if you want to push your changes without affecting the live site.
+
+Set your local branch to track changes from the remote development branch (here) with `git branch -u origin/development`. Now any commits you push will be pushed to github.
 
 The site is completely static so using an html viewer in your browser is crucial.
 Using an IDE like VS Code is reccomended because you may can use extensions like **Live Server** which opens a server in your browser under localhost:[port number] Using this extension you will be able to edit the static files on your local machine and see changes automatically populate in your browser.
 
 Once your changes are finalized and thoroughly tested you may push your committed changes to the development branch.
 
-Deployments are made automatically with every commit to **the DEVELOPMENT branch**. Github Pages watches and deploys from **DEVELOPMENT** as of 12/12/2023
+Deployments are made automatically with every commit to **the DEVELOPMENT branch**. Github Pages watches and deploys from **DEVELOPMENT** as of 1/14/2024
 
 
