@@ -17,6 +17,29 @@ title: Contact
       gtag('config', 'UA-109138593-1');
     </script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+<!-- Javascript necesssary for secure contact form functionality -- EmailJs -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function() {
+      emailjs.init('yhNW6XPv4co_RzzKL');
+  })();
+</script>
+<script type="text/javascript">
+  window.onload = function() {
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+          emailjs.sendForm('service_y7lm32d', 'form_b42dl4g', this)
+              .then(function() {
+                  document.getElementById("contact-form").reset();
+                  console.log('SUCCESS!');
+              }, function(error) {
+                document.getElementById("alert").style.display = 'inline';
+                document.getElementById("contact-form").reset();
+                console.log('FAILED...', error);
+              });
+      });
+  }
+</script>
 <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/header.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
@@ -403,20 +426,23 @@ title: Contact
         </address>
       </div>
       <div class="contact-form">
-        <div class="">
-          <form action="MAILTO:ssrluga@uga.edu" method="post" enctype="text/plain">
+          <div id="alert" style="display: none;">
+            An error occurred please contact us directly ssrluga@uga.edu
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+          </div>
+          <form id= "contact-form" >
             <div class="col-sm-12">
               <div class="form-group">
                 <label for="inputName" class="col-lg-2 control-label">Name</label>
                 <div class="col-sm-12">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  <input type="text" name="from_name" class="form-control" placeholder="Your Name" required="">
                 </div>
               </div>
               <br>
               <div class="form-group">
                 <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                 <div class="col-sm-12">
-                  <input type="text" name="mail" class="form-control" placeholder="Your Email" required="">
+                  <input type="text" name="from_email" class="form-control" placeholder="Your Email" required="">
                 </div>
               </div>
               <br>
@@ -442,7 +468,6 @@ title: Contact
                   <!-- </button> -->
                 </div>
               </div>
-            </div>
           </form>
           <!--
             <div class="form-group">

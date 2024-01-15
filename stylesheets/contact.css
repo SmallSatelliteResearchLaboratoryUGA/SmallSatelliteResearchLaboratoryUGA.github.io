@@ -6,6 +6,23 @@
 h1 {
     font-size: 48px;
 }
+#alert {
+  padding: 10px;
+  background-color: #f193c7af;
+  color: white;
+  width: fit-content;
+}
+
+.closebtn {
+  margin-left: 8px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
 #contact form {
     color: white;
