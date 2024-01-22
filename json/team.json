@@ -22,6 +22,97 @@
         "link": "/images/documents/cv/sydney_whilden_onlinecv.pdf"
       }
     ],
+    "memeSat": [
+      {
+      "name": "Aiden Hammond",
+      "img": "",
+      "role": "Program Manager"
+      },
+      {
+        "name": "Issac Garon",
+        "img": "",
+        "role": "Chief Engineer"
+      },
+      {
+        "name": "Emilia Reber",
+        "img": "",
+        "role": "Mechanical Team Lead"
+      },
+      {
+        "name": "Olivia Beattie",
+        "img": "",
+        "role": "Flight Software Team Lead"
+      },
+      {
+        "name": "Nathaniel Leblanc",
+        "img": "",
+        "role": "Hardware Team Lead"
+      },
+      {
+        "name": "Jillian Russell",
+        "img": "",
+        "role": "Mission Operations Lead"
+      }       
+
+    ],
+    "moci": [
+      {
+      "name": "Lee Tran",
+      "img": "",
+      "role": "Program Manager"
+      },
+      {
+        "name": "Ryan Hughes",
+        "img": "",
+        "role": "Chief Engineer"
+      },
+      {
+        "name": "Jackson Bradford",
+        "img": "",
+        "role": "Mechanical Team Lead"
+      },
+      {
+        "name": "Connor Loosemore",
+        "img": "",
+        "role": "Flight Software Team Lead"
+      },
+      {
+        "name": "Nathaniel Leblanc",
+        "img": "",
+        "role": "Hardware Team Lead"
+      },
+      {
+        "name": "Vedika Ghildyal",
+        "img": "vedika_ghildyal.jpg",
+        "role": "Mission Operations Lead"
+      }       
+
+    ],
+    "cosmo": [
+      {
+      "name": "Nathaniel Anderson",
+      "img": "",
+      "role": "COSMO LEAD "
+      }  
+
+    ],
+    "tmibe": [
+      {
+      "name": "Nikhil Upadhaya",
+      "img": "",
+      "role": "Program Manager"
+      }  
+
+    ],
+
+
+
+
+
+
+
+
+
     "graduatestudents": [
       {
         "name": "Eric Miller",
@@ -36,48 +127,6 @@
         "img": "parker_ensing.jpg",
         "major": "Mechanical Engineering",
         "role": "Chief Engineer & Flight Lead",
-        "bio": "",
-        "id": ""
-      }
-    ],
-    "leadership": [
-      {
-        "name": "Ryan Hughes",
-        "img": "",
-        "major": "",
-        "role": "MOCI Chief Engineer",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Isaac Garon",
-        "img": "",
-        "major": "",
-        "role": "MEMESat Chief Engineer",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Aiden Hammond",
-        "img": "",
-        "major": "",
-        "role": "MEMESat Program Manager",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Matthew Olson",
-        "bio": "",
-        "major": "Mechanical Engineering",
-        "img": "matthew_olson.jpg",
-        "id": "",
-        "role": "Hardware Lead"
-      },
-      {
-        "name": "Vedika Ghildyal",
-        "img": "vedika_ghildyal.jpg",
-        "major": "",
-        "role": "Mission Operations Lead",
         "bio": "",
         "id": ""
       }
@@ -316,11 +365,15 @@
     ],
     "labops": [
       {
-        "name": "Helium Yang",
+        "name": "Raksha Adama",
         "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
+        "role": "Co-Team Lead",
+        "id": ""
+      },
+      {
+        "name": "Blake Fierman",
+        "img": "",
+        "role": "Co-Team Lead",
         "id": ""
       }
     ],

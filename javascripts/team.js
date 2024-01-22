@@ -9,21 +9,21 @@ $(document).ready(function () {
     for (let i = 0; i < data.team.labmanagers.length; i++) {
       createMemberExtraContent(data.team.labmanagers[i], "#section-labmanagers");
     }
-    //populate graduatestudents
-    for (let i = 0; i < data.team.graduatestudents.length; i++) {
-      createMemberExtraContent(data.team.graduatestudents[i], "#section-graduatestudents");
+    //populate MEMESAT-1 Team
+    for (let i = 0; i < data.team.memeSat.length; i++) {
+      createMemberExtraContent(data.team.memeSat[i], "#section-memesat");
     }
-    //populate leadership
-    for (let i = 0; i < data.team.leadership.length; i++) {
-      createMember(data.team.leadership[i], "#section-leadership");
+    //populate MOCI
+    for (let i = 0; i < data.team.moci.length; i++) {
+      createMember(data.team.moci[i], "#section-moci");
     }
-    //populate software members
-    for (let i = 0; i < data.team.software.length; i++) {
-      createMember(data.team.software[i], "#section-software");
+    //populate COSMO
+    for (let i = 0; i < data.team.cosmo.length; i++) {
+      createMember(data.team.cosmo[i], "#section-cosmo");
     }
-    //populate hardware members
-    for (let i = 0; i < data.team.hardware.length; i++) {
-      createMember(data.team.hardware[i], "#section-hardware");
+    //populate T-MIBE members
+    for (let i = 0; i < data.team.tmibe.length; i++) {
+      createMember(data.team.tmibe[i], "#section-tmibe");
     }
     //populate mechanical members
     for (let i = 0; i < data.team.mechanical.length; i++) {
