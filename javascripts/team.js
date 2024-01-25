@@ -1,4 +1,18 @@
 $(document).ready(function () {
+    //event listener for team's slide show that change
+    //tab color based on selection
+    const myCarousel = document.getElementById('slideshow')
+
+    //after a page change; chnage tab colors to show active tab
+    myCarousel.addEventListener('slide.bs.carousel', event => {
+      let allTabs = document.getElementsByClassName('team-tab');
+      let currentTab = allTabs[event.to];
+      let prevTab = allTabs[event.from];
+      currentTab.style.backgroundColor = "goldenrod";
+      prevTab.style.backgroundColor = "gray";
+      console.log("test", allTabs)
+
+    })
   //TODO: get rid of this and do it with ejs and express same for team
   $.getJSON("/json/team.json", function (data) {
     //populate principleinvestigators
@@ -9,26 +23,27 @@ $(document).ready(function () {
     for (let i = 0; i < data.team.labmanagers.length; i++) {
       createMemberExtraContent(data.team.labmanagers[i], "#section-labmanagers");
     }
-    //populate MEMESAT-1 Team
+    //populate MEMESAT-1 Leaders
     for (let i = 0; i < data.team.memeSat.length; i++) {
       createMemberExtraContent(data.team.memeSat[i], "#section-memesat");
     }
-    //populate MOCI
+    //populate memesat members
+    for (let i = 0; i < data.team.memeSatMembers.length; i++) {
+      createMember(data.team.memeSatMembers[i], "#section-memeMembers");
+    }
+    //populate MOCI Leads
     for (let i = 0; i < data.team.moci.length; i++) {
       createMember(data.team.moci[i], "#section-moci");
     }
-    //populate COSMO
+    //populate COSMO Leads
     for (let i = 0; i < data.team.cosmo.length; i++) {
       createMember(data.team.cosmo[i], "#section-cosmo");
     }
-    //populate T-MIBE members
+    //populate T-MIBE members Leads
     for (let i = 0; i < data.team.tmibe.length; i++) {
       createMember(data.team.tmibe[i], "#section-tmibe");
     }
-    //populate mechanical members
-    for (let i = 0; i < data.team.mechanical.length; i++) {
-      createMember(data.team.mechanical[i], "#section-mechanical");
-    }
+    
     //populate labops members
     for (let i = 0; i < data.team.labops.length; i++) {
       createMember(data.team.labops[i], "#section-labops");
@@ -68,6 +83,11 @@ $(document).ready(function () {
     }
   });
 });
+
+function changeTabColor() {
+
+
+}
 
 // this creates a member and also contains extra
 // content about the member. This will have a CV

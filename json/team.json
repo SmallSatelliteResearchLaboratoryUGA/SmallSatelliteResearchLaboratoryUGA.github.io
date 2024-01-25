@@ -26,12 +26,12 @@
       {
       "name": "Aiden Hammond",
       "img": "",
-      "role": "Program Manager"
+      "role": "Program Manager/Systems Lead"
       },
       {
         "name": "Issac Garon",
         "img": "",
-        "role": "Chief Engineer"
+        "role": "Chief Engineer/Systems Lead"
       },
       {
         "name": "Emilia Reber",
@@ -55,6 +55,225 @@
       }       
 
     ],
+    "memeSatMembers": [
+        {
+        "name": "GW HEndrix",
+        "img": "",
+        "role": "Mechanical"
+        },
+        {
+          "name": "Juan Carlos Alizo",
+          "img": "",
+          "role": "Mechanical"
+        },
+        {
+          "name": "Hunter Haskins",
+          "img": "",
+          "role": "Mechanical"
+        },
+        {
+          "name": "Kwame Osei-Tutu",
+          "img": "",
+          "role": "Mechanical"
+        },
+        {
+          "name": "Owen Nesbit",
+          "img": "",
+          "role": "Mechanical"
+        },
+        {
+          "name": "Uddhav Swami",
+          "img": "",
+          "role": "Software"
+          },
+         {
+          "name": "Samuel Lemus",
+          "img": "",
+          "role": "Software"
+          },
+          {
+            "name": "Jake VanEssendelft",
+            "img": "",
+            "role": "Hardware"
+            },
+            {
+              "name": "Lucian Bracy",
+              "img": "",
+              "role": "Hardware"
+            },
+            {
+              "name": "Ollie Fairlamb",
+              "img": "",
+              "role": "Hardware"
+            },
+            {
+              "name": "Divya Vemuri",
+              "img": "",
+              "role": "Hardware"
+            },
+            {
+            "name": "Rishabh Balasubramanian",
+            "img": "",
+            "role": "Hardware"
+            },
+            {
+              "name": "Matthew Olson",
+              "img": "",
+              "role": "Hardware"
+            },
+            {
+              "name": "Aidan LeCroy",
+              "img": "",
+              "role": "Software"
+              },
+              {
+                "name": "Sid Chaudhary",
+                "img": "",
+                "role": "Software"
+              },
+              {
+                "name": "Preetam Jain",
+                "img": "",
+                "role": "Software"
+              },
+              {
+                "name": "Nektaria Karagiannis",
+                "img": "",
+                "role": "Software"
+              },
+              {
+              "name": "Vansh Arora",
+              "img": "",
+              "role": "Software"
+              },
+              {
+                "name": "Uddhav Swami",
+                "img": "",
+                "role": "Software"
+              },
+              {
+                "name": "Matthew Knauss",
+                "img": "",
+                "role": "Mission Operations"
+                },
+                {
+                  "name": "Clay Reece",
+                  "img": "",
+                  "role": "Mission Operations"
+                },
+                {
+                  "name": "Sam Penkava",
+                  "img": "",
+                  "role": "Mission Operations"
+                  },
+                  {
+                    "name": "Rohan Kansal",
+                    "img": "",
+                    "role": "Mission Operations"
+                  },
+                  {
+                    "name": "Jordanne Brisby",
+                    "img": "",
+                    "role": "Mission Operations"
+                  },
+                  {
+                    "name": "Vedika Ghildyal",
+                    "img": "",
+                    "role": "Mission Operations"
+                  }
+                  
+         ],
+    "memeSat-members-byTeam": {
+      "mechanical": [
+      {
+      "name": "GW HEndrix",
+      "img": "",
+      "role": ""
+      },
+      {
+        "name": "Juan Carlos Alizo",
+        "img": "",
+        "role": ""
+      },
+      {
+        "name": "Hunter Haskins",
+        "img": "",
+        "role": ""
+      },
+      {
+        "name": "Kwame Osei-Tutu",
+        "img": "",
+        "role": ""
+      },
+      {
+        "name": "Owen Nesbit",
+        "img": "",
+        "role": ""
+      } ],
+      "cosmo": [
+        {
+        "name": "Uddhav Swami",
+        "img": "",
+        "role": ""
+        },
+        {
+          "name": "Jordanne Brisby",
+          "img": "",
+          "role": ""
+        },
+        {
+          "name": "Delaney Murray",
+          "img": "",
+          "role": ""
+        },
+        {
+          "name": "Abhi Bogga",
+          "img": "",
+          "role": ""
+        },
+        {
+        "name": "Samuel Lemus",
+        "img": "",
+        "role": ""
+        },
+        {
+          "name": "Quinton Heald",
+          "img": "",
+          "role": ""
+        } ],
+        "hardware": [
+          {
+          "name": "Jake VanEssendelft",
+          "img": "",
+          "role": ""
+          },
+          {
+            "name": "Lucian Bracy",
+            "img": "",
+            "role": ""
+          },
+          {
+            "name": "Ollie Fairlamb",
+            "img": "",
+            "role": ""
+          },
+          {
+            "name": "Divya Vemuri",
+            "img": "",
+            "role": ""
+          },
+          {
+          "name": "Rishabh Balasubramanian",
+          "img": "",
+          "role": ""
+          },
+          {
+            "name": "Matthew Olson",
+            "img": "",
+            "role": ""
+          } ]   
+
+        },
     "moci": [
       {
       "name": "Lee Tran",
