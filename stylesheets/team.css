@@ -26,6 +26,9 @@ button:focus{
 .container{
   max-width: 950px;
 }
+.labLeads {
+  text-align: center;
+}
 .tab-container {
   display: flex;
   width: 100%;
@@ -50,6 +53,7 @@ button .active {
 }
 .carousel-inner {
   border: 2px solid goldenrod;
+  padding: 0;
 
 }
 .selection{
@@ -189,7 +193,8 @@ p {
     color: #f4f4f4;
     font-size: 35px;
     justify-content: center;
-    margin: 10px 0px;
+    margin: 10px 10px;
+    padding-bottom: 5px;
 }
 .p-text {
     color: #f4f4f4;

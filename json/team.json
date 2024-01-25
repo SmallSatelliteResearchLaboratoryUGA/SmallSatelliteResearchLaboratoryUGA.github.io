@@ -59,97 +59,97 @@
         {
         "name": "GW HEndrix",
         "img": "",
-        "role": "Mechanical"
+        "role": "Mechanical Team"
         },
         {
           "name": "Juan Carlos Alizo",
           "img": "",
-          "role": "Mechanical"
+          "role": "Mechanical Team"
         },
         {
           "name": "Hunter Haskins",
           "img": "",
-          "role": "Mechanical"
+          "role": "Mechanical Team"
         },
         {
           "name": "Kwame Osei-Tutu",
           "img": "",
-          "role": "Mechanical"
+          "role": "Mechanical Team"
         },
         {
           "name": "Owen Nesbit",
           "img": "",
-          "role": "Mechanical"
+          "role": "Mechanical Team"
         },
         {
           "name": "Uddhav Swami",
           "img": "",
-          "role": "Software"
+          "role": "Software Team"
           },
          {
           "name": "Samuel Lemus",
           "img": "",
-          "role": "Software"
+          "role": "Software Team"
           },
           {
             "name": "Jake VanEssendelft",
             "img": "",
-            "role": "Hardware"
+            "role": "Hardware Team"
             },
             {
               "name": "Lucian Bracy",
               "img": "",
-              "role": "Hardware"
+              "role": "Hardware Team"
             },
             {
               "name": "Ollie Fairlamb",
               "img": "",
-              "role": "Hardware"
+              "role": "Hardware Team"
             },
             {
               "name": "Divya Vemuri",
               "img": "",
-              "role": "Hardware"
+              "role": "Hardware Team"
             },
             {
             "name": "Rishabh Balasubramanian",
             "img": "",
-            "role": "Hardware"
+            "role": "Hardware Team"
             },
             {
               "name": "Matthew Olson",
               "img": "",
-              "role": "Hardware"
+              "role": "Hardware Team"
             },
             {
               "name": "Aidan LeCroy",
               "img": "",
-              "role": "Software"
+              "role": "Software Team"
               },
               {
                 "name": "Sid Chaudhary",
                 "img": "",
-                "role": "Software"
+                "role": "Software Team"
               },
               {
                 "name": "Preetam Jain",
                 "img": "",
-                "role": "Software"
+                "role": "Software Team"
               },
               {
                 "name": "Nektaria Karagiannis",
                 "img": "",
-                "role": "Software"
+                "role": "Software Team"
               },
               {
               "name": "Vansh Arora",
               "img": "",
-              "role": "Software"
+              "role": "Software Team"
               },
               {
                 "name": "Uddhav Swami",
                 "img": "",
-                "role": "Software"
+                "role": "Software Team"
               },
               {
                 "name": "Matthew Knauss",
@@ -301,12 +301,146 @@
         "role": "Hardware Team Lead"
       },
       {
-        "name": "Vedika Ghildyal",
-        "img": "vedika_ghildyal.jpg",
+        "name": "Akhila Yellapragda",
+        "img": "",
         "role": "Mission Operations Lead"
+      },
+      {
+        "name": "Wali Mian",
+        "img": "",
+        "role": "GNC Team Lead"
       }       
 
     ],
+    "mociMembers": [
+      {
+      "name": "Ryan Diaz",
+      "img": "",
+      "role": "Mechanical Team"
+      },
+      {
+        "name": "Harsh Gupta",
+        "img": "",
+        "role": "Mechanical Team"
+      },
+      {
+        "name": "Guy Kemelmakher",
+        "img": "",
+        "role": "Mechanical Team"
+      },
+      {
+        "name": "Ben Pumphrey",
+        "img": "",
+        "role": "Mechanical Team"
+      },
+      {
+        "name": "Brian Williams",
+        "img": "",
+        "role": "Mechanical Team"
+      },
+      {
+        "name": "Thomas Mellendorf",
+        "img": "",
+        "role": "Mechanical Team"
+      },
+      {
+        "name": "Omer Cinar",
+        "img": "",
+        "role": "Software Team"
+      },
+      {
+        "name": "Christian Jensen",
+        "img": "",
+        "role": "Software Team"
+      },
+      {
+        "name": "Malachi Mejias",
+        "img": "",
+        "role": "Software Team"
+      }, {
+        "name": "Divya Ragunathan",
+        "img": "",
+        "role": "Software Team"
+      }, {
+        "name": "Jonathan Duplain",
+        "img": "",
+        "role": "Software Team"
+      }, {
+        "name": "Mihir Joshi",
+        "img": "",
+        "role": "Software Team"
+      },
+      {
+        "name": "Abel Goodwin",
+        "img": "",
+        "role": "Software Team"
+      },
+      {
+      "name": "Tyler Cook",
+      "img": "",
+      "role": "Hardware Team"
+      },
+      {
+      "name": "Liam Riley",
+      "img": "",
+      "role": "Mission Operations"
+      },
+      {
+      "name": "Vedika Ghildyal",
+      "img": "vedika_ghildyal.jpg",
+      "role": "Mission Operations"
+      },
+      {
+      "name": "Varun Iyengar",
+      "img": "",
+      "role": "Mission Operations"
+      },
+      {
+      "name": "Allyso Thrasher",
+      "img": "",
+      "role": "Mission Operations"
+      },
+      {
+      "name": "Jordan Hammond",
+      "img": "",
+      "role": "Mission Operations"
+      },
+      {
+      "name": "Pandora Paterson",
+      "img": "",
+      "role": "Mission Operations"
+      },
+      {
+      "name": "Grant Baumann",
+      "img": "",
+      "role": "GNC Team"
+      },
+      {
+      "name": "Clay Chesser",
+      "img": "",
+      "role": "GNC Team"
+      },
+      {
+      "name": "Rinisha Ramprakash",
+      "img": "",
+      "role": "GNC Team"
+      },
+      {
+      "name": "Uddhav Swami",
+      "img": "",
+      "role": "GNC Team"
+      },
+      {
+      "name": "Nick Trullos Sandino",
+      "img": "",
+      "role": "GNC Team"
+      },
+      {
+      "name": "Tom Robie",
+      "img": "",
+      "role": "GNC Team"
+      }                
+       ],
     "cosmo": [
       {
       "name": "Nathaniel Anderson",
@@ -314,6 +448,48 @@
       "role": "COSMO LEAD "
       }  
 
+    ],
+    "cosmoMembers": [
+      {
+      "name": "Uddhav Swami",
+      "img": "",
+      "role": ""
+      },
+      {
+        "name": "Jordanne Brisby",
+        "img": "",
+        "role": ""
+      },
+      {
+        "name": "Delaney Murray",
+        "img": "",
+        "role": ""
+      },
+      {
+        "name": "Abhi Bogga",
+        "img": "",
+        "role": ""
+      },
+      {
+        "name": "Quinton Heald",
+        "img": "",
+        "role": ""
+      },
+      {
+        "name": "Samuel Lemus",
+        "img": "",
+        "role": ""
+      },
+      {
+        "name": "Arnav Anderson",
+        "img": "",
+        "role": ""
+      },
+      {
+        "name": "Mason Richter",
+        "img": "",
+        "role": ""
+      }
     ],
     "tmibe": [
       {
@@ -325,262 +501,19 @@
     ],
 
 
-
-
-
-
-
-
-
     "graduatestudents": [
       {
-        "name": "Eric Miller",
-        "img": "eric_miller.jpg",
-        "major": "Computer Science",
-        "role": "MOCI Payload Lead",
-        "bio": "",
-        "id": "eric"
+        "name": "Ellemieke Van Kints",
+        "img": "",
+        "major": "",
+        "role": "Data Team"
       },
       {
-        "name": "Parker Ensing",
-        "img": "parker_ensing.jpg",
-        "major": "Mechanical Engineering",
-        "role": "Chief Engineer & Flight Lead",
-        "bio": "",
-        "id": ""
+        "name": "Matthew Olson",
+        "img": "",
+        "major": "",
+        "role": "Hardware"
       }
-    ],
-    "software": [
-      {
-        "name": "Omer Cinar",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Olivia Beattie",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Preetam Jain",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Sidharth Chaudhary",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Kasra Ghaffari",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Aiden LeCroy",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Christian Jensen",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      }	
-    ],
-    "hardware": [
-      {
-        "name": "Sophie Barrett",
-        "img": "sophie_barrett.jpg",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Ethan Bowmar",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Jacob Shuman",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Nathaniel Leblanc",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Ollie Fairlamb",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Jake VanEssendelft",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Lucian Bracy",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      }
-    ],
-    "mechanical": [
-      {
-        "name": "Pandora Paterson",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Emilia Reber",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "George Hendrix",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Braxton Zeidler",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Brian Williams",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Ben Pumphrey",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Guy Kemelmakher",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      }	
-    ],
-    "missionops": [
-      {
-        "name": "Jordanne Brisby",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Rinisha Ramprakash",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-	"name": "Batu Ozdener",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Akhila Yellapragda",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Clay Reece",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Sam Penkava",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      },
-      {
-        "name": "Jillian Russell",
-        "img": "",
-        "major": "",
-        "role": "",
-        "bio": "",
-        "id": ""
-      }	
     ],
     "labops": [
       {
@@ -596,23 +529,93 @@
         "id": ""
       }
     ],
-    "groundstation": [
+    "labopsMembers": [
       {
-        "name": "Nathaniel Anderson",
+        "name": "Giona Zincone",
         "img": "",
-        "major": "",
         "role": "",
-        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Sharon Issac",
+        "img": "",
+        "role": "",
+        "id": ""
+      },
+      {
+        "name": "Sterlane Bazile",
+        "img": "",
+        "role": "Web Developer",
+        "id": ""
+      },
+      {
+        "name": "Emma Owens",
+        "img": "",
+        "role": "Outreach",
+        "id": ""
+      },
+      {
+        "name": "Lainey Gammon",
+        "img": "",
+        "role": "Outreach",
+        "id": ""
+      },
+      {
+        "name": "Kiyah Adkins",
+        "img": "",
+        "role": "",
+        "id": ""
+      },
+      {
+        "name": "Isabella Salazar",
+        "img": "",
+        "role": "",
+        "id": ""
+      },
+      {
+        "name": "Sophia Rhoads",
+        "img": "",
+        "role": "",
         "id": ""
       }
     ],
-    "data": [
+     "rnd": [
       {
-        "name": "Ellemieke Van Kints",
+        "name": "Emma Harrison",
         "img": "",
-        "major": "",
+        "role": "Team Lead",
+        "id": ""
+      }
+    ],
+    "rndMembers": [
+      {
+        "name": "Keshav Raviprakash",
+        "img": "",
         "role": "",
-        "bio": "",
+        "id": ""
+      },
+      {
+        "name": "Sachintha Ashok",
+        "img": "",
+        "role": "",
+        "id": ""
+      },
+      {
+        "name": "Roberto Montiel",
+        "img": "",
+        "role": "",
+        "id": ""
+      },
+      {
+        "name": "David Krupp",
+        "img": "",
+        "role": "",
+        "id": ""
+      },
+      {
+        "name": "Madison Ogle",
+        "img": "",
+        "role": "",
         "id": ""
       }
     ],
