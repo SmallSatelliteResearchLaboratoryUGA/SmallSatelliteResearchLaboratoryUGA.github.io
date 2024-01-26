@@ -26,12 +26,12 @@
       {
       "name": "Aiden Hammond",
       "img": "",
-      "role": "Program Manager/Systems Lead"
+      "role": "Program Manager | Systems Lead"
       },
       {
         "name": "Issac Garon",
         "img": "",
-        "role": "Chief Engineer/Systems Lead"
+        "role": "Chief Engineer | Systems Lead"
       },
       {
         "name": "Emilia Reber",
@@ -147,11 +147,6 @@
               "role": "Software Team"
               },
               {
-                "name": "Uddhav Swami",
-                "img": "",
-                "role": "Software Team"
-              },
-              {
                 "name": "Matthew Knauss",
                 "img": "",
                 "role": "Mission Operations"
@@ -227,7 +222,7 @@
           "role": ""
         },
         {
-          "name": "Abhi Bogga",
+          "name": "Abhi Boggavarapu",
           "img": "",
           "role": ""
         },
@@ -431,7 +426,7 @@
       "role": "GNC Team"
       },
       {
-      "name": "Nick Trullos Sandino",
+      "name": "Nick Trullos",
       "img": "",
       "role": "GNC Team"
       },
@@ -445,7 +440,7 @@
       {
       "name": "Nathaniel Anderson",
       "img": "",
-      "role": "COSMO LEAD "
+      "role": "Team Lead"
       }  
 
     ],
@@ -453,49 +448,54 @@
       {
       "name": "Uddhav Swami",
       "img": "",
-      "role": ""
+      "role": "Mission Operations | MEMESat-1 Software Engineer"
       },
       {
         "name": "Jordanne Brisby",
         "img": "",
-        "role": ""
+        "role": "MEMESat-1 Mission Operations | MEME Radio"
       },
       {
         "name": "Delaney Murray",
         "img": "",
-        "role": ""
+        "role": "MEME Radio"
       },
       {
-        "name": "Abhi Bogga",
+        "name": "Abhi Boggavarapu",
         "img": "",
-        "role": ""
+        "role": "MOCI | COSMO Software Engineer"
       },
       {
         "name": "Quinton Heald",
         "img": "",
-        "role": ""
+        "role": "COSMO Software Engineer"
       },
       {
         "name": "Samuel Lemus",
         "img": "",
-        "role": ""
+        "role": "MEMESat-1 Software Engineer"
       },
       {
-        "name": "Arnav Anderson",
+        "name": "Arnav Aurora",
         "img": "",
-        "role": ""
+        "role": "MOCI | COSMO Software Engineer"
       },
       {
         "name": "Mason Richter",
         "img": "",
-        "role": ""
+        "role": "COSMO Mechanical Engineer"
+      },
+      {
+        "name": "Iker Pobi",
+        "img": "",
+        "role": "COSMO Electrical Engineer"
       }
     ],
     "tmibe": [
       {
       "name": "Nikhil Upadhaya",
       "img": "",
-      "role": "Program Manager"
+      "role": "Project Lead"
       }  
 
     ],
@@ -515,6 +515,14 @@
         "role": "Hardware"
       }
     ],
+    "interns": [
+      {
+        "name": "Oliver Cederbaum",
+        "img": "",
+        "role": "SSRL Intern",
+        "id": ""
+      }
+    ],
     "labops": [
       {
         "name": "Raksha Adama",
@@ -529,6 +537,7 @@
         "id": ""
       }
     ],
+    
     "labopsMembers": [
       {
         "name": "Giona Zincone",
@@ -551,13 +560,13 @@
       {
         "name": "Emma Owens",
         "img": "",
-        "role": "Outreach",
+        "role": "Outreach Chair",
         "id": ""
       },
       {
         "name": "Lainey Gammon",
         "img": "",
-        "role": "Outreach",
+        "role": "Outreach Chair",
         "id": ""
       },
       {
@@ -569,7 +578,7 @@
       {
         "name": "Isabella Salazar",
         "img": "",
-        "role": "",
+        "role": "Graphic Designer",
         "id": ""
       },
       {

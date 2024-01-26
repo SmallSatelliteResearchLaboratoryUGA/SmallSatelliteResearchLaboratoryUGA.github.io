@@ -72,6 +72,10 @@ $(document).ready(function () {
     for (let i = 0; i < data.team.graduatestudents.length; i++) {
       createMember(data.team.graduatestudents[i], "#section-graduatestudents");
     }
+    //populate interns
+    for (let i = 0; i < data.team.interns.length; i++) {
+      createMember(data.team.interns[i], "#section-interns");
+    }
     
     
    
