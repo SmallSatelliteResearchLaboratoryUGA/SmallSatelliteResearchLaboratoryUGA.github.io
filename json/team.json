@@ -29,7 +29,7 @@
       "role": "Program Manager | Systems Lead"
       },
       {
-        "name": "Issac Garon",
+        "name": "Isaac Garon",
         "img": "",
         "role": "Chief Engineer | Systems Lead"
       },
@@ -44,7 +44,7 @@
         "role": "Flight Software Team Lead"
       },
       {
-        "name": "Nathaniel Leblanc",
+        "name": "Nathaniel LeBlanc",
         "img": "",
         "role": "Hardware Team Lead"
       },
@@ -57,7 +57,7 @@
     ],
     "memeSatMembers": [
         {
-        "name": "GW HEndrix",
+        "name": "GW Hendrix",
         "img": "",
         "role": "Mechanical Team"
         },
@@ -291,7 +291,7 @@
         "role": "Flight Software Team Lead"
       },
       {
-        "name": "Nathaniel Leblanc",
+        "name": "Nathaniel LeBlanc",
         "img": "",
         "role": "Hardware Team Lead"
       },
@@ -486,7 +486,7 @@
         "role": "COSMO Mechanical Engineer"
       },
       {
-        "name": "Iker Pobi",
+        "name": "Iker Pobo",
         "img": "",
         "role": "COSMO Electrical Engineer"
       }
@@ -513,6 +513,12 @@
         "img": "",
         "major": "",
         "role": "Hardware"
+      },
+      {
+        "name": "Keshav Raviprakash",
+        "img": "",
+        "major": "",
+        "role": "Research & Development"
       }
     ],
     "interns": [
