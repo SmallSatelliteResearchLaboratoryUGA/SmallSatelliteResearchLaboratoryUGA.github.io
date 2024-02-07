@@ -36,6 +36,8 @@
 .software-list {
   color: #7e7e7e;
   font-size: 0.8rem;
+  list-style-type: circle;
+
 }
 
 .software-list li{
