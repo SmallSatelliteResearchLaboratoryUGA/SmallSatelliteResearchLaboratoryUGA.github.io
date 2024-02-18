@@ -14,7 +14,7 @@
     "labmanagers": [
       {
         "name": "Sydney Whilden",
-        "img": "",
+        "img": "Sydney_Whilden.png",
         "major": "Astronomy and Physics /  Comparative Literature",
         "role": "Lab Manager",
         "bio": "Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
@@ -30,12 +30,12 @@
       },
       {
         "name": "Isaac Garon",
-        "img": "",
+        "img": "Isaac_Garon.jpg",
         "role": "Chief Engineer | Systems Lead"
       },
       {
         "name": "Emilia Reber",
-        "img": "",
+        "img": "Emilia Reber.jpg",
         "role": "Mechanical Team Lead"
       },
       {
@@ -83,7 +83,7 @@
         },
         {
           "name": "Uddhav Swami",
-          "img": "",
+          "img": "uddhav_swami.jpg",
           "role": "Software Team"
           },
          {
@@ -118,7 +118,7 @@
             },
             {
               "name": "Matthew Olson",
-              "img": "",
+              "img": "Matthew_Olson.png",
               "role": "Hardware Team"
             },
             {
@@ -163,7 +163,7 @@
                   },
                   {
                     "name": "Rohan Kansal",
-                    "img": "",
+                    "img": "Rohan_Kansal.png",
                     "role": "Mission Operations"
                   },
                   {
@@ -173,7 +173,7 @@
                   },
                   {
                     "name": "Vedika Ghildyal",
-                    "img": "",
+                    "img": "vedika_ghildyal.jpg",
                     "role": "Mission Operations"
                   }
                   
@@ -208,7 +208,7 @@
       "cosmo": [
         {
         "name": "Uddhav Swami",
-        "img": "",
+        "img": "uddhav_swami.jpg",
         "role": ""
         },
         {
@@ -264,7 +264,7 @@
           },
           {
             "name": "Matthew Olson",
-            "img": "",
+            "img": "Matthew_Olson.png",
             "role": ""
           } ]   
 
@@ -277,7 +277,7 @@
       },
       {
         "name": "Ryan Hughes",
-        "img": "",
+        "img": "ryan_hughes.jpg",
         "role": "Chief Engineer"
       },
       {
@@ -297,7 +297,7 @@
       },
       {
         "name": "Akhila Yellapragda",
-        "img": "",
+        "img": "Akhila Yellapragada.jpg",
         "role": "Mission Operations Lead"
       },
       {
@@ -310,7 +310,7 @@
     "mociMembers": [
       {
       "name": "Ryan Diaz",
-      "img": "",
+      "img": "Ryan_Diaz.jpg",
       "role": "Mechanical Team"
       },
       {
@@ -320,12 +320,12 @@
       },
       {
         "name": "Guy Kemelmakher",
-        "img": "",
+        "img": "Guy Kemelmakher.jpg",
         "role": "Mechanical Team"
       },
       {
         "name": "Ben Pumphrey",
-        "img": "",
+        "img": "Ben Pumphrey.JPG",
         "role": "Mechanical Team"
       },
       {
@@ -335,7 +335,7 @@
       },
       {
         "name": "Thomas Mellendorf",
-        "img": "",
+        "img": "Thomas_Mellendorf.png",
         "role": "Mechanical Team"
       },
       {
@@ -382,7 +382,7 @@
       },
       {
       "name": "Vedika Ghildyal",
-      "img": "",
+      "img": "vedika_ghildyal.jpg",
       "role": "Mission Operations"
       },
       {
@@ -422,7 +422,7 @@
       },
       {
       "name": "Uddhav Swami",
-      "img": "",
+      "img": "uddhav_swami.jpg",
       "role": "GNC Team"
       },
       {
@@ -439,7 +439,7 @@
     "cosmo": [
       {
       "name": "Nathaniel Anderson",
-      "img": "",
+      "img": "Nathaniel_Anderson_Headshot.jpeg",
       "role": "Team Lead"
       }  
 
@@ -447,7 +447,7 @@
     "cosmoMembers": [
       {
       "name": "Uddhav Swami",
-      "img": "",
+      "img": "uddhav_swami.jpg",
       "role": "Mission Operations | MEMESat-1 Software Engineer"
       },
       {
@@ -505,13 +505,13 @@
       },
       {
         "name": "Matthew Olson",
-        "img": "",
+        "img": "Matthew_Olson.png",
         "major": "",
         "role": "Hardware"
       },
       {
         "name": "Keshav Raviprakash",
-        "img": "",
+        "img": "Keshav_Raviprakash.jpeg",
         "major": "",
         "role": "Research & Development"
       }
@@ -527,7 +527,7 @@
     "labops": [
       {
         "name": "Raksha Adama",
-        "img": "",
+        "img": "Adama_Raksha.JPG",
         "role": "Co-Team Lead",
         "id": ""
       },
@@ -600,7 +600,7 @@
     "rndMembers": [
       {
         "name": "Keshav Raviprakash",
-        "img": "",
+        "img": "Keshav_Raviprakash.jpeg",
         "role": "",
         "id": ""
       },
@@ -612,7 +612,7 @@
       },
       {
         "name": "Roberto Montiel",
-        "img": "",
+        "img": "roberto_montiel.png",
         "role": "",
         "id": ""
       },

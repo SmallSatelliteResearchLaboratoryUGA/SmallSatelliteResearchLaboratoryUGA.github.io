@@ -151,11 +151,14 @@ align-self: center;
     margin-bottom: 20px;
 }
 .profile img {
-  height: auto;
+  object-fit: contain;
+  height: 120px;
   width: 120px;
   -webkit-clip-path: circle(50% at 50% 50%);
   clip-path: circle(50% at 50% 50%);
   margin-bottom: 10px;
+  object-fit: cover;
+  object-position: center 0;
 }
 .profile .name {
   font-family: 'Montserrat', sans-serif;

@@ -100,8 +100,8 @@
           <a class="nav-link" href="contact">Contact Us</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://gail.uga.edu/commit?search=90072000&desonly=1">Donate <span
+        <li class="nav-item donate">
+          <a id="donateText" class="nav-link" target="_blank" href="https://gail.uga.edu/commit?search=90072000&desonly=1">Donate <span
               class="sr-only">(current)</span></a>
         </li>
 
@@ -123,26 +123,10 @@
           value="">
         <input id="Sat-button-3" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name=""
           value="">
+        <input id="Sat-button-4" class="sat-button-unselected" type="image" src="/images/cube-yellow.svg" name=""
+          value="">
       </div>
 
-      <div id="Mission-3" class="mission-panel out hidden">
-        <div class="mission-img">
-        </div>
-        <div class="mission-desc">
-          <h4>Broader Interests</h4>
-          <h1>Research Interests</h1>
-          <p>The lab is currently focused on advancing</p>
-          <ul>
-            <li>Custom sensors for environmental monitoring</li>
-            <li>Earth based remote sensing</li>
-            <li>High performance computational boards utilizing Graphics Processing Units</li>
-            <li>Feature detection algorithms</li>
-            <li>Neural networks specifically tailored to classify and track surface based objects</li>
-            <li>Interconnectivity of multi node systems</li>
-            <li>Quantum cyber security</li>
-          </ul>
-        </div>
-      </div>
 
       <div id="Mission-0" class="mission-panel in">
         <div class="mission-img">
@@ -275,9 +259,10 @@
         </p>
       </div>
     </div>
+
     <div id="Mission-3" class="mission-panel out hidden" style="font-size:20px;">
       <div class="mission-img">
-        <img class="icon" src="/images/cubesat/MEMESAT-1.png" alt="" style="max-width:300px;">
+        <img class="icon" src="/images/cubesat/Cosmo_patch.png" alt="" style="max-width:300px;">
         <button class="hidden" type="button" name="button">Explore the Design</button>
       </div>
       <div class="mission-desc">
@@ -285,12 +270,36 @@
         <h2>(Center for Orbital Satellite Mission Operations)</h2>
         <h1>Mission Overview</h1>
         <p>
-          The University of Georgia's Ground Station!
+          The Center for Orbital Satellite Mission Operations (COSMO) serves as the communications center for the University of Georgia
+          Small Satellite Research Laboratory (SSRL). COSMO oversees ground station operations from our on-campus rotator installation;
+          along with mission radio support, testing, and implementations.
+          <br><br>
+          Currently, COSMO has been working on Ground Station validation and team support for both MOCI and MEMESat-1 through testing 
+          and development (radiation pattern testing, GNURadio scripts, and more) !          
         </p>
       </div>
     </div>
+    
+    <div id="Mission-4" class="mission-panel out hidden">
+      <div class="mission-img">
+      </div>
+      <div class="mission-desc">
+        <h4>Broader Interests</h4>
+        <h1>Research Interests</h1>
+        <p>The lab is currently focused on advancing</p>
+        <ul>
+          <li>Custom sensors for environmental monitoring</li>
+          <li>Earth based remote sensing</li>
+          <li>High performance computational boards utilizing Graphics Processing Units</li>
+          <li>Feature detection algorithms</li>
+          <li>Neural networks specifically tailored to classify and track surface based objects</li>
+          <li>Interconnectivity of multi node systems</li>
+          <li>Quantum cyber security</li>
+        </ul>
+      </div>
     </div>
-
+    </div>
+    
     <script type="text/javascript">
       if (screen.width <= 699) {
         document.getElementById("departments").style.display = "none"

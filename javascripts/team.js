@@ -103,10 +103,7 @@ $(document).ready(function () {
   });
 });
 
-function changeTabColor() {
 
-
-}
 
 // this creates a member and also contains extra
 // content about the member. This will have a CV

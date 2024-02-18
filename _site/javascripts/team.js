@@ -1,5 +1,17 @@
 $(document).ready(function () {
-  //TODO: get rid of this and do it with ejs and express same for team
+    /*event listener for team's slide show that change
+      tab color based on selection */
+    const myCarousel = document.getElementById('slideshow')
+
+    //after a page change; chnage tab colors to show active tab
+    myCarousel.addEventListener('slide.bs.carousel', event => {
+      let allTabs = document.getElementsByClassName('team-tab');
+      let currentTab = allTabs[event.to];
+      let prevTab = allTabs[event.from];
+      currentTab.style.backgroundColor = "goldenrod";
+      prevTab.style.backgroundColor = "gray";
+    })
+    
   $.getJSON("/json/team.json", function (data) {
     //populate principleinvestigators
     for (let i = 0; i < data.team.principleinvestigators.length; i++) {
@@ -9,42 +21,64 @@ $(document).ready(function () {
     for (let i = 0; i < data.team.labmanagers.length; i++) {
       createMemberExtraContent(data.team.labmanagers[i], "#section-labmanagers");
     }
-    //populate graduatestudents
-    for (let i = 0; i < data.team.graduatestudents.length; i++) {
-      createMemberExtraContent(data.team.graduatestudents[i], "#section-graduatestudents");
+    //populate MEMESAT-1 Leaders
+    for (let i = 0; i < data.team.memeSat.length; i++) {
+      createMemberExtraContent(data.team.memeSat[i], "#section-memesat");
     }
-    //populate leadership
-    for (let i = 0; i < data.team.leadership.length; i++) {
-      createMember(data.team.leadership[i], "#section-leadership");
+    //populate memesat members
+    for (let i = 0; i < data.team.memeSatMembers.length; i++) {
+      createMember(data.team.memeSatMembers[i], "#section-memeMembers");
     }
-    //populate software members
-    for (let i = 0; i < data.team.software.length; i++) {
-      createMember(data.team.software[i], "#section-software");
+
+    //populate MOCI Leads
+    for (let i = 0; i < data.team.moci.length; i++) {
+      createMember(data.team.moci[i], "#section-moci");
+
     }
-    //populate hardware members
-    for (let i = 0; i < data.team.hardware.length; i++) {
-      createMember(data.team.hardware[i], "#section-hardware");
+    //populate moci members
+    for (let i = 0; i < data.team.mociMembers.length; i++) {
+      createMember(data.team.mociMembers[i], "#section-mociMembers");
     }
-    //populate mechanical members
-    for (let i = 0; i < data.team.mechanical.length; i++) {
-      createMember(data.team.mechanical[i], "#section-mechanical");
+    //populate COSMO Leads
+    for (let i = 0; i < data.team.cosmo.length; i++) {
+      createMember(data.team.cosmo[i], "#section-cosmo");
     }
-    //populate labops members
+    //populate COSMO members
+    for (let i = 0; i < data.team.cosmoMembers.length; i++) {
+      createMember(data.team.cosmoMembers[i], "#section-cosmoMembers");
+    }
+    //populate T-MIBE members/Leads
+    for (let i = 0; i < data.team.tmibe.length; i++) {
+      createMember(data.team.tmibe[i], "#section-tmibe");
+    }
+    
+    //populate labops leads
     for (let i = 0; i < data.team.labops.length; i++) {
       createMember(data.team.labops[i], "#section-labops");
     }
-    //populate groundstation members
-    for (let i = 0; i < data.team.groundstation.length; i++) {
-      createMember(data.team.groundstation[i], "#section-groundstation");
+     //populate labops members
+     for (let i = 0; i < data.team.labopsMembers.length; i++) {
+      createMember(data.team.labopsMembers[i], "#section-labopsMembers");
     }
-    //populate data members
-    for (let i = 0; i < data.team.data.length; i++) {
-      createMember(data.team.data[i], "#section-data");
+     //populate R&D leads
+     for (let i = 0; i < data.team.rnd.length; i++) {
+      createMember(data.team.rnd[i], "#section-rnd");
     }
-    //populate mops members
-    for (let i = 0; i < data.team.missionops.length; i++) {
-      createMember(data.team.missionops[i], "#section-missionops");
+     //populate R&D members
+     for (let i = 0; i < data.team.rndMembers.length; i++) {
+      createMember(data.team.rndMembers[i], "#section-rndMembers");
     }
+    //populate graduate students
+    for (let i = 0; i < data.team.graduatestudents.length; i++) {
+      createMember(data.team.graduatestudents[i], "#section-graduatestudents");
+    }
+    //populate interns
+    for (let i = 0; i < data.team.interns.length; i++) {
+      createMember(data.team.interns[i], "#section-interns");
+    }
+    
+    
+   
     //populate faculty members
     for (let i = 0; i < data.team.associatedfaculty.length; i++) {
       createMember(data.team.associatedfaculty[i], "#section-associatedfaculty");
@@ -68,6 +102,8 @@ $(document).ready(function () {
     }
   });
 });
+
+
 
 // this creates a member and also contains extra
 // content about the member. This will have a CV

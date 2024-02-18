@@ -81,6 +81,14 @@ hr{
   justify-content: space-between;
   height: 100%;
 }
+.donate {
+  background-color: white;
+}
+#donateText {
+  color: black;
+  font-weight: 800;
+
+}
 
 /* bootstrap override */
 
