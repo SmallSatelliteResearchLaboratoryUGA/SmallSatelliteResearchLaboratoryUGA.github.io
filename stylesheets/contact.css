@@ -54,6 +54,10 @@ h1 {
 }
 .contact-info{
   display: flex;
+  flex-wrap: wrap;
+  font-size: smaller;
+  text-align: center;
+  justify-content: center;
 }
 .contact-info div{
   margin: 0 2px 0;
