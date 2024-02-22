@@ -89,17 +89,9 @@ This website has a special `_config.yml` file used to customize the build for ou
 When the development branch recieves a new commit the site will update and deploy automatically
 
 # Local Deploying, Programming, and Testing
-if node and npm is not installed do that. the best way, i've found do this is first installing npm, then from that install n, then from that install node
-the g tag install things globally.
-
-```
-$sudo apt-get install npm
-$sudo npm install -g n
-$sudo n latest
-```
-> Deploy
+## Deploying
 Set your local branch to track changes from the remote development branch (here) with `git branch -u origin/development`. Now any commits you push will be pushed to github.
-> Testing
+## Testing
 > ### Reccommended Software
 - Visual Studio Code
 - Jekyll/Ruby
@@ -109,11 +101,12 @@ Set your local branch to track changes from the remote development branch (here)
 In order to test new features you are implementing create your own local branch using `git branch -b <branch name`. You're free to edit and commit to this local branch as you like. You may choose to set the testing branch as an upstream branch to your local branch if you want to push your changes without affecting the live site.
 
 The site is completely static so using an html viewer in your browser is crucial.
+> VS Code
 
-Using an IDE like VS Code is reccomended because you may can use extensions like **Live Server** which opens a server in your browser under localhost:[port number] Using this extension you will be able to edit the static files on your local machine and see changes automatically populate in your browser. This method is best when making simple changes to the html and js.
+Using an IDE like VS Code is reccomended because you may can use extensions like **Live Server** which opens a server in your browser under `localhost:[port number]` Using this extension you will be able to edit the static files on your local machine and see changes automatically populate in your browser. This method is best when making simple changes to the html and js.
+> Jekyll
 
 **For the most accurate representation of the live site** I recccomend [Downloading Jekyll](https://jekyllrb.com/docs/installation/) and following this [GitHub Local Testing Tutorial](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) if you want to see exactly how the site will look after making any changes (especially css). 
-
 
 Once your changes are finalized and thoroughly tested you may push your committed changes to the development branch.
 
