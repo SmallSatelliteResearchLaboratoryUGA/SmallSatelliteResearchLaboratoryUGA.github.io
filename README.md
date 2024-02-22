@@ -20,15 +20,16 @@ Please include the current Navbar, Header, and Footer in your new html file to k
 Please place any new resources in the correct directory.
 
 - New Images -> /images directory
+> [!Important]
+> Headshots are located in SSRLProfiles ( all of the js is based on headshots being in this folder; **DO NOT** move unless you're ready to change **ALL** team and alumni js)
 - New CSS -> /stylesheets directory
 - New JS -> /javascripts directory
 > ### Links
 
-Links that are change like the lab application link are saved as variables in the _config.yml file and are referenced using Jekyll syntax.
+Links that are change like the ***lab application link*** are saved as variables in the _config.yml file and are referenced using Jekyll syntax.
 i.e)  For the variable lab_app_link it would be referenced in the html as `<a src= "{{ site.lab_app_link }}"></a>`
+
 Read more on Jekyll syntax for variables and liquid templating [here](https://jekyllrb.com/docs/liquid/)
-
-
 
 ## Updating Research Page
 **MAKE SURE YOU READ THE SECTION ABOVE**
@@ -59,7 +60,7 @@ The research page is managed by a `.json` fine located in `/json`. When you open
 
 **MAKE SURE YOU ARE ON DEVELOPMENT**
 
-The research page is managed by a `.json` fine located in `/json`. There are separate sections in the `.json` for **Leadership**,**Electronics**,**Mechanical**,**Missionops**,**Labops**, and **Faculty**. We still need to develop an alumni filter.
+The team page is managed by a `.json` fine located in `/json`. There are separate sections in the `.json` for **Each Mission (members and leaders)**,**LabOps**,**Grad Students**,**Interns**, and **Faculty**. 
 
 nested within each of those categories are entries for team memebers. An element looks like:
 
@@ -79,12 +80,13 @@ nested within each of those categories are entries for team memebers. An element
 
 ## Editing HTML
 The raw html of each page can also be edited. You will find these in the root directory.
-**Jekyll**
+
+**Jekyll**:
 This website has a special `_config.yml` file used to customize the build for our gh pages site. Currently, this file is used to update the biannual lab application link, but feel free to explore more configurations [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 
 
 # smallsat.uga.edu
-When the dev branch recieves a new commit the site will update and deploy automatically
+When the development branch recieves a new commit the site will update and deploy automatically
 
 # Local Deploying, Programming, and Testing
 if node and npm is not installed do that. the best way, i've found do this is first installing npm, then from that install n, then from that install node
@@ -95,15 +97,26 @@ $sudo apt-get install npm
 $sudo npm install -g n
 $sudo n latest
 ```
+> Deploy
+Set your local branch to track changes from the remote development branch (here) with `git branch -u origin/development`. Now any commits you push will be pushed to github.
+> Testing
+> ### Reccommended Software
+- Visual Studio Code
+- Jekyll/Ruby
+- Live Server (VS Code extension)
+- Git Bash
+  
 In order to test new features you are implementing create your own local branch using `git branch -b <branch name`. You're free to edit and commit to this local branch as you like. You may choose to set the testing branch as an upstream branch to your local branch if you want to push your changes without affecting the live site.
 
-Set your local branch to track changes from the remote development branch (here) with `git branch -u origin/development`. Now any commits you push will be pushed to github.
-
 The site is completely static so using an html viewer in your browser is crucial.
-Using an IDE like VS Code is reccomended because you may can use extensions like **Live Server** which opens a server in your browser under localhost:[port number] Using this extension you will be able to edit the static files on your local machine and see changes automatically populate in your browser.
+
+Using an IDE like VS Code is reccomended because you may can use extensions like **Live Server** which opens a server in your browser under localhost:[port number] Using this extension you will be able to edit the static files on your local machine and see changes automatically populate in your browser. This method is best when making simple changes to the html and js.
+
+**For the most accurate representation of the live site** I recccomend [Downloading Jekyll](https://jekyllrb.com/docs/installation/) and following this [GitHub Local Testing Tutorial](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) if you want to see exactly how the site will look after making any changes (especially css). 
+
 
 Once your changes are finalized and thoroughly tested you may push your committed changes to the development branch.
 
-Deployments are made automatically with every commit to **the DEVELOPMENT branch**. Github Pages watches and deploys from **DEVELOPMENT** as of 1/14/2024
+Deployments are made automatically with every commit to **the DEVELOPMENT branch**. Github Pages watches and deploys from **DEVELOPMENT** as of 2/21/2024
 
 
