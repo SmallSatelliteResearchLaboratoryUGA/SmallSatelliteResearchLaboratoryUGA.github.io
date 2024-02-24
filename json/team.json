@@ -477,7 +477,7 @@
       },
       {
         "name": "Mason Richter",
-        "img": "",
+        "img": "Mason Richter.png",
         "role": "COSMO Mechanical Engineer"
       },
       {
@@ -540,6 +540,12 @@
     ],
     
     "labopsMembers": [
+      {
+        "name": "Ashwath Rajkumar",
+        "img": "Ashwath_Rajkumar.jpeg",
+        "role": "Aerospace Industry Analyst",
+        "id": ""
+      },
       {
         "name": "Giona Zincone",
         "img": "",
@@ -618,7 +624,7 @@
       },
       {
         "name": "David Krupp",
-        "img": "",
+        "img": "David Krupp.jpg",
         "role": "",
         "id": ""
       },
