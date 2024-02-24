@@ -10,6 +10,8 @@ $(document).ready(function () {
   buttons.push(document.getElementById("2020"));
   buttons.push(document.getElementById("2021"));
   buttons.push(document.getElementById("2022"));
+  buttons.push(document.getElementById("2023"));
+
 
   buttons[0].addEventListener("click", function () {
     filterMembers("Everyone")
@@ -35,7 +37,9 @@ $(document).ready(function () {
   buttons[7].addEventListener("click", function () {
     filterMembers("2022")
   });
-  
+  buttons[8].addEventListener("click", function () {
+    filterMembers("2023")
+  });
   
   
   
@@ -44,6 +48,11 @@ $(document).ready(function () {
   //TODO: get rid of this and do it with ejs and express same for team
   $.getJSON("/json/team.json", function (data) {
     // populate alumni
+    for (let i = 0; i < data.team.alumni2023.length; i++) {
+      let m = new createMember(data.team.alumni2023[i], "#section-alumni");
+      m.tag = "2023";
+      profiles.push(m);
+    }
     for (let i = 0; i < data.team.alumni2022.length; i++) {
       let m = new createMember(data.team.alumni2022[i], "#section-alumni");
       m.tag = "2022";
