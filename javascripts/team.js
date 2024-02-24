@@ -1,7 +1,29 @@
-$(document).ready(function () {
-    /*event listener for team's slide show that change
-      tab color based on selection */
-    const myCarousel = document.getElementById('slideshow')
+
+$(function () {
+  // handles menu toggle for who we are page (mobile = anything less than 700px wide)
+  const mediaQuery = window.matchMedia('(max-width: 700px)')
+  const mobileToggle = document.getElementById('toggle')
+  let mobileMenu = document.getElementById('tab-container')
+  function handleToggle() {
+    console.log("button clicl")
+    if (mobileMenu.style.display === "none") {
+      mobileMenu.style.display = "flex"      
+    } else {
+      mobileMenu.style.display = "none"      
+  
+    }   
+  }
+  mobileToggle.addEventListener("click", handleToggle)
+  //if screen size is no longer < 700px then show the the tabs
+  mediaQuery.addEventListener("change", function() {
+    if (!mediaQuery.matches) {
+      mobileMenu.style.display = "flex"  
+    }
+  })
+  /*event listener for team's slide show that change
+  tab color based on selection */
+  const myCarousel = document.getElementById('slideshow')
+  const whichSlide = document.getElementById('selection') //the text that shows next to the toggle on mobile
 
     //after a page change; chnage tab colors to show active tab
     myCarousel.addEventListener('slide.bs.carousel', event => {
@@ -10,7 +32,13 @@ $(document).ready(function () {
       let prevTab = allTabs[event.from];
       currentTab.style.backgroundColor = "goldenrod";
       prevTab.style.backgroundColor = "gray";
+      whichSlide.innerHTML = currentTab.innerText; //tracks selection in case user switches to smaller screen
+      //auto close the mobile menu after switching slides
+      if (mediaQuery.matches) {
+        mobileMenu.style.display = "none"; 
+       }
     })
+    
     
   $.getJSON("/json/team.json", function (data) {
     //populate principleinvestigators
@@ -101,6 +129,10 @@ $(document).ready(function () {
       createMember(data.team.alumni2016[i], "#section-alumni2016");
     }
   });
+
+  
+ 
+
 });
 
 
@@ -212,3 +244,4 @@ function createMember(member, sectionid) {
   $(sectionid).append(profilelink);
 
 }
+

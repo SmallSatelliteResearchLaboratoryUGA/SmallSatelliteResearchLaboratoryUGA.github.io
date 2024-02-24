@@ -12,6 +12,7 @@ title: About
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138593-1"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
@@ -107,20 +108,16 @@ title: About
       
       <h4 class="section">Undergraduate Students</h4>
 
-      <!-- indicators showing current page -->
+      <!-- start of slideshow -->
       <div id="slideshow" class="carousel row slide ">
-        <!-- <div class="tab-container">
-          first tab selected by default
-          <button type="button" class="team-tab tab-1 active" style="background-color: goldenrod;" data-bs-target="#slideshow" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"> MEMESat-1</button>
-          <button type="button" class="team-tab tab-2" data-bs-target="#slideshow" data-bs-slide-to="1" aria-label="Slide 2">MOCI</button>
-          <button type="button" class="team-tab tab-3" data-bs-target="#slideshow" data-bs-slide-to="2" aria-label="Slide 3">COSMO</button>
-          <button type="button" class="team-tab tab-4" data-bs-target="#slideshow" data-bs-slide-to="3" aria-label="Slide 4">T-MIBE</button>
-          <button type="button" class="team-tab tab-5" data-bs-target="#slideshow" data-bs-slide-to="4" aria-label="Slide 5">Lab Operations</button>
-          <button type="button" class="team-tab tab-6" data-bs-target="#slideshow" data-bs-slide-to="5" aria-label="Slide 6">Research & Development</button>
-        </div> -->
+        
         <!-- team pages -->
         <div class="carousel-inner">
-          <div class="tab-container">
+          <div id="mobile-toggle" style="background-color: goldenrod">
+            <button id="toggle" type="button"><i class="fas fa-bars" style="color: white"></i></button>
+            <h1 id="selection" style="color: white">MEMESat-1</h1>
+          </div>
+          <div id="tab-container">
             <!-- first tab selected by default -->
             <button type="button" class="team-tab tab-1 active" style="background-color: goldenrod;" data-bs-target="#slideshow" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"> MEMESat-1</button>
             <button type="button" class="team-tab tab-2" data-bs-target="#slideshow" data-bs-slide-to="1" aria-label="Slide 2">MOCI</button>
@@ -129,6 +126,7 @@ title: About
             <button type="button" class="team-tab tab-5" data-bs-target="#slideshow" data-bs-slide-to="4" aria-label="Slide 5">Lab Operations</button>
             <button type="button" class="team-tab tab-6" data-bs-target="#slideshow" data-bs-slide-to="5" aria-label="Slide 6">Research & Development</button>
           </div>
+          <br>
           <div class="carousel-item active">
             <h3 class="section">Leadership</h3>
             <div id="section-memesat" class="profile-section"></div>
