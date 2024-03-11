@@ -1,6 +1,36 @@
 {
   "research": [
     {
+      "title": "Utilizing Additive Manufacturing of Semi-Crystalline Thermoplastics and Topology Optimized Generative Designs for Complex Small Satellite Bus Geometries",
+      "img": "smallsat-buses.jpg",
+      "src": "/images/documents/papers/smallsat_bus.pdf",
+      "authors": "W. Bradford, A. Delliponti, R. Formel",
+      "tags": "paper",
+      "subTitle": "",
+      "date": "",
+      "year": "2022"
+    },
+    {
+      "title": "Co-Operating Systems: A Technical Overview of Multiple Onboard Operating Systems",
+      "img": ".jpg",
+      "src": "/images/documents/papers/Co-Operating-Systems_2022.pdf",
+      "authors": "C. Bonesteel, E. Tichenor, E. Miller, A. Rodriguez",
+      "tags": "paper",
+      "subTitle": "",
+      "date": "",
+      "year": "2022"
+    },
+    {
+      "title": "Spectral Ocean Color (SPOC): Lessons Learned from the University of Georgia Small Satellite Research Laboratory's First Satellite",
+      "img": "SPOC_LessonsLearned.jpg",
+      "src": "/images/documents/papers/SPOC_LessonsLearned_2022.pdf",
+      "authors": "S. Whilden, D. Mishra, D. Cotten, N. Neel",
+      "tags": "paper",
+      "subTitle": "",
+      "date": "",
+      "year": "2022"
+    },
+    {
       "title": "A Hardware Accelerated Computer Vision Library for 3D Reconstruction Onboard Small Satellites",
       "img": "Hardware_Accelerated.jpg",
       "src": "/images/documents/papers/adams2021-accelerated-cv.pdf",
