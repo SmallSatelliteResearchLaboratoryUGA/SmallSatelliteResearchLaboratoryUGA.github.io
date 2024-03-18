@@ -1,7 +1,6 @@
 h1{
   color: #212529;
 }
-
 html body {
     background-color: #10141e;
     font-family: 'Montserrat', sans-serif;
@@ -29,12 +28,18 @@ button:focus{
 .labLeads {
   text-align: center;
 }
-.tab-container {
+#mobile-toggle {
+  display: none;
+
+}
+#toggle{
+  font-size: x-large;
+  margin-left: 1%;
+}
+#tab-container {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   padding: 0%;
-
-
 }
 
 .team-tab {
@@ -46,7 +51,8 @@ button:focus{
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  /* width: 25%; */
+  flex-grow: 1;
 }
 button .active {
   background-color: goldenrod;
@@ -129,7 +135,9 @@ button .active {
     text-align: left;
 }
 .video-container{
-  display: block;
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
 }
 iframe{
 align-self: center;
@@ -219,3 +227,25 @@ p {
 .hidden{
   display: none;
 }
+.showMenu{
+  display: flex;
+}
+@media only screen and (max-width: 700px) {
+  #tab-container {
+    display: none;
+    flex-direction: column;
+  }
+  /* .team-tab {
+    display:none;
+  } */
+  #mobile-toggle {
+    display: flex;
+    align-items: baseline;
+  }
+  
+} else{
+  #tab-container {
+    display: flex;
+    flex-direction: row;
+  }
+} 
