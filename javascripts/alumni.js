@@ -3,38 +3,61 @@ var buttons = [];
 $(document).ready(function () {
 
   buttons.push(document.getElementById("Everyone"));
-  buttons.push(document.getElementById("2021"));
-  buttons.push(document.getElementById("2020"));
-  buttons.push(document.getElementById("2019"));
-  buttons.push(document.getElementById("2018"));
-  buttons.push(document.getElementById("2017"));
   buttons.push(document.getElementById("2016"));
+  buttons.push(document.getElementById("2017"));
+  buttons.push(document.getElementById("2018"));
+  buttons.push(document.getElementById("2019"));
+  buttons.push(document.getElementById("2020"));
+  buttons.push(document.getElementById("2021"));
+  buttons.push(document.getElementById("2022"));
+  buttons.push(document.getElementById("2023"));
+
 
   buttons[0].addEventListener("click", function () {
     filterMembers("Everyone")
   });
   buttons[1].addEventListener("click", function () {
-    filterMembers("2021")
-  });
-  buttons[2].addEventListener("click", function () {
-    filterMembers("2020")
-  });
-  buttons[3].addEventListener("click", function () {
-    filterMembers("2019")
-  });
-  buttons[4].addEventListener("click", function () {
-    filterMembers("2018")
-  });
-  buttons[5].addEventListener("click", function () {
-    filterMembers("2017")
-  });
-  buttons[6].addEventListener("click", function () {
     filterMembers("2016")
   });
+  buttons[2].addEventListener("click", function () {
+    filterMembers("2017")
+  });
+  buttons[3].addEventListener("click", function () {
+    filterMembers("2018")
+  });
+  buttons[4].addEventListener("click", function () {
+    filterMembers("2019")
+  });
+  buttons[5].addEventListener("click", function () {
+    filterMembers("2020")
+  });
+  buttons[6].addEventListener("click", function () {
+    filterMembers("2021")
+  }); 
+  buttons[7].addEventListener("click", function () {
+    filterMembers("2022")
+  });
+  buttons[8].addEventListener("click", function () {
+    filterMembers("2023")
+  });
+  
+  
+  
+  
 
   //TODO: get rid of this and do it with ejs and express same for team
   $.getJSON("/json/team.json", function (data) {
     // populate alumni
+    for (let i = 0; i < data.team.alumni2023.length; i++) {
+      let m = new createMember(data.team.alumni2023[i], "#section-alumni");
+      m.tag = "2023";
+      profiles.push(m);
+    }
+    for (let i = 0; i < data.team.alumni2022.length; i++) {
+      let m = new createMember(data.team.alumni2022[i], "#section-alumni");
+      m.tag = "2022";
+      profiles.push(m);
+    }
     for (let i = 0; i < data.team.alumni2021.length; i++) {
       let m = new createMember(data.team.alumni2021[i], "#section-alumni");
       m.tag = "2021";
