@@ -1,6 +1,26 @@
 {
   "research": [
     {
+      "title": "Optical Alignment and Tuning of Multiview Onboard Computational Imager (MOCI) 6U CubeSat Optical Payload",
+      "img": "OpticalAlignment.png",
+      "src": "/images/documents/posters/OpticalAlignmentMOCI.pdf",
+      "authors": "C. Bradford, D. Mishra",
+      "tags": "poster",
+      "subTitle": "",
+      "date": "",
+      "year": "2023"
+    },
+    {
+      "title": "Development and Implementation of Automated Planning in CubeSats",
+      "img": "AutomatedCubeSats.png",
+      "src": "/images/documents/papers/AutomatedCubeSats.pdf",
+      "authors": "L. Riley, V. Ghildyal, C. Bonesteel, D. Mishra",
+      "tags": "paper",
+      "subTitle": "",
+      "date": "",
+      "year": "2023"
+    },
+    {
       "title": "Utilizing Additive Manufacturing of Semi-Crystalline Thermoplastics and Topology Optimized Generative Designs for Complex Small Satellite Bus Geometries",
       "img": "smallsat-buses_2022.jpg",
       "src": "/images/documents/papers/smallsat-bus.pdf",
