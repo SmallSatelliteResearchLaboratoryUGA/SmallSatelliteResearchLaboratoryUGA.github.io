@@ -541,12 +541,6 @@
     
     "labopsMembers": [
       {
-        "name": "Ashwath Rajkumar",
-        "img": "Ashwath_Rajkumar.jpeg",
-        "role": "Aerospace Industry Analyst",
-        "id": ""
-      },
-      {
         "name": "Gioia Zincone",
         "img": "",
         "role": "Podcast Manager",
@@ -580,6 +574,24 @@
         "name": "Mitchell Jiang",
         "img": "",
         "role": "Web Developer",
+        "id": ""
+      },
+      {
+        "name": "Ashwath Rajkumar",
+        "img": "Ashwath_Rajkumar.jpeg",
+        "role": "Aerospace Industry Analyst",
+        "id": ""
+      },
+      {
+        "name": "Michael Banks",
+        "img": "",
+        "role": "Aerospace Industry Analyst",
+        "id": ""
+      },
+      {
+        "name": "Neelav Kharel",
+        "img": "",
+        "role": "Aerospace Industry Analyst",
         "id": ""
       },
       {
