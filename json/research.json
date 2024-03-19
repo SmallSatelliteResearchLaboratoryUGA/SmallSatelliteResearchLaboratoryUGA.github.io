@@ -1,6 +1,66 @@
 {
   "research": [
     {
+      "title": "Secure Cloud Architecture for Protecting the Software of Space Vehicles",
+      "img": "securecloud.png",
+      "src": "images/documents/posters/SecureCloudArchitecture-SmallSat2023.pdf",
+      "authors": "K. Raviprakash, C.Bonesteel, S.Whilden, D. Mishra",
+      "tags": "poster",
+      "subTitle": "",
+      "date": "",
+      "year": "2023"
+    },
+    {
+      "title": "Optimization Of Command Execution Testing Procedures",
+      "img": "commandExecution.png",
+      "src": "/images/documents/posters/Optimization Of Command Execution Testing Procedures-SmallSat2023.pdf",
+      "authors": "A. Yellapragada, V. Ghildyal, S. Whilden, D. Mishra",
+      "tags": "poster",
+      "subTitle": "",
+      "date": "",
+      "year": "2023"
+    },
+    {
+      "title": "Development of a Low-Cost Energy Storage Solution for CubeSats",
+      "img": "energyStorage.png",
+      "src": "/images/documents/posters/Low Cost Energy Storage Solution-SmallSat2023.pdf",
+      "authors": "I. Garon, O. Fairlamb, D. Mishra",
+      "tags": "poster",
+      "subTitle": "",
+      "date": "",
+      "year": "2023"
+    },
+    {
+      "title": "Development of MEMESat-1 Passive Magnetic Attitude Control ADCS Simulations",
+      "img": "magneticAttitudeControl.png",
+      "src": "/images/documents/posters/MEMESat-1 Passive Magnetic Attitude Control-SmallSat2023.pdf",
+      "authors": "J. Russell, S. Whilden, D. Mishra",
+      "tags": "poster",
+      "subTitle": "",
+      "date": "",
+      "year": "2023"
+    },
+    {
+      "title": "Error-Resilient Compression: Using Deep Learning and Polar Coding to Improve Satellite Communication",
+      "img": "errorResilientCompression.png",
+      "src": "/images/documents/posters/Error Resillient Compression-SmallSat2023.pdf",
+      "authors": "A. Hammond, J. Brisby, D. Mishra",
+      "tags": "poster",
+      "subTitle": "",
+      "date": "",
+      "year": "2023"
+    },
+    {
+      "title": "Developing a Comprehensive Power Simulation Model for the MEMESat-1 CubeSat using Orbital Dynamics",
+      "img": "powerSimulationMemesat.png",
+      "src": "/images/documents/posters/Comprehensive Power Simulation Model MEMESat-SmallSat2023.pdf",
+      "authors": "M. Knauss, A.B. Ozdener, V. Ghildyal, D. Mishra",
+      "tags": "poster",
+      "subTitle": "",
+      "date": "",
+      "year": "2023"
+    },
+    {
       "title": "Optical Alignment and Tuning of Multiview Onboard Computational Imager (MOCI) 6U CubeSat Optical Payload",
       "img": "OpticalAlignment.png",
       "src": "/images/documents/posters/OpticalAlignmentMOCI.pdf",
