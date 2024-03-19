@@ -81,6 +81,26 @@
       "year": "2023"
     },
     {
+      "title": "The Mission for Education and Multimedia Engagement: Breaking the Barriers to Satellite Education",
+      "img": "satellite_education.png",
+      "src": "/images/documents/papers/Breaking_the_Barriers_to_Satellite_Education.pdf",
+      "authors": "C. Lassiter, M. Starks, C. Versteeg, S. Whilden, D. Mishra",
+      "tags": "paper",
+      "subTitle": "",
+      "date": "",
+      "year": "2023"
+    },
+    {
+      "title": "Space-operating Linux: An Operating System for High Performance AI Computation on Commercial-Grade Equipment in Low Earth Orbit",
+      "img": "spaceOperatingLinux.png",
+      "src": "/images/documents/papers/Space-operating Linux.pdf",
+      "authors": "E. Miller",
+      "tags": "paper",
+      "subTitle": "",
+      "date": "",
+      "year": "2022"
+    },
+    {
       "title": "Utilizing Additive Manufacturing of Semi-Crystalline Thermoplastics and Topology Optimized Generative Designs for Complex Small Satellite Bus Geometries",
       "img": "smallsat-buses_2022.jpg",
       "src": "/images/documents/papers/smallsat-bus.pdf",
