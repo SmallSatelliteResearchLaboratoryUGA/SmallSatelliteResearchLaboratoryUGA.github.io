@@ -1,6 +1,24 @@
 {
   "events":[
     {
+      "title":"UGA Hacks Antenna Workshop",
+      "date":"October 22nd, 2023",
+      "location":"University of Georgia",
+      "age":"Undergraduate Students",
+      "studentAmount":"20",
+      "img":"images/documents/thumbnails/UGAHacksAntenna.png",
+      "description":""
+    },
+    {
+      "title":"Women In STEM Presentation",
+      "date":"October 26th, 2023",
+      "location":"Clarke Central High School",
+      "age":"9th-12th grade",
+      "studentAmount":"15",
+      "img":"images/documents/thumbnails/WomenInStemPres.jpg",
+      "description":""
+    },
+    {
       "title":"Space Electronics",
       "date":"May 6th 2018",
       "location":"Cheatham Hill Elemetary school",
