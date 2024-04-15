@@ -22,7 +22,7 @@ button{
 button:focus{
   outline: none;
 }
-.container{
+#team-container{
   max-width: 950px;
 }
 .labLeads {
