@@ -23,7 +23,12 @@ button:focus{
   outline: none;
 }
 #team-container{
-  max-width: 950px;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
 }
 .labLeads {
   text-align: center;
