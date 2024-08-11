@@ -1,0 +1,53 @@
+.software-item {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  font-family: "montserrat";
+  margin: 8px 0;
+  background-color: #072027;
+  box-shadow: 0 2px 4px 0px rgba(0,0,0,0.40);
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.software-content-row {
+  padding: 0.5rem;
+}
+
+.software-thumbnail {
+  padding: 0.25rem !important;
+  background-color: #f3e22f !important;
+  border: 1px solid #f3e22f !important;
+}
+
+.software-title {
+  padding-left: 0.5rem;
+  color: #6dcbd8;
+  font-size: 1.8rem;
+}
+
+.software-subtitle {
+  padding-left: 0.1rem;
+  color: #6dcbd8;
+  font-size: 1.1rem;
+}
+
+.software-list {
+  color: #7e7e7e;
+  font-size: 0.8rem;
+}
+
+.software-list li{
+  color: #7e7e7e;
+  font-size: 0.8rem;
+}
+
+.software-list-status {
+  font-size: 0.8rem;
+  list-style-type: none;
+}
+
+.software-list-status li{
+  font-size: 0.8rem;
+}
