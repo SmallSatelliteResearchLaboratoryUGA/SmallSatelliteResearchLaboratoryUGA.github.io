@@ -78,9 +78,6 @@ $(function () {
 			createMember(data.team.cosmoMembers[i], "#section-cosmoMembers");
 		}
 		//populate T-MIBE members/Leads
-		for (let i = 0; i < data.team.tmibe.length; i++) {
-			createMember(data.team.tmibe[i], "#section-tmibe");
-		}
 
 		//populate labops leads
 		for (let i = 0; i < data.team.labops.length; i++) {

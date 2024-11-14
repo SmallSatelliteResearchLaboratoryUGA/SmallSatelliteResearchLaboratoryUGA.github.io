@@ -31,12 +31,12 @@
 			{
 				"name": "Jillian Russell",
 				"img": "Jillian Russell.jpg",
-				"role": "Chief Engineer | Systems Lead"
+				"role": "Program Manager"
 			},
 			{
 				"name": "Jake VanEssendelft",
 				"img": "",
-				"role": "Program Manager | Systems Lead"
+				"role": "Chief Engineer"
 			},
 			{
 				"name": "Samuel Lemus",
@@ -46,6 +46,11 @@
 			{
 				"name": "Emilia Reber",
 				"img": "Emilia Reber.jpg",
+				"role": "Mechanical Team Lead"
+			},
+			{
+				"name": "Juan Carlos Alizo",
+				"img": "",
 				"role": "Mechanical Team Lead"
 			},
 			{
@@ -131,11 +136,6 @@
 				"role": "Mechanical Team"
 			},
 			{
-				"name": "Juan Carlos Alizo",
-				"img": "",
-				"role": "Mechanical Team"
-			},
-			{
 				"name": "Hunter Haskins",
 				"img": "",
 				"role": "Mechanical Team"
@@ -158,11 +158,6 @@
 			{
 				"name": "Jordanne Brisby",
 				"img": "",
-				"role": "Mission Operations"
-			},
-			{
-				"name": "Vedika Ghildyal",
-				"img": "vedika_ghildyal.jpg",
 				"role": "Mission Operations"
 			},
 			{
@@ -271,11 +266,6 @@
 		},
 		"moci": [
 			{
-				"name": "Lee Tran",
-				"img": "",
-				"role": "Program Manager"
-			},
-			{
 				"name": "Ben Pumphrey",
 				"img": "Ben Pumphrey.JPG",
 				"role": "Program Manager"
@@ -284,11 +274,6 @@
 				"name": "Grant Baumann",
 				"img": "",
 				"role": "GNC Team Lead"
-			},
-			{
-				"name": "Ryan Hughes",
-				"img": "ryan_hughes.jpg",
-				"role": "Chief Engineer"
 			},
 			{
 				"name": "Jackson Bradford",
@@ -433,11 +418,6 @@
 				"role": "Mission Operations"
 			},
 			{
-				"name": "Vedika Ghildyal",
-				"img": "vedika_ghildyal.jpg",
-				"role": "Mission Operations"
-			},
-			{
 				"name": "Kaleigh Reaves",
 				"img": "",
 				"role": "Mission Operations"
@@ -512,14 +492,6 @@
 				"role": "COSMO Electrical Engineer"
 			}
 		],
-		"tmibe": [
-			{
-				"name": "Nikhil Upadhaya",
-				"img": "",
-				"role": "Project Lead"
-			}
-		],
-
 		"graduatestudents": [
 			{
 				"name": "Ellemieke Van Kints",
@@ -564,7 +536,7 @@
 		],
 
 		"labopsMembers": [
-      {
+			{
 				"name": "Mitchell Jiang",
 				"img": "",
 				"role": "LEARNSat Embedded Software",
@@ -590,7 +562,7 @@
 			},
 			{
 				"name": "Don Bentley",
-				"img": "",
+				"img": "Don_Bentley.jpg",
 				"role": "Web Developer",
 				"id": ""
 			},
@@ -640,12 +612,6 @@
 				"name": "Justin Parry",
 				"img": "",
 				"role": "LEARNSat Hardware",
-				"id": ""
-			},
-			{
-				"name": "Emma Owens",
-				"img": "",
-				"role": "Outreach Chair",
 				"id": ""
 			}
 		],
@@ -939,6 +905,15 @@
 				"img": "",
 				"id": "",
 				"role": "Software Team"
+			},
+
+			{
+				"name": "Vedika Ghildyal",
+				"bio": "",
+				"major": "",
+				"img": "vedika_ghildyal.jpg",
+				"id": "",
+				"role": "Mission Operations"
 			}
 		],
 		"alumni2023": [
