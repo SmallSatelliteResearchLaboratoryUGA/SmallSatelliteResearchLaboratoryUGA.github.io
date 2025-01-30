@@ -30,7 +30,7 @@
 			},
 			{
 				"name": "Jillian Russell",
-				"img": "Jillian Russell.jpg",
+				"img": "Jillian_Russell.jpg",
 				"role": "Program Manager"
 			},
 			{
@@ -52,6 +52,16 @@
 				"name": "Juan Carlos Alizo",
 				"img": "",
 				"role": "Mechanical Team Lead"
+			},
+			{
+				"name": "Justin Voda",
+				"img": "",
+				"role": "Mechanical Team - Co-Lead"
+			},
+			{
+				"name": "Xavair Willis",
+				"img": "",
+				"role": "Mechanical Team - Co-Lead"
 			},
 			{
 				"name": "Clay Reece",
@@ -98,11 +108,6 @@
 			{
 				"name": "Nobin Das Nirjhar",
 				"img": "Nobin_Das_Nirjhar.png",
-				"role": "Software Team"
-			},
-			{
-				"name": "Uddhav Swami",
-				"img": "uddhav_swami.jpg",
 				"role": "Software Team"
 			},
 			{
@@ -211,22 +216,12 @@
 			],
 			"cosmo": [
 				{
-					"name": "Uddhav Swami",
-					"img": "uddhav_swami.jpg",
-					"role": ""
-				},
-				{
 					"name": "Jordanne Brisby",
 					"img": "",
 					"role": ""
 				},
 				{
 					"name": "Delaney Murray",
-					"img": "",
-					"role": ""
-				},
-				{
-					"name": "Abhi Boggavarapu",
 					"img": "",
 					"role": ""
 				},
@@ -281,7 +276,7 @@
 				"role": "Program Manager"
 			},
 			{
-				"name": "Grant Baumann",
+				"name": "Nick Trullos",
 				"img": "",
 				"role": "GNC Team Lead"
 			},
@@ -289,11 +284,6 @@
 				"name": "Jackson Bradford",
 				"img": "",
 				"role": "Mechanical Team Lead"
-			},
-			{
-				"name": "Connor Loosemore",
-				"img": "",
-				"role": "Chief Engineer"
 			},
 			{
 				"name": "Nathaniel LeBlanc",
@@ -312,7 +302,7 @@
 			},
 			{
 				"name": "Kayla Bagwell",
-				"img": "",
+				"img": "Kayla_Bagwel.png",
 				"role": "Mission Operations Co-lead"
 			},
 			{
@@ -323,12 +313,13 @@
 		],
 		"mociMembers": [
 			{
-				"name": "Uddhav Swami",
-				"img": "uddhav_swami.jpg",
-				"role": "GNC Team"
+				"name": "Ryan Hughes",
+				"img": "",
+				"role": "Chief Engineer"
 			},
+
 			{
-				"name": "Nick Trullos",
+				"name": "Grant Baumann",
 				"img": "",
 				"role": "GNC Team"
 			},
@@ -368,7 +359,7 @@
 				"role": "Flight Software"
 			},
 			{
-				"name": "Nocholas Pautler",
+				"name": "Nicholas Pautler",
 				"img": "",
 				"role": "Flight Software"
 			},
@@ -378,12 +369,12 @@
 				"role": "Mechanical Team"
 			},
 			{
-				"name": "Nick Dagnino",
+				"name": "Gage Kelley",
 				"img": "",
 				"role": "Mechanical Team"
 			},
 			{
-				"name": "Gage Kelley",
+				"name": "Ryan Tomczyk",
 				"img": "",
 				"role": "Mechanical Team"
 			},
@@ -395,6 +386,16 @@
 			{
 				"name": "Brian Williams",
 				"img": "brian_williams.png",
+				"role": "Mechanical Team"
+			},
+			{
+				"name": "Gauge Kelley",
+				"img": "",
+				"role": "Mechanical Team"
+			},
+			{
+				"name": "Nicholas Dagnino",
+				"img": "",
 				"role": "Mechanical Team"
 			},
 			{
@@ -412,6 +413,7 @@
 				"img": "Christian_Jensen.jpg",
 				"role": "Software Team"
 			},
+
 			{
 				"name": "Mihir Joshi",
 				"img": "",
@@ -423,12 +425,12 @@
 				"role": "Hardware Team"
 			},
 			{
-				"name": "Liam Riley",
+				"name": "Jordan Williams",
 				"img": "",
-				"role": "Mission Operations"
+				"role": "Hardware team"
 			},
 			{
-				"name": "Kaleigh Reaves",
+				"name": "Liam Riley",
 				"img": "",
 				"role": "Mission Operations"
 			},
@@ -438,29 +440,9 @@
 				"role": "Mission Operations"
 			},
 			{
-				"name": "Varun Iyengar",
+				"name": "Sean Ray",
 				"img": "",
-				"role": "Mission Operations"
-			},
-			{
-				"name": "Allyson Thrasher",
-				"img": "",
-				"role": "Mission Operations"
-			},
-			{
-				"name": "Jordan Hammond",
-				"img": "",
-				"role": "Mission Operations"
-			},
-			{
-				"name": "Akhila Yellapragda",
-				"img": "Akhila Yellapragada.jpg",
-				"role": "Mission Operations"
-			},
-			{
-				"name": "Pandora Paterson",
-				"img": "",
-				"role": "Mission Operations"
+				"role": "MOCI FSW"
 			}
 		],
 		"cosmo": [
@@ -477,11 +459,6 @@
 		],
 		"cosmoMembers": [
 			{
-				"name": "Uddhav Swami",
-				"img": "uddhav_swami.jpg",
-				"role": "Mission Operations | MEMESat-1 Software Engineer"
-			},
-			{
 				"name": "Jordanne Brisby",
 				"img": "",
 				"role": "MEMESat-1 Mission Operations | MEME Radio"
@@ -492,14 +469,24 @@
 				"role": "MEME Radio"
 			},
 			{
-				"name": "Abhi Boggavarapu",
+				"name": "Aiden Goff",
 				"img": "",
-				"role": "MOCI | COSMO Software Engineer"
+				"role": ""
 			},
 			{
-				"name": "Iker Pobo",
+				"name": "Annie Dmitrieff",
 				"img": "",
-				"role": "COSMO Electrical Engineer"
+				"role": "COSMO Developer"
+			},
+			{
+				"name": "Sage Owen",
+				"img": "",
+				"role": ""
+			},
+			{
+				"name": "Brian Williams",
+				"img": "",
+				"role": ""
 			}
 		],
 		"graduatestudents": [
