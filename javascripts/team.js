@@ -1,3 +1,4 @@
+
 $(function () {
 	// handles menu toggle for who we are page (mobile = anything less than 700px wide)
 	const mediaQuery = window.matchMedia("(max-width: 700px)");

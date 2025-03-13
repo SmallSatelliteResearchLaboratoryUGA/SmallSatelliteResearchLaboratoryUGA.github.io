@@ -1,0 +1,40 @@
+{
+	"podcasts": [
+		{
+			"ep_name": "CUBESAT CHRONICLES",
+			"cover": "../images/media/podcastphoto.png",
+			"episode_number": "9",
+			"date": " March 2nd",
+			"episode_description": "Join Caroline Bach and Clay Reece as they discuss the life of a CUBESAT, alongside comets coming for Earth and the cinematic masterpiece that is Interstellar.",
+			"spotifylink": "https://open.spotify.com/episode/6aLM8J6F2Qtrdd5oWq0mEn?si=iqYJMOMeSLiFuZOEU0fIhA",
+			"youtubelink": ""
+		},
+		{
+			"ep_name": "Space Lawyer",
+			"cover": "../images/media/podcastphoto.png",
+			"episode_number": "8",
+			"date": "January 30th",
+			"episode_description": "Join Caroline Bach and Ben Pumphrey as they dive into the legal processes behind how UGA's SSRL sends satellites to space.",
+			"spotifylink": "https://open.spotify.com/episode/0Vr8zjryZiZsDTGZQMyF8J?si=RaYOPSISRCiBiwTIYK1TAQ",
+			"youtubelink": ""
+		},
+		{
+			"ep_name": "MOPS Leadership + Small Sat Conference",
+			"cover": "../images/media/podcastphoto.png",
+			"episode_number": "7",
+			"date": "March 11th",
+			"episode_description": "Join Jillian Russell (MemeSat-1 Mission Operations Lead) and Vedika Ghildyal (Former Mission Operations Lead) as they give listeners an insight into being leadership on MOPS, while also discussing the annual Small Satellite Conference.",
+			"spotifylink": "https://open.spotify.com/episode/41avNiBLN5peEr8yI6MlOl?si=Nq6lygeDQg2MGB3UgILphA",
+			"youtubelink": ""
+		},
+		{
+			"ep_name": "MEMESat-1MOPS + NASA Psyche",
+			"cover": "../images/media/podcastphoto.png",
+			"episode_number": "6",
+			"date": "December 13th",
+			"episode_description": "Join guest speakers Sam Penkava and Clay Reece (MEMESAT-1 Mission Operation team members) as they delve into the responsibilities of mission operations in a cubesat mission and their roles within the team. Stay tuned to hear about NASA's Psyche mission and what it means for space exploration, specifically within the asteroid belt.",
+			"spotifylink": "https://open.spotify.com/episode/1FJ5gAoBxtE99kEC1bLglg?si=MDmEcyV_RQSL7yAvlvdSTQ",
+			"youtubelink": ""
+		}
+	]
+}
