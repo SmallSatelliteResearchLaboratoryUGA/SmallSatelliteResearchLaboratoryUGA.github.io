@@ -88,6 +88,7 @@ body {
 	gap: 20px;
 	margin: 0 auto; /* Center the entire section */
 	max-width: 90%;
+	margin-top: 25px;
 }
 
 /* Ensure that each .container takes up available space and is centered */
