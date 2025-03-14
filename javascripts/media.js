@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		.then((response) => response.json())
 		.then((data) => {
 			const podcasts = data.podcasts;
-			const container = document.querySelector(".container");
+			const container = document.querySelector(".mediacontainer");
 
 			// Clear existing content
 			container.innerHTML = `<h1>THE CLEAN ROOM</h1>
