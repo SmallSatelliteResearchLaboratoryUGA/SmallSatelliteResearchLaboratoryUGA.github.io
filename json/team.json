@@ -415,6 +415,31 @@
       				"role": "Flight Software"
     			},
 			{
+                		"name": "Benjamin Parker",
+                		"img": "",
+                		"role": "Flight Software"
+            		},
+            		{
+                		"name": "Loc Le",
+                		"img": "",
+                		"role": "Flight Software"
+            		},
+            		{
+                		"name": "Arthur Nguyen",
+                		"img": "",
+                		"role": "Flight Software"
+            		},
+            		{
+                		"name": "Raghav Vikramprabhu",
+                		"img": "",
+               			"role": "Flight Software"
+            		},
+            		{
+                		"name": "Krishna Mohan",
+                		"img": "",
+                		"role": "Flight Software"
+            		}
+			{
 				"name": "Grant Monroe",
 				"img": "",
 				"role": "Mechanical Team"
