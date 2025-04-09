@@ -350,7 +350,7 @@
 			},
 			{
 				"name": "Sheev Patel",
-				"img": "",
+				"img": "Sheev_Patel.jpg",
 				"role": "Flight Software"
 			},
 			{
@@ -519,7 +519,7 @@
 		],
 		"labops": [
 			{
-				"name": "Sharon Issac",
+				"name": "Sharon Isaac",
 				"img": "",
 				"role": "Co-Team Lead",
 				"id": ""
@@ -533,18 +533,8 @@
 		],
 
 		"labopsMembers": [
-			{
-				"name": "Mitchell Jiang",
-				"img": "",
-				"role": "LEARNSat Embedded Software",
-				"id": ""
-			},
-			{
-				"name": "Blake Fierman",
-				"img": "",
-				"role": "Advisor",
-				"id": ""
-			},
+			
+			
 			{
 				"name": "Neelav Kharel",
 				"img": "",
@@ -564,11 +554,31 @@
 				"id": ""
 			},
 			{
+				"name": "Shresta Jha ",
+				"img": "",
+				"role": "Web App Developer",
+				"id": ""
+			},
+			{
+				"name": "Varun Venkatagiri ",
+				"img": "",
+				"role": "Web App Developer",
+				"id": ""
+			},
+			{
 				"name": "Caroline Bach",
 				"img": "",
 				"role": "Podcast Manager",
 				"id": ""
 			},
+
+			{
+				"name": "Krishna Krottapalli",
+				"img": "",
+				"role": "Podcast Manager",
+				"id": ""
+			},
+
 			{
 				"name": "Ava Stillwagon",
 				"img": "",
@@ -581,41 +591,27 @@
 				"role": "Educational Outreach and Communication",
 				"id": ""
 			},
+
+			{
+				"name": "Anolita Hirsch",
+				"img": "",
+				"role": "Social Media Manager",
+				"id": ""
+			}, 
+
 			{
 				"name": "Ashley Kim",
 				"img": "",
 				"role": "LEARNSat Documentation",
 				"id": ""
-			},
-			{
-				"name": "Samarjeet Purba",
-				"img": "",
-				"role": "LEARNSat Embedded Software",
-				"id": ""
-			},
-			{
-				"name": "Sage Owens",
-				"img": "",
-				"role": "LEARNSat Hardware",
-				"id": ""
-			},
-			{
-				"name": "Matthew Fernandez",
-				"img": "",
-				"role": "LEARNSat Hardware",
-				"id": ""
-			},
-			{
-				"name": "Justin Parry",
-				"img": "",
-				"role": "LEARNSat Hardware",
-				"id": ""
 			}
+
+			
 		],
 		"rnd": [
 			{
-				"name": "Emma Harrison",
-				"img": "",
+				"name": "David Krupp",
+				"img": "David_Krupp.jpg",
 				"role": "Team Lead",
 				"id": ""
 			}
@@ -640,21 +636,36 @@
 				"id": ""
 			},
 			{
-				"name": "David Krupp",
-				"img": "David Krupp.jpg",
+				"name": "Madison Ogle",
+				"img": "Madison_Ogle.JPEG",
 				"role": "",
 				"id": ""
 			},
+
 			{
-				"name": "Madison Ogle",
+				"name": "Fred Hall",
+				"img": "",
+				"role": "",
+				"id": ""
+			},
+
+			{
+				"name": "Ian Garrison",
 				"img": "",
 				"role": "",
 				"id": ""
 			}
+			
 		],
 		"dataTeam": [
 			{
 				"name": "Zachary Bunch",
+				"img": "",
+				"role": "Team Lead",
+				"id": ""
+			},
+			{
+				"name": "Evan Hamman",
 				"img": "",
 				"role": "Team Lead",
 				"id": ""
@@ -667,12 +678,7 @@
 				"role": "Software Engineer",
 				"id": ""
 			},
-			{
-				"name": "Evan Hammam",
-				"img": "",
-				"role": "Software Engineer",
-				"id": ""
-			},
+			
 			{
 				"name": "John van Brederode",
 				"img": "",
@@ -690,8 +696,163 @@
 				"img": "",
 				"role": "Software Engineer",
 				"id": ""
+			},
+
+			{
+				"name": "Pheonix Miller",
+				"img": "",
+				"role": "Software Engineer",
+				"id": ""
+			},
+
+			{
+				"name": "Cameron Halaby",
+				"img": "",
+				"role": "Software Engineer",
+				"id": ""
+			},
+
+			{
+				"name": "Sriaditya Vedantam",
+				"img": "",
+				"role": "Software Engineer",
+				"id": ""
 			}
+
 		],
+
+	
+		"LEARNSatTeam": [
+			  {
+				"name": "Ashwath Rajkumar",
+				"img": "",
+				"role": "Team Lead/Program Manager",
+				"id": ""
+			  },
+			  {
+				"name": "Ashley Kim",
+				"img": "",
+				"role": "Industry Analyst Lead",
+				"id": ""
+			  },
+			  {
+				"name": "Nathaniel LeBlanc",
+				"img": "",
+				"role": "Hardware Lead",
+				"id": ""
+			  },
+			  {
+				"name": "Daeva Indrakumar",
+				"img": "",
+				"role": "Mechanical Lead",
+				"id": ""
+			  }
+			],
+		"LEARNSatMembers": [
+			  {
+				"name": "Brian Askin",
+				"img": "",
+				"role": "Industry Analyst",
+				"id": ""
+			  },
+			  {
+				"name": "Hannah Lee",
+				"img": "",
+				"role": "Industry Analyst",
+				"id": ""
+			  },
+			  {
+				"name": "Audrey Djunaidi",
+				"img": "",
+				"role": "Industry Analyst",
+				"id": ""
+			  },
+			  {
+				"name": "Neelav Kharel",
+				"img": "",
+				"role": "Mission Operations",
+				"id": ""
+			  },
+			  {
+				"name": "Shareef Sayeed",
+				"img": "",
+				"role": "Mechanical",
+				"id": ""
+			  },
+			  {
+				"name": "Rishab Shekar",
+				"img": "",
+				"role": "Mechanical",
+				"id": ""
+			  },
+			  {
+				"name": "Gavin Wilson",
+				"img": "",
+				"role": "Mechanical",
+				"id": ""
+			  },
+			  {
+				"name": "Sam Purba",
+				"img": "",
+				"role": "Software",
+				"id": ""
+			  },
+			  {
+				"name": "Kyle Kim",
+				"img": "",
+				"role": "Software",
+				"id": ""
+			  },
+			  {
+				"name": "Aarav Bhardwaj",
+				"img": "",
+				"role": "Software",
+				"id": ""
+			  },
+			  {
+				"name": "Justin Parry",
+				"img": "Justin_Parry.jpeg",
+				"role": "Hardware",
+				"id": ""
+			  },
+			  {
+				"name": "Matthew Fernandez",
+				"img": "",
+				"role": "Hardware",
+				"id": ""
+			  },
+			  {
+				"name": "Chaitra Nulu",
+				"img": "",
+				"role": "Hardware",
+				"id": ""
+			  },
+			  {
+				"name": "Thomas Prybylski",
+				"img": "",
+				"role": "Hardware",
+				"id": ""
+			  },
+			  {
+				"name": "Pranav Sutraway",
+				"img": "",
+				"role": "Hardware",
+				"id": ""
+			  },
+			  {
+				"name": "Hannah Dobson",
+				"img": "hannah_dobson.jpg",
+				"role": "Mission Operations",
+				"id": ""
+			  },
+			  {
+				"name": "Ava Stillwagon",
+				"img": "",
+				"role": "Mission Operations",
+				"id": ""
+			  }
+			],
+		  
 		"associatedfaculty": [
 			{
 				"name": "Dr. Adrian Burd",

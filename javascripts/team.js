@@ -114,6 +114,15 @@ $(function () {
 			createMember(data.team.dataMembers[i], "#section-dataTeam");
 		}
 
+		//populate Learn leads
+		for (let i = 0; i < data.team.LEARNSatTeam.length; i++) {
+			createMemberExtraContent(data.team.LEARNSatTeam[i], "#section-LEARNSatTeam");
+		}
+		//populate data team members
+		for (let i = 0; i < data.team.LEARNSatMembers.length; i++) {
+			createMember(data.team.LEARNSatMembers[i], "#section-LEARNSatMembers");
+		}
+
 		//populate faculty members
 		for (let i = 0; i < data.team.associatedfaculty.length; i++) {
 			createMember(
