@@ -30,7 +30,7 @@
 			},
 			{
 				"name": "Jillian Russell",
-				"img": "Jillian_Russell.jpg",
+				"img": "Jillian_Russell.JPG",
 				"role": "Program Manager"
 			},
 			{
@@ -337,7 +337,7 @@
 			},
 			{
 				"name": "Kayla Bagwell",
-				"img": "Kayla_Bagwel.png",
+				"img": "Kayla_Bagwell.png",
 				"role": "Mission Operations Co-lead"
 			},
 			{
@@ -400,7 +400,7 @@
 			},
 			{
 				"name": "Sheev Patel",
-				"img": "Sheev_Patel.jpg",
+				"img": "",
 				"role": "Flight Software"
 			},
 			{
@@ -728,7 +728,7 @@
 			},
 			{
 				"name": "Madison Ogle",
-				"img": "Madison_Ogle.JPEG",
+				"img": "",
 				"role": "",
 				"id": ""
 			},
@@ -899,7 +899,7 @@
 			},
 			{
 				"name": "Justin Parry",
-				"img": "Justin_Parry.jpeg",
+				"img": "",
 				"role": "Hardware",
 				"id": ""
 			},
@@ -929,7 +929,7 @@
 			},
 			{
 				"name": "Hannah Dobson",
-				"img": "hannah_dobson.jpg",
+				"img": "",
 				"role": "Mission Operations",
 				"id": ""
 			},
