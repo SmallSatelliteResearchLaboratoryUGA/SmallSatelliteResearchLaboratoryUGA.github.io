@@ -54,12 +54,12 @@
 				"role": "Mechanical Team Lead"
 			},
 			{
-				"name": "Justin Voda",
+				"name": "Joseph Voda",
 				"img": "",
 				"role": "Mechanical Team - Co-Lead"
 			},
 			{
-				"name": "Xavair Willis",
+				"name": "Xavier Willis",
 				"img": "",
 				"role": "Mechanical Team - Co-Lead"
 			},
@@ -70,122 +70,153 @@
 			}
 		],
 		"memeSatMembers": [
-			{
-				"name": "Aiden Hammond",
-				"img": "",
-				"role": "Software Team"
-			},
-			{
-				"name": "Aidan LeCroy",
-				"img": "",
-				"role": "Software Team"
-			},
-			{
-				"name": "Diego Bonilla",
-				"img": "",
-				"role": "Software Team"
-			},
-			{
-				"name": "Nektaria Karagiannis",
-				"img": "",
-				"role": "Software Team"
-			},
-			{
-				"name": "Preetam Jain",
-				"img": "",
-				"role": "Software Team"
-			},
-			{
-				"name": "Theo Willingham",
-				"img": "Theodore_Willingham.jpg",
-				"role": "Software Team"
-			},
-			{
-				"name": "Rocco Ahching",
-				"img": "",
-				"role": "Software Team"
-			},
-			{
-				"name": "Nobin Das Nirjhar",
-				"img": "Nobin_Das_Nirjhar.png",
-				"role": "Software Team"
-			},
-			{
-				"name": "Alex Egan",
-				"img": "",
-				"role": "Hardware Team"
-			},
-			{
-				"name": "Katie Grace Lowrey",
-				"img": "Katie_Grace_Lowrey.jpg",
-				"role": "Hardware Team"
-			},
-			{
-				"name": "Lucian Bracy",
-				"img": "",
-				"role": "Hardware Team"
-			},
-			{
-				"name": "Ollie Fairlamb",
-				"img": "",
-				"role": "Hardware Team"
-			},
-			{
-				"name": "Divya Vemuri",
-				"img": "",
-				"role": "Hardware Team"
-			},
-			{
-				"name": "Rishabh Balasubramanian",
-				"img": "",
-				"role": "Hardware Team"
-			},
-			{
-				"name": "Matthew Olson",
-				"img": "Matthew_Olson.png",
-				"role": "Hardware Team"
-			},
-			{
-				"name": "GW Hendrix",
-				"img": "",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Hunter Haskins",
-				"img": "",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Kwame Osei-Tutu",
-				"img": "Kwame_Osei-Tutu.JPG",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Owen Nesbit",
-				"img": "",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Aiden Hammond",
-				"img": "",
-				"role": "Software Team"
-			},
-			{
-				"name": "Jordanne Brisby",
-				"img": "",
-				"role": "Mission Operations"
-			},
-			{
-				"name": "Will Schlief",
-				"img": "",
-				"role": "Mission Operations"
-			},
-			{
-				"name": "Nadira Desamu-Thorpe",
-				"img": "",
-				"role": "Mission Operations"
-			}
-		],
+    			{
+        			"name": "Aiden Hammond",
+        			"img": "",
+        			"role": "Software Team"
+    			},
+    			{
+        			"name": "Aidan LeCroy",
+       				"img": "",
+        			"role": "Software Team"
+    			},
+    			{
+        			"name": "Diego Bonilla",
+        			"img": "",
+        			"role": "Software Team"
+    			},
+    			{
+        			"name": "Nektaria Karagiannis",
+        			"img": "",
+        			"role": "Software Team"
+    			},
+    			{
+        			"name": "Preetam Jain",
+        			"img": "",
+       		 		"role": "Software Team"
+    			},
+    			{
+        			"name": "Theo Willingham",
+        			"img": "Theodore_Willingham.jpg",
+        			"role": "Software Team"
+    			},
+    			{
+        			"name": "Rocco Ahching",
+        			"img": "",
+        			"role": "Software Team"
+    			},
+    			{
+        			"name": "Nobin Das Nirjhar",
+        			"img": "Nobin_Das_Nirjhar.png",
+        			"role": "Software Team"
+    			},
+    			{
+        			"name": "Subbaiah Kasi",
+        			"img": "",
+        			"role": "Flight Software"
+    			},
+    			{
+        			"name": "Jianing Leng",
+        			"img": "",
+        			"role": "Flight Software"
+    			},
+    			{
+        			"name": "Vedaant Mohta",
+        			"img": "",
+        			"role": "Flight Software"
+    			},
+    			{
+        			"name": "Abby Irvin",
+        			"img": "",
+        			"role": "Flight Software"
+    			},
+    			{
+        			"name": "Myles Thomas",
+        			"img": "",
+        			"role": "Flight Software"
+    			},
+
+    			{
+        			"name": "Alex Egan",
+        			"img": "",
+        			"role": "Hardware Team"
+    			},
+    			{
+        			"name": "Katie Grace Lowrey",
+        			"img": "Katie_Grace_Lowrey.jpg",
+        			"role": "Hardware Team"
+    			},
+    			{
+        			"name": "Lucian Bracy",
+        			"img": "",
+        			"role": "Hardware Team"
+    			},
+    			{
+        			"name": "Ollie Fairlamb",
+        			"img": "",
+        			"role": "Hardware Team"
+    			},
+    			{
+       	 			"name": "Divya Vemuri",
+        			"img": "",
+        			"role": "Hardware Team"
+    			},
+    			{
+        			"name": "Matthew Olson",
+        			"img": "Matthew_Olson.png",
+        			"role": "Hardware Team"
+    			},
+    			{
+        			"name": "Hailey Heckman",
+        			"img": "",
+        			"role": "Hardware Team"
+    			},
+    			{
+        			"name": "GW Hendrix",
+        			"img": "",
+        			"role": "Mechanical Team"
+    			},
+    			{
+        			"name": "Hunter Haskins",
+        			"img": "",
+        			"role": "Mechanical Team"
+    			},
+    			{
+        			"name": "Kwame Osei-Tutu",
+        			"img": "Kwame_Osei-Tutu.JPG",
+        			"role": "Mechanical Team"
+    			},
+    			{
+        			"name": "Owen Nesbit",
+        			"img": "",
+        			"role": "Mechanical Team"
+    			},
+    			{
+        			"name": "Daeva Indrakumar",
+        			"img": "",
+        			"role": "Mechanical Team"
+    			},
+    			{
+        			"name": "Jordanne Brisby",
+        			"img": "",
+        			"role": "Mission Operations"
+    			},
+    			{
+        			"name": "Will Schlief",
+        			"img": "",
+        			"role": "Mission Operations"
+    			},
+    			{
+        			"name": "Nadira Desamu-Thorpe",
+        			"img": "",
+        			"role": "Mission Operations"
+    			},
+    			{
+        			"name": "Brianna Francis",
+        			"img": "",
+        			"role": "Mission Operations"
+    			}
+		]
 		"memeSat-members-byTeam": {
 			"mechanical": [
 				{
@@ -334,6 +365,21 @@
 				"role": "GNC Team"
 			},
 			{
+                		"name": "Vikas Katari",
+                		"img": "",
+                		"role": "GNC Team"
+            		},
+			{              
+				"name": "Randa Amedi",
+                		"img": "",
+                		"role": "GNC Team"
+            		},
+            		{
+                		"name": "Bibek Bhattarai",
+                		"img": "",
+                		"role": "GNC Team"
+            		},
+			{
 				"name": "Amulya Jain",
 				"img": "",
 				"role": "Flight Software"
@@ -363,6 +409,36 @@
 				"img": "",
 				"role": "Flight Software"
 			},
+			{
+      				"name": "Braden Fuhriman",
+      				"img": "",
+      				"role": "Flight Software"
+    			},
+			{
+                		"name": "Benjamin Parker",
+                		"img": "",
+                		"role": "Flight Software"
+            		},
+            		{
+                		"name": "Loc Le",
+                		"img": "",
+                		"role": "Flight Software"
+            		},
+            		{
+                		"name": "Arthur Nguyen",
+                		"img": "",
+                		"role": "Flight Software"
+            		},
+            		{
+                		"name": "Raghav Vikramprabhu",
+                		"img": "",
+               			"role": "Flight Software"
+            		},
+            		{
+                		"name": "Krishna Mohan",
+                		"img": "",
+                		"role": "Flight Software"
+            		}
 			{
 				"name": "Grant Monroe",
 				"img": "",
@@ -440,6 +516,11 @@
 				"role": "Mission Operations"
 			},
 			{
+      				"name": "Shreeya Movva",
+      				"img": "",
+      				"role": "Mission Operations"
+    			},
+			{
 				"name": "Sean Ray",
 				"img": "",
 				"role": "MOCI FSW"
@@ -488,6 +569,16 @@
 				"img": "",
 				"role": ""
 			}
+			{
+                		"name": "Abby Irvin",
+               		 	"img": "",
+                		"role": "Ground Station Engineer"
+            		},
+            		{
+                		"name": "Janhavi Dhote",
+                		"img": "",
+                		"role": "Ground Station Engineer"
+            		}
 		],
 		"graduatestudents": [
 			{
