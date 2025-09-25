@@ -715,13 +715,6 @@
 				"id": ""
 			},
 			{
-				"name": "Madison Ogle",
-				"img": "",
-				"role": "",
-				"id": ""
-			},
-
-			{
 				"name": "Fred Hall",
 				"img": "",
 				"role": "",
@@ -733,6 +726,18 @@
 				"img": "",
 				"role": "",
 				"id": ""
+			},
+			{
+				"name": "Rachel Tran",
+				"img":"",
+				"role":""
+				"id":""
+			},
+			{
+				"name": "Dylan Woodcock",
+				"img":"",
+				"role":""
+				"id":""
 			}
 		],
 		"dataTeam": [
