@@ -616,13 +616,7 @@
 			{
 				"name": "Sharon Isaac",
 				"img": "",
-				"role": "Co-Team Lead",
-				"id": ""
-			},
-			{
-				"name": "Ashwath Rajkumar",
-				"img": "Ashwath_Rajkumar.jpeg",
-				"role": "Co-Team Lead",
+				"role": "Team Lead",
 				"id": ""
 			}
 		],
@@ -638,12 +632,6 @@
 				"name": "Isabella Salazar",
 				"img": "",
 				"role": "Graphic Designer",
-				"id": ""
-			},
-			{
-				"name": "Don Bentley",
-				"img": "Don_Bentley.jpg",
-				"role": "Web Developer",
 				"id": ""
 			},
 			{
