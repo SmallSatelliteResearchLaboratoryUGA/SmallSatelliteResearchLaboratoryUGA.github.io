@@ -304,232 +304,127 @@
 				}
 			]
 		},
-		"moci": [
-			{
-				"name": "Ben Pumphrey",
-				"img": "Ben Pumphrey.JPG",
-				"role": "Program Manager"
-			},
-			{
-				"name": "Nick Trullos",
-				"img": "",
-				"role": "GNC Team Lead"
-			},
-			{
-				"name": "Jackson Bradford",
-				"img": "",
-				"role": "Mechanical Team Lead"
-			},
-			{
-				"name": "Nathaniel LeBlanc",
-				"img": "",
-				"role": "Hardware Team Lead"
-			},
-			{
-				"name": "Abel Goodwin",
-				"img": "",
-				"role": "Flight Software Co-lead"
-			},
-			{
-				"name": "Jonathan Duplain",
-				"img": "",
-				"role": "Flight Software Co-lead"
-			},
-			{
-				"name": "Kayla Bagwell",
-				"img": "Kayla_Bagwell.png",
-				"role": "Mission Operations Co-lead"
-			},
-			{
-				"name": "Jake Haley",
-				"img": "",
-				"role": "Mission Operations Co-lead"
-			}
-		],
-		"mociMembers": [
-			{
-				"name": "Ryan Hughes",
-				"img": "",
-				"role": "Chief Engineer"
-			},
+        "moci": [
+                {
+                        "name": "Ben Pumphrey",
+                        "img": "Ben Pumphrey.JPG",
+                        "role": "Program Manager"
+                },
+                {
+                        "name": "Nick Trullos",
+                        "img": "",
+                        "role": "GNC Team Lead"
+                },
+                {
+                        "name": "Nathaniel LeBlanc",
+                        "img": "",
+                        "role": "Chief Engineer"
+                },
+                {
+                        "name": "Jonathan Duplain",
+                        "img": "",
+                        "role": "Flight Software Co-Lead"
+                },
+                {
+                        "name": "Arthur Nguyen",
+                        "img": "",
+                        "role": "Flight Software Co-Lead"
+                },
+                {
+                        "name": "Gage Kelley",
+                        "img": "",
+                        "role": "Mechanical Team Lead"
+                },
+                {
+                        "name": "Kayla Bagwell",
+                        "img": "Kayla_Bagwell.png",
+                        "role": "Mission Operations"
+                },
+                {
+                        "name": "Jake Haley",
+                        "img": "",
+                        "role": "Mission Operations Co-Lead"
+                }
+        ],
 
-			{
-				"name": "Grant Baumann",
-				"img": "",
-				"role": "GNC Team"
-			},
-			{
-				"name": "Wali Mian",
-				"img": "",
-				"role": "GNC Team"
-			},
-			{
-				"name": "Tom Robie",
-				"img": "",
-				"role": "GNC Team"
-			},
-			{
-				"name": "Vikas Katari",
-				"img": "",
-				"role": "GNC Team"
-			},
-			{
-				"name": "Randa Amedi",
-				"img": "",
-				"role": "GNC Team"
-			},
-			{
-				"name": "Bibek Bhattarai",
-				"img": "",
-				"role": "GNC Team"
-			},
-			{
-				"name": "Amulya Jain",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Arthur Nguyen",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Sanjana Arun",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Sheev Patel",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Liam Dabelstein",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Nicholas Pautler",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Braden Fuhriman",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Benjamin Parker",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Loc Le",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Arthur Nguyen",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Raghav Vikramprabhu",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Krishna Mohan",
-				"img": "",
-				"role": "Flight Software"
-			},
-			{
-				"name": "Grant Monroe",
-				"img": "",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Gage Kelley",
-				"img": "",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Ryan Tomczyk",
-				"img": "",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Will Morris",
-				"img": "",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Brian Williams",
-				"img": "brian_williams.png",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Gauge Kelley",
-				"img": "",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Nicholas Dagnino",
-				"img": "",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Thomas Mellendorf",
-				"img": "Thomas_Mellendorf.png",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Guy Kemelmakher",
-				"img": "Guy_Kemelmakher.jpg",
-				"role": "Mechanical Team"
-			},
-			{
-				"name": "Christian Jensen",
-				"img": "Christian_Jensen.jpg",
-				"role": "Software Team"
-			},
+        "mociMembers": [
+                {
+                        "name": "Grant Baumann",
+                        "img": "",
+                        "role": "GNC Team"
+                },
+                {
+                        "name": "Vikas Katari",
+                        "img": "",
+                        "role": "GNC Team"
+                },
+                {
+                        "name": "Randa Amedi",
+                        "img": "",
+                        "role": "GNC Team"
+                },
+                {
+                        "name": "Liam Dabelstein",
+                        "img": "",
+                        "role": "Flight Software"
+                },
+                {
+                        "name": "Nicholas Pautler",
+                        "img": "",
+                        "role": "Flight Software"
+                },
+                {
+                        "name": "Braden Fuhriman",
+                        "img": "",
+                        "role": "Flight Software"
+                },
+                {
+                        "name": "Benjamin Parker",
+                        "img": "",
+                        "role": "Flight Software"
+                },
+                {
+                        "name": "Cody Le",
+                        "img": "",
+                        "role": "Flight Software"
+                },
+                {
+                        "name": "Krishna Sripathi",
+                        "img": "",
+                        "role": "Flight Software"
+                },
+                {
+                        "name": "Grant Monroe",
+                        "img": "",
+                        "role": "Mechanical Team"
+                },
+                {
+                        "name": "Ryan Tomczyk",
+                        "img": "",
+                        "role": "Mechanical Team"
+                },
+                {
+                        "name": "Nicholas Dagnino",
+                        "img": "",
+                        "role": "Mechanical Team"
+                },
+                {
+                        "name": "Jordan Williams",
+                        "img": "",
+                        "role": "Hardware Team"
+                },
+                {
+                        "name": "Ahmed Guler",
+                        "img": "",
+                        "role": "Mission Operations"
+                },
+                {
+                        "name": "Shreeya Movva",
+                        "img": "",
+                        "role": "Mission Operations"
+                }
+        ],
 
-			{
-				"name": "Mihir Joshi",
-				"img": "",
-				"role": "Software Team"
-			},
-			{
-				"name": "Tyler Cook",
-				"img": "",
-				"role": "Hardware Team"
-			},
-			{
-				"name": "Jordan Williams",
-				"img": "",
-				"role": "Hardware team"
-			},
-			{
-				"name": "Liam Riley",
-				"img": "",
-				"role": "Mission Operations"
-			},
-			{
-				"name": "Ahmed Guler",
-				"img": "",
-				"role": "Mission Operations"
-			},
-			{
-				"name": "Shreeya Movva",
-				"img": "",
-				"role": "Mission Operations"
-			},
-			{
-				"name": "Sean Ray",
-				"img": "",
-				"role": "MOCI FSW"
-			}
-		],
 		"cosmo": [
 			{
 				"name": "Samuel Lemus",
