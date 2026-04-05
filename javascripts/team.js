@@ -1,9 +1,9 @@
-
 $(function () {
 	// handles menu toggle for who we are page (mobile = anything less than 700px wide)
 	const mediaQuery = window.matchMedia("(max-width: 700px)");
 	const mobileToggle = document.getElementById("toggle");
 	let mobileMenu = document.getElementById("tab-container");
+
 	function handleToggle() {
 		console.log("button clicl");
 		if (mobileMenu.style.display === "none") {
@@ -12,31 +12,57 @@ $(function () {
 			mobileMenu.style.display = "none";
 		}
 	}
-	mobileToggle.addEventListener("click", handleToggle);
+
+	if (mobileToggle) {
+		mobileToggle.addEventListener("click", handleToggle);
+	}
+
 	//if screen size is no longer < 700px then show the the tabs
 	mediaQuery.addEventListener("change", function () {
 		if (!mediaQuery.matches) {
 			mobileMenu.style.display = "flex";
 		}
 	});
-	/*event listener for team's slide show that change
-  tab color based on selection */
+
+	/* event listener for team's slide show that change
+	   tab color based on selection */
 	const myCarousel = document.getElementById("slideshow");
 	const whichSlide = document.getElementById("selection"); //the text that shows next to the toggle on mobile
 
-	//after a page change; chnage tab colors to show active tab
-	myCarousel.addEventListener("slide.bs.carousel", (event) => {
+	function setTabStyles(activeIndex) {
 		let allTabs = document.getElementsByClassName("team-tab");
-		let currentTab = allTabs[event.to];
-		let prevTab = allTabs[event.from];
-		currentTab.style.backgroundColor = "goldenrod";
-		prevTab.style.backgroundColor = "gray";
-		whichSlide.innerHTML = currentTab.innerText; //tracks selection in case user switches to smaller screen
-		//auto close the mobile menu after switching slides
-		if (mediaQuery.matches) {
-			mobileMenu.style.display = "none";
+
+		for (let i = 0; i < allTabs.length; i++) {
+			allTabs[i].style.backgroundColor = "white";
+			allTabs[i].style.color = "black";
+			allTabs[i].classList.remove("active");
 		}
-	});
+
+		if (allTabs[activeIndex]) {
+			allTabs[activeIndex].style.backgroundColor = "white";
+			allTabs[activeIndex].style.color = "black";
+			allTabs[activeIndex].classList.add("active");
+
+			if (whichSlide) {
+				whichSlide.innerHTML = allTabs[activeIndex].innerText;
+			}
+		}
+	}
+
+	if (myCarousel) {
+		// after a page change; change tab colors to show active tab
+		myCarousel.addEventListener("slide.bs.carousel", (event) => {
+			setTabStyles(event.to);
+
+			// auto close the mobile menu after switching slides
+			if (mediaQuery.matches) {
+				mobileMenu.style.display = "none";
+			}
+		});
+	}
+
+	// set default active tab on page load
+	setTabStyles(0);
 
 	$.getJSON("/json/team.json", function (data) {
 		//populate principleinvestigators
@@ -118,7 +144,7 @@ $(function () {
 		for (let i = 0; i < data.team.LEARNSatTeam.length; i++) {
 			createMemberExtraContent(data.team.LEARNSatTeam[i], "#section-LEARNSatTeam");
 		}
-		//populate data team members
+		//populate Learn members
 		for (let i = 0; i < data.team.LEARNSatMembers.length; i++) {
 			createMember(data.team.LEARNSatMembers[i], "#section-LEARNSatMembers");
 		}
@@ -130,10 +156,6 @@ $(function () {
 				"#section-associatedfaculty"
 			);
 		}
-		//populate intern members
-		//for (let i = 0; i < data.team.intern.length; i++) {
-		//  createMember(data.team.intern[i], "#section-intern");
-		// }
 		// populate alumni
 		for (let i = 0; i < data.team.alumni2019.length; i++) {
 			createMember(data.team.alumni2019[i], "#section-alumni2019");
@@ -157,12 +179,6 @@ $(function () {
 function createMemberExtraContent(member, sectionid) {
 	var d = member;
 	var profileBoi = document.createElement("span");
-	// var profilelink = document.createElement("a");
-	//
-	// //set link if json has 'link' key
-	// if (d.hasOwnProperty("link")) {
-	//   profilelink.setAttribute("href",d.link);
-	// }
 
 	var profileHeader = document.createElement("div");
 	profileHeader.setAttribute("class", "profile");
@@ -174,6 +190,7 @@ function createMemberExtraContent(member, sectionid) {
 	} else {
 		profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/" + d.img);
 	}
+	profileHeaderImage.setAttribute("alt", d.name + " headshot");
 
 	var profileHeaderName = document.createElement("span");
 	profileHeaderName.setAttribute("class", "name");
@@ -205,7 +222,6 @@ function createMemberExtraContent(member, sectionid) {
 		profileHeader.appendChild(profileHeaderTitle);
 	}
 	profileBoi.appendChild(profileHeader);
-	// profilelink.appendChild(profileHeader);
 	$(sectionid).append(profileBoi);
 }
 
@@ -231,13 +247,13 @@ function createMember(member, sectionid) {
 	} else {
 		profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/" + d.img);
 	}
+	profileHeaderImage.setAttribute("alt", d.name + " headshot");
 
 	var profileHeaderName = document.createElement("span");
 	profileHeaderName.setAttribute("class", "name");
 	profileHeaderName.innerHTML = d.name;
 
 	//append elements
-	//let profileHeaderImage = document.createElement("span")
 	profileHeaderImage.innerHTML = "<div class ='crop'>";
 	profileHeader.appendChild(profileHeaderImage);
 	profileHeaderImage.setAttribute("class", "rounded");
