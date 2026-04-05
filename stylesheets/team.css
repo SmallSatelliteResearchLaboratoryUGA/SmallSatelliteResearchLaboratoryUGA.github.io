@@ -33,6 +33,9 @@ button:focus{
 .labLeads {
   text-align: center;
 }
+.labLeads .section {
+  margin-bottom: 30px;
+}
 #mobile-toggle {
   display: none;
 
