@@ -1,1 +1,7 @@
 lab_app_link: "https://docs.google.com/forms/d/e/1FAIpQLSdMbivOgmDy3rj0YMjwWk5RLQpv_ylXxNlYugfCcLzv3Os53w/viewform?usp=sf_link"
+
+# temporary:
+exclude:
+  - node_modules
+  - vendor
+  - missions(old).html
