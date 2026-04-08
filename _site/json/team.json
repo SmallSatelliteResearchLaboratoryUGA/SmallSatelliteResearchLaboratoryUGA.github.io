@@ -3,7 +3,7 @@
 		"principleinvestigators": [
 			{
 				"name": "Dr. Deepak Mishra",
-				"img": "deepak_mishra.jpg",
+				"img": "deepak_mishra_2026.jpg",
 				"major": "",
 				"role": "Director - dmishra@uga.edu",
 				"bio": "Dr. Mishra is an Associate Professor in the Center for Geospatial Research in the Geography Department. He specializes in the application of geospatial science including remote sensing, GIS, and GPS to coastal environments. Dr. Mishra’s broad research interests are: Remote Sensing of Wetlands, Estuaries, Coastal and Open Ocean Waters Remote Sensing in Monitoring Global Climate Change Ocean Optics and Satellite Oceanography. He envisions a permanent Small Sat Research Lab at the University of Georgia.",
@@ -13,13 +13,13 @@
 		],
 		"labmanagers": [
 			{
-				"name": "Sydney Whilden",
-				"img": "Sydney_Whilden.png",
-				"major": "Astronomy and Physics /  Comparative Literature",
+				"name": "Nancy K. O’Hare",
+				"img": "Nancy_OHare.png",
+				"major": "PhD Geography, MSc Biology, BSc Microbiology",
 				"role": "Lab Manager",
-				"bio": "Sydney is a third year student on the Mission Operations team, where her responsibilities largely include researching and building simulations in order to investigate risks and possibilities associated with the SPOC and MOCI missions. She is passionately interested in both science and literature. Some of her particular fascinations are astrophysics, cosmology, and speculative fiction. Her preferred career might include academic research, teaching, or working for NASA, possibly while writing sci-fi on the side. She plays rugby with the UGA Women's Rugby Football Club, where her responsibilities are more along the lines of knocking people over. She loves kombucha and Criminal Minds, and is powerless to resist a cat in need of attention.",
+				"bio": "Connecting science/technology to real-world outcomes",
 				"id": "",
-				"link": "/images/documents/cv/sydney_whilden_onlinecv.pdf"
+				"link": "/images/documents/cv/O'Hare_Resume_202602.pdf"
 			}
 		],
 		"memeSat": [

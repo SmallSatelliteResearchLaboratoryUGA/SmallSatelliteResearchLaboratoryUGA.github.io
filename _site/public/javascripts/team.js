@@ -93,6 +93,7 @@ function createMemberExtraContent(member, sectionid) {
   } else {
     profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/" + d.img);
   }
+  profileHeaderImage.setAttribute("alt", d.name + " headshot");
 
   var profileHeaderName = document.createElement("span");
   profileHeaderName.setAttribute("class", "name");
@@ -151,6 +152,7 @@ function createMember(member, sectionid) {
   } else {
     profileHeaderImage.setAttribute("src", "/images/SSRLProfiles/" + d.img);
   }
+  profileHeaderImage.setAttribute("alt", d.name + " headshot");
 
   var profileHeaderName = document.createElement("span");
   profileHeaderName.setAttribute("class", "name");

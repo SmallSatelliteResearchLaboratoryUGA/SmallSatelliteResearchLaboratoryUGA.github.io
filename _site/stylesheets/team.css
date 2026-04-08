@@ -33,6 +33,9 @@ button:focus{
 .labLeads {
   text-align: center;
 }
+.labLeads .section {
+  margin-bottom: 30px;
+}
 #mobile-toggle {
   display: none;
 
@@ -48,8 +51,8 @@ button:focus{
 }
 
 .team-tab {
-  background-color: gray;
-  color: white;
+  background-color: white !important;
+  color: black !important;
   border: 2px solid goldenrod;
   /* float: left; */
   outline: none;
@@ -59,8 +62,9 @@ button:focus{
   /* width: 25%; */
   flex-grow: 1;
 }
-button .active {
-  background-color: goldenrod;
+.team-tab.active {
+  background-color: white !important;
+  color: black !important;
 }
 .carousel-inner {
   border: 2px solid goldenrod;
@@ -183,8 +187,8 @@ align-self: center;
 }
 .profile .title {
   width: 120px;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 14px;
+  line-height: 18px;
   color: #7e7e7e;
   text-align: center;
 }
@@ -247,10 +251,10 @@ p {
     display: flex;
     align-items: baseline;
   }
-  
+
 } else{
   #tab-container {
     display: flex;
     flex-direction: row;
   }
-} 
+}
