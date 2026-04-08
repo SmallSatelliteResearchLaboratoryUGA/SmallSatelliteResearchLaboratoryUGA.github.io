@@ -95,7 +95,7 @@ h1{
   font-size: 12px;
   width: 200px;
   margin-right: 40px;
-  color: #7e7e7e;
+  color: black;
 }
 .img-container{
   display: block;
@@ -153,6 +153,6 @@ select:after{
     font-size: 12px;
     width: 200px;
     margin-right: 20px;
-    color: #7e7e7e;
+    color: black;
   }
 }
