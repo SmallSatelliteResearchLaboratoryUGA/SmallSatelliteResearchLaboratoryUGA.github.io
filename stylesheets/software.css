@@ -34,16 +34,25 @@
 }
 
 .software-list {
-  color: #7e7e7e;
+  color: white;
   font-size: 0.8rem;
   list-style-type: circle;
 
 }
 
 .software-list li{
-  color: #7e7e7e;
+  color: white;
   font-size: 0.8rem;
   display: block;
+}
+
+.software-list a{
+  color: #05f8fc;
+}
+
+.software-list a:hover{
+  color: #05f8fc;
+  opacity: 0.8;
 }
 
 .software-list-status {
@@ -53,4 +62,13 @@
 
 .software-list-status li{
   font-size: 0.8rem;
+}
+
+.software-list-status a{
+  color: #05f8fc;
+}
+
+.software-list-status a:hover{
+  color: #05f8fc;
+  opacity: 0.8;
 }
