@@ -42,8 +42,10 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-
-
+	z-index: 2;
+}
+.partner-box:hover .guide-text {
+	color: white;
 }
 
 .overlay .partner-text{
@@ -71,4 +73,7 @@
   }
   .partner-box:hover .overlay {
 	opacity: 1;
+  }
+  .partner-box:hover .overlay .partner-text {
+	color: white;
   }
