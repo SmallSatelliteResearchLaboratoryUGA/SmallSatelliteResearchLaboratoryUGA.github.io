@@ -1,0 +1,33 @@
+Removed from json/research.json, 
+for accessibility reasons:
+
+		{
+			"title": "Spectral Ocean Color Satellite ",
+			"img": "UGAWorkshop2017CubeSatDeveloper.jpg",
+			"src": "/images/documents/presentations/UGAWorkshop2017CubeSatDeveloper.pdf",
+			"tags": "presentation",
+			"authors": "David L. Cotten PhD, Caleb Adams, Deepak Mishra PhD, Nicholas (Hollis) Neel, Graham Grable, and Khoa Ngo",
+			"subTitle": "CubeSat Developers Workshop, San Luis Obispo, CA",
+			"date": "April 26, 2017 ",
+			"year": "2017"
+		},
+        		{
+			"title": "Multi View Tech Demonstration",
+			"img": "normals.png",
+			"src": "/images/documents/presentations/MOCI_Software_Demo2018.pdf",
+			"authors": "C. Adams, J. Parker, D.L. Cotten",
+			"tags": "software Demonstration",
+			"subTitle": "Symposium on Space Innovation, Atlanta, GA",
+			"date": "November 14th, 2018",
+			"year": "2018"
+		},
+        		{
+			"title": "The Spectral Ocean Color Satellite: A Pre-Integration, Post Critical Design Review Overview",
+			"img": "spoc.jpg",
+			"src": "/images/documents/presentations/SPOC_Design_Review.pdf",
+			"authors": "Hollis Neel, David L. Cotten Phd",
+			"tags": "presentation",
+			"subTitle": "Symposium on Space Innovation, Atlanta, GA",
+			"date": "November 13th, 2018",
+			"year": "2018"
+		},
