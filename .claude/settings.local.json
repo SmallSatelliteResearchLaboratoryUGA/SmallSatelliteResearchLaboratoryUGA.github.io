@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm ls:*)",
+      "Bash(ffmpeg -version)",
+      "Bash(where.exe ffmpeg *)",
+      "Read(//c/ProgramData/chocolatey/bin/**)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/baine/AppData/Local/Microsoft/WinGet/Packages/**)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "WebFetch(domain:smallsat.uga.edu)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -sIL \"https://smallsatelliteresearchlaboratoryuga.github.io/\")",
+      "Bash(curl -sL \"https://smallsatelliteresearchlaboratoryuga.github.io/\")",
+      "Bash(git remote *)",
+      "Bash(git config *)"
+    ]
+  }
+}
