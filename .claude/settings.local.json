@@ -16,7 +16,8 @@
       "Bash(curl -sIL \"https://smallsatelliteresearchlaboratoryuga.github.io/\")",
       "Bash(curl -sL \"https://smallsatelliteresearchlaboratoryuga.github.io/\")",
       "Bash(git remote *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Read(//c/Users/baine/AppData/Local/Temp/claude/C--Users-baine-Downloads-CODE-personal-SmallSatelliteResearchLaboratoryUGA-github-io/f61b01df-ed6f-4a8a-94c0-2eb68bce1cfd/tasks/**)"
     ]
   }
 }
