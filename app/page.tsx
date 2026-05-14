@@ -1,6 +1,7 @@
 import HeroSection from "@/app/components/home/HeroSection";
 import MissionSection from "@/app/components/home/MissionSection";
 import AboutSection from "@/app/components/home/AboutSection";
+import StatsSection from "@/app/components/home/StatsSection";
 import CubeSatSection from "@/app/components/home/CubeSatSection";
 import ComponentsSection from "@/app/components/home/ComponentsSection";
 import JoinSection from "@/app/components/home/JoinSection";
@@ -15,6 +16,8 @@ export default function Page() {
       <MissionSection />
       <SectionDivider />
       <AboutSection />
+      <SectionDivider />
+      <StatsSection />
       <SectionDivider />
       <CubeSatSection />
       <SectionDivider />
