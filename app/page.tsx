@@ -6,6 +6,7 @@ import CubeSatSection from "@/app/components/home/CubeSatSection";
 import ComponentsSection from "@/app/components/home/ComponentsSection";
 import JoinSection from "@/app/components/home/JoinSection";
 import SectionDivider from "@/app/components/home/SectionDivider";
+import FadeInSection from "@/app/components/home/FadeInSection";
 import Footer from "@/app/components/Footer";
 
 export default function Page() {
@@ -13,19 +14,33 @@ export default function Page() {
     <div className="bg-[#050508] text-white overflow-x-clip">
       <HeroSection />
       <SectionDivider />
-      <MissionSection />
+      <FadeInSection>
+        <MissionSection />
+      </FadeInSection>
       <SectionDivider />
-      <AboutSection />
+      <FadeInSection>
+        <AboutSection />
+      </FadeInSection>
       <SectionDivider />
-      <StatsSection />
+      <FadeInSection>
+        <StatsSection />
+      </FadeInSection>
       <SectionDivider />
-      <CubeSatSection />
+      <FadeInSection>
+        <CubeSatSection />
+      </FadeInSection>
       <SectionDivider />
-      <ComponentsSection />
+      <FadeInSection>
+        <ComponentsSection />
+      </FadeInSection>
       <SectionDivider />
-      <JoinSection />
+      <FadeInSection>
+        <JoinSection />
+      </FadeInSection>
       <SectionDivider />
-      <Footer />
+      <FadeInSection>
+        <Footer />
+      </FadeInSection>
     </div>
   );
 }
