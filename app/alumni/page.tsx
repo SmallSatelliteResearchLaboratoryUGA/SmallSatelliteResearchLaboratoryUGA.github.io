@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import SectionDivider from "@/app/components/home/SectionDivider";
 
 interface Member {
   name: string;
@@ -14,7 +15,17 @@ interface AlumniEntry {
   member: Member;
 }
 
-const alumniYears = ["2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016"];
+const alumniYears = [
+  "2024",
+  "2023",
+  "2022",
+  "2021",
+  "2020",
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+];
 
 function ProfileCard({ member }: { member: Member }) {
   const imgSrc = member.img
@@ -22,17 +33,19 @@ function ProfileCard({ member }: { member: Member }) {
     : "/images/SSRLProfiles/default.png";
 
   const card = (
-    <div className="flex flex-col justify-center items-center w-[180px] h-[180px] mb-5">
-      <img
-        src={imgSrc}
-        alt={member.name}
-        className="h-[120px] w-[120px] rounded-full object-cover object-top mb-[10px]"
-      />
-      <span className="text-[#f4f4f4] text-center text-[14px] mx-[2px]">
+    <div className="group flex flex-col items-center text-center w-[180px] p-4 rounded-2xl border border-white/25 bg-white/[0.10] hover:border-[rgba(255,45,92,0.55)] hover:bg-white/[0.14] transition duration-300">
+      <div className="mb-3">
+        <img
+          src={imgSrc}
+          alt={member.name}
+          className="h-[120px] w-[120px] rounded-full object-cover object-top border border-white/20 transition duration-300"
+        />
+      </div>
+      <span className="text-white text-[14px] font-medium leading-snug">
         {member.name}
       </span>
       {member.role && (
-        <span className="w-[120px] text-[10px] leading-[12px] text-[#7e7e7e] text-center">
+        <span className="mt-1 text-[11px] leading-[14px] text-white/70 px-1">
           {member.role}
         </span>
       )}
@@ -41,7 +54,12 @@ function ProfileCard({ member }: { member: Member }) {
 
   if (member.link) {
     return (
-      <a href={member.link} target="_blank" rel="noopener noreferrer" className="cursor-pointer no-underline">
+      <a
+        href={member.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="cursor-pointer no-underline"
+      >
         {card}
       </a>
     );
@@ -72,55 +90,86 @@ export default function AlumniPage() {
   }, []);
 
   const filtered =
-    filter === "Everyone"
-      ? alumni
-      : alumni.filter((a) => a.year === filter);
+    filter === "Everyone" ? alumni : alumni.filter((a) => a.year === filter);
 
   return (
-    <>
-      {/* Hero banner */}
-      <div
-        className="w-full bg-cover bg-center"
-        style={{ backgroundImage: "url(/images/SSRLProfiles/team-bigteamfam.png)" }}
-      >
-        <div className="flex justify-center items-center h-[475px] bg-black/75 px-10">
-          <p className="text-[#f4f4f4] text-[16px] leading-[24px] max-w-[900px] text-left">
-            The Alumni of the UGA SSRL, with their hard work and dedication,
-            have shaped the organization into what it is today. Without them,
-            UGA&apos;s space program would not exist. We thank them for their time
-            and continued support.
+    <div className="bg-[#050508] text-white overflow-x-clip">
+      {/* Hero */}
+      <section className="min-h-[calc(100vh-76px)] flex items-center justify-center relative overflow-hidden text-center border-b border-white/10 px-4 py-24">
+        <img
+          src="/images/SSRLProfiles/team-bigteamfam.png"
+          alt=""
+          aria-hidden
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/55 to-[#050508] pointer-events-none" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(186,12,47,0.25),transparent_60%)] pointer-events-none" />
+        <div className="relative z-10 max-w-4xl">
+          <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff2d5c] [text-shadow:0_0_10px_rgba(255,45,92,0.7)] mb-4 animate-in fade-in slide-in-from-top-4 duration-1000 fill-mode-both">
+            The People Who Built This
+          </p>
+          <h1 className="text-5xl md:text-7xl mb-6 leading-tight animate-in fade-in slide-in-from-top-8 duration-1000 fill-mode-both">
+            Alumni
+          </h1>
+          <p className="text-lg md:text-xl text-white/85 leading-8 max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
+            With their hard work and dedication, SSRL alumni have shaped the
+            organization into what it is today. Without them, UGA&apos;s space
+            program would not exist.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className="max-w-[90%] mx-auto px-[15px]">
-        <h1 className="text-[#f4f4f4] text-[35px] m-[10px] pb-[5px]">Alumni</h1>
+      <SectionDivider />
 
-        {/* Year filter buttons */}
-        <ul className="flex flex-wrap justify-center text-center p-0 mb-10 list-none">
-          {["Everyone", ...alumniYears].map((year) => (
-            <li key={year} className="inline">
-              <button
-                onClick={() => setFilter(year)}
-                className={`px-[26px] py-[10px] border-none cursor-pointer text-[16px] ${
-                  filter === year
-                    ? "text-[#10141e] bg-[#f4f4f4] rounded-[50px]"
-                    : "text-[#f4f4f4] bg-transparent"
-                }`}
-              >
-                {year}
-              </button>
-            </li>
-          ))}
-        </ul>
+      {/* Alumni browser */}
+      <section className="py-20 px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl md:text-5xl text-center mb-4">
+              Browse by Year
+            </h2>
+            <p className="text-center text-white/70 mb-10 max-w-2xl mx-auto">
+              Filter by the year alumni graduated from the lab.
+            </p>
 
-        {/* Alumni profiles */}
-        <div className="flex justify-center flex-wrap">
-          {filtered.map((a) => (
-            <ProfileCard key={`${a.year}-${a.member.name}`} member={a.member} />
-          ))}
-        </div>
-      </div>
-    </>
+            {/* Year filter pills */}
+            <div className="flex flex-wrap justify-center gap-2 mb-10">
+              {["Everyone", ...alumniYears].map((year) => {
+                const active = filter === year;
+                return (
+                  <button
+                    key={year}
+                    onClick={() => setFilter(year)}
+                    className={`cursor-pointer px-4 py-2 text-sm md:text-base rounded-full border transition ${
+                      active
+                        ? "bg-[#BA0C2F] border-[#BA0C2F] text-white shadow-[0_0_20px_rgba(186,12,47,0.5)]"
+                        : "bg-white/[0.04] border-white/15 text-white/85 hover:border-[rgba(255,45,92,0.5)] hover:text-white"
+                    }`}
+                  >
+                    {year}
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Alumni grid */}
+            <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 md:p-10">
+              {filtered.length === 0 ? (
+                <p className="text-center text-white/60 py-4">
+                  No alumni listed for this year.
+                </p>
+              ) : (
+                <div className="flex justify-center flex-wrap gap-4">
+                  {filtered.map((a) => (
+                    <ProfileCard
+                      key={`${a.year}-${a.member.name}`}
+                      member={a.member}
+                    />
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+    </div>
   );
 }
