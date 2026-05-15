@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { StarfieldBackground } from "@/components/ui/starfield";
+import SectionDivider from "@/app/components/home/SectionDivider";
 
 interface Partner {
   name: string;
@@ -64,8 +65,7 @@ const partners: Partner[] = [
     name: "Johns Hopkins APL",
     description:
       "SSRL is working with APL on advancing advanced processors in the space environment",
-    image:
-      "/images/logos/realjhapl.jpg",
+    image: "/images/logos/realjhapl.jpg",
     href: "https://www.jhuapl.edu/",
   },
   {
@@ -77,7 +77,13 @@ const partners: Partner[] = [
   },
 ];
 
-function PartnerCard({ partner, className = "" }: { partner: Partner; className?: string }) {
+function PartnerCard({
+  partner,
+  className = "",
+}: {
+  partner: Partner;
+  className?: string;
+}) {
   const isExternal = partner.image.startsWith("http");
 
   return (
@@ -95,7 +101,10 @@ function PartnerCard({ partner, className = "" }: { partner: Partner; className?
         {/* Front — logo */}
         <div
           className="absolute inset-0 bg-white rounded-[10%] shadow-[0_2px_6px_1px_#000000] p-8 overflow-hidden"
-          style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden" }}
+          style={{
+            backfaceVisibility: "hidden",
+            WebkitBackfaceVisibility: "hidden",
+          }}
         >
           <div className="relative w-full h-full">
             {isExternal ? (
@@ -114,7 +123,6 @@ function PartnerCard({ partner, className = "" }: { partner: Partner; className?
               />
             )}
           </div>
-
         </div>
 
         {/* Back — description */}
@@ -144,35 +152,53 @@ export default function PartnersPage() {
   return (
     <>
       <StarfieldBackground />
-      <section className="relative z-10 max-w-[1140px] mx-auto px-4 pt-4 pb-8">
-      <Image
-        src="/images/logos/ssrl_logo_long-new.png"
-        alt="Small Satellite Research Laboratory"
-        width={800}
-        height={200}
-        className="w-full h-auto mb-3"
-        unoptimized
-      />
 
-      <h1 className="text-center my-[42px] text-[33px]">
-        Thank You To Our Partners and Affiliates!
-      </h1>
+      <div className="relative z-10 text-white overflow-x-clip">
+        {/* Hero */}
+        <section className="min-h-[calc(100vh-76px)] flex items-center justify-center relative overflow-hidden text-center border-b border-white/10 px-4 py-24">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(186,12,47,0.18),transparent_60%)] pointer-events-none" />
+          <div className="relative z-10 max-w-4xl">
+            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff2d5c] [text-shadow:0_0_10px_rgba(255,45,92,0.7)] mb-4 animate-in fade-in slide-in-from-top-4 duration-1000 fill-mode-both">
+              The People Behind Our Work
+            </p>
+            <h1 className="text-5xl md:text-7xl mb-6 leading-tight animate-in fade-in slide-in-from-top-8 duration-1000 fill-mode-both">
+              Partners & Affiliates
+            </h1>
+            <p className="text-lg md:text-xl text-white/85 leading-8 max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
+              SSRL would not exist without the agencies, programs, and
+              organizations that fund, host, and collaborate with us. Thank you.
+            </p>
+          </div>
+        </section>
 
-      {/* 3-column grid matching original partner-grid */}
-      <div className="grid grid-cols-1 md:grid-cols-[repeat(3,250px)] gap-8 justify-center">
-        {partners.map((partner, index) => (
-          <PartnerCard
-            key={partner.name}
-            partner={partner}
-            className={
-              index === partners.length - 1 && partners.length % 3 === 1
-                ? "md:col-start-2"
-                : ""
-            }
-          />
-        ))}
+        <SectionDivider />
+
+        {/* Partner grid */}
+        <section className="py-20 px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <p className="text-sm uppercase tracking-[0.25em] text-[#ff2d5c] [text-shadow:0_0_10px_rgba(255,45,92,0.6)] mb-3">
+                Hover to learn more
+              </p>
+              <h2 className="text-3xl md:text-4xl">Who We Work With</h2>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-[repeat(3,250px)] gap-8 justify-center">
+              {partners.map((partner, index) => (
+                <PartnerCard
+                  key={partner.name}
+                  partner={partner}
+                  className={
+                    index === partners.length - 1 && partners.length % 3 === 1
+                      ? "md:col-start-2"
+                      : ""
+                  }
+                />
+              ))}
+            </div>
+          </div>
+        </section>
       </div>
-      </section>
     </>
   );
 }
