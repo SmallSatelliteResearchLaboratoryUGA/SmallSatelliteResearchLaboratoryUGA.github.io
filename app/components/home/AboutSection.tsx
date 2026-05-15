@@ -19,7 +19,7 @@ export default function AboutSection() {
           research, student involvement, and community enrichment.
         </p>
 
-        <div className="flex justify-center items-center gap-8 md:gap-16 mt-8 flex-wrap p-8 bg-white/5 rounded-[20px] border border-[rgba(138,159,252,0.55)]">
+        <div className="flex justify-center items-center gap-8 md:gap-16 mt-8 flex-wrap p-8 bg-white/5 rounded-[20px] border border-[rgba(186,12,47,0.55)]">
           <img
             src="/images/logos/air_force_logo.png"
             alt="Air Force Logo"
