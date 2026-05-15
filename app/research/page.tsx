@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import SectionDivider from "@/app/components/home/SectionDivider";
 
 interface ResearchItem {
   title: string;
@@ -45,33 +46,29 @@ function DocumentCard({ item }: { item: ResearchItem }) {
       href={item.src.startsWith("/") ? item.src : `/${item.src}`}
       target="_blank"
       rel="noopener noreferrer"
-      className="cursor-pointer flex w-full bg-white shadow-[0_2px_4px_0px_rgba(0,0,0,0.4)] hover:shadow-[0_4px_8px_0px_rgba(0,0,0,0.4)] active:shadow-[0_1px_1px_0_rgba(0,0,0,0.5)] transition-shadow my-2 no-underline"
+      className="group block rounded-2xl border border-white/15 bg-white/[0.06] hover:border-[rgba(255,45,92,0.45)] hover:bg-white/[0.10] transition duration-300 overflow-hidden"
     >
-      <div className="flex">
-        {/* Thumbnail — hidden on mobile */}
+      <div className="flex flex-col md:flex-row">
         {thumbnailSrc && (
           <div
-            className="hidden md:block min-h-[160px] min-w-[160px] bg-cover bg-center bg-no-repeat shrink-0"
+            className="hidden md:block min-h-[180px] w-[180px] shrink-0 bg-cover bg-center bg-no-repeat border-r border-white/10 transition duration-500 group-hover:scale-[1.02]"
             style={{ backgroundImage: `url(${thumbnailSrc})` }}
           />
         )}
 
-        {/* Content */}
-        <div className="p-[18px_24px]">
-          <div className="text-[12px] text-black mb-1">{item.authors}</div>
-          <div className="text-[20px] font-bold text-black mb-[18px] leading-tight">
+        <div className="flex-1 min-w-0 p-5 md:p-6">
+          {item.authors && (
+            <div className="text-xs uppercase tracking-[0.15em] text-white/60 mb-2">
+              {item.authors}
+            </div>
+          )}
+          <h3 className="text-lg md:text-xl text-white mb-3 leading-snug group-hover:text-[#ff2d5c] transition">
             {item.title}
-          </div>
-          <div className="flex flex-col md:flex-row">
-            {item.subTitle && (
-              <div className="text-[12px] text-black w-[200px] mr-10">
-                {item.subTitle}
-              </div>
-            )}
+          </h3>
+          <div className="flex flex-col md:flex-row md:items-center md:gap-6 text-sm text-white/75">
+            {item.subTitle && <div>{item.subTitle}</div>}
             {item.date && (
-              <div className="text-[12px] text-black w-[200px] mr-10">
-                {item.date}
-              </div>
+              <div className="text-white/60">{item.date}</div>
             )}
           </div>
         </div>
@@ -110,44 +107,90 @@ export default function ResearchPage() {
     .filter((group) => group.docs.length > 0);
 
   return (
-    <>
-      <section className="relative z-10 max-w-[1140px] mx-auto px-4 pt-12 pb-8">
-      <h2 className="text-center mb-8">Our Publications and Research</h2>
-
-      {/* Filter bar */}
-      <div className="flex justify-center mb-10 flex-col md:flex-row gap-4 md:gap-0">
-        <input
-          type="text"
-          placeholder="Search..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          className="text-[20px] py-2 px-2 md:w-[300px] w-full border-b-2 border-white border-t-0 border-l-0 border-r-0 bg-[#10141e] text-white md:mr-5 outline-none"
-        />
-        <select
-          value={tag}
-          onChange={(e) => setTag(e.target.value)}
-          className="text-[20px] py-2 border-b-2 border-white border-t-0 border-l-0 border-r-0 bg-[#10141e] text-white outline-none rounded-none"
-        >
-          {filterOptions.map((opt) => (
-            <option key={opt.value} value={opt.value}>
-              {opt.label}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      {/* Documents grouped by year */}
-      {groupedByYear.map(({ year, docs }) => (
-        <div key={year}>
-          <h1 className="mt-6 text-white">{year}</h1>
-          <div className="flex flex-col w-full">
-            {docs.map((item, i) => (
-              <DocumentCard key={`${year}-${i}`} item={item} />
-            ))}
-          </div>
+    <div className="bg-[#050508] text-white overflow-x-clip">
+      {/* Hero */}
+      <section className="min-h-[calc(100vh-76px)] flex items-center justify-center relative overflow-hidden text-center border-b border-white/10 px-4 py-24">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(186,12,47,0.18),transparent_60%)] pointer-events-none" />
+        <div className="relative z-10 max-w-4xl">
+          <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff2d5c] [text-shadow:0_0_10px_rgba(255,45,92,0.7)] mb-4 animate-in fade-in slide-in-from-top-4 duration-1000 fill-mode-both">
+            Our Work
+          </p>
+          <h1 className="text-5xl md:text-7xl mb-6 leading-tight animate-in fade-in slide-in-from-top-8 duration-1000 fill-mode-both">
+            Publications & Research
+          </h1>
+          <p className="text-lg md:text-xl text-white/80 leading-8 max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
+            Theses, papers, conference proceedings, posters, and presentations
+            from a decade of student and faculty research at SSRL.
+          </p>
         </div>
-      ))}
       </section>
-    </>
+
+      <SectionDivider />
+
+      <section className="py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          {/* Filter bar */}
+          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 md:p-6 mb-10">
+            <div className="flex flex-col gap-4">
+              <input
+                type="text"
+                placeholder="Search by title, author, or date…"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="w-full px-4 py-3 rounded-full border border-white/20 bg-white/[0.06] text-white placeholder:text-white/50 focus:outline-none focus:border-[rgba(255,45,92,0.6)] focus:bg-white/[0.10] transition"
+              />
+              <div className="flex flex-wrap gap-2">
+                {filterOptions.map((opt) => {
+                  const active = tag === opt.value;
+                  return (
+                    <button
+                      key={opt.value}
+                      onClick={() => setTag(opt.value)}
+                      className={`cursor-pointer px-4 py-2 text-sm md:text-base rounded-full border transition ${
+                        active
+                          ? "bg-[#BA0C2F] border-[#BA0C2F] text-white shadow-[0_0_20px_rgba(186,12,47,0.5)]"
+                          : "bg-white/[0.04] border-white/15 text-white/85 hover:border-[rgba(255,45,92,0.5)] hover:text-white"
+                      }`}
+                    >
+                      {opt.label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          {/* Documents grouped by year */}
+          {items.length === 0 ? (
+            <p className="text-center text-white/60">Loading publications…</p>
+          ) : groupedByYear.length === 0 ? (
+            <p className="text-center text-white/60">
+              No publications match your filters.
+            </p>
+          ) : (
+            <div className="flex flex-col gap-12">
+              {groupedByYear.map(({ year, docs }) => (
+                <div key={year}>
+                  <div className="flex items-center gap-4 mb-6">
+                    <h2 className="text-3xl md:text-4xl text-[#ff2d5c] [text-shadow:0_0_10px_rgba(255,45,92,0.6)]">
+                      {year}
+                    </h2>
+                    <div className="flex-1 h-px bg-white/15" />
+                    <span className="text-sm text-white/60 tabular-nums">
+                      {docs.length} {docs.length === 1 ? "item" : "items"}
+                    </span>
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    {docs.map((item, i) => (
+                      <DocumentCard key={`${year}-${i}`} item={item} />
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+    </div>
   );
 }
