@@ -150,12 +150,10 @@ function PartnerCard({
 
 export default function PartnersPage() {
   return (
-    <>
-      <StarfieldBackground />
-
-      <div className="relative z-10 text-white overflow-x-clip">
-        {/* Hero */}
-        <section className="min-h-[calc(100vh-76px)] flex items-center justify-center relative overflow-hidden text-center border-b border-white/10 px-4 py-24">
+    <div className="bg-[#050508] text-white overflow-x-clip">
+      {/* Hero */}
+      <section className="min-h-[calc(100vh-76px)] flex items-center justify-center relative overflow-hidden text-center border-b border-white/10 px-4 py-24">
+          <StarfieldBackground className="absolute" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(186,12,47,0.18),transparent_60%)] pointer-events-none" />
           <div className="relative z-10 max-w-4xl">
             <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff2d5c] [text-shadow:0_0_10px_rgba(255,45,92,0.7)] mb-4 animate-in fade-in slide-in-from-top-4 duration-1000 fill-mode-both">
@@ -198,7 +196,6 @@ export default function PartnersPage() {
             </div>
           </div>
         </section>
-      </div>
-    </>
+    </div>
   );
 }

@@ -53,19 +53,15 @@ export default function HeroSection() {
 
       <div ref={containerRef} className="absolute inset-0 z-[1]" />
 
-      <div className="relative z-10 px-4">
-        <h1 className="text-5xl md:text-8xl mb-4 leading-tight animate-in fade-in slide-in-from-top-8 duration-1000 fill-mode-both">
+      <div className="relative z-10 px-4 flex flex-col items-center">
+        <h1 className="text-5xl md:text-8xl mb-8 leading-tight animate-in fade-in slide-in-from-top-8 duration-1000 fill-mode-both">
           Welcome to the SSRL
         </h1>
-
-        <div className="max-w-[600px] mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
-          <p className="text-lg md:text-xl text-white/80">
-            Our broad vision is development of nimble CubeSat bus and communication
-            platforms to address Earth-Observation and on-board processing in
-            near-real time of sensor data. Our vision broadens as technological
-            capabilities of CubeSat platform advances.
-          </p>
-        </div>
+        <img
+          src="/images/logos/ssrl_logo_long-new.png"
+          alt="UGA Small Satellite Research Laboratory"
+          className="w-[320px] md:w-[520px] animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both"
+        />
       </div>
     </section>
   );
