@@ -11,7 +11,7 @@ export default function JoinSection() {
         </p>
 
         <a
-          href="https://qualtricsxmfclnmhypx.qualtrics.com/jfe/form/SV_bqhBY8mdHZPuPEG"
+          href="https://qualtricsxmfclnmhypx.qualtrics.com/jfe/form/SV_9FY8n5Dn6LaWKgu"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer inline-block text-lg mt-8 px-10 py-4 bg-[#BA0C2F] text-white font-bold rounded-[5px] shadow-[0_0_20px_rgba(186,12,47,0.5)] transition hover:bg-white hover:text-[#BA0C2F] hover:-translate-y-1"
