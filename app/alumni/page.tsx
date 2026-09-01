@@ -10,22 +10,18 @@ interface Member {
   link?: string;
 }
 
+interface AlumniData {
+  year: string;
+  name: string;
+  img: string;
+  role: string;
+  link?: string;
+}
+
 interface AlumniEntry {
   year: string;
   member: Member;
 }
-
-const alumniYears = [
-  "2024",
-  "2023",
-  "2022",
-  "2021",
-  "2020",
-  "2019",
-  "2018",
-  "2017",
-  "2016",
-];
 
 function ProfileCard({ member }: { member: Member }) {
   const imgSrc = member.img
@@ -69,23 +65,31 @@ function ProfileCard({ member }: { member: Member }) {
 
 export default function AlumniPage() {
   const [alumni, setAlumni] = useState<AlumniEntry[]>([]);
+  const [years, setYears] = useState<string[]>([]);
   const [filter, setFilter] = useState("Everyone");
 
   useEffect(() => {
     fetch("/json/team.json")
       .then((res) => res.json())
       .then((data) => {
-        const entries: AlumniEntry[] = [];
-        for (const year of alumniYears) {
-          const key = `alumni${year}` as string;
-          const members = data.team[key] as Member[] | undefined;
-          if (members) {
-            for (const m of members) {
-              entries.push({ year, member: m });
-            }
-          }
+        const alumniList = data.team.alumni as AlumniData[];
+        if (alumniList && Array.isArray(alumniList)) {
+          const entries: AlumniEntry[] = alumniList.map((a) => ({
+            year: a.year,
+            member: {
+              name: a.name,
+              img: a.img,
+              role: a.role,
+              link: a.link,
+            },
+          }));
+          setAlumni(entries);
+
+          const uniqueYears = Array.from(
+            new Set(alumniList.map((a) => a.year))
+          ).sort((a, b) => parseInt(b) - parseInt(a));
+          setYears(uniqueYears);
         }
-        setAlumni(entries);
       });
   }, []);
 
@@ -133,7 +137,7 @@ export default function AlumniPage() {
 
             {/* Year filter pills */}
             <div className="flex flex-wrap justify-center gap-2 mb-10">
-              {["Everyone", ...alumniYears].map((year) => {
+              {["Everyone", ...years].map((year) => {
                 const active = filter === year;
                 return (
                   <button

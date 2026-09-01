@@ -1,0 +1,47 @@
+name: Sync Team from Google Sheet
+
+on:
+  repository_dispatch:
+    types: [sync-team]
+  schedule:
+    - cron: "0 2 * * *" # Daily at 2 AM UTC
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: development
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm ci
+
+      - name: Sync team data
+        env:
+          TEAM_SHEET_CSV_URL: ${{ secrets.TEAM_SHEET_CSV_URL }}
+        run: node scripts/sync-team.mjs
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/json/team.json public/images/SSRLProfiles/
+          git commit -m "chore: sync team data from Google Sheet"
+          git push
