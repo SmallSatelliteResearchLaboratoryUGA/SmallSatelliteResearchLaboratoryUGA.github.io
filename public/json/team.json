@@ -849,6 +849,15 @@
 				"link": "https://www.engineering.uga.edu/people/profile/ben-wagner-ph.d"
 			},
 			{
+				"name": "Dr. Benjamin Fahrman",
+				"img": "benjamin_fahrman.jpg",
+				"major": "",
+				"role": "College of Engineering",
+				"bio": "",
+				"id": "",
+				"link": ""
+			},
+			{
 				"name": "Dr. Brian M Hopkinson",
 				"img": "brian_hopkinson.jpg",
 				"major": "",
@@ -856,6 +865,15 @@
 				"bio": "",
 				"id": "",
 				"link": "https://www.marsci.uga.edu/directory/people/brian-hopkinson"
+			},
+			{
+				"name": "Dr. Craig Wiegert",
+				"img": "craig_wiegert.jpg",
+				"major": "",
+				"role": "Physics and Astronomy",
+				"bio": "",
+				"id": "",
+				"link": ""
 			},
 			{
 				"name": "Dr. David Cotten",
@@ -892,6 +910,15 @@
 				"bio": "",
 				"id": "",
 				"link": "https://csci.franklin.uga.edu/directory/people/lakshmish-ramaswamy"
+			},
+			{
+				"name": "Dr. Lohitash Karumbaiah",
+				"img": "lohitash_karumbaiah.jpg",
+				"major": "",
+				"role": "Animal and Dairy Science, Regenerative Bioscience Center",
+				"bio": "",
+				"id": "",
+				"link": ""
 			},
 			{
 				"name": "Dr. Malcolm R Adams",
@@ -931,7 +958,7 @@
 			},
 			{
 				"name": "Dr. Phillip C Stancil",
-				"img": "phillip_stancil.jpg",
+				"img": "phillip_stancil.jpeg",
 				"major": "",
 				"role": "Space Exploration, Astrophysics",
 				"bio": "",
@@ -958,12 +985,21 @@
 			},
 			{
 				"name": "Dr. Thomas L Mote",
-				"img": "thomas_mote.png",
+				"img": "thomas_mote.jpeg",
 				"major": "",
 				"role": "Remote Sensing",
 				"bio": "Dr. Thomas Mote is the Department Head of Geography and a Professor in the Geography Department. His research involves hydroclimatology, climate change, synoptic climatology/meteorology, and satellite climatology/meteorology.",
 				"id": "",
 				"link": "https://geography.uga.edu/directory/people/thomas-l-mote"
+			},
+			{
+				"name": "Dr. Vivian Appler",
+				"img": "vivian_appler.png",
+				"major": "",
+				"role": "Theatre and Performance Studies",
+				"bio": "",
+				"id": "",
+				"link": ""
 			},
 			{
 				"name": "Dr. Yohannes Abate",
