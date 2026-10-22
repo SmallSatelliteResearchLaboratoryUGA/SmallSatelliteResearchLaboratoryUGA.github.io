@@ -55,7 +55,7 @@ export default function HeroSection() {
 
       <div className="relative z-10 px-4 flex flex-col items-center">
         <h1 className="text-5xl md:text-8xl mb-8 leading-tight animate-in fade-in slide-in-from-top-8 duration-1000 fill-mode-both">
-          Welcome to the SSRL
+          Welcome to SSRL
         </h1>
         <img
           src="/images/logos/ssrl_logo_long-new.png"
