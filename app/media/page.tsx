@@ -151,8 +151,9 @@ export default function MediaPage() {
               </p>
               <h2 className="text-3xl md:text-4xl mb-4">Follow Along</h2>
               <p className="text-white/85 leading-7 mb-6">
-                Follow us on Instagram to stay up to date, and check out the
-                YouTube channel for mission and lab footage.
+                Follow us on Instagram to stay up to date, check out the
+                YouTube channel for mission and lab footage, and connect with
+                us on LinkedIn.
               </p>
 
               {/* Instagram */}
@@ -466,6 +467,36 @@ export default function MediaPage() {
                 <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300">
                   <span className="px-5 py-2 rounded-full bg-[#BA0C2F] text-white font-semibold shadow-[0_0_25px_rgba(186,12,47,0.7)]">
                     Follow us on YouTube
+                  </span>
+                </div>
+              </a>
+
+              {/* LinkedIn */}
+              <a
+                href="https://www.linkedin.com/company/ugassrl/posts/?feedView=all"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group mt-6 flex items-center gap-5 p-5 rounded-2xl border border-white/15 bg-white/[0.06] hover:border-[rgba(255,45,92,0.45)] hover:bg-white/[0.10] transition duration-300"
+              >
+                <div className="shrink-0 w-16 h-16 rounded-xl bg-[#0A66C2] flex items-center justify-center shadow-[0_0_20px_rgba(10,102,194,0.45)] transition duration-300 group-hover:scale-105">
+                  <svg
+                    className="w-9 h-9 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                  </svg>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="text-xs uppercase tracking-[0.2em] text-white/60 mb-1">
+                    LinkedIn
+                  </div>
+                  <h3 className="text-base md:text-lg text-white leading-tight mb-1">
+                    UGA Small Satellite Research Lab
+                  </h3>
+                  <span className="text-xs font-semibold text-[#ff2d5c] group-hover:text-white group-hover:[text-shadow:0_0_10px_rgba(255,45,92,0.9)] transition">
+                    Follow us on LinkedIn →
                   </span>
                 </div>
               </a>

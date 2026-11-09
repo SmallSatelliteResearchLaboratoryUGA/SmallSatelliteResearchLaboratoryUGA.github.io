@@ -14,8 +14,8 @@ const contacts: ContactPerson[] = [
   },
   {
     role: "Lab Manager",
-    name: "Sydney Whilden",
-    email: "sydney.whilden25@uga.edu",
+    name: "Nancy O'Hare",
+    email: "nkohare@uga.edu",
   },
   {
     role: "General Inquiries",
