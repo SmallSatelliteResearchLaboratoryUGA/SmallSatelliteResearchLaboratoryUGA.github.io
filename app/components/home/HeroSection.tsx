@@ -62,6 +62,14 @@ export default function HeroSection() {
           alt="UGA Small Satellite Research Laboratory"
           className="w-[320px] md:w-[520px] animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both"
         />
+        <a
+          href="https://estore.uga.edu/C27063_ustores/web/store_main.jsp?STOREID=690&SINGLESTORE=true"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 px-8 py-4 text-lg md:text-xl rounded-full bg-transparent border-2 border-white text-white font-semibold tracking-wide hover:bg-[#BA0C2F] hover:text-white hover:shadow-[0_0_25px_rgba(186,12,47,0.5)] hover:-translate-y-[1px] transition-all animate-in fade-in slide-in-from-bottom-8 duration-200 fill-mode-both"
+        >
+          NEW MERCH STORE!
+        </a>
       </div>
     </section>
   );
