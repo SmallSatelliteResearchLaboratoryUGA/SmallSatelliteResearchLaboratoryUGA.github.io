@@ -219,7 +219,7 @@ export default function Navbar() {
           </Link>
 
           <a
-            href="https://gail.uga.edu/commit?search=90072000&desonly=1"
+            href="https://give.uga.edu/funders/as-ssrl-fy27/"
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer px-3 py-1 lg:py-[0.6rem] rounded-[4px] bg-white text-black hover:bg-[#BA0C2F] font-semibold transition-colors"
