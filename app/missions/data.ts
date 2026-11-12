@@ -66,6 +66,17 @@ export const missions: Mission[] = [
     image: "/images/missions/LEARNSat_MissionPatch.png",
     imageAlt: "LEARNSat mission patch",
   },
+  {
+    name: "NeuroCube",
+    sidebar: "NEUROCUBE",
+    subtitle: "In Partnership with the UGA Regenerative Bioscience Center",
+    overview: [
+      "NeuroCube is SSRL’s newest mission, developed in partnership with the UGA Regenerative Bioscience Center. It houses mammalian neuron cultures, enabling direct, real-time measurements of neuronal activity and aging in space.",
+      "The goal is to understand how the space environment affects the nervous system.",
+    ],
+    image: "/images/missions/NeuroCube_patch.png",
+    imageAlt: "NeuroCube mission patch",
+  },
 ];
 
 export const researchItems: string[] = [
