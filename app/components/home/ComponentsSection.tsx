@@ -150,7 +150,7 @@ export default function ComponentsSection() {
   return (
     <section
       id="components"
-      className="min-h-screen flex flex-col justify-center items-center text-center px-4 scroll-mt-10"
+      className="min-h-screen flex flex-col justify-center items-center text-center px-4 py-16 scroll-mt-10"
     >
       <div className="max-w-6xl mx-auto w-full">
         <h2 className="text-5xl md:text-6xl mb-8">Anatomy of a CubeSat</h2>
@@ -166,7 +166,7 @@ export default function ComponentsSection() {
             &lt;
           </button>
 
-          <div className="w-[320px] h-[320px] md:w-[450px] md:h-[450px] bg-[radial-gradient(circle,rgba(138,159,252,0.05)_0%,transparent_70%)] border border-white/10 rounded-[20px] relative overflow-hidden">
+          <div className="w-[320px] h-[320px] max-w-full md:w-[450px] md:h-[450px] bg-[radial-gradient(circle,rgba(138,159,252,0.05)_0%,transparent_70%)] border border-white/10 rounded-[20px] relative overflow-hidden">
             <div className="relative w-full h-full">
               {layers.map((layer, index) => (
                 <img
@@ -196,9 +196,19 @@ export default function ComponentsSection() {
             <span>{currentStep + 1}</span> / 6
           </div>
           <h3 className="text-2xl md:text-3xl mb-3 pb-3">{steps[currentStep].title}</h3>
-          <p className="absolute left-1/2 -translate-x-1/2 top-full w-full max-w-3xl text-white/80 leading-6 px-4">
-            {steps[currentStep].desc}
-          </p>
+          <div className="grid w-full max-w-3xl mx-auto px-4">
+            {steps.map((step, i) => (
+              <p
+                key={step.title}
+                aria-hidden={i !== currentStep}
+                className={`col-start-1 row-start-1 text-white/80 leading-6 ${
+                  i === currentStep ? "visible" : "invisible"
+                }`}
+              >
+                {step.desc}
+              </p>
+            ))}
+          </div>
         </div>
       </div>
     </section>

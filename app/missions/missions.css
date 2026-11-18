@@ -368,3 +368,96 @@ body {
     display: none;
   }
 }
+
+/* PHONE: let sections grow with their content instead of clipping it */
+@media (max-width: 640px) {
+  .snap-container {
+    height: calc(100dvh - var(--nav-height));
+    scroll-snap-type: y proximity;
+    overflow-x: hidden;
+  }
+
+  .snap-section {
+    height: auto;
+    min-height: calc(100dvh - var(--nav-height));
+    padding: 32px 0;
+    box-sizing: border-box;
+  }
+
+  .hero {
+    padding: 0;
+  }
+
+  .mission-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .mission-header {
+    margin-bottom: 24px;
+  }
+
+  .mission-header h2 {
+    font-size: clamp(1.8rem, 9vw, 2.4rem);
+    letter-spacing: 2px;
+    overflow-wrap: anywhere;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .mission-grid {
+    gap: 24px;
+  }
+
+  .text-block h3 {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  .text-block p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+  }
+
+  .mission-img {
+    width: auto;
+    max-width: 100%;
+    max-height: 32dvh;
+    object-fit: contain;
+  }
+
+  .main-title {
+    font-size: clamp(2rem, 11vw, 3rem);
+    letter-spacing: 3px;
+  }
+
+  .top-text {
+    letter-spacing: 6px;
+  }
+
+  .bottom-scroll-hint {
+    letter-spacing: 2px;
+  }
+
+  .research-grid {
+    gap: 12px;
+    margin-top: 24px;
+  }
+
+  .research-item {
+    padding: 14px 16px;
+    font-size: 0.95rem;
+    overflow-wrap: anywhere;
+  }
+
+  .research-item span {
+    margin-right: 14px;
+    flex-shrink: 0;
+  }
+}

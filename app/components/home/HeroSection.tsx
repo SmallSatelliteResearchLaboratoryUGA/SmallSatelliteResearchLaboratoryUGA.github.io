@@ -60,7 +60,7 @@ export default function HeroSection() {
         <img
           src="/images/logos/ssrl_logo_long-new.png"
           alt="UGA Small Satellite Research Laboratory"
-          className="w-[320px] md:w-[520px] animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both"
+          className="w-[320px] max-w-full md:w-[520px] animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both"
         />
         <a
           href="https://estore.uga.edu/C27063_ustores/web/store_main.jsp?STOREID=690&SINGLESTORE=true"

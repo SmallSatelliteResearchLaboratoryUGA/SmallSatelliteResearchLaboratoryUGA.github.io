@@ -125,7 +125,7 @@ export default function Navbar() {
         </Link>
 
         <button
-          className="cursor-pointer lg:hidden text-[#8a9ffc] p-2"
+          className="cursor-pointer lg:hidden text-[#FFFFFF] p-2"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle navigation"
         >

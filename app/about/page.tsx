@@ -287,8 +287,8 @@ export default function AboutPage() {
 
       <SectionDivider />
 
-      {/* Team browser: tabs */}
-      <FadeInSection>
+      {/* Team browser: tabs (no fade-in: block is too tall for the observer threshold) */}
+      <>
         <section className="py-20 px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl md:text-5xl text-center mb-4">
@@ -343,7 +343,7 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
-      </FadeInSection>
+      </>
     </div>
   );
 }
